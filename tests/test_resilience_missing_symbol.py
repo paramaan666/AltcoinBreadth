@@ -36,20 +36,23 @@ class ArchiveProbeClient:
 
 def test_archive_fallback_skips_stale_delisted_symbols(app_config) -> None:
     client = ArchiveProbeClient()
+    app_config.universe.exclude_symbols.append("AAPLUSDT")
     discovered = _build_archive_discovered_symbols(
         client=client,
         config=app_config,
-        archive_symbols=["ACTIVEUSDT", "OLDUSDT", "NEWUSDT", "BAD-SYMBOL"],
+        archive_symbols=["ACTIVEUSDT", "OLDUSDT", "NEWUSDT", "AAPLUSDT", "BAD-SYMBOL"],
         data_as_of=date(2024, 2, 10),
         existing_inventory={
             "symbols": {
                 "ACTIVEUSDT": {"last_data_date": "2024-02-10"},
                 "OLDUSDT": {"last_data_date": "2023-12-15"},
+                "AAPLUSDT": {"last_data_date": "2024-02-10"},
             }
         },
         existing_registry={
             "ACTIVEUSDT": {"status": "active"},
             "OLDUSDT": {"status": "delisted"},
+            "AAPLUSDT": {"status": "active"},
         },
         logger=logging.getLogger("test"),
     )

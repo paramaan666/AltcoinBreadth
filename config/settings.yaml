@@ -30,6 +30,25 @@ universe:
     - BTCDOMUSDT
     - DEFIUSDT
     - BLUEBIRDUSDT
+    - AAPLUSDT
+    - AVGOUSDT
+    - BABAUSDT
+    - BZUSDT
+    - CLUSDT
+    - COPPERUSDT
+    - EWJUSDT
+    - EWYUSDT
+    - GOOGLUSDT
+    - METAUSDT
+    - MSFTUSDT
+    - MUUSDT
+    - NATGASUSDT
+    - NVDAUSDT
+    - PAYPUSDT
+    - QQQUSDT
+    - SNDKUSDT
+    - SPYUSDT
+    - TSMUSDT
 
 indicators:
   ma_days: 210
