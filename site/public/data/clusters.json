@@ -612,11 +612,3127 @@
       ]
     }
   ],
-  "embedding": [],
+  "embedding": [
+    {
+      "cluster_id": "noise",
+      "symbol": "0GUSDT",
+      "x": -0.789895,
+      "y": 1.312363
+    },
+    {
+      "cluster_id": 1,
+      "symbol": "1000000BOBUSDT",
+      "x": 0.704941,
+      "y": 0.703539
+    },
+    {
+      "cluster_id": 1,
+      "symbol": "1000000MOGUSDT",
+      "x": 0.998972,
+      "y": 0.295679
+    },
+    {
+      "cluster_id": 1,
+      "symbol": "1000BONKUSDT",
+      "x": 1.426394,
+      "y": -0.851898
+    },
+    {
+      "cluster_id": 1,
+      "symbol": "1000CATUSDT",
+      "x": 0.947984,
+      "y": -1.624804
+    },
+    {
+      "cluster_id": 1,
+      "symbol": "1000CHEEMSUSDT",
+      "x": 0.694436,
+      "y": -0.959729
+    },
+    {
+      "cluster_id": 1,
+      "symbol": "1000FLOKIUSDT",
+      "x": 1.373886,
+      "y": -1.341045
+    },
+    {
+      "cluster_id": 1,
+      "symbol": "1000LUNCUSDT",
+      "x": 0.3437,
+      "y": 0.206068
+    },
+    {
+      "cluster_id": 1,
+      "symbol": "1000PEPEUSDT",
+      "x": 1.022323,
+      "y": -0.923252
+    },
+    {
+      "cluster_id": "noise",
+      "symbol": "1000RATSUSDT",
+      "x": -1.539256,
+      "y": -1.270396
+    },
+    {
+      "cluster_id": 1,
+      "symbol": "1000SATSUSDT",
+      "x": 0.549913,
+      "y": -1.422243
+    },
+    {
+      "cluster_id": 1,
+      "symbol": "1000SHIBUSDT",
+      "x": 1.266091,
+      "y": -0.350908
+    },
+    {
+      "cluster_id": 1,
+      "symbol": "1000XECUSDT",
+      "x": 1.120251,
+      "y": 0.397519
+    },
+    {
+      "cluster_id": 1,
+      "symbol": "1INCHUSDT",
+      "x": 1.348453,
+      "y": -0.168151
+    },
+    {
+      "cluster_id": 1,
+      "symbol": "1MBABYDOGEUSDT",
+      "x": 1.277394,
+      "y": -0.716377
+    },
+    {
+      "cluster_id": 6,
+      "symbol": "2ZUSDT",
+      "x": 0.353865,
+      "y": 0.149241
+    },
+    {
+      "cluster_id": "noise",
+      "symbol": "4USDT",
+      "x": -0.929025,
+      "y": -1.25412
+    },
+    {
+      "cluster_id": 1,
+      "symbol": "AAVEUSDT",
+      "x": 0.806218,
+      "y": -0.520053
+    },
+    {
+      "cluster_id": 1,
+      "symbol": "ACEUSDT",
+      "x": 0.694128,
+      "y": 1.449174
+    },
+    {
+      "cluster_id": 1,
+      "symbol": "ACHUSDT",
+      "x": 0.790839,
+      "y": 0.265335
+    },
+    {
+      "cluster_id": 1,
+      "symbol": "ACTUSDT",
+      "x": 0.677803,
+      "y": -2.521225
+    },
+    {
+      "cluster_id": "noise",
+      "symbol": "ACUUSDT",
+      "x": -1.308707,
+      "y": 0.739524
+    },
+    {
+      "cluster_id": "noise",
+      "symbol": "ACXUSDT",
+      "x": -0.939409,
+      "y": 0.86193
+    },
+    {
+      "cluster_id": 1,
+      "symbol": "ADAUSDT",
+      "x": 1.404866,
+      "y": -0.36754
+    },
+    {
+      "cluster_id": 1,
+      "symbol": "AERGOUSDT",
+      "x": 0.942305,
+      "y": 1.290353
+    },
+    {
+      "cluster_id": 1,
+      "symbol": "AEROUSDT",
+      "x": 0.77985,
+      "y": -0.035225
+    },
+    {
+      "cluster_id": 1,
+      "symbol": "AEVOUSDT",
+      "x": 0.718408,
+      "y": -0.006464
+    },
+    {
+      "cluster_id": 7,
+      "symbol": "AGLDUSDT",
+      "x": -0.940769,
+      "y": 0.016402
+    },
+    {
+      "cluster_id": "noise",
+      "symbol": "AGTUSDT",
+      "x": -2.053834,
+      "y": -0.856958
+    },
+    {
+      "cluster_id": "noise",
+      "symbol": "AIAUSDT",
+      "x": -1.386916,
+      "y": 0.250184
+    },
+    {
+      "cluster_id": "noise",
+      "symbol": "AINUSDT",
+      "x": -1.345308,
+      "y": 0.779751
+    },
+    {
+      "cluster_id": "noise",
+      "symbol": "AIOTUSDT",
+      "x": -1.535568,
+      "y": 0.973441
+    },
+    {
+      "cluster_id": "noise",
+      "symbol": "AIOUSDT",
+      "x": -2.004861,
+      "y": -1.363919
+    },
+    {
+      "cluster_id": 1,
+      "symbol": "AIUSDT",
+      "x": 0.571823,
+      "y": 1.464593
+    },
+    {
+      "cluster_id": 1,
+      "symbol": "AIXBTUSDT",
+      "x": 0.564413,
+      "y": -2.050375
+    },
+    {
+      "cluster_id": "noise",
+      "symbol": "AKEUSDT",
+      "x": -2.666232,
+      "y": 0.411646
+    },
+    {
+      "cluster_id": "noise",
+      "symbol": "AKTUSDT",
+      "x": -0.386858,
+      "y": -1.475072
+    },
+    {
+      "cluster_id": "noise",
+      "symbol": "ALCHUSDT",
+      "x": -1.212716,
+      "y": -0.569848
+    },
+    {
+      "cluster_id": 1,
+      "symbol": "ALGOUSDT",
+      "x": 0.555755,
+      "y": 0.16294
+    },
+    {
+      "cluster_id": "noise",
+      "symbol": "ALICEUSDT",
+      "x": -1.132946,
+      "y": 0.436517
+    },
+    {
+      "cluster_id": "noise",
+      "symbol": "ALLOUSDT",
+      "x": -0.40574,
+      "y": 0.683532
+    },
+    {
+      "cluster_id": 1,
+      "symbol": "ALLUSDT",
+      "x": 1.382204,
+      "y": 0.02314
+    },
+    {
+      "cluster_id": 1,
+      "symbol": "ALPINEUSDT",
+      "x": 0.386873,
+      "y": 1.474308
+    },
+    {
+      "cluster_id": 1,
+      "symbol": "ALTUSDT",
+      "x": 1.025235,
+      "y": -0.723943
+    },
+    {
+      "cluster_id": 1,
+      "symbol": "ANIMEUSDT",
+      "x": 0.243909,
+      "y": 0.212907
+    },
+    {
+      "cluster_id": "noise",
+      "symbol": "ANKRUSDT",
+      "x": -0.623418,
+      "y": 0.214658
+    },
+    {
+      "cluster_id": 1,
+      "symbol": "APEUSDT",
+      "x": 1.260898,
+      "y": -0.359043
+    },
+    {
+      "cluster_id": 1,
+      "symbol": "API3USDT",
+      "x": 0.148054,
+      "y": 0.386986
+    },
+    {
+      "cluster_id": 5,
+      "symbol": "APRUSDT",
+      "x": -2.164205,
+      "y": 1.894572
+    },
+    {
+      "cluster_id": 1,
+      "symbol": "APTUSDT",
+      "x": 0.989047,
+      "y": -0.736754
+    },
+    {
+      "cluster_id": 1,
+      "symbol": "ARBUSDT",
+      "x": 1.200408,
+      "y": -0.397992
+    },
+    {
+      "cluster_id": "noise",
+      "symbol": "ARCUSDT",
+      "x": -2.167212,
+      "y": -1.033639
+    },
+    {
+      "cluster_id": "noise",
+      "symbol": "ARIAUSDT",
+      "x": -1.185004,
+      "y": -1.453056
+    },
+    {
+      "cluster_id": 1,
+      "symbol": "ARKMUSDT",
+      "x": 0.960257,
+      "y": -1.515838
+    },
+    {
+      "cluster_id": 1,
+      "symbol": "ARKUSDT",
+      "x": 1.330091,
+      "y": 0.654142
+    },
+    {
+      "cluster_id": 7,
+      "symbol": "ARPAUSDT",
+      "x": -0.211975,
+      "y": 1.323715
+    },
+    {
+      "cluster_id": 1,
+      "symbol": "ARUSDT",
+      "x": 0.598508,
+      "y": -1.713079
+    },
+    {
+      "cluster_id": 1,
+      "symbol": "ASRUSDT",
+      "x": 0.246985,
+      "y": -0.01406
+    },
+    {
+      "cluster_id": 1,
+      "symbol": "ASTERUSDT",
+      "x": 0.335564,
+      "y": -0.609441
+    },
+    {
+      "cluster_id": 1,
+      "symbol": "ASTRUSDT",
+      "x": 0.809957,
+      "y": -0.293227
+    },
+    {
+      "cluster_id": 2,
+      "symbol": "ATAUSDT",
+      "x": 0.333389,
+      "y": 0.548454
+    },
+    {
+      "cluster_id": 4,
+      "symbol": "ATHUSDT",
+      "x": 0.057399,
+      "y": -0.99636
+    },
+    {
+      "cluster_id": 1,
+      "symbol": "ATOMUSDT",
+      "x": 0.531631,
+      "y": 0.396054
+    },
+    {
+      "cluster_id": "noise",
+      "symbol": "ATUSDT",
+      "x": -1.184336,
+      "y": 0.152358
+    },
+    {
+      "cluster_id": 1,
+      "symbol": "AUCTIONUSDT",
+      "x": 0.722519,
+      "y": 0.450521
+    },
+    {
+      "cluster_id": 1,
+      "symbol": "AUSDT",
+      "x": 1.087876,
+      "y": 0.014346
+    },
+    {
+      "cluster_id": 1,
+      "symbol": "AVAAIUSDT",
+      "x": 0.279411,
+      "y": 1.518291
+    },
+    {
+      "cluster_id": 1,
+      "symbol": "AVAUSDT",
+      "x": 0.541153,
+      "y": 0.905504
+    },
+    {
+      "cluster_id": 1,
+      "symbol": "AVAXUSDT",
+      "x": 1.353078,
+      "y": -0.284991
+    },
+    {
+      "cluster_id": 1,
+      "symbol": "AVNTUSDT",
+      "x": 0.621257,
+      "y": 0.329609
+    },
+    {
+      "cluster_id": 1,
+      "symbol": "AWEUSDT",
+      "x": 0.337301,
+      "y": -0.285824
+    },
+    {
+      "cluster_id": 1,
+      "symbol": "AXLUSDT",
+      "x": 0.318762,
+      "y": -2.780065
+    },
+    {
+      "cluster_id": 1,
+      "symbol": "AXSUSDT",
+      "x": 0.90738,
+      "y": -0.235811
+    },
+    {
+      "cluster_id": 1,
+      "symbol": "AZTECUSDT",
+      "x": 0.608134,
+      "y": -0.277433
+    },
+    {
+      "cluster_id": "noise",
+      "symbol": "B2USDT",
+      "x": -1.737678,
+      "y": -0.717916
+    },
+    {
+      "cluster_id": "noise",
+      "symbol": "B3USDT",
+      "x": -0.376098,
+      "y": 1.222434
+    },
+    {
+      "cluster_id": "noise",
+      "symbol": "BABYUSDT",
+      "x": -0.169134,
+      "y": -0.228042
+    },
+    {
+      "cluster_id": "noise",
+      "symbol": "BANANAS31USDT",
+      "x": -1.579391,
+      "y": -1.165042
+    },
+    {
+      "cluster_id": 1,
+      "symbol": "BANANAUSDT",
+      "x": 0.624669,
+      "y": -0.182941
+    },
+    {
+      "cluster_id": 1,
+      "symbol": "BANDUSDT",
+      "x": 0.996543,
+      "y": 1.099883
+    },
+    {
+      "cluster_id": "noise",
+      "symbol": "BANKUSDT",
+      "x": -1.376565,
+      "y": -1.147358
+    },
+    {
+      "cluster_id": "noise",
+      "symbol": "BANUSDT",
+      "x": -1.228255,
+      "y": 0.218301
+    },
+    {
+      "cluster_id": "noise",
+      "symbol": "BARDUSDT",
+      "x": -0.492885,
+      "y": -0.349911
+    },
+    {
+      "cluster_id": "noise",
+      "symbol": "BASUSDT",
+      "x": -1.591377,
+      "y": -0.775936
+    },
+    {
+      "cluster_id": 1,
+      "symbol": "BATUSDT",
+      "x": 0.85467,
+      "y": 0.242702
+    },
+    {
+      "cluster_id": 1,
+      "symbol": "BBUSDT",
+      "x": 0.764684,
+      "y": -1.084678
+    },
+    {
+      "cluster_id": 7,
+      "symbol": "BCHUSDT",
+      "x": 0.297341,
+      "y": -0.066877
+    },
+    {
+      "cluster_id": 1,
+      "symbol": "BEAMXUSDT",
+      "x": 0.799561,
+      "y": 0.369657
+    },
+    {
+      "cluster_id": "noise",
+      "symbol": "BEATUSDT",
+      "x": -1.621147,
+      "y": -1.674754
+    },
+    {
+      "cluster_id": 7,
+      "symbol": "BELUSDT",
+      "x": -0.169817,
+      "y": 1.692491
+    },
+    {
+      "cluster_id": 1,
+      "symbol": "BERAUSDT",
+      "x": 0.204123,
+      "y": 0.263787
+    },
+    {
+      "cluster_id": 1,
+      "symbol": "BICOUSDT",
+      "x": 0.697916,
+      "y": 1.168896
+    },
+    {
+      "cluster_id": 1,
+      "symbol": "BIGTIMEUSDT",
+      "x": 1.190086,
+      "y": 0.493939
+    },
+    {
+      "cluster_id": "noise",
+      "symbol": "BIOUSDT",
+      "x": -0.310544,
+      "y": -2.145626
+    },
+    {
+      "cluster_id": 1,
+      "symbol": "BIRBUSDT",
+      "x": -0.284092,
+      "y": -0.955051
+    },
+    {
+      "cluster_id": 4,
+      "symbol": "BLESSUSDT",
+      "x": -0.894631,
+      "y": -1.061478
+    },
+    {
+      "cluster_id": "noise",
+      "symbol": "BLUAIUSDT",
+      "x": -1.512053,
+      "y": 0.775021
+    },
+    {
+      "cluster_id": "noise",
+      "symbol": "BLURUSDT",
+      "x": -0.502803,
+      "y": -1.418255
+    },
+    {
+      "cluster_id": 1,
+      "symbol": "BMTUSDT",
+      "x": 0.644471,
+      "y": 1.770403
+    },
+    {
+      "cluster_id": 1,
+      "symbol": "BNBUSDT",
+      "x": 1.207204,
+      "y": -0.243455
+    },
+    {
+      "cluster_id": 1,
+      "symbol": "BNTUSDT",
+      "x": 1.278585,
+      "y": 0.224358
+    },
+    {
+      "cluster_id": "noise",
+      "symbol": "BOBUSDT",
+      "x": -1.332997,
+      "y": -0.528149
+    },
+    {
+      "cluster_id": 1,
+      "symbol": "BOMEUSDT",
+      "x": 0.732878,
+      "y": -2.729985
+    },
+    {
+      "cluster_id": 1,
+      "symbol": "BRETTUSDT",
+      "x": 1.185857,
+      "y": -0.857963
+    },
+    {
+      "cluster_id": 1,
+      "symbol": "BREVUSDT",
+      "x": 0.292708,
+      "y": -0.342879
+    },
+    {
+      "cluster_id": 4,
+      "symbol": "BROCCOLI714USDT",
+      "x": 0.242694,
+      "y": -1.517398
+    },
+    {
+      "cluster_id": 1,
+      "symbol": "BROCCOLIF3BUSDT",
+      "x": -0.00877,
+      "y": -0.919093
+    },
+    {
+      "cluster_id": "noise",
+      "symbol": "BRUSDT",
+      "x": -2.396071,
+      "y": -0.087258
+    },
+    {
+      "cluster_id": "noise",
+      "symbol": "BSVUSDT",
+      "x": 0.112028,
+      "y": 0.896971
+    },
+    {
+      "cluster_id": 1,
+      "symbol": "BTCUSDT",
+      "x": 1.115764,
+      "y": 0.552553
+    },
+    {
+      "cluster_id": "noise",
+      "symbol": "BTRUSDT",
+      "x": -2.374028,
+      "y": -0.869988
+    },
+    {
+      "cluster_id": "noise",
+      "symbol": "BULLAUSDT",
+      "x": -1.828789,
+      "y": -0.998376
+    },
+    {
+      "cluster_id": "noise",
+      "symbol": "BUSDT",
+      "x": -0.888184,
+      "y": -1.029773
+    },
+    {
+      "cluster_id": 1,
+      "symbol": "C98USDT",
+      "x": 0.014987,
+      "y": 0.21733
+    },
+    {
+      "cluster_id": 1,
+      "symbol": "CAKEUSDT",
+      "x": 0.99317,
+      "y": -0.9936
+    },
+    {
+      "cluster_id": 1,
+      "symbol": "CARVUSDT",
+      "x": 0.622643,
+      "y": 1.224537
+    },
+    {
+      "cluster_id": "noise",
+      "symbol": "CATIUSDT",
+      "x": -0.762995,
+      "y": 0.137534
+    },
+    {
+      "cluster_id": "noise",
+      "symbol": "CCUSDT",
+      "x": -0.662259,
+      "y": 0.775109
+    },
+    {
+      "cluster_id": 1,
+      "symbol": "CELOUSDT",
+      "x": 0.684589,
+      "y": 0.310713
+    },
+    {
+      "cluster_id": 1,
+      "symbol": "CELRUSDT",
+      "x": 0.701779,
+      "y": 1.21831
+    },
+    {
+      "cluster_id": "noise",
+      "symbol": "CETUSUSDT",
+      "x": -0.265814,
+      "y": 0.01763
+    },
+    {
+      "cluster_id": 1,
+      "symbol": "CFXUSDT",
+      "x": 1.040411,
+      "y": -1.546398
+    },
+    {
+      "cluster_id": 1,
+      "symbol": "CGPTUSDT",
+      "x": 0.330571,
+      "y": 0.418316
+    },
+    {
+      "cluster_id": "noise",
+      "symbol": "CHILLGUYUSDT",
+      "x": -0.208073,
+      "y": 1.00782
+    },
+    {
+      "cluster_id": 2,
+      "symbol": "CHRUSDT",
+      "x": 0.063961,
+      "y": 2.175154
+    },
+    {
+      "cluster_id": 1,
+      "symbol": "CHZUSDT",
+      "x": 0.355434,
+      "y": -1.049399
+    },
+    {
+      "cluster_id": 1,
+      "symbol": "CKBUSDT",
+      "x": 0.909927,
+      "y": 1.221816
+    },
+    {
+      "cluster_id": 1,
+      "symbol": "CLANKERUSDT",
+      "x": 0.813201,
+      "y": -0.662488
+    },
+    {
+      "cluster_id": "noise",
+      "symbol": "CLOUSDT",
+      "x": -1.491235,
+      "y": 0.621873
+    },
+    {
+      "cluster_id": 5,
+      "symbol": "COAIUSDT",
+      "x": -0.638968,
+      "y": 0.158246
+    },
+    {
+      "cluster_id": "noise",
+      "symbol": "COLLECTUSDT",
+      "x": -0.916815,
+      "y": -1.926019
+    },
+    {
+      "cluster_id": 2,
+      "symbol": "COMPUSDT",
+      "x": -0.139987,
+      "y": 1.768017
+    },
+    {
+      "cluster_id": 1,
+      "symbol": "COOKIEUSDT",
+      "x": 0.451376,
+      "y": 0.196165
+    },
+    {
+      "cluster_id": "noise",
+      "symbol": "COSUSDT",
+      "x": -1.7368,
+      "y": -0.616364
+    },
+    {
+      "cluster_id": 1,
+      "symbol": "COTIUSDT",
+      "x": 0.895481,
+      "y": 0.922853
+    },
+    {
+      "cluster_id": "noise",
+      "symbol": "COWUSDT",
+      "x": -0.182219,
+      "y": 0.495275
+    },
+    {
+      "cluster_id": "noise",
+      "symbol": "CROSSUSDT",
+      "x": -0.477299,
+      "y": 0.798346
+    },
+    {
+      "cluster_id": 1,
+      "symbol": "CRVUSDT",
+      "x": 1.147272,
+      "y": -0.304835
+    },
+    {
+      "cluster_id": 7,
+      "symbol": "CTKUSDT",
+      "x": -0.486228,
+      "y": -0.022657
+    },
+    {
+      "cluster_id": "noise",
+      "symbol": "CTSIUSDT",
+      "x": -1.551624,
+      "y": 1.257775
+    },
+    {
+      "cluster_id": "noise",
+      "symbol": "CUSDT",
+      "x": -1.767511,
+      "y": -0.252617
+    },
+    {
+      "cluster_id": 1,
+      "symbol": "CVCUSDT",
+      "x": 1.041619,
+      "y": 0.951506
+    },
+    {
+      "cluster_id": 1,
+      "symbol": "CVXUSDT",
+      "x": 0.646177,
+      "y": 0.112553
+    },
+    {
+      "cluster_id": 1,
+      "symbol": "CYBERUSDT",
+      "x": 0.995335,
+      "y": -0.0104
+    },
+    {
+      "cluster_id": "noise",
+      "symbol": "CYSUSDT",
+      "x": -1.450913,
+      "y": -1.198897
+    },
+    {
+      "cluster_id": "noise",
+      "symbol": "DAMUSDT",
+      "x": -1.667191,
+      "y": -0.582388
+    },
+    {
+      "cluster_id": 1,
+      "symbol": "DASHUSDT",
+      "x": 0.283963,
+      "y": -0.38014
+    },
+    {
+      "cluster_id": 1,
+      "symbol": "DEEPUSDT",
+      "x": 0.9002,
+      "y": -0.020317
+    },
+    {
+      "cluster_id": 1,
+      "symbol": "DEGENUSDT",
+      "x": 0.984235,
+      "y": -0.127634
+    },
+    {
+      "cluster_id": "noise",
+      "symbol": "DEXEUSDT",
+      "x": -1.897935,
+      "y": -0.157897
+    },
+    {
+      "cluster_id": 1,
+      "symbol": "DIAUSDT",
+      "x": 0.662739,
+      "y": 1.930944
+    },
+    {
+      "cluster_id": 1,
+      "symbol": "DODOXUSDT",
+      "x": 0.181597,
+      "y": 0.454237
+    },
+    {
+      "cluster_id": 1,
+      "symbol": "DOGEUSDT",
+      "x": 1.154056,
+      "y": -0.277031
+    },
+    {
+      "cluster_id": 1,
+      "symbol": "DOGSUSDT",
+      "x": 0.088675,
+      "y": -2.091277
+    },
+    {
+      "cluster_id": 7,
+      "symbol": "DOLOUSDT",
+      "x": -0.102849,
+      "y": 1.257095
+    },
+    {
+      "cluster_id": 1,
+      "symbol": "DOODUSDT",
+      "x": 0.582999,
+      "y": -0.416354
+    },
+    {
+      "cluster_id": 1,
+      "symbol": "DOTUSDT",
+      "x": 0.789285,
+      "y": -0.44516
+    },
+    {
+      "cluster_id": "noise",
+      "symbol": "DRIFTUSDT",
+      "x": -1.537577,
+      "y": -0.970488
+    },
+    {
+      "cluster_id": "noise",
+      "symbol": "DUSDT",
+      "x": -1.080225,
+      "y": -0.738916
+    },
+    {
+      "cluster_id": "noise",
+      "symbol": "DUSKUSDT",
+      "x": -1.240522,
+      "y": 0.287885
+    },
+    {
+      "cluster_id": 1,
+      "symbol": "DYDXUSDT",
+      "x": 0.783262,
+      "y": -1.051826
+    },
+    {
+      "cluster_id": 1,
+      "symbol": "DYMUSDT",
+      "x": 0.652603,
+      "y": 0.159518
+    },
+    {
+      "cluster_id": 3,
+      "symbol": "EDENUSDT",
+      "x": -0.453258,
+      "y": 1.673183
+    },
+    {
+      "cluster_id": "noise",
+      "symbol": "EDUUSDT",
+      "x": -0.57978,
+      "y": 0.807476
+    },
+    {
+      "cluster_id": 1,
+      "symbol": "EGLDUSDT",
+      "x": 1.257075,
+      "y": 0.284913
+    },
+    {
+      "cluster_id": 1,
+      "symbol": "EIGENUSDT",
+      "x": 0.975295,
+      "y": -1.585843
+    },
+    {
+      "cluster_id": 1,
+      "symbol": "ELSAUSDT",
+      "x": 0.141108,
+      "y": 0.739421
+    },
+    {
+      "cluster_id": 1,
+      "symbol": "ENAUSDT",
+      "x": 1.002819,
+      "y": -0.46291
+    },
+    {
+      "cluster_id": "noise",
+      "symbol": "ENJUSDT",
+      "x": -1.871838,
+      "y": -0.749639
+    },
+    {
+      "cluster_id": "noise",
+      "symbol": "ENSOUSDT",
+      "x": -1.718849,
+      "y": -1.092576
+    },
+    {
+      "cluster_id": 1,
+      "symbol": "ENSUSDT",
+      "x": 1.443358,
+      "y": -0.300856
+    },
+    {
+      "cluster_id": 1,
+      "symbol": "EPICUSDT",
+      "x": 0.126787,
+      "y": 1.412338
+    },
+    {
+      "cluster_id": 1,
+      "symbol": "ERAUSDT",
+      "x": 0.782364,
+      "y": 0.35326
+    },
+    {
+      "cluster_id": "noise",
+      "symbol": "ESPORTSUSDT",
+      "x": -1.959482,
+      "y": -0.597932
+    },
+    {
+      "cluster_id": "noise",
+      "symbol": "ESPUSDT",
+      "x": -1.389099,
+      "y": -0.975643
+    },
+    {
+      "cluster_id": 1,
+      "symbol": "ETCUSDT",
+      "x": 1.267598,
+      "y": -0.483673
+    },
+    {
+      "cluster_id": 1,
+      "symbol": "ETHFIUSDT",
+      "x": 0.43857,
+      "y": -0.486552
+    },
+    {
+      "cluster_id": 1,
+      "symbol": "ETHUSDT",
+      "x": 1.179537,
+      "y": 0.393773
+    },
+    {
+      "cluster_id": 2,
+      "symbol": "ETHWUSDT",
+      "x": 0.049546,
+      "y": 2.348673
+    },
+    {
+      "cluster_id": 1,
+      "symbol": "EULUSDT",
+      "x": 0.199153,
+      "y": 0.905324
+    },
+    {
+      "cluster_id": 4,
+      "symbol": "EVAAUSDT",
+      "x": -0.408685,
+      "y": -0.752099
+    },
+    {
+      "cluster_id": 1,
+      "symbol": "FARTCOINUSDT",
+      "x": 0.53783,
+      "y": -0.872
+    },
+    {
+      "cluster_id": 1,
+      "symbol": "FETUSDT",
+      "x": 0.945734,
+      "y": -0.473845
+    },
+    {
+      "cluster_id": "noise",
+      "symbol": "FFUSDT",
+      "x": -1.028642,
+      "y": -0.255732
+    },
+    {
+      "cluster_id": 6,
+      "symbol": "FHEUSDT",
+      "x": -0.445258,
+      "y": 1.207726
+    },
+    {
+      "cluster_id": "noise",
+      "symbol": "FIDAUSDT",
+      "x": -0.816451,
+      "y": 2.145627
+    },
+    {
+      "cluster_id": "noise",
+      "symbol": "FIGHTUSDT",
+      "x": -1.357839,
+      "y": -0.227828
+    },
+    {
+      "cluster_id": 1,
+      "symbol": "FILUSDT",
+      "x": 1.210054,
+      "y": -0.773951
+    },
+    {
+      "cluster_id": "noise",
+      "symbol": "FLOCKUSDT",
+      "x": -0.347952,
+      "y": 0.372581
+    },
+    {
+      "cluster_id": "noise",
+      "symbol": "FLOWUSDT",
+      "x": -0.84664,
+      "y": -0.085743
+    },
+    {
+      "cluster_id": 1,
+      "symbol": "FLUIDUSDT",
+      "x": 0.486351,
+      "y": 0.062722
+    },
+    {
+      "cluster_id": 1,
+      "symbol": "FLUXUSDT",
+      "x": 0.387164,
+      "y": -0.297291
+    },
+    {
+      "cluster_id": "noise",
+      "symbol": "FOGOUSDT",
+      "x": -1.423813,
+      "y": -0.357803
+    },
+    {
+      "cluster_id": "noise",
+      "symbol": "FOLKSUSDT",
+      "x": -1.038253,
+      "y": 1.437527
+    },
+    {
+      "cluster_id": "noise",
+      "symbol": "FORMUSDT",
+      "x": -0.176122,
+      "y": -1.55505
+    },
+    {
+      "cluster_id": "noise",
+      "symbol": "FRAXUSDT",
+      "x": -0.793582,
+      "y": -0.006101
+    },
+    {
+      "cluster_id": 1,
+      "symbol": "FUSDT",
+      "x": 0.629456,
+      "y": 0.547049
+    },
+    {
+      "cluster_id": 1,
+      "symbol": "GALAUSDT",
+      "x": 1.288846,
+      "y": -0.779746
+    },
+    {
+      "cluster_id": 1,
+      "symbol": "GASUSDT",
+      "x": 0.611411,
+      "y": 0.037546
+    },
+    {
+      "cluster_id": 5,
+      "symbol": "GIGGLEUSDT",
+      "x": -0.60495,
+      "y": 1.061537
+    },
+    {
+      "cluster_id": 1,
+      "symbol": "GLMUSDT",
+      "x": 0.865978,
+      "y": -0.069604
+    },
+    {
+      "cluster_id": 1,
+      "symbol": "GMTUSDT",
+      "x": 1.177095,
+      "y": 0.509116
+    },
+    {
+      "cluster_id": 1,
+      "symbol": "GMXUSDT",
+      "x": 0.372428,
+      "y": 0.251933
+    },
+    {
+      "cluster_id": 1,
+      "symbol": "GOATUSDT",
+      "x": 0.881376,
+      "y": -0.962321
+    },
+    {
+      "cluster_id": "noise",
+      "symbol": "GPSUSDT",
+      "x": -0.699261,
+      "y": 0.486047
+    },
+    {
+      "cluster_id": 1,
+      "symbol": "GRASSUSDT",
+      "x": -0.008834,
+      "y": -0.27186
+    },
+    {
+      "cluster_id": "noise",
+      "symbol": "GRIFFAINUSDT",
+      "x": 0.132259,
+      "y": -0.573433
+    },
+    {
+      "cluster_id": 1,
+      "symbol": "GRTUSDT",
+      "x": 1.305932,
+      "y": -0.177975
+    },
+    {
+      "cluster_id": "noise",
+      "symbol": "GTCUSDT",
+      "x": -0.319637,
+      "y": -0.903589
+    },
+    {
+      "cluster_id": "noise",
+      "symbol": "GUAUSDT",
+      "x": -1.178697,
+      "y": -0.580935
+    },
+    {
+      "cluster_id": "noise",
+      "symbol": "GUNUSDT",
+      "x": -1.182606,
+      "y": -0.789972
+    },
+    {
+      "cluster_id": 1,
+      "symbol": "GUSDT",
+      "x": 0.075453,
+      "y": -0.294552
+    },
+    {
+      "cluster_id": "noise",
+      "symbol": "GWEIUSDT",
+      "x": -1.684335,
+      "y": 0.708501
+    },
+    {
+      "cluster_id": "noise",
+      "symbol": "HAEDALUSDT",
+      "x": -0.129818,
+      "y": 1.041885
+    },
+    {
+      "cluster_id": "noise",
+      "symbol": "HANAUSDT",
+      "x": -1.472942,
+      "y": -0.138303
+    },
+    {
+      "cluster_id": 1,
+      "symbol": "HBARUSDT",
+      "x": 1.323204,
+      "y": -0.194024
+    },
+    {
+      "cluster_id": 1,
+      "symbol": "HEIUSDT",
+      "x": 0.004354,
+      "y": 2.19247
+    },
+    {
+      "cluster_id": "noise",
+      "symbol": "HEMIUSDT",
+      "x": -0.215416,
+      "y": 1.446212
+    },
+    {
+      "cluster_id": 3,
+      "symbol": "HFTUSDT",
+      "x": -0.58733,
+      "y": 1.373457
+    },
+    {
+      "cluster_id": "noise",
+      "symbol": "HIGHUSDT",
+      "x": -1.135947,
+      "y": 1.03817
+    },
+    {
+      "cluster_id": 1,
+      "symbol": "HIVEUSDT",
+      "x": 1.005625,
+      "y": 1.220281
+    },
+    {
+      "cluster_id": 1,
+      "symbol": "HMSTRUSDT",
+      "x": 0.642447,
+      "y": -1.72821
+    },
+    {
+      "cluster_id": 4,
+      "symbol": "HOLOUSDT",
+      "x": 0.329035,
+      "y": -0.093721
+    },
+    {
+      "cluster_id": "noise",
+      "symbol": "HOMEUSDT",
+      "x": -0.086024,
+      "y": 0.005173
+    },
+    {
+      "cluster_id": 1,
+      "symbol": "HOTUSDT",
+      "x": -0.3223,
+      "y": 0.220955
+    },
+    {
+      "cluster_id": "noise",
+      "symbol": "HUMAUSDT",
+      "x": -0.833619,
+      "y": -0.055653
+    },
+    {
+      "cluster_id": "noise",
+      "symbol": "HUSDT",
+      "x": -0.878571,
+      "y": 0.337484
+    },
+    {
+      "cluster_id": 1,
+      "symbol": "HYPERUSDT",
+      "x": 0.045346,
+      "y": 1.128869
+    },
+    {
+      "cluster_id": 1,
+      "symbol": "HYPEUSDT",
+      "x": -0.154877,
+      "y": 0.035401
+    },
+    {
+      "cluster_id": "noise",
+      "symbol": "ICNTUSDT",
+      "x": -1.171102,
+      "y": 0.546598
+    },
+    {
+      "cluster_id": 1,
+      "symbol": "ICPUSDT",
+      "x": 0.862918,
+      "y": -0.370007
+    },
+    {
+      "cluster_id": 1,
+      "symbol": "ICXUSDT",
+      "x": 1.006467,
+      "y": 1.072443
+    },
+    {
+      "cluster_id": "noise",
+      "symbol": "IDOLUSDT",
+      "x": -0.817877,
+      "y": -0.345252
+    },
+    {
+      "cluster_id": 1,
+      "symbol": "IDUSDT",
+      "x": 1.056129,
+      "y": 0.421541
+    },
+    {
+      "cluster_id": 1,
+      "symbol": "ILVUSDT",
+      "x": 0.354919,
+      "y": -0.068612
+    },
+    {
+      "cluster_id": 1,
+      "symbol": "IMXUSDT",
+      "x": 0.994547,
+      "y": -0.577239
+    },
+    {
+      "cluster_id": "noise",
+      "symbol": "INITUSDT",
+      "x": -0.57044,
+      "y": 1.116249
+    },
+    {
+      "cluster_id": 1,
+      "symbol": "INJUSDT",
+      "x": 1.194224,
+      "y": -0.958363
+    },
+    {
+      "cluster_id": 5,
+      "symbol": "INUSDT",
+      "x": -1.812421,
+      "y": 1.072221
+    },
+    {
+      "cluster_id": "noise",
+      "symbol": "INXUSDT",
+      "x": -1.751897,
+      "y": -0.30677
+    },
+    {
+      "cluster_id": 1,
+      "symbol": "IOSTUSDT",
+      "x": 1.048667,
+      "y": 0.364316
+    },
+    {
+      "cluster_id": 1,
+      "symbol": "IOTAUSDT",
+      "x": 1.034708,
+      "y": 0.336817
+    },
+    {
+      "cluster_id": "noise",
+      "symbol": "IOTXUSDT",
+      "x": -0.11382,
+      "y": -0.121319
+    },
+    {
+      "cluster_id": 1,
+      "symbol": "IOUSDT",
+      "x": 0.987159,
+      "y": -0.680826
+    },
+    {
+      "cluster_id": 1,
+      "symbol": "IPUSDT",
+      "x": 0.501762,
+      "y": 0.042188
+    },
+    {
+      "cluster_id": "noise",
+      "symbol": "IRUSDT",
+      "x": -1.427945,
+      "y": 0.732291
+    },
+    {
+      "cluster_id": "noise",
+      "symbol": "IRYSUSDT",
+      "x": -0.804375,
+      "y": -0.663332
+    },
+    {
+      "cluster_id": 1,
+      "symbol": "JASMYUSDT",
+      "x": 0.988183,
+      "y": -0.306813
+    },
+    {
+      "cluster_id": "noise",
+      "symbol": "JCTUSDT",
+      "x": -2.329204,
+      "y": -1.033095
+    },
+    {
+      "cluster_id": "noise",
+      "symbol": "JELLYJELLYUSDT",
+      "x": -1.447245,
+      "y": -1.093118
+    },
+    {
+      "cluster_id": "noise",
+      "symbol": "JOEUSDT",
+      "x": 0.236501,
+      "y": -0.678791
+    },
+    {
+      "cluster_id": "noise",
+      "symbol": "JSTUSDT",
+      "x": -3.013945,
+      "y": 1.294351
+    },
+    {
+      "cluster_id": 1,
+      "symbol": "JTOUSDT",
+      "x": 0.727269,
+      "y": -0.321266
+    },
+    {
+      "cluster_id": 1,
+      "symbol": "JUPUSDT",
+      "x": 1.012949,
+      "y": -0.046099
+    },
+    {
+      "cluster_id": 1,
+      "symbol": "KAIAUSDT",
+      "x": 0.558639,
+      "y": 1.915286
+    },
+    {
+      "cluster_id": "noise",
+      "symbol": "KAITOUSDT",
+      "x": -0.660856,
+      "y": 0.632556
+    },
+    {
+      "cluster_id": 1,
+      "symbol": "KASUSDT",
+      "x": 0.133742,
+      "y": 0.34281
+    },
+    {
+      "cluster_id": 1,
+      "symbol": "KAVAUSDT",
+      "x": 0.131902,
+      "y": -0.216792
+    },
+    {
+      "cluster_id": "noise",
+      "symbol": "KERNELUSDT",
+      "x": -0.495221,
+      "y": 0.962935
+    },
+    {
+      "cluster_id": "noise",
+      "symbol": "KGENUSDT",
+      "x": -1.924522,
+      "y": -0.746157
+    },
+    {
+      "cluster_id": "noise",
+      "symbol": "KITEUSDT",
+      "x": -0.927754,
+      "y": -1.520672
+    },
+    {
+      "cluster_id": 1,
+      "symbol": "KMNOUSDT",
+      "x": 0.866897,
+      "y": -0.356882
+    },
+    {
+      "cluster_id": "noise",
+      "symbol": "KNCUSDT",
+      "x": 0.047401,
+      "y": 0.43474
+    },
+    {
+      "cluster_id": 6,
+      "symbol": "KOMAUSDT",
+      "x": -0.576706,
+      "y": -0.568966
+    },
+    {
+      "cluster_id": 1,
+      "symbol": "KSMUSDT",
+      "x": 1.124786,
+      "y": -0.123545
+    },
+    {
+      "cluster_id": "noise",
+      "symbol": "LABUSDT",
+      "x": -1.160333,
+      "y": -0.383874
+    },
+    {
+      "cluster_id": "noise",
+      "symbol": "LAUSDT",
+      "x": -0.228414,
+      "y": 0.219589
+    },
+    {
+      "cluster_id": 1,
+      "symbol": "LAYERUSDT",
+      "x": 0.830287,
+      "y": 0.461903
+    },
+    {
+      "cluster_id": 1,
+      "symbol": "LDOUSDT",
+      "x": 1.128195,
+      "y": -1.163315
+    },
+    {
+      "cluster_id": "noise",
+      "symbol": "LIGHTUSDT",
+      "x": -0.773705,
+      "y": 0.74358
+    },
+    {
+      "cluster_id": 1,
+      "symbol": "LINEAUSDT",
+      "x": 1.097231,
+      "y": 0.27888
+    },
+    {
+      "cluster_id": 1,
+      "symbol": "LINKUSDT",
+      "x": 1.378918,
+      "y": -0.380711
+    },
+    {
+      "cluster_id": "noise",
+      "symbol": "LISTAUSDT",
+      "x": 0.114978,
+      "y": 0.820112
+    },
+    {
+      "cluster_id": 1,
+      "symbol": "LITUSDT",
+      "x": 0.150962,
+      "y": 0.805422
+    },
+    {
+      "cluster_id": 1,
+      "symbol": "LPTUSDT",
+      "x": 1.129477,
+      "y": -0.347757
+    },
+    {
+      "cluster_id": 1,
+      "symbol": "LQTYUSDT",
+      "x": 0.118828,
+      "y": 1.493511
+    },
+    {
+      "cluster_id": 1,
+      "symbol": "LSKUSDT",
+      "x": 1.080273,
+      "y": 0.349283
+    },
+    {
+      "cluster_id": 1,
+      "symbol": "LTCUSDT",
+      "x": 1.337919,
+      "y": -0.011268
+    },
+    {
+      "cluster_id": "noise",
+      "symbol": "LUMIAUSDT",
+      "x": -0.158656,
+      "y": 0.609255
+    },
+    {
+      "cluster_id": 1,
+      "symbol": "LUNA2USDT",
+      "x": 0.708169,
+      "y": -0.051741
+    },
+    {
+      "cluster_id": "noise",
+      "symbol": "LYNUSDT",
+      "x": -2.347087,
+      "y": -1.597538
+    },
+    {
+      "cluster_id": 1,
+      "symbol": "MAGICUSDT",
+      "x": 0.791465,
+      "y": 0.967264
+    },
+    {
+      "cluster_id": "noise",
+      "symbol": "MAGMAUSDT",
+      "x": -1.591358,
+      "y": -1.603446
+    },
+    {
+      "cluster_id": 1,
+      "symbol": "MANAUSDT",
+      "x": 1.414519,
+      "y": -0.138071
+    },
+    {
+      "cluster_id": 1,
+      "symbol": "MANTAUSDT",
+      "x": 0.791425,
+      "y": 1.087878
+    },
+    {
+      "cluster_id": 1,
+      "symbol": "MASKUSDT",
+      "x": 1.031115,
+      "y": 0.065382
+    },
+    {
+      "cluster_id": 1,
+      "symbol": "MAVIAUSDT",
+      "x": 0.447812,
+      "y": 0.856347
+    },
+    {
+      "cluster_id": 1,
+      "symbol": "MAVUSDT",
+      "x": 0.187533,
+      "y": 1.412813
+    },
+    {
+      "cluster_id": "noise",
+      "symbol": "MBOXUSDT",
+      "x": -0.622288,
+      "y": -0.937261
+    },
+    {
+      "cluster_id": 2,
+      "symbol": "MEGAUSDT",
+      "x": -0.848844,
+      "y": 2.449374
+    },
+    {
+      "cluster_id": 1,
+      "symbol": "MELANIAUSDT",
+      "x": 0.487122,
+      "y": 0.096958
+    },
+    {
+      "cluster_id": 1,
+      "symbol": "MEMEUSDT",
+      "x": 0.64299,
+      "y": -2.068207
+    },
+    {
+      "cluster_id": "noise",
+      "symbol": "MERLUSDT",
+      "x": -0.330353,
+      "y": -1.503445
+    },
+    {
+      "cluster_id": 2,
+      "symbol": "METISUSDT",
+      "x": 0.445169,
+      "y": 2.051981
+    },
+    {
+      "cluster_id": "noise",
+      "symbol": "METUSDT",
+      "x": 0.082206,
+      "y": -0.496024
+    },
+    {
+      "cluster_id": 1,
+      "symbol": "MEUSDT",
+      "x": 1.25193,
+      "y": 0.417526
+    },
+    {
+      "cluster_id": 1,
+      "symbol": "MEWUSDT",
+      "x": 1.40041,
+      "y": -0.272933
+    },
+    {
+      "cluster_id": 1,
+      "symbol": "MINAUSDT",
+      "x": 0.831951,
+      "y": -0.080432
+    },
+    {
+      "cluster_id": 1,
+      "symbol": "MIRAUSDT",
+      "x": -0.020562,
+      "y": -0.142372
+    },
+    {
+      "cluster_id": 1,
+      "symbol": "MITOUSDT",
+      "x": 0.221897,
+      "y": 1.949275
+    },
+    {
+      "cluster_id": 1,
+      "symbol": "MLNUSDT",
+      "x": 0.142321,
+      "y": 0.376563
+    },
+    {
+      "cluster_id": 6,
+      "symbol": "MMTUSDT",
+      "x": -0.496377,
+      "y": 0.523735
+    },
+    {
+      "cluster_id": 1,
+      "symbol": "MOCAUSDT",
+      "x": 0.753321,
+      "y": 0.131554
+    },
+    {
+      "cluster_id": 1,
+      "symbol": "MONUSDT",
+      "x": 0.509035,
+      "y": 0.694513
+    },
+    {
+      "cluster_id": 1,
+      "symbol": "MOODENGUSDT",
+      "x": 1.214602,
+      "y": -1.119904
+    },
+    {
+      "cluster_id": 1,
+      "symbol": "MORPHOUSDT",
+      "x": -0.185328,
+      "y": -0.003619
+    },
+    {
+      "cluster_id": 1,
+      "symbol": "MOVEUSDT",
+      "x": 1.014917,
+      "y": -0.25443
+    },
+    {
+      "cluster_id": 2,
+      "symbol": "MOVRUSDT",
+      "x": -0.521552,
+      "y": 2.668756
+    },
+    {
+      "cluster_id": 1,
+      "symbol": "MTLUSDT",
+      "x": 1.268109,
+      "y": 0.572249
+    },
+    {
+      "cluster_id": 1,
+      "symbol": "MUBARAKUSDT",
+      "x": 0.41399,
+      "y": -0.572757
+    },
+    {
+      "cluster_id": "noise",
+      "symbol": "MUSDT",
+      "x": -1.215351,
+      "y": -0.547822
+    },
+    {
+      "cluster_id": "noise",
+      "symbol": "MYXUSDT",
+      "x": -0.583727,
+      "y": 0.029507
+    },
+    {
+      "cluster_id": "noise",
+      "symbol": "NAORISUSDT",
+      "x": -1.352533,
+      "y": 0.261482
+    },
+    {
+      "cluster_id": 1,
+      "symbol": "NEARUSDT",
+      "x": 0.679783,
+      "y": -0.761718
+    },
+    {
+      "cluster_id": 1,
+      "symbol": "NEIROUSDT",
+      "x": 0.542142,
+      "y": -2.972342
+    },
+    {
+      "cluster_id": 1,
+      "symbol": "NEOUSDT",
+      "x": 0.925362,
+      "y": 0.565715
+    },
+    {
+      "cluster_id": "noise",
+      "symbol": "NEWTUSDT",
+      "x": 0.027727,
+      "y": 0.741176
+    },
+    {
+      "cluster_id": 1,
+      "symbol": "NFPUSDT",
+      "x": 0.710081,
+      "y": 1.585371
+    },
+    {
+      "cluster_id": "noise",
+      "symbol": "NIGHTUSDT",
+      "x": -0.138726,
+      "y": -0.602371
+    },
+    {
+      "cluster_id": 1,
+      "symbol": "NILUSDT",
+      "x": -0.046209,
+      "y": 0.971563
+    },
+    {
+      "cluster_id": "noise",
+      "symbol": "NMRUSDT",
+      "x": -0.293385,
+      "y": 1.648614
+    },
+    {
+      "cluster_id": "noise",
+      "symbol": "NOMUSDT",
+      "x": -0.861167,
+      "y": 0.850569
+    },
+    {
+      "cluster_id": 1,
+      "symbol": "NOTUSDT",
+      "x": 1.094928,
+      "y": -1.550926
+    },
+    {
+      "cluster_id": 1,
+      "symbol": "NXPCUSDT",
+      "x": 0.468028,
+      "y": 0.145307
+    },
+    {
+      "cluster_id": "noise",
+      "symbol": "OGNUSDT",
+      "x": -0.633573,
+      "y": 0.755044
+    },
+    {
+      "cluster_id": 5,
+      "symbol": "OGUSDT",
+      "x": -0.811536,
+      "y": 1.697127
+    },
+    {
+      "cluster_id": 1,
+      "symbol": "ONDOUSDT",
+      "x": 1.289725,
+      "y": -0.410319
+    },
+    {
+      "cluster_id": 1,
+      "symbol": "ONEUSDT",
+      "x": 0.924566,
+      "y": 1.267305
+    },
+    {
+      "cluster_id": "noise",
+      "symbol": "ONGUSDT",
+      "x": -0.302756,
+      "y": -0.065091
+    },
+    {
+      "cluster_id": "noise",
+      "symbol": "ONTUSDT",
+      "x": -0.570811,
+      "y": 1.006508
+    },
+    {
+      "cluster_id": "noise",
+      "symbol": "ONUSDT",
+      "x": -1.692363,
+      "y": -1.508156
+    },
+    {
+      "cluster_id": 2,
+      "symbol": "OPENUSDT",
+      "x": -0.396224,
+      "y": 1.661448
+    },
+    {
+      "cluster_id": "noise",
+      "symbol": "OPNUSDT",
+      "x": -0.28146,
+      "y": -1.202186
+    },
+    {
+      "cluster_id": 1,
+      "symbol": "OPUSDT",
+      "x": 1.241616,
+      "y": -0.71006
+    },
+    {
+      "cluster_id": 1,
+      "symbol": "ORCAUSDT",
+      "x": 0.550764,
+      "y": 0.011789
+    },
+    {
+      "cluster_id": "noise",
+      "symbol": "ORDERUSDT",
+      "x": -0.258595,
+      "y": -0.501699
+    },
+    {
+      "cluster_id": 1,
+      "symbol": "ORDIUSDT",
+      "x": 0.211973,
+      "y": -1.956967
+    },
+    {
+      "cluster_id": "noise",
+      "symbol": "PARTIUSDT",
+      "x": -1.172051,
+      "y": -0.079897
+    },
+    {
+      "cluster_id": "noise",
+      "symbol": "PAXGUSDT",
+      "x": -0.74726,
+      "y": 1.090967
+    },
+    {
+      "cluster_id": 1,
+      "symbol": "PENDLEUSDT",
+      "x": 1.02428,
+      "y": 0.703124
+    },
+    {
+      "cluster_id": 1,
+      "symbol": "PENGUUSDT",
+      "x": 1.329366,
+      "y": -0.992686
+    },
+    {
+      "cluster_id": 1,
+      "symbol": "PEOPLEUSDT",
+      "x": 0.81579,
+      "y": -1.91692
+    },
+    {
+      "cluster_id": "noise",
+      "symbol": "PHAUSDT",
+      "x": -0.390347,
+      "y": -0.514373
+    },
+    {
+      "cluster_id": "noise",
+      "symbol": "PHBUSDT",
+      "x": -1.168194,
+      "y": -0.142369
+    },
+    {
+      "cluster_id": "noise",
+      "symbol": "PIEVERSEUSDT",
+      "x": -1.689005,
+      "y": -2.329951
+    },
+    {
+      "cluster_id": "noise",
+      "symbol": "PIPPINUSDT",
+      "x": -1.963293,
+      "y": -1.181995
+    },
+    {
+      "cluster_id": "noise",
+      "symbol": "PIXELUSDT",
+      "x": -0.942646,
+      "y": 0.323371
+    },
+    {
+      "cluster_id": "noise",
+      "symbol": "PLAYUSDT",
+      "x": -1.724877,
+      "y": -0.912396
+    },
+    {
+      "cluster_id": "noise",
+      "symbol": "PLUMEUSDT",
+      "x": -0.274442,
+      "y": -0.107855
+    },
+    {
+      "cluster_id": 1,
+      "symbol": "PNUTUSDT",
+      "x": 0.795509,
+      "y": -2.445129
+    },
+    {
+      "cluster_id": 1,
+      "symbol": "POLUSDT",
+      "x": 0.723765,
+      "y": -0.629043
+    },
+    {
+      "cluster_id": 1,
+      "symbol": "POLYXUSDT",
+      "x": -0.159667,
+      "y": 0.606121
+    },
+    {
+      "cluster_id": 1,
+      "symbol": "POPCATUSDT",
+      "x": 1.201502,
+      "y": -1.130663
+    },
+    {
+      "cluster_id": "noise",
+      "symbol": "PORTALUSDT",
+      "x": -0.685011,
+      "y": 1.037792
+    },
+    {
+      "cluster_id": "noise",
+      "symbol": "POWERUSDT",
+      "x": -1.538521,
+      "y": 0.355851
+    },
+    {
+      "cluster_id": 1,
+      "symbol": "POWRUSDT",
+      "x": 1.125607,
+      "y": 0.780178
+    },
+    {
+      "cluster_id": "noise",
+      "symbol": "PROMPTUSDT",
+      "x": -0.392869,
+      "y": 1.390092
+    },
+    {
+      "cluster_id": "noise",
+      "symbol": "PROMUSDT",
+      "x": -1.308668,
+      "y": 0.269732
+    },
+    {
+      "cluster_id": "noise",
+      "symbol": "PROVEUSDT",
+      "x": -0.006358,
+      "y": 0.556888
+    },
+    {
+      "cluster_id": "noise",
+      "symbol": "PTBUSDT",
+      "x": -1.3351,
+      "y": -0.224955
+    },
+    {
+      "cluster_id": 4,
+      "symbol": "PUMPBTCUSDT",
+      "x": 0.519477,
+      "y": -0.453068
+    },
+    {
+      "cluster_id": 1,
+      "symbol": "PUMPUSDT",
+      "x": 1.083924,
+      "y": -0.492289
+    },
+    {
+      "cluster_id": 1,
+      "symbol": "PUNDIXUSDT",
+      "x": 0.907535,
+      "y": 0.372933
+    },
+    {
+      "cluster_id": 1,
+      "symbol": "PYTHUSDT",
+      "x": 0.974929,
+      "y": -0.398811
+    },
+    {
+      "cluster_id": 1,
+      "symbol": "QNTUSDT",
+      "x": 0.044064,
+      "y": 0.611161
+    },
+    {
+      "cluster_id": 1,
+      "symbol": "QTUMUSDT",
+      "x": 0.981105,
+      "y": 0.537305
+    },
+    {
+      "cluster_id": "noise",
+      "symbol": "QUSDT",
+      "x": -2.078994,
+      "y": -1.210104
+    },
+    {
+      "cluster_id": 2,
+      "symbol": "RAREUSDT",
+      "x": -0.423402,
+      "y": 2.610157
+    },
+    {
+      "cluster_id": "noise",
+      "symbol": "RAVEUSDT",
+      "x": -1.152029,
+      "y": 1.36387
+    },
+    {
+      "cluster_id": 1,
+      "symbol": "RAYSOLUSDT",
+      "x": 1.168147,
+      "y": -0.098344
+    },
+    {
+      "cluster_id": "noise",
+      "symbol": "RECALLUSDT",
+      "x": -0.461452,
+      "y": 1.22826
+    },
+    {
+      "cluster_id": 1,
+      "symbol": "REDUSDT",
+      "x": -0.69943,
+      "y": 0.435684
+    },
+    {
+      "cluster_id": 1,
+      "symbol": "RENDERUSDT",
+      "x": 0.614249,
+      "y": 0.365738
+    },
+    {
+      "cluster_id": "noise",
+      "symbol": "RESOLVUSDT",
+      "x": -1.657672,
+      "y": -0.387349
+    },
+    {
+      "cluster_id": 3,
+      "symbol": "REZUSDT",
+      "x": -0.758989,
+      "y": -0.464475
+    },
+    {
+      "cluster_id": "noise",
+      "symbol": "RIFUSDT",
+      "x": -0.865383,
+      "y": 1.556283
+    },
+    {
+      "cluster_id": "noise",
+      "symbol": "RIVERUSDT",
+      "x": -1.917537,
+      "y": -0.458876
+    },
+    {
+      "cluster_id": 1,
+      "symbol": "RLCUSDT",
+      "x": 0.72688,
+      "y": 0.848519
+    },
+    {
+      "cluster_id": 1,
+      "symbol": "RONINUSDT",
+      "x": 0.73435,
+      "y": 0.571192
+    },
+    {
+      "cluster_id": 1,
+      "symbol": "ROSEUSDT",
+      "x": 0.699296,
+      "y": -0.833071
+    },
+    {
+      "cluster_id": 1,
+      "symbol": "RPLUSDT",
+      "x": 0.805139,
+      "y": 0.431977
+    },
+    {
+      "cluster_id": 1,
+      "symbol": "RSRUSDT",
+      "x": 0.470222,
+      "y": -1.298028
+    },
+    {
+      "cluster_id": 1,
+      "symbol": "RUNEUSDT",
+      "x": 0.824046,
+      "y": -0.053835
+    },
+    {
+      "cluster_id": 1,
+      "symbol": "RVNUSDT",
+      "x": 1.133522,
+      "y": 0.029323
+    },
+    {
+      "cluster_id": 1,
+      "symbol": "SAFEUSDT",
+      "x": 0.314583,
+      "y": 1.35303
+    },
+    {
+      "cluster_id": 1,
+      "symbol": "SAGAUSDT",
+      "x": 0.182039,
+      "y": 0.935037
+    },
+    {
+      "cluster_id": "noise",
+      "symbol": "SAHARAUSDT",
+      "x": -1.054078,
+      "y": -1.066287
+    },
+    {
+      "cluster_id": 1,
+      "symbol": "SANDUSDT",
+      "x": 1.517848,
+      "y": -0.382469
+    },
+    {
+      "cluster_id": 1,
+      "symbol": "SANTOSUSDT",
+      "x": -0.313056,
+      "y": -0.863609
+    },
+    {
+      "cluster_id": 2,
+      "symbol": "SAPIENUSDT",
+      "x": -0.236917,
+      "y": 2.057358
+    },
+    {
+      "cluster_id": 2,
+      "symbol": "SCRTUSDT",
+      "x": 0.502457,
+      "y": 0.701981
+    },
+    {
+      "cluster_id": 1,
+      "symbol": "SCRUSDT",
+      "x": 0.357442,
+      "y": 1.691052
+    },
+    {
+      "cluster_id": 1,
+      "symbol": "SEIUSDT",
+      "x": 0.972396,
+      "y": -0.830882
+    },
+    {
+      "cluster_id": "noise",
+      "symbol": "SENTUSDT",
+      "x": -0.892379,
+      "y": -0.77811
+    },
+    {
+      "cluster_id": 1,
+      "symbol": "SFPUSDT",
+      "x": 0.795278,
+      "y": 0.499075
+    },
+    {
+      "cluster_id": 3,
+      "symbol": "SHELLUSDT",
+      "x": -0.173322,
+      "y": 2.04276
+    },
+    {
+      "cluster_id": "noise",
+      "symbol": "SIGNUSDT",
+      "x": -2.199497,
+      "y": 0.765409
+    },
+    {
+      "cluster_id": "noise",
+      "symbol": "SIRENUSDT",
+      "x": -1.612398,
+      "y": -2.96517
+    },
+    {
+      "cluster_id": 1,
+      "symbol": "SKLUSDT",
+      "x": 0.382723,
+      "y": 1.15426
+    },
+    {
+      "cluster_id": "noise",
+      "symbol": "SKRUSDT",
+      "x": -1.227539,
+      "y": -1.486518
+    },
+    {
+      "cluster_id": "noise",
+      "symbol": "SKYAIUSDT",
+      "x": -1.366165,
+      "y": 0.304326
+    },
+    {
+      "cluster_id": 1,
+      "symbol": "SKYUSDT",
+      "x": 0.395421,
+      "y": -0.261808
+    },
+    {
+      "cluster_id": 1,
+      "symbol": "SLPUSDT",
+      "x": 0.63289,
+      "y": 0.472881
+    },
+    {
+      "cluster_id": 7,
+      "symbol": "SNXUSDT",
+      "x": 0.571799,
+      "y": 0.071735
+    },
+    {
+      "cluster_id": 1,
+      "symbol": "SOLUSDT",
+      "x": 1.341362,
+      "y": -0.721448
+    },
+    {
+      "cluster_id": "noise",
+      "symbol": "SOLVUSDT",
+      "x": -1.523031,
+      "y": 2.097906
+    },
+    {
+      "cluster_id": 7,
+      "symbol": "SOMIUSDT",
+      "x": -0.058709,
+      "y": 0.899874
+    },
+    {
+      "cluster_id": 1,
+      "symbol": "SONICUSDT",
+      "x": 0.611201,
+      "y": 0.379333
+    },
+    {
+      "cluster_id": 2,
+      "symbol": "SOONUSDT",
+      "x": -0.382392,
+      "y": 1.731878
+    },
+    {
+      "cluster_id": 1,
+      "symbol": "SOPHUSDT",
+      "x": 0.579343,
+      "y": -0.287157
+    },
+    {
+      "cluster_id": 1,
+      "symbol": "SPACEUSDT",
+      "x": -0.424973,
+      "y": -2.12833
+    },
+    {
+      "cluster_id": 1,
+      "symbol": "SPELLUSDT",
+      "x": 1.052103,
+      "y": 1.252021
+    },
+    {
+      "cluster_id": "noise",
+      "symbol": "SPKUSDT",
+      "x": -0.664688,
+      "y": -0.648017
+    },
+    {
+      "cluster_id": "noise",
+      "symbol": "SPORTFUNUSDT",
+      "x": -0.919459,
+      "y": 1.954126
+    },
+    {
+      "cluster_id": 1,
+      "symbol": "SPXUSDT",
+      "x": 1.043623,
+      "y": -0.149456
+    },
+    {
+      "cluster_id": "noise",
+      "symbol": "SQDUSDT",
+      "x": -0.413897,
+      "y": -0.629467
+    },
+    {
+      "cluster_id": 1,
+      "symbol": "SSVUSDT",
+      "x": 1.009926,
+      "y": 0.46493
+    },
+    {
+      "cluster_id": "noise",
+      "symbol": "STABLEUSDT",
+      "x": -1.052896,
+      "y": 0.115159
+    },
+    {
+      "cluster_id": "noise",
+      "symbol": "STBLUSDT",
+      "x": -0.101141,
+      "y": 0.895431
+    },
+    {
+      "cluster_id": 1,
+      "symbol": "STEEMUSDT",
+      "x": -0.626079,
+      "y": -0.146455
+    },
+    {
+      "cluster_id": "noise",
+      "symbol": "STGUSDT",
+      "x": -0.907066,
+      "y": 0.700597
+    },
+    {
+      "cluster_id": 1,
+      "symbol": "STORJUSDT",
+      "x": 0.66563,
+      "y": 0.354581
+    },
+    {
+      "cluster_id": "noise",
+      "symbol": "STOUSDT",
+      "x": -1.345043,
+      "y": -0.850855
+    },
+    {
+      "cluster_id": 1,
+      "symbol": "STRKUSDT",
+      "x": 0.525819,
+      "y": -0.606962
+    },
+    {
+      "cluster_id": 1,
+      "symbol": "STXUSDT",
+      "x": 1.311471,
+      "y": -0.415606
+    },
+    {
+      "cluster_id": 1,
+      "symbol": "SUIUSDT",
+      "x": 1.359298,
+      "y": -0.421968
+    },
+    {
+      "cluster_id": "noise",
+      "symbol": "SUNUSDT",
+      "x": -0.817037,
+      "y": -0.012137
+    },
+    {
+      "cluster_id": 1,
+      "symbol": "SUPERUSDT",
+      "x": 0.165302,
+      "y": 0.73347
+    },
+    {
+      "cluster_id": 1,
+      "symbol": "SUSDT",
+      "x": 1.188123,
+      "y": -0.488408
+    },
+    {
+      "cluster_id": 1,
+      "symbol": "SUSHIUSDT",
+      "x": 1.312639,
+      "y": -0.585342
+    },
+    {
+      "cluster_id": "noise",
+      "symbol": "SWARMSUSDT",
+      "x": -0.323215,
+      "y": -1.93688
+    },
+    {
+      "cluster_id": "noise",
+      "symbol": "SXTUSDT",
+      "x": -0.450992,
+      "y": 1.344675
+    },
+    {
+      "cluster_id": 3,
+      "symbol": "SYNUSDT",
+      "x": -0.305439,
+      "y": 1.891609
+    },
+    {
+      "cluster_id": 1,
+      "symbol": "SYRUPUSDT",
+      "x": 0.563401,
+      "y": -0.049303
+    },
+    {
+      "cluster_id": 1,
+      "symbol": "SYSUSDT",
+      "x": 0.503303,
+      "y": 0.18256
+    },
+    {
+      "cluster_id": "noise",
+      "symbol": "TACUSDT",
+      "x": -1.622994,
+      "y": 0.466113
+    },
+    {
+      "cluster_id": "noise",
+      "symbol": "TAGUSDT",
+      "x": -2.095968,
+      "y": 1.426505
+    },
+    {
+      "cluster_id": 1,
+      "symbol": "TAIKOUSDT",
+      "x": 0.860343,
+      "y": 0.43148
+    },
+    {
+      "cluster_id": "noise",
+      "symbol": "TAKEUSDT",
+      "x": -0.555488,
+      "y": 1.654752
+    },
+    {
+      "cluster_id": "noise",
+      "symbol": "TAOUSDT",
+      "x": -0.104564,
+      "y": -0.304792
+    },
+    {
+      "cluster_id": "noise",
+      "symbol": "TAUSDT",
+      "x": -2.498478,
+      "y": -0.854758
+    },
+    {
+      "cluster_id": 1,
+      "symbol": "THETAUSDT",
+      "x": 1.029379,
+      "y": 0.296515
+    },
+    {
+      "cluster_id": "noise",
+      "symbol": "THEUSDT",
+      "x": -0.728737,
+      "y": -0.492691
+    },
+    {
+      "cluster_id": 1,
+      "symbol": "TIAUSDT",
+      "x": 1.246627,
+      "y": -0.671322
+    },
+    {
+      "cluster_id": 1,
+      "symbol": "TLMUSDT",
+      "x": 0.468975,
+      "y": 0.745581
+    },
+    {
+      "cluster_id": 1,
+      "symbol": "TNSRUSDT",
+      "x": -0.524427,
+      "y": 0.237874
+    },
+    {
+      "cluster_id": "noise",
+      "symbol": "TONUSDT",
+      "x": -0.338661,
+      "y": 0.633507
+    },
+    {
+      "cluster_id": 1,
+      "symbol": "TOSHIUSDT",
+      "x": 1.316165,
+      "y": -0.543412
+    },
+    {
+      "cluster_id": "noise",
+      "symbol": "TOWNSUSDT",
+      "x": -0.384886,
+      "y": 1.340081
+    },
+    {
+      "cluster_id": "noise",
+      "symbol": "TRADOORUSDT",
+      "x": -1.915486,
+      "y": -0.501665
+    },
+    {
+      "cluster_id": 1,
+      "symbol": "TRBUSDT",
+      "x": 0.538698,
+      "y": -2.572991
+    },
+    {
+      "cluster_id": 1,
+      "symbol": "TREEUSDT",
+      "x": -0.043287,
+      "y": 1.164022
+    },
+    {
+      "cluster_id": "noise",
+      "symbol": "TRIAUSDT",
+      "x": -2.148694,
+      "y": -0.666979
+    },
+    {
+      "cluster_id": 1,
+      "symbol": "TRUMPUSDT",
+      "x": -0.194607,
+      "y": -0.595958
+    },
+    {
+      "cluster_id": 6,
+      "symbol": "TRUSTUSDT",
+      "x": -0.035195,
+      "y": 0.587507
+    },
+    {
+      "cluster_id": "noise",
+      "symbol": "TRUTHUSDT",
+      "x": -1.361431,
+      "y": -0.459993
+    },
+    {
+      "cluster_id": "noise",
+      "symbol": "TRXUSDT",
+      "x": -1.551067,
+      "y": 0.157412
+    },
+    {
+      "cluster_id": 1,
+      "symbol": "TSTUSDT",
+      "x": 0.203215,
+      "y": -0.613614
+    },
+    {
+      "cluster_id": 1,
+      "symbol": "TURBOUSDT",
+      "x": 0.313018,
+      "y": -2.436636
+    },
+    {
+      "cluster_id": 3,
+      "symbol": "TURTLEUSDT",
+      "x": -0.619315,
+      "y": 0.76035
+    },
+    {
+      "cluster_id": 1,
+      "symbol": "TUSDT",
+      "x": 0.990215,
+      "y": 1.014728
+    },
+    {
+      "cluster_id": 1,
+      "symbol": "TUTUSDT",
+      "x": 0.24185,
+      "y": 0.329826
+    },
+    {
+      "cluster_id": "noise",
+      "symbol": "TWTUSDT",
+      "x": -0.041859,
+      "y": -0.488298
+    },
+    {
+      "cluster_id": "noise",
+      "symbol": "UAIUSDT",
+      "x": -1.845134,
+      "y": 0.079325
+    },
+    {
+      "cluster_id": "noise",
+      "symbol": "UBUSDT",
+      "x": -0.934601,
+      "y": -1.226851
+    },
+    {
+      "cluster_id": "noise",
+      "symbol": "UMAUSDT",
+      "x": 0.514939,
+      "y": -0.160897
+    },
+    {
+      "cluster_id": 1,
+      "symbol": "UNIUSDT",
+      "x": 1.133074,
+      "y": -1.119261
+    },
+    {
+      "cluster_id": "noise",
+      "symbol": "USDCUSDT",
+      "x": -2.231704,
+      "y": -2.462598
+    },
+    {
+      "cluster_id": 1,
+      "symbol": "USELESSUSDT",
+      "x": 0.790025,
+      "y": -0.406307
+    },
+    {
+      "cluster_id": 1,
+      "symbol": "USTCUSDT",
+      "x": 0.601045,
+      "y": 0.074176
+    },
+    {
+      "cluster_id": 1,
+      "symbol": "USUALUSDT",
+      "x": 0.443953,
+      "y": -1.187538
+    },
+    {
+      "cluster_id": "noise",
+      "symbol": "USUSDT",
+      "x": -1.643428,
+      "y": 1.771796
+    },
+    {
+      "cluster_id": 1,
+      "symbol": "VANAUSDT",
+      "x": 1.082266,
+      "y": -0.15199
+    },
+    {
+      "cluster_id": 1,
+      "symbol": "VANRYUSDT",
+      "x": 0.203909,
+      "y": 1.382584
+    },
+    {
+      "cluster_id": 1,
+      "symbol": "VELODROMEUSDT",
+      "x": 0.847058,
+      "y": 0.337426
+    },
+    {
+      "cluster_id": "noise",
+      "symbol": "VELVETUSDT",
+      "x": -2.774835,
+      "y": -0.936666
+    },
+    {
+      "cluster_id": 1,
+      "symbol": "VETUSDT",
+      "x": 1.211029,
+      "y": -0.688955
+    },
+    {
+      "cluster_id": 1,
+      "symbol": "VICUSDT",
+      "x": -0.292986,
+      "y": 1.277104
+    },
+    {
+      "cluster_id": 1,
+      "symbol": "VINEUSDT",
+      "x": 0.244268,
+      "y": -1.862848
+    },
+    {
+      "cluster_id": 1,
+      "symbol": "VIRTUALUSDT",
+      "x": 1.171708,
+      "y": -0.312875
+    },
+    {
+      "cluster_id": 1,
+      "symbol": "VTHOUSDT",
+      "x": 0.892623,
+      "y": 1.016858
+    },
+    {
+      "cluster_id": "noise",
+      "symbol": "VVVUSDT",
+      "x": -0.731931,
+      "y": 0.170133
+    },
+    {
+      "cluster_id": 1,
+      "symbol": "WALUSDT",
+      "x": 1.071358,
+      "y": -1.575585
+    },
+    {
+      "cluster_id": 1,
+      "symbol": "WAXPUSDT",
+      "x": 0.192305,
+      "y": 0.432034
+    },
+    {
+      "cluster_id": 1,
+      "symbol": "WCTUSDT",
+      "x": 0.75536,
+      "y": -1.461986
+    },
+    {
+      "cluster_id": 4,
+      "symbol": "WETUSDT",
+      "x": -0.813149,
+      "y": -0.87301
+    },
+    {
+      "cluster_id": 1,
+      "symbol": "WIFUSDT",
+      "x": 1.059715,
+      "y": -0.60287
+    },
+    {
+      "cluster_id": 1,
+      "symbol": "WLDUSDT",
+      "x": 0.651368,
+      "y": -1.768372
+    },
+    {
+      "cluster_id": "noise",
+      "symbol": "WLFIUSDT",
+      "x": 0.141836,
+      "y": -0.209392
+    },
+    {
+      "cluster_id": 1,
+      "symbol": "WOOUSDT",
+      "x": 1.289507,
+      "y": 0.058707
+    },
+    {
+      "cluster_id": 1,
+      "symbol": "WUSDT",
+      "x": 0.841114,
+      "y": -1.008355
+    },
+    {
+      "cluster_id": 1,
+      "symbol": "XAIUSDT",
+      "x": 0.276723,
+      "y": 0.738373
+    },
+    {
+      "cluster_id": 5,
+      "symbol": "XANUSDT",
+      "x": -1.357051,
+      "y": 1.27747
+    },
+    {
+      "cluster_id": 1,
+      "symbol": "XLMUSDT",
+      "x": 1.10101,
+      "y": 0.177662
+    },
+    {
+      "cluster_id": "noise",
+      "symbol": "XMRUSDT",
+      "x": -0.167342,
+      "y": -0.207199
+    },
+    {
+      "cluster_id": "noise",
+      "symbol": "XNYUSDT",
+      "x": -1.785793,
+      "y": -1.16931
+    },
+    {
+      "cluster_id": "noise",
+      "symbol": "XPINUSDT",
+      "x": -1.061036,
+      "y": -0.272572
+    },
+    {
+      "cluster_id": 1,
+      "symbol": "XPLUSDT",
+      "x": 0.35536,
+      "y": -0.37363
+    },
+    {
+      "cluster_id": 1,
+      "symbol": "XRPUSDT",
+      "x": 1.32411,
+      "y": -0.073254
+    },
+    {
+      "cluster_id": 1,
+      "symbol": "XTZUSDT",
+      "x": 1.34361,
+      "y": -0.274944
+    },
+    {
+      "cluster_id": "noise",
+      "symbol": "XVGUSDT",
+      "x": -0.147466,
+      "y": -2.870557
+    },
+    {
+      "cluster_id": 2,
+      "symbol": "XVSUSDT",
+      "x": 0.023141,
+      "y": 1.302011
+    },
+    {
+      "cluster_id": "noise",
+      "symbol": "YBUSDT",
+      "x": -0.519904,
+      "y": 1.854768
+    },
+    {
+      "cluster_id": 1,
+      "symbol": "YFIUSDT",
+      "x": 0.984268,
+      "y": 0.333149
+    },
+    {
+      "cluster_id": 1,
+      "symbol": "YGGUSDT",
+      "x": 0.883804,
+      "y": -0.236765
+    },
+    {
+      "cluster_id": "noise",
+      "symbol": "ZAMAUSDT",
+      "x": -1.656808,
+      "y": 0.163661
+    },
+    {
+      "cluster_id": "noise",
+      "symbol": "ZBTUSDT",
+      "x": -1.05691,
+      "y": 1.468022
+    },
+    {
+      "cluster_id": 1,
+      "symbol": "ZECUSDT",
+      "x": 0.233885,
+      "y": -0.145603
+    },
+    {
+      "cluster_id": 1,
+      "symbol": "ZENUSDT",
+      "x": 1.006112,
+      "y": -0.813611
+    },
+    {
+      "cluster_id": 1,
+      "symbol": "ZEREBROUSDT",
+      "x": 0.16532,
+      "y": 1.203907
+    },
+    {
+      "cluster_id": 1,
+      "symbol": "ZETAUSDT",
+      "x": 0.616521,
+      "y": 0.973006
+    },
+    {
+      "cluster_id": 1,
+      "symbol": "ZILUSDT",
+      "x": 1.282945,
+      "y": 0.234628
+    },
+    {
+      "cluster_id": 1,
+      "symbol": "ZKCUSDT",
+      "x": 0.786336,
+      "y": 0.819259
+    },
+    {
+      "cluster_id": 1,
+      "symbol": "ZKJUSDT",
+      "x": 0.620339,
+      "y": 0.774552
+    },
+    {
+      "cluster_id": 1,
+      "symbol": "ZKPUSDT",
+      "x": 0.202662,
+      "y": -0.052824
+    },
+    {
+      "cluster_id": 1,
+      "symbol": "ZKUSDT",
+      "x": 0.670408,
+      "y": 0.145857
+    },
+    {
+      "cluster_id": 1,
+      "symbol": "ZORAUSDT",
+      "x": 0.58205,
+      "y": -0.035492
+    },
+    {
+      "cluster_id": "noise",
+      "symbol": "ZROUSDT",
+      "x": 0.323468,
+      "y": 0.104013
+    },
+    {
+      "cluster_id": 1,
+      "symbol": "ZRXUSDT",
+      "x": 1.132795,
+      "y": 0.191681
+    }
+  ],
   "params": {
     "algorithm": "agglomerative-average-linkage",
     "distance_metric": "sqrt(0.5 * (1 - correlation))",
     "distance_threshold": 0.55,
+    "embedding_method": "PCA on standardized daily log returns",
     "lookback_days": 60,
     "min_cluster_size": 5
   },

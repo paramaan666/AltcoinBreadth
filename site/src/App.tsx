@@ -10,18 +10,14 @@ import {
 } from "recharts";
 import { ClustersPanel } from "./components/ClustersPanel";
 import { DistanceTable } from "./components/DistanceTable";
-import { MethodologyPanel } from "./components/MethodologyPanel";
 import { MetricCard } from "./components/MetricCard";
 import { loadDashboardData } from "./lib/api";
 import type {
   BreadthPoint,
   ClusterPayload,
-  Methodology,
   Overview,
   SnapshotRow,
 } from "./lib/types";
-
-const SOURCE_REPO_URL = import.meta.env.VITE_SOURCE_REPO_URL as string | undefined;
 
 type DashboardState = {
   overview: Overview | null;
@@ -29,7 +25,6 @@ type DashboardState = {
   above: SnapshotRow[];
   below: SnapshotRow[];
   clusters: ClusterPayload | null;
-  methodology: Methodology | null;
   error: string | null;
   loading: boolean;
 };
@@ -41,7 +36,6 @@ export default function App() {
     above: [],
     below: [],
     clusters: null,
-    methodology: null,
     error: null,
     loading: true,
   });
@@ -59,7 +53,6 @@ export default function App() {
           above: payload.above,
           below: payload.below,
           clusters: payload.clusters,
-          methodology: payload.methodology,
           error: null,
           loading: false,
         });
@@ -79,7 +72,7 @@ export default function App() {
     return <div className="app-shell status-view">Loading dashboard data...</div>;
   }
 
-  if (state.error || !state.overview || !state.clusters || !state.methodology) {
+  if (state.error || !state.overview || !state.clusters) {
     return <div className="app-shell status-view">Unable to load dashboard: {state.error ?? "unknown error"}</div>;
   }
 
@@ -103,37 +96,50 @@ export default function App() {
           <a href="#above-30w">Above 30W MA</a>
           <a href="#below-30w">Below 30W MA</a>
           <a href="#clusters">Clusters</a>
-          <a href="#methodology">Methodology</a>
         </nav>
         <div className="hero-meta">
-          <span className="pill">Updated: {state.overview.updated_at_utc}</span>
+          <span className="pill">Last update: {state.overview.updated_at_utc}</span>
           <span className="pill">As of: {state.overview.as_of_date ?? "n/a"}</span>
+          <span className="pill">
+            Active: {state.overview.active_symbols} / Tracked: {state.overview.tracked_symbols}
+          </span>
         </div>
       </header>
 
       <section className="metrics-grid" id="overview">
-        <MetricCard label="Tracked Symbols" value={String(state.overview.tracked_symbols)} helper="Symbols with stored daily history" />
+        <MetricCard
+          label="Tracked Symbols"
+          value={String(state.overview.tracked_symbols)}
+          helper={`${state.overview.active_symbols} active · ${state.overview.delisted_symbols_total} delisted history`}
+        />
         <MetricCard label="Eligible Symbols" value={String(state.overview.eligible_symbols)} helper="Enough history for 30W MA" />
         <MetricCard label="Above 30W MA" value={String(state.overview.above_count)} helper={`${state.overview.above_pct.toFixed(2)}% of eligible`} />
-        <MetricCard label="Below 30W MA" value={String(state.overview.below_count)} helper="Latest eligible snapshot" />
-        <MetricCard label="Active Universe" value={String(state.overview.active_symbols)} helper="Current active Binance USDT perps" />
-        <MetricCard label="Delisted Symbols" value={String(state.overview.delisted_symbols_total)} helper="Retained for historical breadth" />
+        <MetricCard
+          label="Below 30W MA"
+          value={String(state.overview.below_count)}
+          helper={`${(100 - state.overview.above_pct).toFixed(2)}% of eligible`}
+        />
+        <MetricCard
+          label="Breadth (Above %)"
+          value={`${state.overview.above_pct.toFixed(1)}%`}
+          helper={`${state.overview.as_of_date ?? "Latest"} snapshot`}
+        />
       </section>
 
       <main className="dashboard-grid">
         <section className="panel panel--breadth" id="breadth">
           <div className="panel-header">
             <div>
-              <h2>Breadth History</h2>
+              <h2>Breadth (% Above 30W MA)</h2>
               <p>{state.overview.universe_rule}</p>
             </div>
             <div className="param-list">
-              <span className="pill">{state.overview.ma_definition}</span>
-              <span className="pill">{state.overview.distance_definition}</span>
+              <span className="pill">210d trailing MA</span>
+              <span className="pill">ATR%(60) normalized</span>
             </div>
           </div>
           <div className="chart-wrap">
-            <ResponsiveContainer width="100%" height={250}>
+            <ResponsiveContainer width="100%" height="100%">
               <LineChart data={state.breadth}>
                 <CartesianGrid strokeDasharray="3 3" stroke="#20324b" />
                 <XAxis dataKey="date" minTickGap={48} stroke="#6f87a8" />
@@ -147,10 +153,21 @@ export default function App() {
           </div>
         </section>
 
-        <DistanceTable title="Above 30W MA" rows={state.above} direction="above" className="panel--table" sectionId="above-30w" />
-        <DistanceTable title="Below 30W MA" rows={state.below} direction="below" className="panel--table" sectionId="below-30w" />
         <ClustersPanel payload={state.clusters} className="panel--clusters" />
-        <MethodologyPanel methodology={state.methodology} sourceUrl={SOURCE_REPO_URL} className="panel--methodology" />
+        <DistanceTable
+          title="Above 30W MA"
+          rows={state.above}
+          direction="above"
+          className="panel--table panel--table-above"
+          sectionId="above-30w"
+        />
+        <DistanceTable
+          title="Below 30W MA"
+          rows={state.below}
+          direction="below"
+          className="panel--table panel--table-below"
+          sectionId="below-30w"
+        />
       </main>
     </div>
   );

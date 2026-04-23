@@ -60,7 +60,7 @@ clustering:
   distance_threshold: 0.55
   min_cluster_size: 5
   embed_2d: true
-  max_symbols_for_embedding: 250
+  max_symbols_for_embedding: 1000
   random_state: 42
 
 bootstrap:

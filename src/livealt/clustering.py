@@ -6,7 +6,7 @@ from typing import Any
 import numpy as np
 import polars as pl
 from sklearn.cluster import AgglomerativeClustering
-from sklearn.manifold import MDS
+from sklearn.decomposition import PCA
 
 from livealt.config import AppConfig
 
@@ -95,20 +95,13 @@ def build_clusters(config: AppConfig, metrics: pl.DataFrame, as_of_date: str | N
 
     embedding: list[dict[str, Any]] = []
     if config.clustering.embed_2d and len(valid_columns) <= config.clustering.max_symbols_for_embedding:
-        mds = MDS(
-            n_components=2,
-            dissimilarity="precomputed",
-            random_state=config.clustering.random_state,
-            n_init=1,
-            max_iter=300,
-        )
-        coords = mds.fit_transform(distance)
+        coords = _build_pca_embedding(normalized)
         embedding = [
             {
                 "symbol": symbol,
                 "x": round(float(point[0]), 6),
                 "y": round(float(point[1]), 6),
-                "cluster_id": int(label) if label >= 0 else "noise",
+                "cluster_id": int(label) + 1 if label >= 0 else "noise",
             }
             for symbol, point, label in zip(valid_columns, coords, labels, strict=True)
         ]
@@ -171,5 +164,24 @@ def _cluster_params(config: AppConfig) -> dict[str, Any]:
         "lookback_days": config.clustering.lookback_days,
         "distance_threshold": config.clustering.distance_threshold,
         "distance_metric": "sqrt(0.5 * (1 - correlation))",
+        "embedding_method": "PCA on standardized daily log returns",
         "min_cluster_size": config.clustering.min_cluster_size,
     }
+
+
+def _build_pca_embedding(normalized_returns: np.ndarray) -> np.ndarray:
+    if normalized_returns.shape[0] < 2:
+        return np.zeros((normalized_returns.shape[0], 2))
+    if np.allclose(normalized_returns, normalized_returns[:1]):
+        return np.zeros((normalized_returns.shape[0], 2))
+    pca = PCA(n_components=2, random_state=0)
+    coords = pca.fit_transform(normalized_returns)
+    if coords.shape[1] < 2:
+        padded = np.zeros((coords.shape[0], 2))
+        padded[:, : coords.shape[1]] = coords
+        coords = padded
+    coords = coords[:, :2]
+    centered = coords - coords.mean(axis=0, keepdims=True)
+    scale = centered.std(axis=0, ddof=1)
+    scale[scale == 0] = 1.0
+    return np.clip(centered / scale, -4.0, 4.0)
