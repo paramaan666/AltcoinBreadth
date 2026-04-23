@@ -18,9 +18,9 @@
     "methodology_version": "1.0.0",
     "tracked_symbols": 674,
     "universe_rule": "Active Binance USD-M perpetuals quoted in USDT, excluding configured non-coin symbols.",
-    "updated_at_utc": "2026-04-23T13:19:56.148114+00:00"
+    "updated_at_utc": "2026-04-23T13:24:32.656124+00:00"
   },
-  "ran_at_utc": "2026-04-23T13:19:56.492562+00:00",
+  "ran_at_utc": "2026-04-23T13:24:32.910332+00:00",
   "symbol_statuses": {
     "0GUSDT": {
       "last_date": "2026-04-22",
@@ -2678,7 +2678,7 @@
       "status": "success"
     }
   },
-  "universe_mode": "rest",
+  "universe_mode": "archive_fallback",
   "universe_snapshot_date": "2026-04-23",
   "validation": {
     "checks": [
