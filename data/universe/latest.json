@@ -1,0 +1,4254 @@
+{
+  "count": 531,
+  "snapshot_date": "2026-04-23",
+  "symbols": [
+    {
+      "base_asset": "0G",
+      "contract_type": "PERPETUAL",
+      "onboard_date": "2025-09-17",
+      "quote_asset": "USDT",
+      "status": "TRADING",
+      "symbol": "0GUSDT"
+    },
+    {
+      "base_asset": "1000000BOB",
+      "contract_type": "PERPETUAL",
+      "onboard_date": "2025-06-05",
+      "quote_asset": "USDT",
+      "status": "TRADING",
+      "symbol": "1000000BOBUSDT"
+    },
+    {
+      "base_asset": "1000000MOG",
+      "contract_type": "PERPETUAL",
+      "onboard_date": "2024-11-07",
+      "quote_asset": "USDT",
+      "status": "TRADING",
+      "symbol": "1000000MOGUSDT"
+    },
+    {
+      "base_asset": "1000BONK",
+      "contract_type": "PERPETUAL",
+      "onboard_date": "2023-11-22",
+      "quote_asset": "USDT",
+      "status": "TRADING",
+      "symbol": "1000BONKUSDT"
+    },
+    {
+      "base_asset": "1000CAT",
+      "contract_type": "PERPETUAL",
+      "onboard_date": "2024-10-21",
+      "quote_asset": "USDT",
+      "status": "TRADING",
+      "symbol": "1000CATUSDT"
+    },
+    {
+      "base_asset": "1000CHEEMS",
+      "contract_type": "PERPETUAL",
+      "onboard_date": "2024-11-25",
+      "quote_asset": "USDT",
+      "status": "TRADING",
+      "symbol": "1000CHEEMSUSDT"
+    },
+    {
+      "base_asset": "1000FLOKI",
+      "contract_type": "PERPETUAL",
+      "onboard_date": "2023-05-06",
+      "quote_asset": "USDT",
+      "status": "TRADING",
+      "symbol": "1000FLOKIUSDT"
+    },
+    {
+      "base_asset": "1000LUNC",
+      "contract_type": "PERPETUAL",
+      "onboard_date": "2022-09-08",
+      "quote_asset": "USDT",
+      "status": "TRADING",
+      "symbol": "1000LUNCUSDT"
+    },
+    {
+      "base_asset": "1000PEPE",
+      "contract_type": "PERPETUAL",
+      "onboard_date": "2023-05-05",
+      "quote_asset": "USDT",
+      "status": "TRADING",
+      "symbol": "1000PEPEUSDT"
+    },
+    {
+      "base_asset": "1000RATS",
+      "contract_type": "PERPETUAL",
+      "onboard_date": "2023-12-15",
+      "quote_asset": "USDT",
+      "status": "TRADING",
+      "symbol": "1000RATSUSDT"
+    },
+    {
+      "base_asset": "1000SATS",
+      "contract_type": "PERPETUAL",
+      "onboard_date": "2023-12-12",
+      "quote_asset": "USDT",
+      "status": "TRADING",
+      "symbol": "1000SATSUSDT"
+    },
+    {
+      "base_asset": "1000SHIB",
+      "contract_type": "PERPETUAL",
+      "onboard_date": "2021-05-10",
+      "quote_asset": "USDT",
+      "status": "TRADING",
+      "symbol": "1000SHIBUSDT"
+    },
+    {
+      "base_asset": "1000XEC",
+      "contract_type": "PERPETUAL",
+      "onboard_date": "2021-09-16",
+      "quote_asset": "USDT",
+      "status": "TRADING",
+      "symbol": "1000XECUSDT"
+    },
+    {
+      "base_asset": "1INCH",
+      "contract_type": "PERPETUAL",
+      "onboard_date": "2020-12-25",
+      "quote_asset": "USDT",
+      "status": "TRADING",
+      "symbol": "1INCHUSDT"
+    },
+    {
+      "base_asset": "1MBABYDOGE",
+      "contract_type": "PERPETUAL",
+      "onboard_date": "2024-09-16",
+      "quote_asset": "USDT",
+      "status": "TRADING",
+      "symbol": "1MBABYDOGEUSDT"
+    },
+    {
+      "base_asset": "2Z",
+      "contract_type": "PERPETUAL",
+      "onboard_date": "2025-10-02",
+      "quote_asset": "USDT",
+      "status": "TRADING",
+      "symbol": "2ZUSDT"
+    },
+    {
+      "base_asset": "4",
+      "contract_type": "PERPETUAL",
+      "onboard_date": "2025-10-08",
+      "quote_asset": "USDT",
+      "status": "TRADING",
+      "symbol": "4USDT"
+    },
+    {
+      "base_asset": "AAVE",
+      "contract_type": "PERPETUAL",
+      "onboard_date": "2019-09-25",
+      "quote_asset": "USDT",
+      "status": "TRADING",
+      "symbol": "AAVEUSDT"
+    },
+    {
+      "base_asset": "ACE",
+      "contract_type": "PERPETUAL",
+      "onboard_date": "2023-12-18",
+      "quote_asset": "USDT",
+      "status": "TRADING",
+      "symbol": "ACEUSDT"
+    },
+    {
+      "base_asset": "ACH",
+      "contract_type": "PERPETUAL",
+      "onboard_date": "2023-02-21",
+      "quote_asset": "USDT",
+      "status": "TRADING",
+      "symbol": "ACHUSDT"
+    },
+    {
+      "base_asset": "ACT",
+      "contract_type": "PERPETUAL",
+      "onboard_date": "2024-11-11",
+      "quote_asset": "USDT",
+      "status": "TRADING",
+      "symbol": "ACTUSDT"
+    },
+    {
+      "base_asset": "ACU",
+      "contract_type": "PERPETUAL",
+      "onboard_date": "2026-01-21",
+      "quote_asset": "USDT",
+      "status": "TRADING",
+      "symbol": "ACUUSDT"
+    },
+    {
+      "base_asset": "ACX",
+      "contract_type": "PERPETUAL",
+      "onboard_date": "2024-12-06",
+      "quote_asset": "USDT",
+      "status": "TRADING",
+      "symbol": "ACXUSDT"
+    },
+    {
+      "base_asset": "ADA",
+      "contract_type": "PERPETUAL",
+      "onboard_date": "2019-09-25",
+      "quote_asset": "USDT",
+      "status": "TRADING",
+      "symbol": "ADAUSDT"
+    },
+    {
+      "base_asset": "AERGO",
+      "contract_type": "PERPETUAL",
+      "onboard_date": "2025-04-16",
+      "quote_asset": "USDT",
+      "status": "TRADING",
+      "symbol": "AERGOUSDT"
+    },
+    {
+      "base_asset": "AERO",
+      "contract_type": "PERPETUAL",
+      "onboard_date": "2024-12-04",
+      "quote_asset": "USDT",
+      "status": "TRADING",
+      "symbol": "AEROUSDT"
+    },
+    {
+      "base_asset": "AEVO",
+      "contract_type": "PERPETUAL",
+      "onboard_date": "2024-03-13",
+      "quote_asset": "USDT",
+      "status": "TRADING",
+      "symbol": "AEVOUSDT"
+    },
+    {
+      "base_asset": "AGLD",
+      "contract_type": "PERPETUAL",
+      "onboard_date": "2023-07-29",
+      "quote_asset": "USDT",
+      "status": "TRADING",
+      "symbol": "AGLDUSDT"
+    },
+    {
+      "base_asset": "AGT",
+      "contract_type": "PERPETUAL",
+      "onboard_date": "2025-05-20",
+      "quote_asset": "USDT",
+      "status": "TRADING",
+      "symbol": "AGTUSDT"
+    },
+    {
+      "base_asset": "AIA",
+      "contract_type": "PERPETUAL",
+      "onboard_date": "2026-01-20",
+      "quote_asset": "USDT",
+      "status": "TRADING",
+      "symbol": "AIAUSDT"
+    },
+    {
+      "base_asset": "AIN",
+      "contract_type": "PERPETUAL",
+      "onboard_date": "2025-07-10",
+      "quote_asset": "USDT",
+      "status": "TRADING",
+      "symbol": "AINUSDT"
+    },
+    {
+      "base_asset": "AIOT",
+      "contract_type": "PERPETUAL",
+      "onboard_date": "2025-04-30",
+      "quote_asset": "USDT",
+      "status": "TRADING",
+      "symbol": "AIOTUSDT"
+    },
+    {
+      "base_asset": "AIO",
+      "contract_type": "PERPETUAL",
+      "onboard_date": "2025-08-13",
+      "quote_asset": "USDT",
+      "status": "TRADING",
+      "symbol": "AIOUSDT"
+    },
+    {
+      "base_asset": "AI",
+      "contract_type": "PERPETUAL",
+      "onboard_date": "2024-01-08",
+      "quote_asset": "USDT",
+      "status": "TRADING",
+      "symbol": "AIUSDT"
+    },
+    {
+      "base_asset": "AIXBT",
+      "contract_type": "PERPETUAL",
+      "onboard_date": "2024-12-20",
+      "quote_asset": "USDT",
+      "status": "TRADING",
+      "symbol": "AIXBTUSDT"
+    },
+    {
+      "base_asset": "AKE",
+      "contract_type": "PERPETUAL",
+      "onboard_date": "2025-09-26",
+      "quote_asset": "USDT",
+      "status": "TRADING",
+      "symbol": "AKEUSDT"
+    },
+    {
+      "base_asset": "AKT",
+      "contract_type": "PERPETUAL",
+      "onboard_date": "2024-11-18",
+      "quote_asset": "USDT",
+      "status": "TRADING",
+      "symbol": "AKTUSDT"
+    },
+    {
+      "base_asset": "ALCH",
+      "contract_type": "PERPETUAL",
+      "onboard_date": "2025-01-07",
+      "quote_asset": "USDT",
+      "status": "TRADING",
+      "symbol": "ALCHUSDT"
+    },
+    {
+      "base_asset": "ALGO",
+      "contract_type": "PERPETUAL",
+      "onboard_date": "2019-09-25",
+      "quote_asset": "USDT",
+      "status": "TRADING",
+      "symbol": "ALGOUSDT"
+    },
+    {
+      "base_asset": "ALICE",
+      "contract_type": "PERPETUAL",
+      "onboard_date": "2021-03-15",
+      "quote_asset": "USDT",
+      "status": "TRADING",
+      "symbol": "ALICEUSDT"
+    },
+    {
+      "base_asset": "ALLO",
+      "contract_type": "PERPETUAL",
+      "onboard_date": "2025-11-11",
+      "quote_asset": "USDT",
+      "status": "TRADING",
+      "symbol": "ALLOUSDT"
+    },
+    {
+      "base_asset": "ALL",
+      "contract_type": "PERPETUAL",
+      "onboard_date": "2025-08-06",
+      "quote_asset": "USDT",
+      "status": "TRADING",
+      "symbol": "ALLUSDT"
+    },
+    {
+      "base_asset": "ALPINE",
+      "contract_type": "PERPETUAL",
+      "onboard_date": "2025-05-06",
+      "quote_asset": "USDT",
+      "status": "TRADING",
+      "symbol": "ALPINEUSDT"
+    },
+    {
+      "base_asset": "ALT",
+      "contract_type": "PERPETUAL",
+      "onboard_date": "2024-01-25",
+      "quote_asset": "USDT",
+      "status": "TRADING",
+      "symbol": "ALTUSDT"
+    },
+    {
+      "base_asset": "ANIME",
+      "contract_type": "PERPETUAL",
+      "onboard_date": "2025-01-23",
+      "quote_asset": "USDT",
+      "status": "TRADING",
+      "symbol": "ANIMEUSDT"
+    },
+    {
+      "base_asset": "ANKR",
+      "contract_type": "PERPETUAL",
+      "onboard_date": "2021-01-25",
+      "quote_asset": "USDT",
+      "status": "TRADING",
+      "symbol": "ANKRUSDT"
+    },
+    {
+      "base_asset": "APE",
+      "contract_type": "PERPETUAL",
+      "onboard_date": "2022-03-17",
+      "quote_asset": "USDT",
+      "status": "TRADING",
+      "symbol": "APEUSDT"
+    },
+    {
+      "base_asset": "API3",
+      "contract_type": "PERPETUAL",
+      "onboard_date": "2022-02-21",
+      "quote_asset": "USDT",
+      "status": "TRADING",
+      "symbol": "API3USDT"
+    },
+    {
+      "base_asset": "APR",
+      "contract_type": "PERPETUAL",
+      "onboard_date": "2025-10-23",
+      "quote_asset": "USDT",
+      "status": "TRADING",
+      "symbol": "APRUSDT"
+    },
+    {
+      "base_asset": "APT",
+      "contract_type": "PERPETUAL",
+      "onboard_date": "2022-10-18",
+      "quote_asset": "USDT",
+      "status": "TRADING",
+      "symbol": "APTUSDT"
+    },
+    {
+      "base_asset": "ARB",
+      "contract_type": "PERPETUAL",
+      "onboard_date": "2023-03-23",
+      "quote_asset": "USDT",
+      "status": "TRADING",
+      "symbol": "ARBUSDT"
+    },
+    {
+      "base_asset": "ARC",
+      "contract_type": "PERPETUAL",
+      "onboard_date": "2025-01-17",
+      "quote_asset": "USDT",
+      "status": "TRADING",
+      "symbol": "ARCUSDT"
+    },
+    {
+      "base_asset": "ARIA",
+      "contract_type": "PERPETUAL",
+      "onboard_date": "2025-09-03",
+      "quote_asset": "USDT",
+      "status": "TRADING",
+      "symbol": "ARIAUSDT"
+    },
+    {
+      "base_asset": "ARKM",
+      "contract_type": "PERPETUAL",
+      "onboard_date": "2023-07-28",
+      "quote_asset": "USDT",
+      "status": "TRADING",
+      "symbol": "ARKMUSDT"
+    },
+    {
+      "base_asset": "ARK",
+      "contract_type": "PERPETUAL",
+      "onboard_date": "2023-09-19",
+      "quote_asset": "USDT",
+      "status": "TRADING",
+      "symbol": "ARKUSDT"
+    },
+    {
+      "base_asset": "ARPA",
+      "contract_type": "PERPETUAL",
+      "onboard_date": "2021-10-18",
+      "quote_asset": "USDT",
+      "status": "TRADING",
+      "symbol": "ARPAUSDT"
+    },
+    {
+      "base_asset": "AR",
+      "contract_type": "PERPETUAL",
+      "onboard_date": "2021-09-28",
+      "quote_asset": "USDT",
+      "status": "TRADING",
+      "symbol": "ARUSDT"
+    },
+    {
+      "base_asset": "ASR",
+      "contract_type": "PERPETUAL",
+      "onboard_date": "2025-05-06",
+      "quote_asset": "USDT",
+      "status": "TRADING",
+      "symbol": "ASRUSDT"
+    },
+    {
+      "base_asset": "ASTER",
+      "contract_type": "PERPETUAL",
+      "onboard_date": "2025-09-19",
+      "quote_asset": "USDT",
+      "status": "TRADING",
+      "symbol": "ASTERUSDT"
+    },
+    {
+      "base_asset": "ASTR",
+      "contract_type": "PERPETUAL",
+      "onboard_date": "2023-02-13",
+      "quote_asset": "USDT",
+      "status": "TRADING",
+      "symbol": "ASTRUSDT"
+    },
+    {
+      "base_asset": "ATA",
+      "contract_type": "PERPETUAL",
+      "onboard_date": "2021-08-30",
+      "quote_asset": "USDT",
+      "status": "TRADING",
+      "symbol": "ATAUSDT"
+    },
+    {
+      "base_asset": "ATH",
+      "contract_type": "PERPETUAL",
+      "onboard_date": "2025-04-02",
+      "quote_asset": "USDT",
+      "status": "TRADING",
+      "symbol": "ATHUSDT"
+    },
+    {
+      "base_asset": "ATOM",
+      "contract_type": "PERPETUAL",
+      "onboard_date": "2019-09-25",
+      "quote_asset": "USDT",
+      "status": "TRADING",
+      "symbol": "ATOMUSDT"
+    },
+    {
+      "base_asset": "AT",
+      "contract_type": "PERPETUAL",
+      "onboard_date": "2025-10-29",
+      "quote_asset": "USDT",
+      "status": "TRADING",
+      "symbol": "ATUSDT"
+    },
+    {
+      "base_asset": "AUCTION",
+      "contract_type": "PERPETUAL",
+      "onboard_date": "2023-12-15",
+      "quote_asset": "USDT",
+      "status": "TRADING",
+      "symbol": "AUCTIONUSDT"
+    },
+    {
+      "base_asset": "A",
+      "contract_type": "PERPETUAL",
+      "onboard_date": "2025-05-28",
+      "quote_asset": "USDT",
+      "status": "TRADING",
+      "symbol": "AUSDT"
+    },
+    {
+      "base_asset": "AVAAI",
+      "contract_type": "PERPETUAL",
+      "onboard_date": "2025-01-17",
+      "quote_asset": "USDT",
+      "status": "TRADING",
+      "symbol": "AVAAIUSDT"
+    },
+    {
+      "base_asset": "AVA",
+      "contract_type": "PERPETUAL",
+      "onboard_date": "2024-12-13",
+      "quote_asset": "USDT",
+      "status": "TRADING",
+      "symbol": "AVAUSDT"
+    },
+    {
+      "base_asset": "AVAX",
+      "contract_type": "PERPETUAL",
+      "onboard_date": "2019-09-25",
+      "quote_asset": "USDT",
+      "status": "TRADING",
+      "symbol": "AVAXUSDT"
+    },
+    {
+      "base_asset": "AVNT",
+      "contract_type": "PERPETUAL",
+      "onboard_date": "2025-09-09",
+      "quote_asset": "USDT",
+      "status": "TRADING",
+      "symbol": "AVNTUSDT"
+    },
+    {
+      "base_asset": "AWE",
+      "contract_type": "PERPETUAL",
+      "onboard_date": "2025-05-21",
+      "quote_asset": "USDT",
+      "status": "TRADING",
+      "symbol": "AWEUSDT"
+    },
+    {
+      "base_asset": "AXL",
+      "contract_type": "PERPETUAL",
+      "onboard_date": "2024-03-01",
+      "quote_asset": "USDT",
+      "status": "TRADING",
+      "symbol": "AXLUSDT"
+    },
+    {
+      "base_asset": "AXS",
+      "contract_type": "PERPETUAL",
+      "onboard_date": "2019-09-25",
+      "quote_asset": "USDT",
+      "status": "TRADING",
+      "symbol": "AXSUSDT"
+    },
+    {
+      "base_asset": "AZTEC",
+      "contract_type": "PERPETUAL",
+      "onboard_date": "2026-02-11",
+      "quote_asset": "USDT",
+      "status": "TRADING",
+      "symbol": "AZTECUSDT"
+    },
+    {
+      "base_asset": "B2",
+      "contract_type": "PERPETUAL",
+      "onboard_date": "2025-05-06",
+      "quote_asset": "USDT",
+      "status": "TRADING",
+      "symbol": "B2USDT"
+    },
+    {
+      "base_asset": "B3",
+      "contract_type": "PERPETUAL",
+      "onboard_date": "2025-02-13",
+      "quote_asset": "USDT",
+      "status": "TRADING",
+      "symbol": "B3USDT"
+    },
+    {
+      "base_asset": "BABY",
+      "contract_type": "PERPETUAL",
+      "onboard_date": "2025-04-05",
+      "quote_asset": "USDT",
+      "status": "TRADING",
+      "symbol": "BABYUSDT"
+    },
+    {
+      "base_asset": "BANANAS31",
+      "contract_type": "PERPETUAL",
+      "onboard_date": "2025-03-22",
+      "quote_asset": "USDT",
+      "status": "TRADING",
+      "symbol": "BANANAS31USDT"
+    },
+    {
+      "base_asset": "BANANA",
+      "contract_type": "PERPETUAL",
+      "onboard_date": "2024-08-15",
+      "quote_asset": "USDT",
+      "status": "TRADING",
+      "symbol": "BANANAUSDT"
+    },
+    {
+      "base_asset": "BAND",
+      "contract_type": "PERPETUAL",
+      "onboard_date": "2019-09-25",
+      "quote_asset": "USDT",
+      "status": "TRADING",
+      "symbol": "BANDUSDT"
+    },
+    {
+      "base_asset": "BANK",
+      "contract_type": "PERPETUAL",
+      "onboard_date": "2025-04-18",
+      "quote_asset": "USDT",
+      "status": "TRADING",
+      "symbol": "BANKUSDT"
+    },
+    {
+      "base_asset": "BAN",
+      "contract_type": "PERPETUAL",
+      "onboard_date": "2024-11-18",
+      "quote_asset": "USDT",
+      "status": "TRADING",
+      "symbol": "BANUSDT"
+    },
+    {
+      "base_asset": "BARD",
+      "contract_type": "PERPETUAL",
+      "onboard_date": "2025-09-18",
+      "quote_asset": "USDT",
+      "status": "TRADING",
+      "symbol": "BARDUSDT"
+    },
+    {
+      "base_asset": "BASED",
+      "contract_type": "PERPETUAL",
+      "onboard_date": "2026-03-30",
+      "quote_asset": "USDT",
+      "status": "TRADING",
+      "symbol": "BASEDUSDT"
+    },
+    {
+      "base_asset": "BAS",
+      "contract_type": "PERPETUAL",
+      "onboard_date": "2025-08-26",
+      "quote_asset": "USDT",
+      "status": "TRADING",
+      "symbol": "BASUSDT"
+    },
+    {
+      "base_asset": "BAT",
+      "contract_type": "PERPETUAL",
+      "onboard_date": "2019-09-25",
+      "quote_asset": "USDT",
+      "status": "TRADING",
+      "symbol": "BATUSDT"
+    },
+    {
+      "base_asset": "BB",
+      "contract_type": "PERPETUAL",
+      "onboard_date": "2024-05-13",
+      "quote_asset": "USDT",
+      "status": "TRADING",
+      "symbol": "BBUSDT"
+    },
+    {
+      "base_asset": "BCH",
+      "contract_type": "PERPETUAL",
+      "onboard_date": "2019-09-25",
+      "quote_asset": "USDT",
+      "status": "TRADING",
+      "symbol": "BCHUSDT"
+    },
+    {
+      "base_asset": "BEAMX",
+      "contract_type": "PERPETUAL",
+      "onboard_date": "2023-11-17",
+      "quote_asset": "USDT",
+      "status": "TRADING",
+      "symbol": "BEAMXUSDT"
+    },
+    {
+      "base_asset": "BEAT",
+      "contract_type": "PERPETUAL",
+      "onboard_date": "2025-11-12",
+      "quote_asset": "USDT",
+      "status": "TRADING",
+      "symbol": "BEATUSDT"
+    },
+    {
+      "base_asset": "BEL",
+      "contract_type": "PERPETUAL",
+      "onboard_date": "2019-09-25",
+      "quote_asset": "USDT",
+      "status": "TRADING",
+      "symbol": "BELUSDT"
+    },
+    {
+      "base_asset": "BERA",
+      "contract_type": "PERPETUAL",
+      "onboard_date": "2025-02-06",
+      "quote_asset": "USDT",
+      "status": "TRADING",
+      "symbol": "BERAUSDT"
+    },
+    {
+      "base_asset": "BICO",
+      "contract_type": "PERPETUAL",
+      "onboard_date": "2023-09-28",
+      "quote_asset": "USDT",
+      "status": "TRADING",
+      "symbol": "BICOUSDT"
+    },
+    {
+      "base_asset": "BIGTIME",
+      "contract_type": "PERPETUAL",
+      "onboard_date": "2023-10-12",
+      "quote_asset": "USDT",
+      "status": "TRADING",
+      "symbol": "BIGTIMEUSDT"
+    },
+    {
+      "base_asset": "BIO",
+      "contract_type": "PERPETUAL",
+      "onboard_date": "2025-01-03",
+      "quote_asset": "USDT",
+      "status": "TRADING",
+      "symbol": "BIOUSDT"
+    },
+    {
+      "base_asset": "BIRB",
+      "contract_type": "PERPETUAL",
+      "onboard_date": "2026-01-29",
+      "quote_asset": "USDT",
+      "status": "TRADING",
+      "symbol": "BIRBUSDT"
+    },
+    {
+      "base_asset": "BLESS",
+      "contract_type": "PERPETUAL",
+      "onboard_date": "2025-09-23",
+      "quote_asset": "USDT",
+      "status": "TRADING",
+      "symbol": "BLESSUSDT"
+    },
+    {
+      "base_asset": "BLUAI",
+      "contract_type": "PERPETUAL",
+      "onboard_date": "2025-10-21",
+      "quote_asset": "USDT",
+      "status": "TRADING",
+      "symbol": "BLUAIUSDT"
+    },
+    {
+      "base_asset": "BLUR",
+      "contract_type": "PERPETUAL",
+      "onboard_date": "2023-04-27",
+      "quote_asset": "USDT",
+      "status": "TRADING",
+      "symbol": "BLURUSDT"
+    },
+    {
+      "base_asset": "BMT",
+      "contract_type": "PERPETUAL",
+      "onboard_date": "2025-03-17",
+      "quote_asset": "USDT",
+      "status": "TRADING",
+      "symbol": "BMTUSDT"
+    },
+    {
+      "base_asset": "BNB",
+      "contract_type": "PERPETUAL",
+      "onboard_date": "2019-09-25",
+      "quote_asset": "USDT",
+      "status": "TRADING",
+      "symbol": "BNBUSDT"
+    },
+    {
+      "base_asset": "BNT",
+      "contract_type": "PERPETUAL",
+      "onboard_date": "2023-08-10",
+      "quote_asset": "USDT",
+      "status": "TRADING",
+      "symbol": "BNTUSDT"
+    },
+    {
+      "base_asset": "BOB",
+      "contract_type": "PERPETUAL",
+      "onboard_date": "2025-11-21",
+      "quote_asset": "USDT",
+      "status": "TRADING",
+      "symbol": "BOBUSDT"
+    },
+    {
+      "base_asset": "BOME",
+      "contract_type": "PERPETUAL",
+      "onboard_date": "2024-03-16",
+      "quote_asset": "USDT",
+      "status": "TRADING",
+      "symbol": "BOMEUSDT"
+    },
+    {
+      "base_asset": "BRETT",
+      "contract_type": "PERPETUAL",
+      "onboard_date": "2024-08-20",
+      "quote_asset": "USDT",
+      "status": "TRADING",
+      "symbol": "BRETTUSDT"
+    },
+    {
+      "base_asset": "BREV",
+      "contract_type": "PERPETUAL",
+      "onboard_date": "2025-12-30",
+      "quote_asset": "USDT",
+      "status": "TRADING",
+      "symbol": "BREVUSDT"
+    },
+    {
+      "base_asset": "BROCCOLI714",
+      "contract_type": "PERPETUAL",
+      "onboard_date": "2025-03-21",
+      "quote_asset": "USDT",
+      "status": "TRADING",
+      "symbol": "BROCCOLI714USDT"
+    },
+    {
+      "base_asset": "BROCCOLIF3B",
+      "contract_type": "PERPETUAL",
+      "onboard_date": "2025-03-21",
+      "quote_asset": "USDT",
+      "status": "TRADING",
+      "symbol": "BROCCOLIF3BUSDT"
+    },
+    {
+      "base_asset": "BR",
+      "contract_type": "PERPETUAL",
+      "onboard_date": "2025-03-21",
+      "quote_asset": "USDT",
+      "status": "TRADING",
+      "symbol": "BRUSDT"
+    },
+    {
+      "base_asset": "BSB",
+      "contract_type": "PERPETUAL",
+      "onboard_date": "2026-03-25",
+      "quote_asset": "USDT",
+      "status": "TRADING",
+      "symbol": "BSBUSDT"
+    },
+    {
+      "base_asset": "BSV",
+      "contract_type": "PERPETUAL",
+      "onboard_date": "2023-10-20",
+      "quote_asset": "USDT",
+      "status": "TRADING",
+      "symbol": "BSVUSDT"
+    },
+    {
+      "base_asset": "BTC",
+      "contract_type": "PERPETUAL",
+      "onboard_date": "2019-09-25",
+      "quote_asset": "USDT",
+      "status": "TRADING",
+      "symbol": "BTCUSDT"
+    },
+    {
+      "base_asset": "BTR",
+      "contract_type": "PERPETUAL",
+      "onboard_date": "2025-08-27",
+      "quote_asset": "USDT",
+      "status": "TRADING",
+      "symbol": "BTRUSDT"
+    },
+    {
+      "base_asset": "BULLA",
+      "contract_type": "PERPETUAL",
+      "onboard_date": "2025-07-04",
+      "quote_asset": "USDT",
+      "status": "TRADING",
+      "symbol": "BULLAUSDT"
+    },
+    {
+      "base_asset": "B",
+      "contract_type": "PERPETUAL",
+      "onboard_date": "2025-05-22",
+      "quote_asset": "USDT",
+      "status": "TRADING",
+      "symbol": "BUSDT"
+    },
+    {
+      "base_asset": "C98",
+      "contract_type": "PERPETUAL",
+      "onboard_date": "2021-08-23",
+      "quote_asset": "USDT",
+      "status": "TRADING",
+      "symbol": "C98USDT"
+    },
+    {
+      "base_asset": "CAKE",
+      "contract_type": "PERPETUAL",
+      "onboard_date": "2023-11-02",
+      "quote_asset": "USDT",
+      "status": "TRADING",
+      "symbol": "CAKEUSDT"
+    },
+    {
+      "base_asset": "CARV",
+      "contract_type": "PERPETUAL",
+      "onboard_date": "2025-08-07",
+      "quote_asset": "USDT",
+      "status": "TRADING",
+      "symbol": "CARVUSDT"
+    },
+    {
+      "base_asset": "CATI",
+      "contract_type": "PERPETUAL",
+      "onboard_date": "2024-09-20",
+      "quote_asset": "USDT",
+      "status": "TRADING",
+      "symbol": "CATIUSDT"
+    },
+    {
+      "base_asset": "CC",
+      "contract_type": "PERPETUAL",
+      "onboard_date": "2025-10-31",
+      "quote_asset": "USDT",
+      "status": "TRADING",
+      "symbol": "CCUSDT"
+    },
+    {
+      "base_asset": "CELO",
+      "contract_type": "PERPETUAL",
+      "onboard_date": "2021-09-26",
+      "quote_asset": "USDT",
+      "status": "TRADING",
+      "symbol": "CELOUSDT"
+    },
+    {
+      "base_asset": "CELR",
+      "contract_type": "PERPETUAL",
+      "onboard_date": "2021-03-29",
+      "quote_asset": "USDT",
+      "status": "TRADING",
+      "symbol": "CELRUSDT"
+    },
+    {
+      "base_asset": "CETUS",
+      "contract_type": "PERPETUAL",
+      "onboard_date": "2024-11-06",
+      "quote_asset": "USDT",
+      "status": "TRADING",
+      "symbol": "CETUSUSDT"
+    },
+    {
+      "base_asset": "CFG",
+      "contract_type": "PERPETUAL",
+      "onboard_date": "2026-03-16",
+      "quote_asset": "USDT",
+      "status": "TRADING",
+      "symbol": "CFGUSDT"
+    },
+    {
+      "base_asset": "CFX",
+      "contract_type": "PERPETUAL",
+      "onboard_date": "2023-02-19",
+      "quote_asset": "USDT",
+      "status": "TRADING",
+      "symbol": "CFXUSDT"
+    },
+    {
+      "base_asset": "CGPT",
+      "contract_type": "PERPETUAL",
+      "onboard_date": "2024-12-20",
+      "quote_asset": "USDT",
+      "status": "TRADING",
+      "symbol": "CGPTUSDT"
+    },
+    {
+      "base_asset": "CHILLGUY",
+      "contract_type": "PERPETUAL",
+      "onboard_date": "2024-11-27",
+      "quote_asset": "USDT",
+      "status": "TRADING",
+      "symbol": "CHILLGUYUSDT"
+    },
+    {
+      "base_asset": "CHIP",
+      "contract_type": "PERPETUAL",
+      "onboard_date": "2026-04-16",
+      "quote_asset": "USDT",
+      "status": "TRADING",
+      "symbol": "CHIPUSDT"
+    },
+    {
+      "base_asset": "CHR",
+      "contract_type": "PERPETUAL",
+      "onboard_date": "2021-03-12",
+      "quote_asset": "USDT",
+      "status": "TRADING",
+      "symbol": "CHRUSDT"
+    },
+    {
+      "base_asset": "CHZ",
+      "contract_type": "PERPETUAL",
+      "onboard_date": "2021-01-21",
+      "quote_asset": "USDT",
+      "status": "TRADING",
+      "symbol": "CHZUSDT"
+    },
+    {
+      "base_asset": "CKB",
+      "contract_type": "PERPETUAL",
+      "onboard_date": "2023-02-27",
+      "quote_asset": "USDT",
+      "status": "TRADING",
+      "symbol": "CKBUSDT"
+    },
+    {
+      "base_asset": "CLANKER",
+      "contract_type": "PERPETUAL",
+      "onboard_date": "2025-11-12",
+      "quote_asset": "USDT",
+      "status": "TRADING",
+      "symbol": "CLANKERUSDT"
+    },
+    {
+      "base_asset": "CLO",
+      "contract_type": "PERPETUAL",
+      "onboard_date": "2025-10-14",
+      "quote_asset": "USDT",
+      "status": "TRADING",
+      "symbol": "CLOUSDT"
+    },
+    {
+      "base_asset": "COAI",
+      "contract_type": "PERPETUAL",
+      "onboard_date": "2025-09-25",
+      "quote_asset": "USDT",
+      "status": "TRADING",
+      "symbol": "COAIUSDT"
+    },
+    {
+      "base_asset": "COLLECT",
+      "contract_type": "PERPETUAL",
+      "onboard_date": "2025-12-31",
+      "quote_asset": "USDT",
+      "status": "TRADING",
+      "symbol": "COLLECTUSDT"
+    },
+    {
+      "base_asset": "COMP",
+      "contract_type": "PERPETUAL",
+      "onboard_date": "2019-09-25",
+      "quote_asset": "USDT",
+      "status": "TRADING",
+      "symbol": "COMPUSDT"
+    },
+    {
+      "base_asset": "COOKIE",
+      "contract_type": "PERPETUAL",
+      "onboard_date": "2025-01-07",
+      "quote_asset": "USDT",
+      "status": "TRADING",
+      "symbol": "COOKIEUSDT"
+    },
+    {
+      "base_asset": "COS",
+      "contract_type": "PERPETUAL",
+      "onboard_date": "2024-09-30",
+      "quote_asset": "USDT",
+      "status": "TRADING",
+      "symbol": "COSUSDT"
+    },
+    {
+      "base_asset": "COTI",
+      "contract_type": "PERPETUAL",
+      "onboard_date": "2021-03-09",
+      "quote_asset": "USDT",
+      "status": "TRADING",
+      "symbol": "COTIUSDT"
+    },
+    {
+      "base_asset": "COW",
+      "contract_type": "PERPETUAL",
+      "onboard_date": "2024-11-06",
+      "quote_asset": "USDT",
+      "status": "TRADING",
+      "symbol": "COWUSDT"
+    },
+    {
+      "base_asset": "CROSS",
+      "contract_type": "PERPETUAL",
+      "onboard_date": "2025-07-10",
+      "quote_asset": "USDT",
+      "status": "TRADING",
+      "symbol": "CROSSUSDT"
+    },
+    {
+      "base_asset": "CRV",
+      "contract_type": "PERPETUAL",
+      "onboard_date": "2019-09-25",
+      "quote_asset": "USDT",
+      "status": "TRADING",
+      "symbol": "CRVUSDT"
+    },
+    {
+      "base_asset": "CTK",
+      "contract_type": "PERPETUAL",
+      "onboard_date": "2025-04-30",
+      "quote_asset": "USDT",
+      "status": "TRADING",
+      "symbol": "CTKUSDT"
+    },
+    {
+      "base_asset": "CTSI",
+      "contract_type": "PERPETUAL",
+      "onboard_date": "2021-10-25",
+      "quote_asset": "USDT",
+      "status": "TRADING",
+      "symbol": "CTSIUSDT"
+    },
+    {
+      "base_asset": "C",
+      "contract_type": "PERPETUAL",
+      "onboard_date": "2025-07-15",
+      "quote_asset": "USDT",
+      "status": "TRADING",
+      "symbol": "CUSDT"
+    },
+    {
+      "base_asset": "CVC",
+      "contract_type": "PERPETUAL",
+      "onboard_date": "2025-05-16",
+      "quote_asset": "USDT",
+      "status": "TRADING",
+      "symbol": "CVCUSDT"
+    },
+    {
+      "base_asset": "CVX",
+      "contract_type": "PERPETUAL",
+      "onboard_date": "2025-07-23",
+      "quote_asset": "USDT",
+      "status": "TRADING",
+      "symbol": "CVXUSDT"
+    },
+    {
+      "base_asset": "CYBER",
+      "contract_type": "PERPETUAL",
+      "onboard_date": "2023-08-21",
+      "quote_asset": "USDT",
+      "status": "TRADING",
+      "symbol": "CYBERUSDT"
+    },
+    {
+      "base_asset": "CYS",
+      "contract_type": "PERPETUAL",
+      "onboard_date": "2025-12-12",
+      "quote_asset": "USDT",
+      "status": "TRADING",
+      "symbol": "CYSUSDT"
+    },
+    {
+      "base_asset": "DAM",
+      "contract_type": "PERPETUAL",
+      "onboard_date": "2025-08-18",
+      "quote_asset": "USDT",
+      "status": "TRADING",
+      "symbol": "DAMUSDT"
+    },
+    {
+      "base_asset": "DASH",
+      "contract_type": "PERPETUAL",
+      "onboard_date": "2019-09-25",
+      "quote_asset": "USDT",
+      "status": "TRADING",
+      "symbol": "DASHUSDT"
+    },
+    {
+      "base_asset": "DEEP",
+      "contract_type": "PERPETUAL",
+      "onboard_date": "2025-04-22",
+      "quote_asset": "USDT",
+      "status": "TRADING",
+      "symbol": "DEEPUSDT"
+    },
+    {
+      "base_asset": "DEGEN",
+      "contract_type": "PERPETUAL",
+      "onboard_date": "2024-11-15",
+      "quote_asset": "USDT",
+      "status": "TRADING",
+      "symbol": "DEGENUSDT"
+    },
+    {
+      "base_asset": "DEXE",
+      "contract_type": "PERPETUAL",
+      "onboard_date": "2024-12-24",
+      "quote_asset": "USDT",
+      "status": "TRADING",
+      "symbol": "DEXEUSDT"
+    },
+    {
+      "base_asset": "DIA",
+      "contract_type": "PERPETUAL",
+      "onboard_date": "2024-10-02",
+      "quote_asset": "USDT",
+      "status": "TRADING",
+      "symbol": "DIAUSDT"
+    },
+    {
+      "base_asset": "DODOX",
+      "contract_type": "PERPETUAL",
+      "onboard_date": "2023-08-08",
+      "quote_asset": "USDT",
+      "status": "TRADING",
+      "symbol": "DODOXUSDT"
+    },
+    {
+      "base_asset": "DOGE",
+      "contract_type": "PERPETUAL",
+      "onboard_date": "2019-09-25",
+      "quote_asset": "USDT",
+      "status": "TRADING",
+      "symbol": "DOGEUSDT"
+    },
+    {
+      "base_asset": "DOGS",
+      "contract_type": "PERPETUAL",
+      "onboard_date": "2024-08-26",
+      "quote_asset": "USDT",
+      "status": "TRADING",
+      "symbol": "DOGSUSDT"
+    },
+    {
+      "base_asset": "DOLO",
+      "contract_type": "PERPETUAL",
+      "onboard_date": "2025-05-01",
+      "quote_asset": "USDT",
+      "status": "TRADING",
+      "symbol": "DOLOUSDT"
+    },
+    {
+      "base_asset": "DOOD",
+      "contract_type": "PERPETUAL",
+      "onboard_date": "2025-05-09",
+      "quote_asset": "USDT",
+      "status": "TRADING",
+      "symbol": "DOODUSDT"
+    },
+    {
+      "base_asset": "DOT",
+      "contract_type": "PERPETUAL",
+      "onboard_date": "2019-09-25",
+      "quote_asset": "USDT",
+      "status": "TRADING",
+      "symbol": "DOTUSDT"
+    },
+    {
+      "base_asset": "DRIFT",
+      "contract_type": "PERPETUAL",
+      "onboard_date": "2024-11-08",
+      "quote_asset": "USDT",
+      "status": "TRADING",
+      "symbol": "DRIFTUSDT"
+    },
+    {
+      "base_asset": "D",
+      "contract_type": "PERPETUAL",
+      "onboard_date": "2025-01-09",
+      "quote_asset": "USDT",
+      "status": "TRADING",
+      "symbol": "DUSDT"
+    },
+    {
+      "base_asset": "DUSK",
+      "contract_type": "PERPETUAL",
+      "onboard_date": "2022-01-06",
+      "quote_asset": "USDT",
+      "status": "TRADING",
+      "symbol": "DUSKUSDT"
+    },
+    {
+      "base_asset": "DYDX",
+      "contract_type": "PERPETUAL",
+      "onboard_date": "2021-09-09",
+      "quote_asset": "USDT",
+      "status": "TRADING",
+      "symbol": "DYDXUSDT"
+    },
+    {
+      "base_asset": "DYM",
+      "contract_type": "PERPETUAL",
+      "onboard_date": "2024-02-07",
+      "quote_asset": "USDT",
+      "status": "TRADING",
+      "symbol": "DYMUSDT"
+    },
+    {
+      "base_asset": "EDEN",
+      "contract_type": "PERPETUAL",
+      "onboard_date": "2025-09-30",
+      "quote_asset": "USDT",
+      "status": "TRADING",
+      "symbol": "EDENUSDT"
+    },
+    {
+      "base_asset": "EDGE",
+      "contract_type": "PERPETUAL",
+      "onboard_date": "2026-03-19",
+      "quote_asset": "USDT",
+      "status": "TRADING",
+      "symbol": "EDGEUSDT"
+    },
+    {
+      "base_asset": "EDU",
+      "contract_type": "PERPETUAL",
+      "onboard_date": "2023-04-28",
+      "quote_asset": "USDT",
+      "status": "TRADING",
+      "symbol": "EDUUSDT"
+    },
+    {
+      "base_asset": "EGLD",
+      "contract_type": "PERPETUAL",
+      "onboard_date": "2019-09-25",
+      "quote_asset": "USDT",
+      "status": "TRADING",
+      "symbol": "EGLDUSDT"
+    },
+    {
+      "base_asset": "EIGEN",
+      "contract_type": "PERPETUAL",
+      "onboard_date": "2024-10-01",
+      "quote_asset": "USDT",
+      "status": "TRADING",
+      "symbol": "EIGENUSDT"
+    },
+    {
+      "base_asset": "ELSA",
+      "contract_type": "PERPETUAL",
+      "onboard_date": "2026-01-22",
+      "quote_asset": "USDT",
+      "status": "TRADING",
+      "symbol": "ELSAUSDT"
+    },
+    {
+      "base_asset": "ENA",
+      "contract_type": "PERPETUAL",
+      "onboard_date": "2024-04-02",
+      "quote_asset": "USDT",
+      "status": "TRADING",
+      "symbol": "ENAUSDT"
+    },
+    {
+      "base_asset": "ENJ",
+      "contract_type": "PERPETUAL",
+      "onboard_date": "2019-09-25",
+      "quote_asset": "USDT",
+      "status": "TRADING",
+      "symbol": "ENJUSDT"
+    },
+    {
+      "base_asset": "ENSO",
+      "contract_type": "PERPETUAL",
+      "onboard_date": "2025-10-14",
+      "quote_asset": "USDT",
+      "status": "TRADING",
+      "symbol": "ENSOUSDT"
+    },
+    {
+      "base_asset": "ENS",
+      "contract_type": "PERPETUAL",
+      "onboard_date": "2021-11-29",
+      "quote_asset": "USDT",
+      "status": "TRADING",
+      "symbol": "ENSUSDT"
+    },
+    {
+      "base_asset": "EPIC",
+      "contract_type": "PERPETUAL",
+      "onboard_date": "2025-03-13",
+      "quote_asset": "USDT",
+      "status": "TRADING",
+      "symbol": "EPICUSDT"
+    },
+    {
+      "base_asset": "ERA",
+      "contract_type": "PERPETUAL",
+      "onboard_date": "2025-07-17",
+      "quote_asset": "USDT",
+      "status": "TRADING",
+      "symbol": "ERAUSDT"
+    },
+    {
+      "base_asset": "ESPORTS",
+      "contract_type": "PERPETUAL",
+      "onboard_date": "2025-07-29",
+      "quote_asset": "USDT",
+      "status": "TRADING",
+      "symbol": "ESPORTSUSDT"
+    },
+    {
+      "base_asset": "ESP",
+      "contract_type": "PERPETUAL",
+      "onboard_date": "2026-02-10",
+      "quote_asset": "USDT",
+      "status": "TRADING",
+      "symbol": "ESPUSDT"
+    },
+    {
+      "base_asset": "ETC",
+      "contract_type": "PERPETUAL",
+      "onboard_date": "2019-09-25",
+      "quote_asset": "USDT",
+      "status": "TRADING",
+      "symbol": "ETCUSDT"
+    },
+    {
+      "base_asset": "ETHFI",
+      "contract_type": "PERPETUAL",
+      "onboard_date": "2024-03-18",
+      "quote_asset": "USDT",
+      "status": "TRADING",
+      "symbol": "ETHFIUSDT"
+    },
+    {
+      "base_asset": "ETH",
+      "contract_type": "PERPETUAL",
+      "onboard_date": "2019-09-25",
+      "quote_asset": "USDT",
+      "status": "TRADING",
+      "symbol": "ETHUSDT"
+    },
+    {
+      "base_asset": "ETHW",
+      "contract_type": "PERPETUAL",
+      "onboard_date": "2023-11-28",
+      "quote_asset": "USDT",
+      "status": "TRADING",
+      "symbol": "ETHWUSDT"
+    },
+    {
+      "base_asset": "EUL",
+      "contract_type": "PERPETUAL",
+      "onboard_date": "2025-10-13",
+      "quote_asset": "USDT",
+      "status": "TRADING",
+      "symbol": "EULUSDT"
+    },
+    {
+      "base_asset": "EVAA",
+      "contract_type": "PERPETUAL",
+      "onboard_date": "2025-10-03",
+      "quote_asset": "USDT",
+      "status": "TRADING",
+      "symbol": "EVAAUSDT"
+    },
+    {
+      "base_asset": "FARTCOIN",
+      "contract_type": "PERPETUAL",
+      "onboard_date": "2024-12-20",
+      "quote_asset": "USDT",
+      "status": "TRADING",
+      "symbol": "FARTCOINUSDT"
+    },
+    {
+      "base_asset": "FET",
+      "contract_type": "PERPETUAL",
+      "onboard_date": "2023-01-15",
+      "quote_asset": "USDT",
+      "status": "TRADING",
+      "symbol": "FETUSDT"
+    },
+    {
+      "base_asset": "FF",
+      "contract_type": "PERPETUAL",
+      "onboard_date": "2025-09-29",
+      "quote_asset": "USDT",
+      "status": "TRADING",
+      "symbol": "FFUSDT"
+    },
+    {
+      "base_asset": "FHE",
+      "contract_type": "PERPETUAL",
+      "onboard_date": "2025-04-12",
+      "quote_asset": "USDT",
+      "status": "TRADING",
+      "symbol": "FHEUSDT"
+    },
+    {
+      "base_asset": "FIDA",
+      "contract_type": "PERPETUAL",
+      "onboard_date": "2024-09-19",
+      "quote_asset": "USDT",
+      "status": "TRADING",
+      "symbol": "FIDAUSDT"
+    },
+    {
+      "base_asset": "FIGHT",
+      "contract_type": "PERPETUAL",
+      "onboard_date": "2026-01-23",
+      "quote_asset": "USDT",
+      "status": "TRADING",
+      "symbol": "FIGHTUSDT"
+    },
+    {
+      "base_asset": "FIL",
+      "contract_type": "PERPETUAL",
+      "onboard_date": "2019-09-25",
+      "quote_asset": "USDT",
+      "status": "TRADING",
+      "symbol": "FILUSDT"
+    },
+    {
+      "base_asset": "FLOCK",
+      "contract_type": "PERPETUAL",
+      "onboard_date": "2025-09-09",
+      "quote_asset": "USDT",
+      "status": "TRADING",
+      "symbol": "FLOCKUSDT"
+    },
+    {
+      "base_asset": "FLOW",
+      "contract_type": "PERPETUAL",
+      "onboard_date": "2022-02-09",
+      "quote_asset": "USDT",
+      "status": "TRADING",
+      "symbol": "FLOWUSDT"
+    },
+    {
+      "base_asset": "FLUID",
+      "contract_type": "PERPETUAL",
+      "onboard_date": "2025-09-24",
+      "quote_asset": "USDT",
+      "status": "TRADING",
+      "symbol": "FLUIDUSDT"
+    },
+    {
+      "base_asset": "FLUX",
+      "contract_type": "PERPETUAL",
+      "onboard_date": "2024-09-03",
+      "quote_asset": "USDT",
+      "status": "TRADING",
+      "symbol": "FLUXUSDT"
+    },
+    {
+      "base_asset": "FOGO",
+      "contract_type": "PERPETUAL",
+      "onboard_date": "2026-01-10",
+      "quote_asset": "USDT",
+      "status": "TRADING",
+      "symbol": "FOGOUSDT"
+    },
+    {
+      "base_asset": "FOLKS",
+      "contract_type": "PERPETUAL",
+      "onboard_date": "2025-11-06",
+      "quote_asset": "USDT",
+      "status": "TRADING",
+      "symbol": "FOLKSUSDT"
+    },
+    {
+      "base_asset": "FORM",
+      "contract_type": "PERPETUAL",
+      "onboard_date": "2025-03-19",
+      "quote_asset": "USDT",
+      "status": "TRADING",
+      "symbol": "FORMUSDT"
+    },
+    {
+      "base_asset": "FRAX",
+      "contract_type": "PERPETUAL",
+      "onboard_date": "2026-01-15",
+      "quote_asset": "USDT",
+      "status": "TRADING",
+      "symbol": "FRAXUSDT"
+    },
+    {
+      "base_asset": "F",
+      "contract_type": "PERPETUAL",
+      "onboard_date": "2025-06-18",
+      "quote_asset": "USDT",
+      "status": "TRADING",
+      "symbol": "FUSDT"
+    },
+    {
+      "base_asset": "GALA",
+      "contract_type": "PERPETUAL",
+      "onboard_date": "2021-09-17",
+      "quote_asset": "USDT",
+      "status": "TRADING",
+      "symbol": "GALAUSDT"
+    },
+    {
+      "base_asset": "GAS",
+      "contract_type": "PERPETUAL",
+      "onboard_date": "2023-10-25",
+      "quote_asset": "USDT",
+      "status": "TRADING",
+      "symbol": "GASUSDT"
+    },
+    {
+      "base_asset": "GENIUS",
+      "contract_type": "PERPETUAL",
+      "onboard_date": "2026-04-16",
+      "quote_asset": "USDT",
+      "status": "TRADING",
+      "symbol": "GENIUSUSDT"
+    },
+    {
+      "base_asset": "GIGGLE",
+      "contract_type": "PERPETUAL",
+      "onboard_date": "2025-10-09",
+      "quote_asset": "USDT",
+      "status": "TRADING",
+      "symbol": "GIGGLEUSDT"
+    },
+    {
+      "base_asset": "GLM",
+      "contract_type": "PERPETUAL",
+      "onboard_date": "2024-02-22",
+      "quote_asset": "USDT",
+      "status": "TRADING",
+      "symbol": "GLMUSDT"
+    },
+    {
+      "base_asset": "GMT",
+      "contract_type": "PERPETUAL",
+      "onboard_date": "2022-03-14",
+      "quote_asset": "USDT",
+      "status": "TRADING",
+      "symbol": "GMTUSDT"
+    },
+    {
+      "base_asset": "GMX",
+      "contract_type": "PERPETUAL",
+      "onboard_date": "2023-02-16",
+      "quote_asset": "USDT",
+      "status": "TRADING",
+      "symbol": "GMXUSDT"
+    },
+    {
+      "base_asset": "GOAT",
+      "contract_type": "PERPETUAL",
+      "onboard_date": "2024-10-24",
+      "quote_asset": "USDT",
+      "status": "TRADING",
+      "symbol": "GOATUSDT"
+    },
+    {
+      "base_asset": "GPS",
+      "contract_type": "PERPETUAL",
+      "onboard_date": "2025-02-17",
+      "quote_asset": "USDT",
+      "status": "TRADING",
+      "symbol": "GPSUSDT"
+    },
+    {
+      "base_asset": "GRASS",
+      "contract_type": "PERPETUAL",
+      "onboard_date": "2024-11-08",
+      "quote_asset": "USDT",
+      "status": "TRADING",
+      "symbol": "GRASSUSDT"
+    },
+    {
+      "base_asset": "GRIFFAIN",
+      "contract_type": "PERPETUAL",
+      "onboard_date": "2025-01-02",
+      "quote_asset": "USDT",
+      "status": "TRADING",
+      "symbol": "GRIFFAINUSDT"
+    },
+    {
+      "base_asset": "GRT",
+      "contract_type": "PERPETUAL",
+      "onboard_date": "2020-12-18",
+      "quote_asset": "USDT",
+      "status": "TRADING",
+      "symbol": "GRTUSDT"
+    },
+    {
+      "base_asset": "GTC",
+      "contract_type": "PERPETUAL",
+      "onboard_date": "2021-03-15",
+      "quote_asset": "USDT",
+      "status": "TRADING",
+      "symbol": "GTCUSDT"
+    },
+    {
+      "base_asset": "GUA",
+      "contract_type": "PERPETUAL",
+      "onboard_date": "2025-12-21",
+      "quote_asset": "USDT",
+      "status": "TRADING",
+      "symbol": "GUAUSDT"
+    },
+    {
+      "base_asset": "GUN",
+      "contract_type": "PERPETUAL",
+      "onboard_date": "2025-03-31",
+      "quote_asset": "USDT",
+      "status": "TRADING",
+      "symbol": "GUNUSDT"
+    },
+    {
+      "base_asset": "G",
+      "contract_type": "PERPETUAL",
+      "onboard_date": "2024-08-15",
+      "quote_asset": "USDT",
+      "status": "TRADING",
+      "symbol": "GUSDT"
+    },
+    {
+      "base_asset": "GWEI",
+      "contract_type": "PERPETUAL",
+      "onboard_date": "2026-01-29",
+      "quote_asset": "USDT",
+      "status": "TRADING",
+      "symbol": "GWEIUSDT"
+    },
+    {
+      "base_asset": "HAEDAL",
+      "contract_type": "PERPETUAL",
+      "onboard_date": "2025-05-01",
+      "quote_asset": "USDT",
+      "status": "TRADING",
+      "symbol": "HAEDALUSDT"
+    },
+    {
+      "base_asset": "HANA",
+      "contract_type": "PERPETUAL",
+      "onboard_date": "2025-09-26",
+      "quote_asset": "USDT",
+      "status": "TRADING",
+      "symbol": "HANAUSDT"
+    },
+    {
+      "base_asset": "HBAR",
+      "contract_type": "PERPETUAL",
+      "onboard_date": "2021-03-17",
+      "quote_asset": "USDT",
+      "status": "TRADING",
+      "symbol": "HBARUSDT"
+    },
+    {
+      "base_asset": "HEI",
+      "contract_type": "PERPETUAL",
+      "onboard_date": "2025-02-13",
+      "quote_asset": "USDT",
+      "status": "TRADING",
+      "symbol": "HEIUSDT"
+    },
+    {
+      "base_asset": "HEMI",
+      "contract_type": "PERPETUAL",
+      "onboard_date": "2025-08-29",
+      "quote_asset": "USDT",
+      "status": "TRADING",
+      "symbol": "HEMIUSDT"
+    },
+    {
+      "base_asset": "HFT",
+      "contract_type": "PERPETUAL",
+      "onboard_date": "2023-04-05",
+      "quote_asset": "USDT",
+      "status": "TRADING",
+      "symbol": "HFTUSDT"
+    },
+    {
+      "base_asset": "HIGH",
+      "contract_type": "PERPETUAL",
+      "onboard_date": "2023-02-03",
+      "quote_asset": "USDT",
+      "status": "TRADING",
+      "symbol": "HIGHUSDT"
+    },
+    {
+      "base_asset": "HIVE",
+      "contract_type": "PERPETUAL",
+      "onboard_date": "2024-12-23",
+      "quote_asset": "USDT",
+      "status": "TRADING",
+      "symbol": "HIVEUSDT"
+    },
+    {
+      "base_asset": "HMSTR",
+      "contract_type": "PERPETUAL",
+      "onboard_date": "2024-09-26",
+      "quote_asset": "USDT",
+      "status": "TRADING",
+      "symbol": "HMSTRUSDT"
+    },
+    {
+      "base_asset": "HOLO",
+      "contract_type": "PERPETUAL",
+      "onboard_date": "2025-09-11",
+      "quote_asset": "USDT",
+      "status": "TRADING",
+      "symbol": "HOLOUSDT"
+    },
+    {
+      "base_asset": "HOME",
+      "contract_type": "PERPETUAL",
+      "onboard_date": "2025-06-10",
+      "quote_asset": "USDT",
+      "status": "TRADING",
+      "symbol": "HOMEUSDT"
+    },
+    {
+      "base_asset": "HOT",
+      "contract_type": "PERPETUAL",
+      "onboard_date": "2021-03-30",
+      "quote_asset": "USDT",
+      "status": "TRADING",
+      "symbol": "HOTUSDT"
+    },
+    {
+      "base_asset": "HUMA",
+      "contract_type": "PERPETUAL",
+      "onboard_date": "2025-05-26",
+      "quote_asset": "USDT",
+      "status": "TRADING",
+      "symbol": "HUMAUSDT"
+    },
+    {
+      "base_asset": "H",
+      "contract_type": "PERPETUAL",
+      "onboard_date": "2025-06-25",
+      "quote_asset": "USDT",
+      "status": "TRADING",
+      "symbol": "HUSDT"
+    },
+    {
+      "base_asset": "HYPER",
+      "contract_type": "PERPETUAL",
+      "onboard_date": "2025-04-22",
+      "quote_asset": "USDT",
+      "status": "TRADING",
+      "symbol": "HYPERUSDT"
+    },
+    {
+      "base_asset": "HYPE",
+      "contract_type": "PERPETUAL",
+      "onboard_date": "2025-05-30",
+      "quote_asset": "USDT",
+      "status": "TRADING",
+      "symbol": "HYPEUSDT"
+    },
+    {
+      "base_asset": "ICNT",
+      "contract_type": "PERPETUAL",
+      "onboard_date": "2025-07-03",
+      "quote_asset": "USDT",
+      "status": "TRADING",
+      "symbol": "ICNTUSDT"
+    },
+    {
+      "base_asset": "ICP",
+      "contract_type": "PERPETUAL",
+      "onboard_date": "2021-07-30",
+      "quote_asset": "USDT",
+      "status": "TRADING",
+      "symbol": "ICPUSDT"
+    },
+    {
+      "base_asset": "ICX",
+      "contract_type": "PERPETUAL",
+      "onboard_date": "2019-09-25",
+      "quote_asset": "USDT",
+      "status": "TRADING",
+      "symbol": "ICXUSDT"
+    },
+    {
+      "base_asset": "IDOL",
+      "contract_type": "PERPETUAL",
+      "onboard_date": "2025-07-04",
+      "quote_asset": "USDT",
+      "status": "TRADING",
+      "symbol": "IDOLUSDT"
+    },
+    {
+      "base_asset": "ID",
+      "contract_type": "PERPETUAL",
+      "onboard_date": "2023-03-23",
+      "quote_asset": "USDT",
+      "status": "TRADING",
+      "symbol": "IDUSDT"
+    },
+    {
+      "base_asset": "ILV",
+      "contract_type": "PERPETUAL",
+      "onboard_date": "2023-11-10",
+      "quote_asset": "USDT",
+      "status": "TRADING",
+      "symbol": "ILVUSDT"
+    },
+    {
+      "base_asset": "IMX",
+      "contract_type": "PERPETUAL",
+      "onboard_date": "2022-02-10",
+      "quote_asset": "USDT",
+      "status": "TRADING",
+      "symbol": "IMXUSDT"
+    },
+    {
+      "base_asset": "INIT",
+      "contract_type": "PERPETUAL",
+      "onboard_date": "2025-04-16",
+      "quote_asset": "USDT",
+      "status": "TRADING",
+      "symbol": "INITUSDT"
+    },
+    {
+      "base_asset": "INJ",
+      "contract_type": "PERPETUAL",
+      "onboard_date": "2022-08-16",
+      "quote_asset": "USDT",
+      "status": "TRADING",
+      "symbol": "INJUSDT"
+    },
+    {
+      "base_asset": "IN",
+      "contract_type": "PERPETUAL",
+      "onboard_date": "2025-08-07",
+      "quote_asset": "USDT",
+      "status": "TRADING",
+      "symbol": "INUSDT"
+    },
+    {
+      "base_asset": "INX",
+      "contract_type": "PERPETUAL",
+      "onboard_date": "2026-01-30",
+      "quote_asset": "USDT",
+      "status": "TRADING",
+      "symbol": "INXUSDT"
+    },
+    {
+      "base_asset": "IOST",
+      "contract_type": "PERPETUAL",
+      "onboard_date": "2019-09-25",
+      "quote_asset": "USDT",
+      "status": "TRADING",
+      "symbol": "IOSTUSDT"
+    },
+    {
+      "base_asset": "IOTA",
+      "contract_type": "PERPETUAL",
+      "onboard_date": "2019-09-25",
+      "quote_asset": "USDT",
+      "status": "TRADING",
+      "symbol": "IOTAUSDT"
+    },
+    {
+      "base_asset": "IOTX",
+      "contract_type": "PERPETUAL",
+      "onboard_date": "2021-08-11",
+      "quote_asset": "USDT",
+      "status": "TRADING",
+      "symbol": "IOTXUSDT"
+    },
+    {
+      "base_asset": "IO",
+      "contract_type": "PERPETUAL",
+      "onboard_date": "2024-06-11",
+      "quote_asset": "USDT",
+      "status": "TRADING",
+      "symbol": "IOUSDT"
+    },
+    {
+      "base_asset": "IP",
+      "contract_type": "PERPETUAL",
+      "onboard_date": "2025-02-13",
+      "quote_asset": "USDT",
+      "status": "TRADING",
+      "symbol": "IPUSDT"
+    },
+    {
+      "base_asset": "IR",
+      "contract_type": "PERPETUAL",
+      "onboard_date": "2025-12-21",
+      "quote_asset": "USDT",
+      "status": "TRADING",
+      "symbol": "IRUSDT"
+    },
+    {
+      "base_asset": "IRYS",
+      "contract_type": "PERPETUAL",
+      "onboard_date": "2025-11-26",
+      "quote_asset": "USDT",
+      "status": "TRADING",
+      "symbol": "IRYSUSDT"
+    },
+    {
+      "base_asset": "JASMY",
+      "contract_type": "PERPETUAL",
+      "onboard_date": "2022-04-19",
+      "quote_asset": "USDT",
+      "status": "TRADING",
+      "symbol": "JASMYUSDT"
+    },
+    {
+      "base_asset": "JCT",
+      "contract_type": "PERPETUAL",
+      "onboard_date": "2025-11-10",
+      "quote_asset": "USDT",
+      "status": "TRADING",
+      "symbol": "JCTUSDT"
+    },
+    {
+      "base_asset": "JELLYJELLY",
+      "contract_type": "PERPETUAL",
+      "onboard_date": "2025-03-26",
+      "quote_asset": "USDT",
+      "status": "TRADING",
+      "symbol": "JELLYJELLYUSDT"
+    },
+    {
+      "base_asset": "JOE",
+      "contract_type": "PERPETUAL",
+      "onboard_date": "2023-03-28",
+      "quote_asset": "USDT",
+      "status": "TRADING",
+      "symbol": "JOEUSDT"
+    },
+    {
+      "base_asset": "JST",
+      "contract_type": "PERPETUAL",
+      "onboard_date": "2025-04-28",
+      "quote_asset": "USDT",
+      "status": "TRADING",
+      "symbol": "JSTUSDT"
+    },
+    {
+      "base_asset": "JTO",
+      "contract_type": "PERPETUAL",
+      "onboard_date": "2023-12-08",
+      "quote_asset": "USDT",
+      "status": "TRADING",
+      "symbol": "JTOUSDT"
+    },
+    {
+      "base_asset": "JUP",
+      "contract_type": "PERPETUAL",
+      "onboard_date": "2024-01-31",
+      "quote_asset": "USDT",
+      "status": "TRADING",
+      "symbol": "JUPUSDT"
+    },
+    {
+      "base_asset": "KAIA",
+      "contract_type": "PERPETUAL",
+      "onboard_date": "2024-12-04",
+      "quote_asset": "USDT",
+      "status": "TRADING",
+      "symbol": "KAIAUSDT"
+    },
+    {
+      "base_asset": "KAITO",
+      "contract_type": "PERPETUAL",
+      "onboard_date": "2025-02-20",
+      "quote_asset": "USDT",
+      "status": "TRADING",
+      "symbol": "KAITOUSDT"
+    },
+    {
+      "base_asset": "KAS",
+      "contract_type": "PERPETUAL",
+      "onboard_date": "2023-11-17",
+      "quote_asset": "USDT",
+      "status": "TRADING",
+      "symbol": "KASUSDT"
+    },
+    {
+      "base_asset": "KAT",
+      "contract_type": "PERPETUAL",
+      "onboard_date": "2026-03-02",
+      "quote_asset": "USDT",
+      "status": "TRADING",
+      "symbol": "KATUSDT"
+    },
+    {
+      "base_asset": "KAVA",
+      "contract_type": "PERPETUAL",
+      "onboard_date": "2019-09-25",
+      "quote_asset": "USDT",
+      "status": "TRADING",
+      "symbol": "KAVAUSDT"
+    },
+    {
+      "base_asset": "KERNEL",
+      "contract_type": "PERPETUAL",
+      "onboard_date": "2025-04-14",
+      "quote_asset": "USDT",
+      "status": "TRADING",
+      "symbol": "KERNELUSDT"
+    },
+    {
+      "base_asset": "KGEN",
+      "contract_type": "PERPETUAL",
+      "onboard_date": "2025-10-07",
+      "quote_asset": "USDT",
+      "status": "TRADING",
+      "symbol": "KGENUSDT"
+    },
+    {
+      "base_asset": "KITE",
+      "contract_type": "PERPETUAL",
+      "onboard_date": "2025-10-29",
+      "quote_asset": "USDT",
+      "status": "TRADING",
+      "symbol": "KITEUSDT"
+    },
+    {
+      "base_asset": "KMNO",
+      "contract_type": "PERPETUAL",
+      "onboard_date": "2024-12-20",
+      "quote_asset": "USDT",
+      "status": "TRADING",
+      "symbol": "KMNOUSDT"
+    },
+    {
+      "base_asset": "KNC",
+      "contract_type": "PERPETUAL",
+      "onboard_date": "2019-09-25",
+      "quote_asset": "USDT",
+      "status": "TRADING",
+      "symbol": "KNCUSDT"
+    },
+    {
+      "base_asset": "KOMA",
+      "contract_type": "PERPETUAL",
+      "onboard_date": "2024-12-10",
+      "quote_asset": "USDT",
+      "status": "TRADING",
+      "symbol": "KOMAUSDT"
+    },
+    {
+      "base_asset": "KSM",
+      "contract_type": "PERPETUAL",
+      "onboard_date": "2019-09-25",
+      "quote_asset": "USDT",
+      "status": "TRADING",
+      "symbol": "KSMUSDT"
+    },
+    {
+      "base_asset": "LAB",
+      "contract_type": "PERPETUAL",
+      "onboard_date": "2025-10-17",
+      "quote_asset": "USDT",
+      "status": "TRADING",
+      "symbol": "LABUSDT"
+    },
+    {
+      "base_asset": "LA",
+      "contract_type": "PERPETUAL",
+      "onboard_date": "2025-06-05",
+      "quote_asset": "USDT",
+      "status": "TRADING",
+      "symbol": "LAUSDT"
+    },
+    {
+      "base_asset": "LAYER",
+      "contract_type": "PERPETUAL",
+      "onboard_date": "2025-02-11",
+      "quote_asset": "USDT",
+      "status": "TRADING",
+      "symbol": "LAYERUSDT"
+    },
+    {
+      "base_asset": "LDO",
+      "contract_type": "PERPETUAL",
+      "onboard_date": "2022-09-21",
+      "quote_asset": "USDT",
+      "status": "TRADING",
+      "symbol": "LDOUSDT"
+    },
+    {
+      "base_asset": "LIGHT",
+      "contract_type": "PERPETUAL",
+      "onboard_date": "2025-09-27",
+      "quote_asset": "USDT",
+      "status": "TRADING",
+      "symbol": "LIGHTUSDT"
+    },
+    {
+      "base_asset": "LINEA",
+      "contract_type": "PERPETUAL",
+      "onboard_date": "2025-09-01",
+      "quote_asset": "USDT",
+      "status": "TRADING",
+      "symbol": "LINEAUSDT"
+    },
+    {
+      "base_asset": "LINK",
+      "contract_type": "PERPETUAL",
+      "onboard_date": "2019-09-25",
+      "quote_asset": "USDT",
+      "status": "TRADING",
+      "symbol": "LINKUSDT"
+    },
+    {
+      "base_asset": "LISTA",
+      "contract_type": "PERPETUAL",
+      "onboard_date": "2024-06-20",
+      "quote_asset": "USDT",
+      "status": "TRADING",
+      "symbol": "LISTAUSDT"
+    },
+    {
+      "base_asset": "LIT",
+      "contract_type": "PERPETUAL",
+      "onboard_date": "2025-12-23",
+      "quote_asset": "USDT",
+      "status": "TRADING",
+      "symbol": "LITUSDT"
+    },
+    {
+      "base_asset": "LPT",
+      "contract_type": "PERPETUAL",
+      "onboard_date": "2021-11-10",
+      "quote_asset": "USDT",
+      "status": "TRADING",
+      "symbol": "LPTUSDT"
+    },
+    {
+      "base_asset": "LQTY",
+      "contract_type": "PERPETUAL",
+      "onboard_date": "2023-03-08",
+      "quote_asset": "USDT",
+      "status": "TRADING",
+      "symbol": "LQTYUSDT"
+    },
+    {
+      "base_asset": "LSK",
+      "contract_type": "PERPETUAL",
+      "onboard_date": "2024-01-25",
+      "quote_asset": "USDT",
+      "status": "TRADING",
+      "symbol": "LSKUSDT"
+    },
+    {
+      "base_asset": "LTC",
+      "contract_type": "PERPETUAL",
+      "onboard_date": "2019-09-25",
+      "quote_asset": "USDT",
+      "status": "TRADING",
+      "symbol": "LTCUSDT"
+    },
+    {
+      "base_asset": "LUMIA",
+      "contract_type": "PERPETUAL",
+      "onboard_date": "2024-12-18",
+      "quote_asset": "USDT",
+      "status": "TRADING",
+      "symbol": "LUMIAUSDT"
+    },
+    {
+      "base_asset": "LUNA2",
+      "contract_type": "PERPETUAL",
+      "onboard_date": "2022-09-09",
+      "quote_asset": "USDT",
+      "status": "TRADING",
+      "symbol": "LUNA2USDT"
+    },
+    {
+      "base_asset": "LYN",
+      "contract_type": "PERPETUAL",
+      "onboard_date": "2025-10-06",
+      "quote_asset": "USDT",
+      "status": "TRADING",
+      "symbol": "LYNUSDT"
+    },
+    {
+      "base_asset": "MAGIC",
+      "contract_type": "PERPETUAL",
+      "onboard_date": "2023-01-23",
+      "quote_asset": "USDT",
+      "status": "TRADING",
+      "symbol": "MAGICUSDT"
+    },
+    {
+      "base_asset": "MAGMA",
+      "contract_type": "PERPETUAL",
+      "onboard_date": "2025-12-31",
+      "quote_asset": "USDT",
+      "status": "TRADING",
+      "symbol": "MAGMAUSDT"
+    },
+    {
+      "base_asset": "MANA",
+      "contract_type": "PERPETUAL",
+      "onboard_date": "2021-03-14",
+      "quote_asset": "USDT",
+      "status": "TRADING",
+      "symbol": "MANAUSDT"
+    },
+    {
+      "base_asset": "MANTA",
+      "contract_type": "PERPETUAL",
+      "onboard_date": "2024-01-18",
+      "quote_asset": "USDT",
+      "status": "TRADING",
+      "symbol": "MANTAUSDT"
+    },
+    {
+      "base_asset": "MANTRA",
+      "contract_type": "PERPETUAL",
+      "onboard_date": "2026-03-04",
+      "quote_asset": "USDT",
+      "status": "TRADING",
+      "symbol": "MANTRAUSDT"
+    },
+    {
+      "base_asset": "MASK",
+      "contract_type": "PERPETUAL",
+      "onboard_date": "2021-07-16",
+      "quote_asset": "USDT",
+      "status": "TRADING",
+      "symbol": "MASKUSDT"
+    },
+    {
+      "base_asset": "MAVIA",
+      "contract_type": "PERPETUAL",
+      "onboard_date": "2025-03-26",
+      "quote_asset": "USDT",
+      "status": "TRADING",
+      "symbol": "MAVIAUSDT"
+    },
+    {
+      "base_asset": "MAV",
+      "contract_type": "PERPETUAL",
+      "onboard_date": "2023-06-29",
+      "quote_asset": "USDT",
+      "status": "TRADING",
+      "symbol": "MAVUSDT"
+    },
+    {
+      "base_asset": "MBOX",
+      "contract_type": "PERPETUAL",
+      "onboard_date": "2024-08-28",
+      "quote_asset": "USDT",
+      "status": "TRADING",
+      "symbol": "MBOXUSDT"
+    },
+    {
+      "base_asset": "MEGA",
+      "contract_type": "PERPETUAL",
+      "onboard_date": "2026-01-30",
+      "quote_asset": "USDT",
+      "status": "TRADING",
+      "symbol": "MEGAUSDT"
+    },
+    {
+      "base_asset": "MELANIA",
+      "contract_type": "PERPETUAL",
+      "onboard_date": "2025-01-20",
+      "quote_asset": "USDT",
+      "status": "TRADING",
+      "symbol": "MELANIAUSDT"
+    },
+    {
+      "base_asset": "MEME",
+      "contract_type": "PERPETUAL",
+      "onboard_date": "2023-11-03",
+      "quote_asset": "USDT",
+      "status": "TRADING",
+      "symbol": "MEMEUSDT"
+    },
+    {
+      "base_asset": "MERL",
+      "contract_type": "PERPETUAL",
+      "onboard_date": "2025-05-29",
+      "quote_asset": "USDT",
+      "status": "TRADING",
+      "symbol": "MERLUSDT"
+    },
+    {
+      "base_asset": "METIS",
+      "contract_type": "PERPETUAL",
+      "onboard_date": "2024-03-12",
+      "quote_asset": "USDT",
+      "status": "TRADING",
+      "symbol": "METISUSDT"
+    },
+    {
+      "base_asset": "MET",
+      "contract_type": "PERPETUAL",
+      "onboard_date": "2025-10-11",
+      "quote_asset": "USDT",
+      "status": "TRADING",
+      "symbol": "METUSDT"
+    },
+    {
+      "base_asset": "ME",
+      "contract_type": "PERPETUAL",
+      "onboard_date": "2024-12-10",
+      "quote_asset": "USDT",
+      "status": "TRADING",
+      "symbol": "MEUSDT"
+    },
+    {
+      "base_asset": "MEW",
+      "contract_type": "PERPETUAL",
+      "onboard_date": "2024-06-17",
+      "quote_asset": "USDT",
+      "status": "TRADING",
+      "symbol": "MEWUSDT"
+    },
+    {
+      "base_asset": "MINA",
+      "contract_type": "PERPETUAL",
+      "onboard_date": "2023-02-03",
+      "quote_asset": "USDT",
+      "status": "TRADING",
+      "symbol": "MINAUSDT"
+    },
+    {
+      "base_asset": "MIRA",
+      "contract_type": "PERPETUAL",
+      "onboard_date": "2025-09-26",
+      "quote_asset": "USDT",
+      "status": "TRADING",
+      "symbol": "MIRAUSDT"
+    },
+    {
+      "base_asset": "MITO",
+      "contract_type": "PERPETUAL",
+      "onboard_date": "2025-08-28",
+      "quote_asset": "USDT",
+      "status": "TRADING",
+      "symbol": "MITOUSDT"
+    },
+    {
+      "base_asset": "MLN",
+      "contract_type": "PERPETUAL",
+      "onboard_date": "2025-03-31",
+      "quote_asset": "USDT",
+      "status": "TRADING",
+      "symbol": "MLNUSDT"
+    },
+    {
+      "base_asset": "MMT",
+      "contract_type": "PERPETUAL",
+      "onboard_date": "2025-11-04",
+      "quote_asset": "USDT",
+      "status": "TRADING",
+      "symbol": "MMTUSDT"
+    },
+    {
+      "base_asset": "MOCA",
+      "contract_type": "PERPETUAL",
+      "onboard_date": "2024-12-16",
+      "quote_asset": "USDT",
+      "status": "TRADING",
+      "symbol": "MOCAUSDT"
+    },
+    {
+      "base_asset": "MON",
+      "contract_type": "PERPETUAL",
+      "onboard_date": "2025-10-10",
+      "quote_asset": "USDT",
+      "status": "TRADING",
+      "symbol": "MONUSDT"
+    },
+    {
+      "base_asset": "MOODENG",
+      "contract_type": "PERPETUAL",
+      "onboard_date": "2024-10-25",
+      "quote_asset": "USDT",
+      "status": "TRADING",
+      "symbol": "MOODENGUSDT"
+    },
+    {
+      "base_asset": "MORPHO",
+      "contract_type": "PERPETUAL",
+      "onboard_date": "2024-11-27",
+      "quote_asset": "USDT",
+      "status": "TRADING",
+      "symbol": "MORPHOUSDT"
+    },
+    {
+      "base_asset": "MOVE",
+      "contract_type": "PERPETUAL",
+      "onboard_date": "2024-12-09",
+      "quote_asset": "USDT",
+      "status": "TRADING",
+      "symbol": "MOVEUSDT"
+    },
+    {
+      "base_asset": "MOVR",
+      "contract_type": "PERPETUAL",
+      "onboard_date": "2023-12-26",
+      "quote_asset": "USDT",
+      "status": "TRADING",
+      "symbol": "MOVRUSDT"
+    },
+    {
+      "base_asset": "MTL",
+      "contract_type": "PERPETUAL",
+      "onboard_date": "2021-03-31",
+      "quote_asset": "USDT",
+      "status": "TRADING",
+      "symbol": "MTLUSDT"
+    },
+    {
+      "base_asset": "MUBARAK",
+      "contract_type": "PERPETUAL",
+      "onboard_date": "2025-03-17",
+      "quote_asset": "USDT",
+      "status": "TRADING",
+      "symbol": "MUBARAKUSDT"
+    },
+    {
+      "base_asset": "M",
+      "contract_type": "PERPETUAL",
+      "onboard_date": "2025-07-07",
+      "quote_asset": "USDT",
+      "status": "TRADING",
+      "symbol": "MUSDT"
+    },
+    {
+      "base_asset": "MYX",
+      "contract_type": "PERPETUAL",
+      "onboard_date": "2025-06-18",
+      "quote_asset": "USDT",
+      "status": "TRADING",
+      "symbol": "MYXUSDT"
+    },
+    {
+      "base_asset": "NAORIS",
+      "contract_type": "PERPETUAL",
+      "onboard_date": "2025-07-31",
+      "quote_asset": "USDT",
+      "status": "TRADING",
+      "symbol": "NAORISUSDT"
+    },
+    {
+      "base_asset": "NEAR",
+      "contract_type": "PERPETUAL",
+      "onboard_date": "2019-09-25",
+      "quote_asset": "USDT",
+      "status": "TRADING",
+      "symbol": "NEARUSDT"
+    },
+    {
+      "base_asset": "NEIRO",
+      "contract_type": "PERPETUAL",
+      "onboard_date": "2024-09-16",
+      "quote_asset": "USDT",
+      "status": "TRADING",
+      "symbol": "NEIROUSDT"
+    },
+    {
+      "base_asset": "NEO",
+      "contract_type": "PERPETUAL",
+      "onboard_date": "2019-09-25",
+      "quote_asset": "USDT",
+      "status": "TRADING",
+      "symbol": "NEOUSDT"
+    },
+    {
+      "base_asset": "NEWT",
+      "contract_type": "PERPETUAL",
+      "onboard_date": "2025-06-19",
+      "quote_asset": "USDT",
+      "status": "TRADING",
+      "symbol": "NEWTUSDT"
+    },
+    {
+      "base_asset": "NFP",
+      "contract_type": "PERPETUAL",
+      "onboard_date": "2023-12-27",
+      "quote_asset": "USDT",
+      "status": "TRADING",
+      "symbol": "NFPUSDT"
+    },
+    {
+      "base_asset": "NIGHT",
+      "contract_type": "PERPETUAL",
+      "onboard_date": "2025-12-10",
+      "quote_asset": "USDT",
+      "status": "TRADING",
+      "symbol": "NIGHTUSDT"
+    },
+    {
+      "base_asset": "NIL",
+      "contract_type": "PERPETUAL",
+      "onboard_date": "2025-03-24",
+      "quote_asset": "USDT",
+      "status": "TRADING",
+      "symbol": "NILUSDT"
+    },
+    {
+      "base_asset": "NMR",
+      "contract_type": "PERPETUAL",
+      "onboard_date": "2023-06-22",
+      "quote_asset": "USDT",
+      "status": "TRADING",
+      "symbol": "NMRUSDT"
+    },
+    {
+      "base_asset": "NOM",
+      "contract_type": "PERPETUAL",
+      "onboard_date": "2025-10-01",
+      "quote_asset": "USDT",
+      "status": "TRADING",
+      "symbol": "NOMUSDT"
+    },
+    {
+      "base_asset": "NOT",
+      "contract_type": "PERPETUAL",
+      "onboard_date": "2024-05-16",
+      "quote_asset": "USDT",
+      "status": "TRADING",
+      "symbol": "NOTUSDT"
+    },
+    {
+      "base_asset": "NXPC",
+      "contract_type": "PERPETUAL",
+      "onboard_date": "2025-05-15",
+      "quote_asset": "USDT",
+      "status": "TRADING",
+      "symbol": "NXPCUSDT"
+    },
+    {
+      "base_asset": "OGN",
+      "contract_type": "PERPETUAL",
+      "onboard_date": "2021-03-31",
+      "quote_asset": "USDT",
+      "status": "TRADING",
+      "symbol": "OGNUSDT"
+    },
+    {
+      "base_asset": "OG",
+      "contract_type": "PERPETUAL",
+      "onboard_date": "2025-05-12",
+      "quote_asset": "USDT",
+      "status": "TRADING",
+      "symbol": "OGUSDT"
+    },
+    {
+      "base_asset": "ONDO",
+      "contract_type": "PERPETUAL",
+      "onboard_date": "2024-01-20",
+      "quote_asset": "USDT",
+      "status": "TRADING",
+      "symbol": "ONDOUSDT"
+    },
+    {
+      "base_asset": "ONE",
+      "contract_type": "PERPETUAL",
+      "onboard_date": "2021-03-17",
+      "quote_asset": "USDT",
+      "status": "TRADING",
+      "symbol": "ONEUSDT"
+    },
+    {
+      "base_asset": "ONG",
+      "contract_type": "PERPETUAL",
+      "onboard_date": "2023-11-27",
+      "quote_asset": "USDT",
+      "status": "TRADING",
+      "symbol": "ONGUSDT"
+    },
+    {
+      "base_asset": "ONT",
+      "contract_type": "PERPETUAL",
+      "onboard_date": "2019-09-25",
+      "quote_asset": "USDT",
+      "status": "TRADING",
+      "symbol": "ONTUSDT"
+    },
+    {
+      "base_asset": "ON",
+      "contract_type": "PERPETUAL",
+      "onboard_date": "2025-10-24",
+      "quote_asset": "USDT",
+      "status": "TRADING",
+      "symbol": "ONUSDT"
+    },
+    {
+      "base_asset": "OPEN",
+      "contract_type": "PERPETUAL",
+      "onboard_date": "2025-09-08",
+      "quote_asset": "USDT",
+      "status": "TRADING",
+      "symbol": "OPENUSDT"
+    },
+    {
+      "base_asset": "OPG",
+      "contract_type": "PERPETUAL",
+      "onboard_date": "2026-04-22",
+      "quote_asset": "USDT",
+      "status": "TRADING",
+      "symbol": "OPGUSDT"
+    },
+    {
+      "base_asset": "OPN",
+      "contract_type": "PERPETUAL",
+      "onboard_date": "2026-02-21",
+      "quote_asset": "USDT",
+      "status": "TRADING",
+      "symbol": "OPNUSDT"
+    },
+    {
+      "base_asset": "OP",
+      "contract_type": "PERPETUAL",
+      "onboard_date": "2022-06-01",
+      "quote_asset": "USDT",
+      "status": "TRADING",
+      "symbol": "OPUSDT"
+    },
+    {
+      "base_asset": "ORCA",
+      "contract_type": "PERPETUAL",
+      "onboard_date": "2024-12-06",
+      "quote_asset": "USDT",
+      "status": "TRADING",
+      "symbol": "ORCAUSDT"
+    },
+    {
+      "base_asset": "ORDER",
+      "contract_type": "PERPETUAL",
+      "onboard_date": "2025-09-26",
+      "quote_asset": "USDT",
+      "status": "TRADING",
+      "symbol": "ORDERUSDT"
+    },
+    {
+      "base_asset": "ORDI",
+      "contract_type": "PERPETUAL",
+      "onboard_date": "2023-11-07",
+      "quote_asset": "USDT",
+      "status": "TRADING",
+      "symbol": "ORDIUSDT"
+    },
+    {
+      "base_asset": "PARTI",
+      "contract_type": "PERPETUAL",
+      "onboard_date": "2025-03-25",
+      "quote_asset": "USDT",
+      "status": "TRADING",
+      "symbol": "PARTIUSDT"
+    },
+    {
+      "base_asset": "PAXG",
+      "contract_type": "PERPETUAL",
+      "onboard_date": "2025-03-27",
+      "quote_asset": "USDT",
+      "status": "TRADING",
+      "symbol": "PAXGUSDT"
+    },
+    {
+      "base_asset": "PENDLE",
+      "contract_type": "PERPETUAL",
+      "onboard_date": "2023-07-28",
+      "quote_asset": "USDT",
+      "status": "TRADING",
+      "symbol": "PENDLEUSDT"
+    },
+    {
+      "base_asset": "PENGU",
+      "contract_type": "PERPETUAL",
+      "onboard_date": "2024-12-17",
+      "quote_asset": "USDT",
+      "status": "TRADING",
+      "symbol": "PENGUUSDT"
+    },
+    {
+      "base_asset": "PEOPLE",
+      "contract_type": "PERPETUAL",
+      "onboard_date": "2021-12-23",
+      "quote_asset": "USDT",
+      "status": "TRADING",
+      "symbol": "PEOPLEUSDT"
+    },
+    {
+      "base_asset": "PHA",
+      "contract_type": "PERPETUAL",
+      "onboard_date": "2024-12-30",
+      "quote_asset": "USDT",
+      "status": "TRADING",
+      "symbol": "PHAUSDT"
+    },
+    {
+      "base_asset": "PHB",
+      "contract_type": "PERPETUAL",
+      "onboard_date": "2023-02-15",
+      "quote_asset": "USDT",
+      "status": "TRADING",
+      "symbol": "PHBUSDT"
+    },
+    {
+      "base_asset": "PIEVERSE",
+      "contract_type": "PERPETUAL",
+      "onboard_date": "2025-11-14",
+      "quote_asset": "USDT",
+      "status": "TRADING",
+      "symbol": "PIEVERSEUSDT"
+    },
+    {
+      "base_asset": "PIPPIN",
+      "contract_type": "PERPETUAL",
+      "onboard_date": "2025-01-24",
+      "quote_asset": "USDT",
+      "status": "TRADING",
+      "symbol": "PIPPINUSDT"
+    },
+    {
+      "base_asset": "PIXEL",
+      "contract_type": "PERPETUAL",
+      "onboard_date": "2024-02-19",
+      "quote_asset": "USDT",
+      "status": "TRADING",
+      "symbol": "PIXELUSDT"
+    },
+    {
+      "base_asset": "PLAY",
+      "contract_type": "PERPETUAL",
+      "onboard_date": "2025-07-31",
+      "quote_asset": "USDT",
+      "status": "TRADING",
+      "symbol": "PLAYUSDT"
+    },
+    {
+      "base_asset": "PLUME",
+      "contract_type": "PERPETUAL",
+      "onboard_date": "2025-03-21",
+      "quote_asset": "USDT",
+      "status": "TRADING",
+      "symbol": "PLUMEUSDT"
+    },
+    {
+      "base_asset": "PNUT",
+      "contract_type": "PERPETUAL",
+      "onboard_date": "2024-11-11",
+      "quote_asset": "USDT",
+      "status": "TRADING",
+      "symbol": "PNUTUSDT"
+    },
+    {
+      "base_asset": "POL",
+      "contract_type": "PERPETUAL",
+      "onboard_date": "2024-09-13",
+      "quote_asset": "USDT",
+      "status": "TRADING",
+      "symbol": "POLUSDT"
+    },
+    {
+      "base_asset": "POLYX",
+      "contract_type": "PERPETUAL",
+      "onboard_date": "2023-10-25",
+      "quote_asset": "USDT",
+      "status": "TRADING",
+      "symbol": "POLYXUSDT"
+    },
+    {
+      "base_asset": "POPCAT",
+      "contract_type": "PERPETUAL",
+      "onboard_date": "2024-08-22",
+      "quote_asset": "USDT",
+      "status": "TRADING",
+      "symbol": "POPCATUSDT"
+    },
+    {
+      "base_asset": "PORTAL",
+      "contract_type": "PERPETUAL",
+      "onboard_date": "2024-02-29",
+      "quote_asset": "USDT",
+      "status": "TRADING",
+      "symbol": "PORTALUSDT"
+    },
+    {
+      "base_asset": "POWER",
+      "contract_type": "PERPETUAL",
+      "onboard_date": "2025-12-06",
+      "quote_asset": "USDT",
+      "status": "TRADING",
+      "symbol": "POWERUSDT"
+    },
+    {
+      "base_asset": "POWR",
+      "contract_type": "PERPETUAL",
+      "onboard_date": "2023-10-27",
+      "quote_asset": "USDT",
+      "status": "TRADING",
+      "symbol": "POWRUSDT"
+    },
+    {
+      "base_asset": "PRL",
+      "contract_type": "PERPETUAL",
+      "onboard_date": "2026-04-01",
+      "quote_asset": "USDT",
+      "status": "TRADING",
+      "symbol": "PRLUSDT"
+    },
+    {
+      "base_asset": "PROMPT",
+      "contract_type": "PERPETUAL",
+      "onboard_date": "2025-04-11",
+      "quote_asset": "USDT",
+      "status": "TRADING",
+      "symbol": "PROMPTUSDT"
+    },
+    {
+      "base_asset": "PROM",
+      "contract_type": "PERPETUAL",
+      "onboard_date": "2025-01-15",
+      "quote_asset": "USDT",
+      "status": "TRADING",
+      "symbol": "PROMUSDT"
+    },
+    {
+      "base_asset": "PROVE",
+      "contract_type": "PERPETUAL",
+      "onboard_date": "2025-08-05",
+      "quote_asset": "USDT",
+      "status": "TRADING",
+      "symbol": "PROVEUSDT"
+    },
+    {
+      "base_asset": "PTB",
+      "contract_type": "PERPETUAL",
+      "onboard_date": "2025-09-03",
+      "quote_asset": "USDT",
+      "status": "TRADING",
+      "symbol": "PTBUSDT"
+    },
+    {
+      "base_asset": "PUMPBTC",
+      "contract_type": "PERPETUAL",
+      "onboard_date": "2025-06-13",
+      "quote_asset": "USDT",
+      "status": "TRADING",
+      "symbol": "PUMPBTCUSDT"
+    },
+    {
+      "base_asset": "PUMP",
+      "contract_type": "PERPETUAL",
+      "onboard_date": "2025-07-10",
+      "quote_asset": "USDT",
+      "status": "TRADING",
+      "symbol": "PUMPUSDT"
+    },
+    {
+      "base_asset": "PUNDIX",
+      "contract_type": "PERPETUAL",
+      "onboard_date": "2025-04-30",
+      "quote_asset": "USDT",
+      "status": "TRADING",
+      "symbol": "PUNDIXUSDT"
+    },
+    {
+      "base_asset": "PYTH",
+      "contract_type": "PERPETUAL",
+      "onboard_date": "2023-11-22",
+      "quote_asset": "USDT",
+      "status": "TRADING",
+      "symbol": "PYTHUSDT"
+    },
+    {
+      "base_asset": "QNT",
+      "contract_type": "PERPETUAL",
+      "onboard_date": "2022-10-18",
+      "quote_asset": "USDT",
+      "status": "TRADING",
+      "symbol": "QNTUSDT"
+    },
+    {
+      "base_asset": "QTUM",
+      "contract_type": "PERPETUAL",
+      "onboard_date": "2019-09-25",
+      "quote_asset": "USDT",
+      "status": "TRADING",
+      "symbol": "QTUMUSDT"
+    },
+    {
+      "base_asset": "Q",
+      "contract_type": "PERPETUAL",
+      "onboard_date": "2025-09-02",
+      "quote_asset": "USDT",
+      "status": "TRADING",
+      "symbol": "QUSDT"
+    },
+    {
+      "base_asset": "RARE",
+      "contract_type": "PERPETUAL",
+      "onboard_date": "2024-08-15",
+      "quote_asset": "USDT",
+      "status": "TRADING",
+      "symbol": "RAREUSDT"
+    },
+    {
+      "base_asset": "RAVE",
+      "contract_type": "PERPETUAL",
+      "onboard_date": "2025-12-14",
+      "quote_asset": "USDT",
+      "status": "TRADING",
+      "symbol": "RAVEUSDT"
+    },
+    {
+      "base_asset": "RAYSOL",
+      "contract_type": "PERPETUAL",
+      "onboard_date": "2024-12-10",
+      "quote_asset": "USDT",
+      "status": "TRADING",
+      "symbol": "RAYSOLUSDT"
+    },
+    {
+      "base_asset": "RECALL",
+      "contract_type": "PERPETUAL",
+      "onboard_date": "2025-10-15",
+      "quote_asset": "USDT",
+      "status": "TRADING",
+      "symbol": "RECALLUSDT"
+    },
+    {
+      "base_asset": "RED",
+      "contract_type": "PERPETUAL",
+      "onboard_date": "2025-03-06",
+      "quote_asset": "USDT",
+      "status": "TRADING",
+      "symbol": "REDUSDT"
+    },
+    {
+      "base_asset": "RENDER",
+      "contract_type": "PERPETUAL",
+      "onboard_date": "2024-07-26",
+      "quote_asset": "USDT",
+      "status": "TRADING",
+      "symbol": "RENDERUSDT"
+    },
+    {
+      "base_asset": "RESOLV",
+      "contract_type": "PERPETUAL",
+      "onboard_date": "2025-06-10",
+      "quote_asset": "USDT",
+      "status": "TRADING",
+      "symbol": "RESOLVUSDT"
+    },
+    {
+      "base_asset": "REZ",
+      "contract_type": "PERPETUAL",
+      "onboard_date": "2024-04-30",
+      "quote_asset": "USDT",
+      "status": "TRADING",
+      "symbol": "REZUSDT"
+    },
+    {
+      "base_asset": "RIF",
+      "contract_type": "PERPETUAL",
+      "onboard_date": "2023-10-21",
+      "quote_asset": "USDT",
+      "status": "TRADING",
+      "symbol": "RIFUSDT"
+    },
+    {
+      "base_asset": "RIVER",
+      "contract_type": "PERPETUAL",
+      "onboard_date": "2025-10-17",
+      "quote_asset": "USDT",
+      "status": "TRADING",
+      "symbol": "RIVERUSDT"
+    },
+    {
+      "base_asset": "RLC",
+      "contract_type": "PERPETUAL",
+      "onboard_date": "2019-09-25",
+      "quote_asset": "USDT",
+      "status": "TRADING",
+      "symbol": "RLCUSDT"
+    },
+    {
+      "base_asset": "ROBO",
+      "contract_type": "PERPETUAL",
+      "onboard_date": "2026-02-27",
+      "quote_asset": "USDT",
+      "status": "TRADING",
+      "symbol": "ROBOUSDT"
+    },
+    {
+      "base_asset": "RONIN",
+      "contract_type": "PERPETUAL",
+      "onboard_date": "2024-02-06",
+      "quote_asset": "USDT",
+      "status": "TRADING",
+      "symbol": "RONINUSDT"
+    },
+    {
+      "base_asset": "ROSE",
+      "contract_type": "PERPETUAL",
+      "onboard_date": "2021-12-31",
+      "quote_asset": "USDT",
+      "status": "TRADING",
+      "symbol": "ROSEUSDT"
+    },
+    {
+      "base_asset": "RPL",
+      "contract_type": "PERPETUAL",
+      "onboard_date": "2024-09-09",
+      "quote_asset": "USDT",
+      "status": "TRADING",
+      "symbol": "RPLUSDT"
+    },
+    {
+      "base_asset": "RSR",
+      "contract_type": "PERPETUAL",
+      "onboard_date": "2019-09-25",
+      "quote_asset": "USDT",
+      "status": "TRADING",
+      "symbol": "RSRUSDT"
+    },
+    {
+      "base_asset": "RUNE",
+      "contract_type": "PERPETUAL",
+      "onboard_date": "2019-09-25",
+      "quote_asset": "USDT",
+      "status": "TRADING",
+      "symbol": "RUNEUSDT"
+    },
+    {
+      "base_asset": "RVN",
+      "contract_type": "PERPETUAL",
+      "onboard_date": "2021-02-23",
+      "quote_asset": "USDT",
+      "status": "TRADING",
+      "symbol": "RVNUSDT"
+    },
+    {
+      "base_asset": "SAFE",
+      "contract_type": "PERPETUAL",
+      "onboard_date": "2024-10-25",
+      "quote_asset": "USDT",
+      "status": "TRADING",
+      "symbol": "SAFEUSDT"
+    },
+    {
+      "base_asset": "SAGA",
+      "contract_type": "PERPETUAL",
+      "onboard_date": "2024-04-09",
+      "quote_asset": "USDT",
+      "status": "TRADING",
+      "symbol": "SAGAUSDT"
+    },
+    {
+      "base_asset": "SAHARA",
+      "contract_type": "PERPETUAL",
+      "onboard_date": "2025-06-26",
+      "quote_asset": "USDT",
+      "status": "TRADING",
+      "symbol": "SAHARAUSDT"
+    },
+    {
+      "base_asset": "SAND",
+      "contract_type": "PERPETUAL",
+      "onboard_date": "2021-01-18",
+      "quote_asset": "USDT",
+      "status": "TRADING",
+      "symbol": "SANDUSDT"
+    },
+    {
+      "base_asset": "SANTOS",
+      "contract_type": "PERPETUAL",
+      "onboard_date": "2024-10-28",
+      "quote_asset": "USDT",
+      "status": "TRADING",
+      "symbol": "SANTOSUSDT"
+    },
+    {
+      "base_asset": "SAPIEN",
+      "contract_type": "PERPETUAL",
+      "onboard_date": "2025-08-20",
+      "quote_asset": "USDT",
+      "status": "TRADING",
+      "symbol": "SAPIENUSDT"
+    },
+    {
+      "base_asset": "SCRT",
+      "contract_type": "PERPETUAL",
+      "onboard_date": "2024-11-21",
+      "quote_asset": "USDT",
+      "status": "TRADING",
+      "symbol": "SCRTUSDT"
+    },
+    {
+      "base_asset": "SCR",
+      "contract_type": "PERPETUAL",
+      "onboard_date": "2024-10-22",
+      "quote_asset": "USDT",
+      "status": "TRADING",
+      "symbol": "SCRUSDT"
+    },
+    {
+      "base_asset": "SEI",
+      "contract_type": "PERPETUAL",
+      "onboard_date": "2023-08-17",
+      "quote_asset": "USDT",
+      "status": "TRADING",
+      "symbol": "SEIUSDT"
+    },
+    {
+      "base_asset": "SENT",
+      "contract_type": "PERPETUAL",
+      "onboard_date": "2025-11-14",
+      "quote_asset": "USDT",
+      "status": "TRADING",
+      "symbol": "SENTUSDT"
+    },
+    {
+      "base_asset": "SFP",
+      "contract_type": "PERPETUAL",
+      "onboard_date": "2021-02-24",
+      "quote_asset": "USDT",
+      "status": "TRADING",
+      "symbol": "SFPUSDT"
+    },
+    {
+      "base_asset": "SHELL",
+      "contract_type": "PERPETUAL",
+      "onboard_date": "2025-02-17",
+      "quote_asset": "USDT",
+      "status": "TRADING",
+      "symbol": "SHELLUSDT"
+    },
+    {
+      "base_asset": "SIGN",
+      "contract_type": "PERPETUAL",
+      "onboard_date": "2025-04-28",
+      "quote_asset": "USDT",
+      "status": "TRADING",
+      "symbol": "SIGNUSDT"
+    },
+    {
+      "base_asset": "SIREN",
+      "contract_type": "PERPETUAL",
+      "onboard_date": "2025-03-22",
+      "quote_asset": "USDT",
+      "status": "TRADING",
+      "symbol": "SIRENUSDT"
+    },
+    {
+      "base_asset": "SKL",
+      "contract_type": "PERPETUAL",
+      "onboard_date": "2020-08-24",
+      "quote_asset": "USDT",
+      "status": "TRADING",
+      "symbol": "SKLUSDT"
+    },
+    {
+      "base_asset": "SKR",
+      "contract_type": "PERPETUAL",
+      "onboard_date": "2026-01-22",
+      "quote_asset": "USDT",
+      "status": "TRADING",
+      "symbol": "SKRUSDT"
+    },
+    {
+      "base_asset": "SKYAI",
+      "contract_type": "PERPETUAL",
+      "onboard_date": "2025-05-13",
+      "quote_asset": "USDT",
+      "status": "TRADING",
+      "symbol": "SKYAIUSDT"
+    },
+    {
+      "base_asset": "SKY",
+      "contract_type": "PERPETUAL",
+      "onboard_date": "2025-09-09",
+      "quote_asset": "USDT",
+      "status": "TRADING",
+      "symbol": "SKYUSDT"
+    },
+    {
+      "base_asset": "SLP",
+      "contract_type": "PERPETUAL",
+      "onboard_date": "2025-07-23",
+      "quote_asset": "USDT",
+      "status": "TRADING",
+      "symbol": "SLPUSDT"
+    },
+    {
+      "base_asset": "SNX",
+      "contract_type": "PERPETUAL",
+      "onboard_date": "2019-09-25",
+      "quote_asset": "USDT",
+      "status": "TRADING",
+      "symbol": "SNXUSDT"
+    },
+    {
+      "base_asset": "SOL",
+      "contract_type": "PERPETUAL",
+      "onboard_date": "2019-09-25",
+      "quote_asset": "USDT",
+      "status": "TRADING",
+      "symbol": "SOLUSDT"
+    },
+    {
+      "base_asset": "SOLV",
+      "contract_type": "PERPETUAL",
+      "onboard_date": "2025-01-17",
+      "quote_asset": "USDT",
+      "status": "TRADING",
+      "symbol": "SOLVUSDT"
+    },
+    {
+      "base_asset": "SOMI",
+      "contract_type": "PERPETUAL",
+      "onboard_date": "2025-08-25",
+      "quote_asset": "USDT",
+      "status": "TRADING",
+      "symbol": "SOMIUSDT"
+    },
+    {
+      "base_asset": "SONIC",
+      "contract_type": "PERPETUAL",
+      "onboard_date": "2025-01-08",
+      "quote_asset": "USDT",
+      "status": "TRADING",
+      "symbol": "SONICUSDT"
+    },
+    {
+      "base_asset": "SOON",
+      "contract_type": "PERPETUAL",
+      "onboard_date": "2025-05-23",
+      "quote_asset": "USDT",
+      "status": "TRADING",
+      "symbol": "SOONUSDT"
+    },
+    {
+      "base_asset": "SOPH",
+      "contract_type": "PERPETUAL",
+      "onboard_date": "2025-05-28",
+      "quote_asset": "USDT",
+      "status": "TRADING",
+      "symbol": "SOPHUSDT"
+    },
+    {
+      "base_asset": "SPACE",
+      "contract_type": "PERPETUAL",
+      "onboard_date": "2026-01-23",
+      "quote_asset": "USDT",
+      "status": "TRADING",
+      "symbol": "SPACEUSDT"
+    },
+    {
+      "base_asset": "SPELL",
+      "contract_type": "PERPETUAL",
+      "onboard_date": "2022-09-05",
+      "quote_asset": "USDT",
+      "status": "TRADING",
+      "symbol": "SPELLUSDT"
+    },
+    {
+      "base_asset": "SPK",
+      "contract_type": "PERPETUAL",
+      "onboard_date": "2025-06-17",
+      "quote_asset": "USDT",
+      "status": "TRADING",
+      "symbol": "SPKUSDT"
+    },
+    {
+      "base_asset": "SPORTFUN",
+      "contract_type": "PERPETUAL",
+      "onboard_date": "2026-01-16",
+      "quote_asset": "USDT",
+      "status": "TRADING",
+      "symbol": "SPORTFUNUSDT"
+    },
+    {
+      "base_asset": "SPX",
+      "contract_type": "PERPETUAL",
+      "onboard_date": "2024-12-10",
+      "quote_asset": "USDT",
+      "status": "TRADING",
+      "symbol": "SPXUSDT"
+    },
+    {
+      "base_asset": "SQD",
+      "contract_type": "PERPETUAL",
+      "onboard_date": "2025-06-11",
+      "quote_asset": "USDT",
+      "status": "TRADING",
+      "symbol": "SQDUSDT"
+    },
+    {
+      "base_asset": "SSV",
+      "contract_type": "PERPETUAL",
+      "onboard_date": "2023-02-23",
+      "quote_asset": "USDT",
+      "status": "TRADING",
+      "symbol": "SSVUSDT"
+    },
+    {
+      "base_asset": "STABLE",
+      "contract_type": "PERPETUAL",
+      "onboard_date": "2025-11-06",
+      "quote_asset": "USDT",
+      "status": "TRADING",
+      "symbol": "STABLEUSDT"
+    },
+    {
+      "base_asset": "STBL",
+      "contract_type": "PERPETUAL",
+      "onboard_date": "2025-09-17",
+      "quote_asset": "USDT",
+      "status": "TRADING",
+      "symbol": "STBLUSDT"
+    },
+    {
+      "base_asset": "STEEM",
+      "contract_type": "PERPETUAL",
+      "onboard_date": "2023-11-08",
+      "quote_asset": "USDT",
+      "status": "TRADING",
+      "symbol": "STEEMUSDT"
+    },
+    {
+      "base_asset": "STG",
+      "contract_type": "PERPETUAL",
+      "onboard_date": "2022-08-24",
+      "quote_asset": "USDT",
+      "status": "TRADING",
+      "symbol": "STGUSDT"
+    },
+    {
+      "base_asset": "STORJ",
+      "contract_type": "PERPETUAL",
+      "onboard_date": "2019-09-25",
+      "quote_asset": "USDT",
+      "status": "TRADING",
+      "symbol": "STORJUSDT"
+    },
+    {
+      "base_asset": "STO",
+      "contract_type": "PERPETUAL",
+      "onboard_date": "2025-04-12",
+      "quote_asset": "USDT",
+      "status": "TRADING",
+      "symbol": "STOUSDT"
+    },
+    {
+      "base_asset": "STRK",
+      "contract_type": "PERPETUAL",
+      "onboard_date": "2024-02-20",
+      "quote_asset": "USDT",
+      "status": "TRADING",
+      "symbol": "STRKUSDT"
+    },
+    {
+      "base_asset": "STX",
+      "contract_type": "PERPETUAL",
+      "onboard_date": "2023-02-20",
+      "quote_asset": "USDT",
+      "status": "TRADING",
+      "symbol": "STXUSDT"
+    },
+    {
+      "base_asset": "SUI",
+      "contract_type": "PERPETUAL",
+      "onboard_date": "2023-05-03",
+      "quote_asset": "USDT",
+      "status": "TRADING",
+      "symbol": "SUIUSDT"
+    },
+    {
+      "base_asset": "SUN",
+      "contract_type": "PERPETUAL",
+      "onboard_date": "2024-08-22",
+      "quote_asset": "USDT",
+      "status": "TRADING",
+      "symbol": "SUNUSDT"
+    },
+    {
+      "base_asset": "SUPER",
+      "contract_type": "PERPETUAL",
+      "onboard_date": "2023-11-26",
+      "quote_asset": "USDT",
+      "status": "TRADING",
+      "symbol": "SUPERUSDT"
+    },
+    {
+      "base_asset": "S",
+      "contract_type": "PERPETUAL",
+      "onboard_date": "2025-01-16",
+      "quote_asset": "USDT",
+      "status": "TRADING",
+      "symbol": "SUSDT"
+    },
+    {
+      "base_asset": "SUSHI",
+      "contract_type": "PERPETUAL",
+      "onboard_date": "2019-09-25",
+      "quote_asset": "USDT",
+      "status": "TRADING",
+      "symbol": "SUSHIUSDT"
+    },
+    {
+      "base_asset": "SWARMS",
+      "contract_type": "PERPETUAL",
+      "onboard_date": "2025-01-07",
+      "quote_asset": "USDT",
+      "status": "TRADING",
+      "symbol": "SWARMSUSDT"
+    },
+    {
+      "base_asset": "SXT",
+      "contract_type": "PERPETUAL",
+      "onboard_date": "2025-05-02",
+      "quote_asset": "USDT",
+      "status": "TRADING",
+      "symbol": "SXTUSDT"
+    },
+    {
+      "base_asset": "SYN",
+      "contract_type": "PERPETUAL",
+      "onboard_date": "2024-08-16",
+      "quote_asset": "USDT",
+      "status": "TRADING",
+      "symbol": "SYNUSDT"
+    },
+    {
+      "base_asset": "SYRUP",
+      "contract_type": "PERPETUAL",
+      "onboard_date": "2025-05-07",
+      "quote_asset": "USDT",
+      "status": "TRADING",
+      "symbol": "SYRUPUSDT"
+    },
+    {
+      "base_asset": "SYS",
+      "contract_type": "PERPETUAL",
+      "onboard_date": "2024-08-19",
+      "quote_asset": "USDT",
+      "status": "TRADING",
+      "symbol": "SYSUSDT"
+    },
+    {
+      "base_asset": "TAC",
+      "contract_type": "PERPETUAL",
+      "onboard_date": "2025-07-15",
+      "quote_asset": "USDT",
+      "status": "TRADING",
+      "symbol": "TACUSDT"
+    },
+    {
+      "base_asset": "TAG",
+      "contract_type": "PERPETUAL",
+      "onboard_date": "2025-07-25",
+      "quote_asset": "USDT",
+      "status": "TRADING",
+      "symbol": "TAGUSDT"
+    },
+    {
+      "base_asset": "TAIKO",
+      "contract_type": "PERPETUAL",
+      "onboard_date": "2025-06-11",
+      "quote_asset": "USDT",
+      "status": "TRADING",
+      "symbol": "TAIKOUSDT"
+    },
+    {
+      "base_asset": "TAKE",
+      "contract_type": "PERPETUAL",
+      "onboard_date": "2025-09-03",
+      "quote_asset": "USDT",
+      "status": "TRADING",
+      "symbol": "TAKEUSDT"
+    },
+    {
+      "base_asset": "TAO",
+      "contract_type": "PERPETUAL",
+      "onboard_date": "2024-04-11",
+      "quote_asset": "USDT",
+      "status": "TRADING",
+      "symbol": "TAOUSDT"
+    },
+    {
+      "base_asset": "TA",
+      "contract_type": "PERPETUAL",
+      "onboard_date": "2025-07-21",
+      "quote_asset": "USDT",
+      "status": "TRADING",
+      "symbol": "TAUSDT"
+    },
+    {
+      "base_asset": "THETA",
+      "contract_type": "PERPETUAL",
+      "onboard_date": "2019-09-25",
+      "quote_asset": "USDT",
+      "status": "TRADING",
+      "symbol": "THETAUSDT"
+    },
+    {
+      "base_asset": "THE",
+      "contract_type": "PERPETUAL",
+      "onboard_date": "2024-11-27",
+      "quote_asset": "USDT",
+      "status": "TRADING",
+      "symbol": "THEUSDT"
+    },
+    {
+      "base_asset": "TIA",
+      "contract_type": "PERPETUAL",
+      "onboard_date": "2023-10-31",
+      "quote_asset": "USDT",
+      "status": "TRADING",
+      "symbol": "TIAUSDT"
+    },
+    {
+      "base_asset": "TLM",
+      "contract_type": "PERPETUAL",
+      "onboard_date": "2023-03-29",
+      "quote_asset": "USDT",
+      "status": "TRADING",
+      "symbol": "TLMUSDT"
+    },
+    {
+      "base_asset": "TNSR",
+      "contract_type": "PERPETUAL",
+      "onboard_date": "2024-04-08",
+      "quote_asset": "USDT",
+      "status": "TRADING",
+      "symbol": "TNSRUSDT"
+    },
+    {
+      "base_asset": "TON",
+      "contract_type": "PERPETUAL",
+      "onboard_date": "2024-03-01",
+      "quote_asset": "USDT",
+      "status": "TRADING",
+      "symbol": "TONUSDT"
+    },
+    {
+      "base_asset": "TOSHI",
+      "contract_type": "PERPETUAL",
+      "onboard_date": "2025-09-17",
+      "quote_asset": "USDT",
+      "status": "TRADING",
+      "symbol": "TOSHIUSDT"
+    },
+    {
+      "base_asset": "TOWNS",
+      "contract_type": "PERPETUAL",
+      "onboard_date": "2025-08-05",
+      "quote_asset": "USDT",
+      "status": "TRADING",
+      "symbol": "TOWNSUSDT"
+    },
+    {
+      "base_asset": "TRADOOR",
+      "contract_type": "PERPETUAL",
+      "onboard_date": "2025-09-19",
+      "quote_asset": "USDT",
+      "status": "TRADING",
+      "symbol": "TRADOORUSDT"
+    },
+    {
+      "base_asset": "TRB",
+      "contract_type": "PERPETUAL",
+      "onboard_date": "2019-09-25",
+      "quote_asset": "USDT",
+      "status": "TRADING",
+      "symbol": "TRBUSDT"
+    },
+    {
+      "base_asset": "TREE",
+      "contract_type": "PERPETUAL",
+      "onboard_date": "2025-07-29",
+      "quote_asset": "USDT",
+      "status": "TRADING",
+      "symbol": "TREEUSDT"
+    },
+    {
+      "base_asset": "TRIA",
+      "contract_type": "PERPETUAL",
+      "onboard_date": "2026-02-06",
+      "quote_asset": "USDT",
+      "status": "TRADING",
+      "symbol": "TRIAUSDT"
+    },
+    {
+      "base_asset": "TRUMP",
+      "contract_type": "PERPETUAL",
+      "onboard_date": "2025-01-18",
+      "quote_asset": "USDT",
+      "status": "TRADING",
+      "symbol": "TRUMPUSDT"
+    },
+    {
+      "base_asset": "TRUST",
+      "contract_type": "PERPETUAL",
+      "onboard_date": "2025-11-05",
+      "quote_asset": "USDT",
+      "status": "TRADING",
+      "symbol": "TRUSTUSDT"
+    },
+    {
+      "base_asset": "TRUTH",
+      "contract_type": "PERPETUAL",
+      "onboard_date": "2025-10-01",
+      "quote_asset": "USDT",
+      "status": "TRADING",
+      "symbol": "TRUTHUSDT"
+    },
+    {
+      "base_asset": "TRX",
+      "contract_type": "PERPETUAL",
+      "onboard_date": "2019-09-25",
+      "quote_asset": "USDT",
+      "status": "TRADING",
+      "symbol": "TRXUSDT"
+    },
+    {
+      "base_asset": "TST",
+      "contract_type": "PERPETUAL",
+      "onboard_date": "2025-02-09",
+      "quote_asset": "USDT",
+      "status": "TRADING",
+      "symbol": "TSTUSDT"
+    },
+    {
+      "base_asset": "TURBO",
+      "contract_type": "PERPETUAL",
+      "onboard_date": "2024-05-30",
+      "quote_asset": "USDT",
+      "status": "TRADING",
+      "symbol": "TURBOUSDT"
+    },
+    {
+      "base_asset": "TURTLE",
+      "contract_type": "PERPETUAL",
+      "onboard_date": "2025-10-22",
+      "quote_asset": "USDT",
+      "status": "TRADING",
+      "symbol": "TURTLEUSDT"
+    },
+    {
+      "base_asset": "T",
+      "contract_type": "PERPETUAL",
+      "onboard_date": "2023-01-31",
+      "quote_asset": "USDT",
+      "status": "TRADING",
+      "symbol": "TUSDT"
+    },
+    {
+      "base_asset": "TUT",
+      "contract_type": "PERPETUAL",
+      "onboard_date": "2025-03-20",
+      "quote_asset": "USDT",
+      "status": "TRADING",
+      "symbol": "TUTUSDT"
+    },
+    {
+      "base_asset": "TWT",
+      "contract_type": "PERPETUAL",
+      "onboard_date": "2023-11-03",
+      "quote_asset": "USDT",
+      "status": "TRADING",
+      "symbol": "TWTUSDT"
+    },
+    {
+      "base_asset": "UAI",
+      "contract_type": "PERPETUAL",
+      "onboard_date": "2025-11-06",
+      "quote_asset": "USDT",
+      "status": "TRADING",
+      "symbol": "UAIUSDT"
+    },
+    {
+      "base_asset": "UB",
+      "contract_type": "PERPETUAL",
+      "onboard_date": "2025-09-12",
+      "quote_asset": "USDT",
+      "status": "TRADING",
+      "symbol": "UBUSDT"
+    },
+    {
+      "base_asset": "UMA",
+      "contract_type": "PERPETUAL",
+      "onboard_date": "2023-05-09",
+      "quote_asset": "USDT",
+      "status": "TRADING",
+      "symbol": "UMAUSDT"
+    },
+    {
+      "base_asset": "UNI",
+      "contract_type": "PERPETUAL",
+      "onboard_date": "2019-09-25",
+      "quote_asset": "USDT",
+      "status": "TRADING",
+      "symbol": "UNIUSDT"
+    },
+    {
+      "base_asset": "USDC",
+      "contract_type": "PERPETUAL",
+      "onboard_date": "2023-03-12",
+      "quote_asset": "USDT",
+      "status": "TRADING",
+      "symbol": "USDCUSDT"
+    },
+    {
+      "base_asset": "USELESS",
+      "contract_type": "PERPETUAL",
+      "onboard_date": "2025-08-15",
+      "quote_asset": "USDT",
+      "status": "TRADING",
+      "symbol": "USELESSUSDT"
+    },
+    {
+      "base_asset": "USTC",
+      "contract_type": "PERPETUAL",
+      "onboard_date": "2023-11-27",
+      "quote_asset": "USDT",
+      "status": "TRADING",
+      "symbol": "USTCUSDT"
+    },
+    {
+      "base_asset": "USUAL",
+      "contract_type": "PERPETUAL",
+      "onboard_date": "2024-12-18",
+      "quote_asset": "USDT",
+      "status": "TRADING",
+      "symbol": "USUALUSDT"
+    },
+    {
+      "base_asset": "US",
+      "contract_type": "PERPETUAL",
+      "onboard_date": "2025-12-12",
+      "quote_asset": "USDT",
+      "status": "TRADING",
+      "symbol": "USUSDT"
+    },
+    {
+      "base_asset": "VANA",
+      "contract_type": "PERPETUAL",
+      "onboard_date": "2024-12-16",
+      "quote_asset": "USDT",
+      "status": "TRADING",
+      "symbol": "VANAUSDT"
+    },
+    {
+      "base_asset": "VANRY",
+      "contract_type": "PERPETUAL",
+      "onboard_date": "2024-03-13",
+      "quote_asset": "USDT",
+      "status": "TRADING",
+      "symbol": "VANRYUSDT"
+    },
+    {
+      "base_asset": "VELODROME",
+      "contract_type": "PERPETUAL",
+      "onboard_date": "2024-12-13",
+      "quote_asset": "USDT",
+      "status": "TRADING",
+      "symbol": "VELODROMEUSDT"
+    },
+    {
+      "base_asset": "VELVET",
+      "contract_type": "PERPETUAL",
+      "onboard_date": "2025-07-15",
+      "quote_asset": "USDT",
+      "status": "TRADING",
+      "symbol": "VELVETUSDT"
+    },
+    {
+      "base_asset": "VET",
+      "contract_type": "PERPETUAL",
+      "onboard_date": "2019-09-25",
+      "quote_asset": "USDT",
+      "status": "TRADING",
+      "symbol": "VETUSDT"
+    },
+    {
+      "base_asset": "VIC",
+      "contract_type": "PERPETUAL",
+      "onboard_date": "2025-03-12",
+      "quote_asset": "USDT",
+      "status": "TRADING",
+      "symbol": "VICUSDT"
+    },
+    {
+      "base_asset": "VINE",
+      "contract_type": "PERPETUAL",
+      "onboard_date": "2025-01-24",
+      "quote_asset": "USDT",
+      "status": "TRADING",
+      "symbol": "VINEUSDT"
+    },
+    {
+      "base_asset": "VIRTUAL",
+      "contract_type": "PERPETUAL",
+      "onboard_date": "2024-12-10",
+      "quote_asset": "USDT",
+      "status": "TRADING",
+      "symbol": "VIRTUALUSDT"
+    },
+    {
+      "base_asset": "VTHO",
+      "contract_type": "PERPETUAL",
+      "onboard_date": "2025-01-22",
+      "quote_asset": "USDT",
+      "status": "TRADING",
+      "symbol": "VTHOUSDT"
+    },
+    {
+      "base_asset": "VVV",
+      "contract_type": "PERPETUAL",
+      "onboard_date": "2025-01-29",
+      "quote_asset": "USDT",
+      "status": "TRADING",
+      "symbol": "VVVUSDT"
+    },
+    {
+      "base_asset": "WAL",
+      "contract_type": "PERPETUAL",
+      "onboard_date": "2025-03-27",
+      "quote_asset": "USDT",
+      "status": "TRADING",
+      "symbol": "WALUSDT"
+    },
+    {
+      "base_asset": "WAXP",
+      "contract_type": "PERPETUAL",
+      "onboard_date": "2023-10-18",
+      "quote_asset": "USDT",
+      "status": "TRADING",
+      "symbol": "WAXPUSDT"
+    },
+    {
+      "base_asset": "WCT",
+      "contract_type": "PERPETUAL",
+      "onboard_date": "2025-04-15",
+      "quote_asset": "USDT",
+      "status": "TRADING",
+      "symbol": "WCTUSDT"
+    },
+    {
+      "base_asset": "WET",
+      "contract_type": "PERPETUAL",
+      "onboard_date": "2025-12-10",
+      "quote_asset": "USDT",
+      "status": "TRADING",
+      "symbol": "WETUSDT"
+    },
+    {
+      "base_asset": "WIF",
+      "contract_type": "PERPETUAL",
+      "onboard_date": "2024-01-18",
+      "quote_asset": "USDT",
+      "status": "TRADING",
+      "symbol": "WIFUSDT"
+    },
+    {
+      "base_asset": "WLD",
+      "contract_type": "PERPETUAL",
+      "onboard_date": "2023-07-24",
+      "quote_asset": "USDT",
+      "status": "TRADING",
+      "symbol": "WLDUSDT"
+    },
+    {
+      "base_asset": "WLFI",
+      "contract_type": "PERPETUAL",
+      "onboard_date": "2025-08-23",
+      "quote_asset": "USDT",
+      "status": "TRADING",
+      "symbol": "WLFIUSDT"
+    },
+    {
+      "base_asset": "WOO",
+      "contract_type": "PERPETUAL",
+      "onboard_date": "2022-04-07",
+      "quote_asset": "USDT",
+      "status": "TRADING",
+      "symbol": "WOOUSDT"
+    },
+    {
+      "base_asset": "W",
+      "contract_type": "PERPETUAL",
+      "onboard_date": "2024-04-03",
+      "quote_asset": "USDT",
+      "status": "TRADING",
+      "symbol": "WUSDT"
+    },
+    {
+      "base_asset": "XAI",
+      "contract_type": "PERPETUAL",
+      "onboard_date": "2024-01-09",
+      "quote_asset": "USDT",
+      "status": "TRADING",
+      "symbol": "XAIUSDT"
+    },
+    {
+      "base_asset": "XAN",
+      "contract_type": "PERPETUAL",
+      "onboard_date": "2025-09-29",
+      "quote_asset": "USDT",
+      "status": "TRADING",
+      "symbol": "XANUSDT"
+    },
+    {
+      "base_asset": "XAUT",
+      "contract_type": "PERPETUAL",
+      "onboard_date": "2026-03-26",
+      "quote_asset": "USDT",
+      "status": "TRADING",
+      "symbol": "XAUTUSDT"
+    },
+    {
+      "base_asset": "XLM",
+      "contract_type": "PERPETUAL",
+      "onboard_date": "2019-09-25",
+      "quote_asset": "USDT",
+      "status": "TRADING",
+      "symbol": "XLMUSDT"
+    },
+    {
+      "base_asset": "XMR",
+      "contract_type": "PERPETUAL",
+      "onboard_date": "2019-09-25",
+      "quote_asset": "USDT",
+      "status": "TRADING",
+      "symbol": "XMRUSDT"
+    },
+    {
+      "base_asset": "XNY",
+      "contract_type": "PERPETUAL",
+      "onboard_date": "2025-08-13",
+      "quote_asset": "USDT",
+      "status": "TRADING",
+      "symbol": "XNYUSDT"
+    },
+    {
+      "base_asset": "XPIN",
+      "contract_type": "PERPETUAL",
+      "onboard_date": "2025-09-12",
+      "quote_asset": "USDT",
+      "status": "TRADING",
+      "symbol": "XPINUSDT"
+    },
+    {
+      "base_asset": "XPL",
+      "contract_type": "PERPETUAL",
+      "onboard_date": "2025-08-22",
+      "quote_asset": "USDT",
+      "status": "TRADING",
+      "symbol": "XPLUSDT"
+    },
+    {
+      "base_asset": "XRP",
+      "contract_type": "PERPETUAL",
+      "onboard_date": "2019-09-25",
+      "quote_asset": "USDT",
+      "status": "TRADING",
+      "symbol": "XRPUSDT"
+    },
+    {
+      "base_asset": "XTZ",
+      "contract_type": "PERPETUAL",
+      "onboard_date": "2019-09-25",
+      "quote_asset": "USDT",
+      "status": "TRADING",
+      "symbol": "XTZUSDT"
+    },
+    {
+      "base_asset": "XVG",
+      "contract_type": "PERPETUAL",
+      "onboard_date": "2023-07-05",
+      "quote_asset": "USDT",
+      "status": "TRADING",
+      "symbol": "XVGUSDT"
+    },
+    {
+      "base_asset": "XVS",
+      "contract_type": "PERPETUAL",
+      "onboard_date": "2023-04-12",
+      "quote_asset": "USDT",
+      "status": "TRADING",
+      "symbol": "XVSUSDT"
+    },
+    {
+      "base_asset": "YB",
+      "contract_type": "PERPETUAL",
+      "onboard_date": "2025-10-10",
+      "quote_asset": "USDT",
+      "status": "TRADING",
+      "symbol": "YBUSDT"
+    },
+    {
+      "base_asset": "YFI",
+      "contract_type": "PERPETUAL",
+      "onboard_date": "2019-09-25",
+      "quote_asset": "USDT",
+      "status": "TRADING",
+      "symbol": "YFIUSDT"
+    },
+    {
+      "base_asset": "YGG",
+      "contract_type": "PERPETUAL",
+      "onboard_date": "2023-08-05",
+      "quote_asset": "USDT",
+      "status": "TRADING",
+      "symbol": "YGGUSDT"
+    },
+    {
+      "base_asset": "ZAMA",
+      "contract_type": "PERPETUAL",
+      "onboard_date": "2026-01-09",
+      "quote_asset": "USDT",
+      "status": "TRADING",
+      "symbol": "ZAMAUSDT"
+    },
+    {
+      "base_asset": "ZBT",
+      "contract_type": "PERPETUAL",
+      "onboard_date": "2025-10-17",
+      "quote_asset": "USDT",
+      "status": "TRADING",
+      "symbol": "ZBTUSDT"
+    },
+    {
+      "base_asset": "ZEC",
+      "contract_type": "PERPETUAL",
+      "onboard_date": "2019-09-25",
+      "quote_asset": "USDT",
+      "status": "TRADING",
+      "symbol": "ZECUSDT"
+    },
+    {
+      "base_asset": "ZEN",
+      "contract_type": "PERPETUAL",
+      "onboard_date": "2019-09-25",
+      "quote_asset": "USDT",
+      "status": "TRADING",
+      "symbol": "ZENUSDT"
+    },
+    {
+      "base_asset": "ZEREBRO",
+      "contract_type": "PERPETUAL",
+      "onboard_date": "2025-01-02",
+      "quote_asset": "USDT",
+      "status": "TRADING",
+      "symbol": "ZEREBROUSDT"
+    },
+    {
+      "base_asset": "ZETA",
+      "contract_type": "PERPETUAL",
+      "onboard_date": "2024-02-02",
+      "quote_asset": "USDT",
+      "status": "TRADING",
+      "symbol": "ZETAUSDT"
+    },
+    {
+      "base_asset": "ZIL",
+      "contract_type": "PERPETUAL",
+      "onboard_date": "2019-09-25",
+      "quote_asset": "USDT",
+      "status": "TRADING",
+      "symbol": "ZILUSDT"
+    },
+    {
+      "base_asset": "ZKC",
+      "contract_type": "PERPETUAL",
+      "onboard_date": "2025-09-15",
+      "quote_asset": "USDT",
+      "status": "TRADING",
+      "symbol": "ZKCUSDT"
+    },
+    {
+      "base_asset": "ZKJ",
+      "contract_type": "PERPETUAL",
+      "onboard_date": "2025-05-13",
+      "quote_asset": "USDT",
+      "status": "TRADING",
+      "symbol": "ZKJUSDT"
+    },
+    {
+      "base_asset": "ZKP",
+      "contract_type": "PERPETUAL",
+      "onboard_date": "2025-12-21",
+      "quote_asset": "USDT",
+      "status": "TRADING",
+      "symbol": "ZKPUSDT"
+    },
+    {
+      "base_asset": "ZK",
+      "contract_type": "PERPETUAL",
+      "onboard_date": "2024-06-17",
+      "quote_asset": "USDT",
+      "status": "TRADING",
+      "symbol": "ZKUSDT"
+    },
+    {
+      "base_asset": "ZORA",
+      "contract_type": "PERPETUAL",
+      "onboard_date": "2025-07-25",
+      "quote_asset": "USDT",
+      "status": "TRADING",
+      "symbol": "ZORAUSDT"
+    },
+    {
+      "base_asset": "ZRO",
+      "contract_type": "PERPETUAL",
+      "onboard_date": "2024-06-20",
+      "quote_asset": "USDT",
+      "status": "TRADING",
+      "symbol": "ZROUSDT"
+    },
+    {
+      "base_asset": "ZRX",
+      "contract_type": "PERPETUAL",
+      "onboard_date": "2019-09-25",
+      "quote_asset": "USDT",
+      "status": "TRADING",
+      "symbol": "ZRXUSDT"
+    }
+  ]
+}

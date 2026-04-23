@@ -1,0 +1,51 @@
+paths:
+  data_dir: data
+  universe_dir: data/universe
+  klines_dir: data/klines_1d
+  manifests_dir: data/manifests
+  logs_dir: data/logs
+  outputs_dir: outputs/api
+  validation_dir: outputs/validation
+  site_public_data_dir: site/public/data
+
+binance:
+  base_url: https://fapi.binance.com
+  exchange_info_path: /fapi/v1/exchangeInfo
+  klines_path: /fapi/v1/klines
+  request_timeout_seconds: 30
+  max_retries: 5
+  retry_backoff_seconds: 1.5
+  max_backoff_seconds: 20.0
+  kline_limit: 1500
+  klines_interval: 1d
+
+universe:
+  quote_asset: USDT
+  required_contract_type: PERPETUAL
+  required_status: TRADING
+  delist_confirmation_days: 3
+  exclude_symbols:
+    - BTCDOMUSDT
+    - DEFIUSDT
+    - BLUEBIRDUSDT
+
+indicators:
+  ma_days: 210
+  atr_days: 60
+  min_days_for_cluster: 60
+
+clustering:
+  lookback_days: 60
+  distance_threshold: 0.8
+  min_cluster_size: 5
+  embed_2d: true
+  max_symbols_for_embedding: 250
+  random_state: 42
+
+bootstrap:
+  auto_seed_on_empty: true
+  local_seed_path: /mnt/d/AlgoWorkflows/RawAlgoData/crypto/binance_klines_1m/CryptoMVP_raw/binance_um/klines_1m
+
+validation:
+  min_success_ratio: 0.85
+

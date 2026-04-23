@@ -1,0 +1,12 @@
+__pycache__/
+.pytest_cache/
+.ruff_cache/
+.venv/
+*.pyc
+*.pyo
+*.pyd
+*.log
+.DS_Store
+site/node_modules/
+site/dist/
+*.tsbuildinfo

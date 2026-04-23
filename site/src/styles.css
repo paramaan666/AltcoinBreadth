@@ -1,0 +1,259 @@
+:root {
+  color-scheme: dark;
+  --bg: #08101c;
+  --panel: rgba(13, 23, 39, 0.9);
+  --panel-border: #223250;
+  --text: #e8eef9;
+  --muted: #96a7c4;
+  --accent: #8b5cf6;
+  --positive: #49d17d;
+  --negative: #ff6b6b;
+  --shadow: 0 24px 48px rgba(0, 0, 0, 0.28);
+  font-family: "Segoe UI", "Helvetica Neue", sans-serif;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  min-height: 100vh;
+  background:
+    radial-gradient(circle at top right, rgba(139, 92, 246, 0.22), transparent 28%),
+    radial-gradient(circle at top left, rgba(92, 200, 255, 0.14), transparent 24%),
+    linear-gradient(180deg, #08101c 0%, #0c1728 100%);
+  color: var(--text);
+}
+
+a {
+  color: var(--text);
+}
+
+.app-shell {
+  max-width: 1440px;
+  margin: 0 auto;
+  padding: 32px 20px 56px;
+}
+
+.status-view {
+  display: grid;
+  place-items: center;
+  min-height: 100vh;
+  color: var(--muted);
+}
+
+.hero {
+  display: flex;
+  justify-content: space-between;
+  gap: 24px;
+  align-items: flex-start;
+  margin-bottom: 28px;
+}
+
+.hero h1,
+.panel h2,
+.cluster-card h3,
+.method-card h3 {
+  margin: 0;
+}
+
+.eyebrow {
+  margin: 0 0 8px;
+  text-transform: uppercase;
+  letter-spacing: 0.12em;
+  color: var(--accent);
+  font-size: 0.78rem;
+}
+
+.hero-copy,
+.panel p,
+.metric-helper,
+.cluster-members,
+.method-line span {
+  color: var(--muted);
+}
+
+.hero-meta,
+.param-list,
+.table-controls,
+.toggle-group {
+  display: flex;
+  gap: 10px;
+  flex-wrap: wrap;
+}
+
+.pill,
+.toggle,
+.search-input {
+  border: 1px solid var(--panel-border);
+  background: rgba(18, 30, 50, 0.75);
+  border-radius: 999px;
+  color: var(--text);
+}
+
+.pill,
+.toggle {
+  padding: 8px 12px;
+  font-size: 0.88rem;
+}
+
+.toggle {
+  cursor: pointer;
+}
+
+.toggle.active {
+  background: rgba(139, 92, 246, 0.24);
+  border-color: rgba(139, 92, 246, 0.8);
+}
+
+.search-input {
+  padding: 10px 14px;
+  min-width: 180px;
+}
+
+.metrics-grid,
+.tables-grid,
+.cluster-grid,
+.method-grid {
+  display: grid;
+  gap: 16px;
+}
+
+.metrics-grid {
+  grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+  margin-bottom: 20px;
+}
+
+.tables-grid,
+.method-grid {
+  grid-template-columns: repeat(auto-fit, minmax(360px, 1fr));
+}
+
+.cluster-grid {
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+}
+
+.panel,
+.metric-card,
+.cluster-card,
+.method-card {
+  background: var(--panel);
+  border: 1px solid var(--panel-border);
+  border-radius: 22px;
+  box-shadow: var(--shadow);
+}
+
+.panel {
+  padding: 20px;
+  margin-bottom: 20px;
+}
+
+.metric-card,
+.cluster-card,
+.method-card {
+  padding: 18px;
+}
+
+.panel-header,
+.table-header,
+.cluster-title-row,
+.method-line {
+  display: flex;
+  justify-content: space-between;
+  gap: 14px;
+}
+
+.table-header {
+  align-items: flex-start;
+}
+
+.metric-label {
+  margin: 0 0 10px;
+  color: var(--muted);
+  font-size: 0.88rem;
+}
+
+.metric-value {
+  margin: 0;
+  font-size: 2rem;
+  font-weight: 700;
+}
+
+.metric-helper {
+  margin: 8px 0 0;
+}
+
+.chart-wrap,
+.cluster-chart {
+  margin-top: 16px;
+}
+
+.table-shell {
+  overflow-x: auto;
+  margin-top: 12px;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+th,
+td {
+  padding: 10px 12px;
+  border-bottom: 1px solid rgba(34, 50, 80, 0.7);
+  text-align: left;
+  white-space: nowrap;
+}
+
+th {
+  color: var(--muted);
+  font-weight: 500;
+}
+
+.positive {
+  color: var(--positive);
+}
+
+.negative {
+  color: var(--negative);
+}
+
+.cluster-members {
+  line-height: 1.6;
+}
+
+.method-grid {
+  margin-top: 14px;
+}
+
+.method-line {
+  padding: 8px 0;
+  border-bottom: 1px solid rgba(34, 50, 80, 0.45);
+}
+
+.method-line:last-child {
+  border-bottom: 0;
+}
+
+.source-link {
+  align-self: flex-start;
+  padding: 10px 14px;
+  border-radius: 999px;
+  background: rgba(18, 30, 50, 0.75);
+  border: 1px solid var(--panel-border);
+  text-decoration: none;
+}
+
+@media (max-width: 900px) {
+  .hero,
+  .panel-header,
+  .table-header {
+    flex-direction: column;
+  }
+
+  .app-shell {
+    padding: 24px 14px 44px;
+  }
+}
