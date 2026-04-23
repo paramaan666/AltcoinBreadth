@@ -6,6 +6,7 @@ __pycache__/
 *.pyo
 *.pyd
 *.log
+*.egg-info/
 .DS_Store
 site/node_modules/
 site/dist/
