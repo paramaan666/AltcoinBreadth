@@ -27,6 +27,8 @@ class BinanceConfig:
     base_url: str
     exchange_info_path: str
     klines_path: str
+    archive_base_url: str
+    archive_bucket_listing_url: str
     request_timeout_seconds: int
     max_retries: int
     retry_backoff_seconds: float
@@ -149,4 +151,3 @@ def ensure_directories(config: AppConfig) -> None:
         config.paths.site_public_data_dir,
     ):
         path.mkdir(parents=True, exist_ok=True)
-

@@ -7,7 +7,12 @@ from typing import Any
 
 import polars as pl
 
-from livealt.binance_client import BinanceClient, UniverseSymbol, last_complete_utc_day
+from livealt.binance_client import (
+    BinanceClient,
+    UniverseSymbol,
+    is_archive_fallback_error,
+    last_complete_utc_day,
+)
 from livealt.bootstrap import bootstrap_from_local_seed
 from livealt.breadth import build_metrics_dataset, build_overview, compute_breadth_history, compute_snapshot_tables
 from livealt.clustering import build_clusters
@@ -31,6 +36,7 @@ from livealt.universe import (
     build_snapshot_history_frame,
     build_snapshot_payload,
     filter_universe_symbols,
+    is_valid_symbol_name,
     merge_registry_with_observations,
 )
 from livealt.validation import validate_output_bundle
@@ -51,21 +57,58 @@ def run_pipeline(
         if config.bootstrap.auto_seed_on_empty and source:
             bootstrap_summary = bootstrap_from_local_seed(config, source, logger)
 
+    existing_inventory = build_data_inventory(config)
+    existing_registry = read_lifecycle_registry(config)
     symbol_statuses: dict[str, Any] = {}
+    universe_mode = "rest"
     client = BinanceClient(config.binance, logger)
     try:
-        raw_exchange_info = client.fetch_exchange_info()
-        active_symbols = filter_universe_symbols(raw_exchange_info, config.universe)
-        logger.info("Discovered %s active symbols in the Binance universe.", len(active_symbols))
-        _write_universe_files(config, today_utc, active_symbols)
-        for info in active_symbols:
-            symbol_statuses[info.symbol] = _update_symbol(client, config, info, data_as_of, logger)
+        try:
+            raw_exchange_info = client.fetch_exchange_info()
+            active_symbols = filter_universe_symbols(raw_exchange_info, config.universe)
+            discovered_symbols = active_symbols
+            logger.info("Discovered %s active symbols in the Binance universe.", len(active_symbols))
+        except Exception as exc:  # noqa: BLE001
+            if not is_archive_fallback_error(exc):
+                raise
+            universe_mode = "archive_fallback"
+            logger.warning(
+                "Binance REST exchangeInfo returned 451. Falling back to Binance archive listing for symbol discovery."
+            )
+            archive_symbols = client.list_archive_symbols()
+            discovered_symbols = _build_archive_discovered_symbols(
+                client=client,
+                config=config,
+                archive_symbols=archive_symbols,
+                data_as_of=data_as_of,
+                existing_inventory=existing_inventory,
+                existing_registry=existing_registry,
+                logger=logger,
+            )
+            active_symbols = []
+
+        for info in discovered_symbols:
+            symbol_statuses[info.symbol] = _update_symbol(
+                client,
+                config,
+                info,
+                data_as_of,
+                logger,
+                use_archive_fallback=(universe_mode == "archive_fallback"),
+            )
     finally:
         client.close()
 
     data_inventory = build_data_inventory(config)
+    if universe_mode == "archive_fallback":
+        active_symbols = _derive_active_symbols_from_inventory(config, data_inventory, data_as_of)
+        logger.info(
+            "Archive fallback inferred %s active symbols from recent data freshness.",
+            len(active_symbols),
+        )
+    _write_universe_files(config, today_utc, active_symbols)
     registry = merge_registry_with_observations(
-        existing_registry=read_lifecycle_registry(config),
+        existing_registry=existing_registry,
         snapshot_date=today_utc,
         active_symbols=active_symbols,
         data_ranges=collect_symbol_ranges(config),
@@ -115,6 +158,7 @@ def run_pipeline(
         "data_as_of": data_as_of.isoformat(),
         "universe_snapshot_date": today_utc.isoformat(),
         "active_universe_count": len(active_symbols),
+        "universe_mode": universe_mode,
         "symbol_statuses": symbol_statuses,
         "bootstrap": bootstrap_summary,
         "overview": overview,
@@ -178,6 +222,7 @@ def _update_symbol(
     symbol_info: UniverseSymbol,
     data_as_of: date,
     logger: logging.Logger,
+    use_archive_fallback: bool = False,
 ) -> dict[str, Any]:
     symbol = symbol_info.symbol
     try:
@@ -191,7 +236,15 @@ def _update_symbol(
             }
 
         logger.info("Updating %s from %s to %s.", symbol, start_date.isoformat(), data_as_of.isoformat())
-        frame = client.fetch_daily_klines(symbol, start_date, data_as_of)
+        if use_archive_fallback:
+            frame = client.fetch_archive_daily_klines(
+                symbol,
+                start_date,
+                data_as_of,
+                full_backfill=(last_date is None),
+            )
+        else:
+            frame = client.fetch_daily_klines(symbol, start_date, data_as_of)
         if frame.is_empty():
             return {
                 "status": "success",
@@ -217,3 +270,93 @@ def _resolve_start_date(last_date: date | None, onboard_date: date | None, data_
     if onboard_date is not None:
         return onboard_date
     return date(2019, 9, 1)
+
+
+def _derive_active_symbols_from_inventory(
+    config: AppConfig,
+    data_inventory: dict[str, Any],
+    data_as_of: date,
+) -> list[UniverseSymbol]:
+    freshness_cutoff = data_as_of - timedelta(days=config.universe.delist_confirmation_days)
+    active: list[UniverseSymbol] = []
+    for symbol, ranges in data_inventory.get("symbols", {}).items():
+        last_data_date = ranges.get("last_data_date")
+        if not last_data_date:
+            continue
+        if date.fromisoformat(last_data_date) < freshness_cutoff:
+            continue
+        active.append(
+            UniverseSymbol(
+                symbol=symbol,
+                base_asset=symbol[: -len(config.universe.quote_asset)],
+                quote_asset=config.universe.quote_asset,
+                contract_type=config.universe.required_contract_type,
+                status="INFERRED_ACTIVE",
+                onboard_date=None,
+            )
+        )
+    return sorted(active, key=lambda item: item.symbol)
+
+
+def _build_archive_discovered_symbols(
+    client: BinanceClient,
+    config: AppConfig,
+    archive_symbols: list[str],
+    data_as_of: date,
+    existing_inventory: dict[str, Any],
+    existing_registry: dict[str, Any],
+    logger: logging.Logger,
+) -> list[UniverseSymbol]:
+    freshness_cutoff = data_as_of - timedelta(days=config.universe.delist_confirmation_days)
+    known_ranges = existing_inventory.get("symbols", {})
+    candidates: list[str] = []
+    unknown_symbols: list[str] = []
+
+    for symbol in archive_symbols:
+        if symbol in config.universe.exclude_symbols:
+            continue
+        if not symbol.endswith(config.universe.quote_asset):
+            continue
+        if not is_valid_symbol_name(symbol):
+            continue
+
+        ranges = known_ranges.get(symbol)
+        if ranges is None:
+            unknown_symbols.append(symbol)
+            continue
+
+        last_data_date_raw = ranges.get("last_data_date")
+        last_data_date = date.fromisoformat(last_data_date_raw) if last_data_date_raw else None
+        status = existing_registry.get(symbol, {}).get("status")
+        should_refresh = (
+            last_data_date is None
+            or last_data_date >= freshness_cutoff
+            or status in {"active", "candidate_delisted", "unknown", None}
+        )
+        if should_refresh:
+            candidates.append(symbol)
+
+    logger.info(
+        "Archive fallback selected %s known symbols for refresh and will probe %s unknown symbols for new listings.",
+        len(candidates),
+        len(unknown_symbols),
+    )
+
+    for symbol in unknown_symbols:
+        try:
+            if client.has_archive_daily_kline(symbol, data_as_of):
+                candidates.append(symbol)
+        except Exception as exc:  # noqa: BLE001
+            logger.warning("Archive probe failed for %s: %s", symbol, exc)
+
+    return [
+        UniverseSymbol(
+            symbol=symbol,
+            base_asset=symbol[: -len(config.universe.quote_asset)],
+            quote_asset=config.universe.quote_asset,
+            contract_type=config.universe.required_contract_type,
+            status="ARCHIVE_DISCOVERED",
+            onboard_date=None,
+        )
+        for symbol in sorted(set(candidates))
+    ]

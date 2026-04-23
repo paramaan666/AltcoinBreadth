@@ -37,6 +37,8 @@ def app_config(tmp_path: Path) -> AppConfig:
             base_url="https://example.com",
             exchange_info_path="/exchangeInfo",
             klines_path="/klines",
+            archive_base_url="https://data.binance.vision",
+            archive_bucket_listing_url="https://s3-ap-northeast-1.amazonaws.com/data.binance.vision",
             request_timeout_seconds=5,
             max_retries=2,
             retry_backoff_seconds=0.01,

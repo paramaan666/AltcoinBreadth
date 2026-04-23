@@ -12,6 +12,8 @@ binance:
   base_url: https://fapi.binance.com
   exchange_info_path: /fapi/v1/exchangeInfo
   klines_path: /fapi/v1/klines
+  archive_base_url: https://data.binance.vision
+  archive_bucket_listing_url: https://s3-ap-northeast-1.amazonaws.com/data.binance.vision
   request_timeout_seconds: 30
   max_retries: 5
   retry_backoff_seconds: 1.5
@@ -48,4 +50,3 @@ bootstrap:
 
 validation:
   min_success_ratio: 0.85
-
