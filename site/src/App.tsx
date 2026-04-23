@@ -85,21 +85,33 @@ export default function App() {
 
   return (
     <div className="app-shell">
-      <header className="hero">
-        <div>
-          <p className="eyebrow">Binance USDⓈ-M Futures</p>
-          <h1>Crypto Market Breadth Dashboard</h1>
-          <p className="hero-copy">
-            Daily static analytics for breadth, 30W MA distance, delist-aware lifecycle handling, and correlation clusters.
-          </p>
+      <header className="topbar">
+        <div className="brand-lockup">
+          <div className="brand-mark" aria-hidden="true">
+            <span className="bar bar-1" />
+            <span className="bar bar-2" />
+            <span className="bar bar-3" />
+          </div>
+          <div>
+            <h1>Crypto Market Breadth Dashboard</h1>
+            <p className="topbar-subtitle">Binance USDⓈ-M Futures</p>
+          </div>
         </div>
+        <nav className="topnav" aria-label="Dashboard sections">
+          <a href="#overview">Overview</a>
+          <a href="#breadth">Breadth</a>
+          <a href="#above-30w">Above 30W MA</a>
+          <a href="#below-30w">Below 30W MA</a>
+          <a href="#clusters">Clusters</a>
+          <a href="#methodology">Methodology</a>
+        </nav>
         <div className="hero-meta">
           <span className="pill">Updated: {state.overview.updated_at_utc}</span>
           <span className="pill">As of: {state.overview.as_of_date ?? "n/a"}</span>
         </div>
       </header>
 
-      <section className="metrics-grid">
+      <section className="metrics-grid" id="overview">
         <MetricCard label="Tracked Symbols" value={String(state.overview.tracked_symbols)} helper="Symbols with stored daily history" />
         <MetricCard label="Eligible Symbols" value={String(state.overview.eligible_symbols)} helper="Enough history for 30W MA" />
         <MetricCard label="Above 30W MA" value={String(state.overview.above_count)} helper={`${state.overview.above_pct.toFixed(2)}% of eligible`} />
@@ -108,40 +120,38 @@ export default function App() {
         <MetricCard label="Delisted Symbols" value={String(state.overview.delisted_symbols_total)} helper="Retained for historical breadth" />
       </section>
 
-      <section className="panel">
-        <div className="panel-header">
-          <div>
-            <h2>Breadth History</h2>
-            <p>{state.overview.universe_rule}</p>
+      <main className="dashboard-grid">
+        <section className="panel panel--breadth" id="breadth">
+          <div className="panel-header">
+            <div>
+              <h2>Breadth History</h2>
+              <p>{state.overview.universe_rule}</p>
+            </div>
+            <div className="param-list">
+              <span className="pill">{state.overview.ma_definition}</span>
+              <span className="pill">{state.overview.distance_definition}</span>
+            </div>
           </div>
-          <div className="param-list">
-            <span className="pill">{state.overview.ma_definition}</span>
-            <span className="pill">{state.overview.distance_definition}</span>
+          <div className="chart-wrap">
+            <ResponsiveContainer width="100%" height={250}>
+              <LineChart data={state.breadth}>
+                <CartesianGrid strokeDasharray="3 3" stroke="#20324b" />
+                <XAxis dataKey="date" minTickGap={48} stroke="#6f87a8" />
+                <YAxis stroke="#6f87a8" domain={[0, 100]} unit="%" />
+                <Tooltip
+                  contentStyle={{ background: "#081523", border: "1px solid #20324b", borderRadius: 12 }}
+                />
+                <Line dataKey="above_pct" dot={false} stroke="#63d2ff" strokeWidth={2} />
+              </LineChart>
+            </ResponsiveContainer>
           </div>
-        </div>
-        <div className="chart-wrap">
-          <ResponsiveContainer width="100%" height={320}>
-            <LineChart data={state.breadth}>
-              <CartesianGrid strokeDasharray="3 3" stroke="#25304a" />
-              <XAxis dataKey="date" minTickGap={48} stroke="#7d8597" />
-              <YAxis stroke="#7d8597" domain={[0, 100]} unit="%" />
-              <Tooltip
-                contentStyle={{ background: "#0e1726", border: "1px solid #25304a", borderRadius: 12 }}
-              />
-              <Line dataKey="above_pct" dot={false} stroke="#8b5cf6" strokeWidth={2} />
-            </LineChart>
-          </ResponsiveContainer>
-        </div>
-      </section>
+        </section>
 
-      <div className="tables-grid">
-        <DistanceTable title="Above 30W MA" rows={state.above} direction="above" />
-        <DistanceTable title="Below 30W MA" rows={state.below} direction="below" />
-      </div>
-
-      <ClustersPanel payload={state.clusters} />
-      <MethodologyPanel methodology={state.methodology} sourceUrl={SOURCE_REPO_URL} />
+        <DistanceTable title="Above 30W MA" rows={state.above} direction="above" className="panel--table" sectionId="above-30w" />
+        <DistanceTable title="Below 30W MA" rows={state.below} direction="below" className="panel--table" sectionId="below-30w" />
+        <ClustersPanel payload={state.clusters} className="panel--clusters" />
+        <MethodologyPanel methodology={state.methodology} sourceUrl={SOURCE_REPO_URL} className="panel--methodology" />
+      </main>
     </div>
   );
 }
-

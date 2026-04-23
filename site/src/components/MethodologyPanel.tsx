@@ -3,24 +3,30 @@ import type { Methodology } from "../lib/types";
 type MethodologyPanelProps = {
   methodology: Methodology;
   sourceUrl: string | undefined;
+  className?: string;
 };
+
+function formatLabel(key: string) {
+  const normalized = key.replace(/_/g, " ");
+  return normalized.charAt(0).toUpperCase() + normalized.slice(1);
+}
 
 function renderEntries(entries: Record<string, string | number>) {
   return Object.entries(entries).map(([key, value]) => (
     <div key={key} className="method-line">
-      <span>{key}</span>
+      <span>{formatLabel(key)}</span>
       <strong>{String(value)}</strong>
     </div>
   ));
 }
 
-export function MethodologyPanel({ methodology, sourceUrl }: MethodologyPanelProps) {
+export function MethodologyPanel({ methodology, sourceUrl, className }: MethodologyPanelProps) {
   return (
-    <section className="panel">
+    <section id="methodology" className={className ? `panel ${className}` : "panel"}>
       <div className="panel-header">
         <div>
-          <h2>Methodology</h2>
-          <p>Compact definitions for breadth, distance normalization, clustering, and lifecycle handling.</p>
+          <h2>Methodology / About</h2>
+          <p>Compact definitions for breadth, distance normalization, clustering, lifecycle handling, and data sourcing.</p>
         </div>
         {sourceUrl ? (
           <a className="source-link" href={sourceUrl} target="_blank" rel="noreferrer">
@@ -49,4 +55,3 @@ export function MethodologyPanel({ methodology, sourceUrl }: MethodologyPanelPro
     </section>
   );
 }
-

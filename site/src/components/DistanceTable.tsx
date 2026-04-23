@@ -5,6 +5,8 @@ type DistanceTableProps = {
   title: string;
   rows: SnapshotRow[];
   direction: "above" | "below";
+  className?: string;
+  sectionId?: string;
 };
 
 type SortMode = "raw" | "normalized";
@@ -27,18 +29,35 @@ function filterRows(rows: SnapshotRow[], query: string) {
   return rows.filter((row) => row.symbol.toLowerCase().includes(normalized));
 }
 
-export function DistanceTable({ title, rows, direction }: DistanceTableProps) {
+function formatPrice(value: number) {
+  if (value >= 1000) {
+    return value.toLocaleString(undefined, { minimumFractionDigits: 2, maximumFractionDigits: 2 });
+  }
+  if (value >= 1) {
+    return value.toLocaleString(undefined, { minimumFractionDigits: 2, maximumFractionDigits: 4 });
+  }
+  if (value >= 0.01) {
+    return value.toLocaleString(undefined, { minimumFractionDigits: 3, maximumFractionDigits: 5 });
+  }
+  return value.toLocaleString(undefined, { minimumFractionDigits: 4, maximumFractionDigits: 8 });
+}
+
+export function DistanceTable({ title, rows, direction, className, sectionId }: DistanceTableProps) {
   const [sortMode, setSortMode] = useState<SortMode>("normalized");
   const [query, setQuery] = useState("");
   const filtered = filterRows(rows, query);
   const sorted = sortRows(filtered, sortMode, direction);
+  const leader = sorted[0];
 
   return (
-    <section className="panel">
+    <section id={sectionId} className={className ? `panel ${className}` : "panel"}>
       <div className="panel-header table-header">
         <div>
           <h2>{title}</h2>
-          <p>{rows.length} symbols in the latest eligible snapshot.</p>
+          <p>
+            {rows.length} symbols in the latest eligible snapshot.
+            {leader ? ` Lead: ${leader.symbol} (${leader.raw_distance_pct.toFixed(2)}%)` : ""}
+          </p>
         </div>
         <div className="table-controls">
           <div className="toggle-group">
@@ -69,6 +88,7 @@ export function DistanceTable({ title, rows, direction }: DistanceTableProps) {
         <table>
           <thead>
             <tr>
+              <th>#</th>
               <th>Symbol</th>
               <th>Close</th>
               <th>30W MA</th>
@@ -79,11 +99,12 @@ export function DistanceTable({ title, rows, direction }: DistanceTableProps) {
             </tr>
           </thead>
           <tbody>
-            {sorted.map((row) => (
+            {sorted.map((row, index) => (
               <tr key={row.symbol}>
+                <td>{index + 1}</td>
                 <td>{row.symbol}</td>
-                <td>{row.close.toFixed(6)}</td>
-                <td>{row.ma_30w.toFixed(6)}</td>
+                <td>{formatPrice(row.close)}</td>
+                <td>{formatPrice(row.ma_30w)}</td>
                 <td className={direction === "above" ? "positive" : "negative"}>
                   {row.raw_distance_pct.toFixed(2)}%
                 </td>
@@ -100,4 +121,3 @@ export function DistanceTable({ title, rows, direction }: DistanceTableProps) {
     </section>
   );
 }
-
