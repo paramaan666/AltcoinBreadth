@@ -1,23 +1,21 @@
 import { useEffect, useState } from "react";
-import {
-  CartesianGrid,
-  Line,
-  LineChart,
-  ResponsiveContainer,
-  Tooltip,
-  XAxis,
-  YAxis,
-} from "recharts";
+import { BreadthPanel } from "./components/BreadthPanel";
 import { ClustersPanel } from "./components/ClustersPanel";
 import { DistanceTable } from "./components/DistanceTable";
+import { MethodologyPanel } from "./components/MethodologyPanel";
 import { MetricCard } from "./components/MetricCard";
 import { loadDashboardData } from "./lib/api";
 import type {
   BreadthPoint,
   ClusterPayload,
+  Methodology,
   Overview,
   SnapshotRow,
 } from "./lib/types";
+
+const SOURCE_REPO_URL = import.meta.env.VITE_SOURCE_REPO_URL as string | undefined;
+
+type DashboardTab = "overview" | "breadth" | "above" | "below" | "clusters" | "methodology";
 
 type DashboardState = {
   overview: Overview | null;
@@ -25,17 +23,29 @@ type DashboardState = {
   above: SnapshotRow[];
   below: SnapshotRow[];
   clusters: ClusterPayload | null;
+  methodology: Methodology | null;
   error: string | null;
   loading: boolean;
 };
 
+const TABS: Array<{ id: DashboardTab; label: string }> = [
+  { id: "overview", label: "Overview" },
+  { id: "breadth", label: "Breadth" },
+  { id: "above", label: "Above 30W MA" },
+  { id: "below", label: "Below 30W MA" },
+  { id: "clusters", label: "Clusters" },
+  { id: "methodology", label: "Methodology" },
+];
+
 export default function App() {
+  const [activeTab, setActiveTab] = useState<DashboardTab>("overview");
   const [state, setState] = useState<DashboardState>({
     overview: null,
     breadth: [],
     above: [],
     below: [],
     clusters: null,
+    methodology: null,
     error: null,
     loading: true,
   });
@@ -53,6 +63,7 @@ export default function App() {
           above: payload.above,
           below: payload.below,
           clusters: payload.clusters,
+          methodology: payload.methodology,
           error: null,
           loading: false,
         });
@@ -72,9 +83,11 @@ export default function App() {
     return <div className="app-shell status-view">Loading dashboard data...</div>;
   }
 
-  if (state.error || !state.overview || !state.clusters) {
+  if (state.error || !state.overview || !state.clusters || !state.methodology) {
     return <div className="app-shell status-view">Unable to load dashboard: {state.error ?? "unknown error"}</div>;
   }
+
+  const { overview, breadth, above, below, clusters, methodology } = state;
 
   return (
     <div className="app-shell">
@@ -90,85 +103,109 @@ export default function App() {
             <p className="topbar-subtitle">Binance USDⓈ-M Futures</p>
           </div>
         </div>
+
         <nav className="topnav" aria-label="Dashboard sections">
-          <a href="#overview">Overview</a>
-          <a href="#breadth">Breadth</a>
-          <a href="#above-30w">Above 30W MA</a>
-          <a href="#below-30w">Below 30W MA</a>
-          <a href="#clusters">Clusters</a>
+          {TABS.map((tab) => (
+            <button
+              key={tab.id}
+              type="button"
+              className={activeTab === tab.id ? "topnav-button active" : "topnav-button"}
+              onClick={() => {
+                setActiveTab(tab.id);
+                window.scrollTo({ top: 0, behavior: "smooth" });
+              }}
+            >
+              {tab.label}
+            </button>
+          ))}
         </nav>
+
         <div className="hero-meta">
-          <span className="pill">Last update: {state.overview.updated_at_utc}</span>
-          <span className="pill">As of: {state.overview.as_of_date ?? "n/a"}</span>
-          <span className="pill">
-            Active: {state.overview.active_symbols} / Tracked: {state.overview.tracked_symbols}
-          </span>
+          <span className="pill">Last update: {overview.updated_at_utc}</span>
+          <span className="pill">As of: {overview.as_of_date ?? "n/a"}</span>
         </div>
       </header>
 
-      <section className="metrics-grid" id="overview">
-        <MetricCard
-          label="Tracked Symbols"
-          value={String(state.overview.tracked_symbols)}
-          helper={`${state.overview.active_symbols} active · ${state.overview.delisted_symbols_total} delisted history`}
-        />
-        <MetricCard label="Eligible Symbols" value={String(state.overview.eligible_symbols)} helper="Enough history for 30W MA" />
-        <MetricCard label="Above 30W MA" value={String(state.overview.above_count)} helper={`${state.overview.above_pct.toFixed(2)}% of eligible`} />
-        <MetricCard
-          label="Below 30W MA"
-          value={String(state.overview.below_count)}
-          helper={`${(100 - state.overview.above_pct).toFixed(2)}% of eligible`}
-        />
-        <MetricCard
-          label="Breadth (Above %)"
-          value={`${state.overview.above_pct.toFixed(1)}%`}
-          helper={`${state.overview.as_of_date ?? "Latest"} snapshot`}
-        />
-      </section>
+      <div className="page-view">
+        {activeTab === "overview" ? (
+          <>
+            <section className="metrics-grid" id="overview">
+              <MetricCard label="Total Coins Tracked" value={String(overview.tracked_symbols)} helper="All futures symbols with stored history" />
+              <MetricCard label="Eligible Coins" value={String(overview.eligible_symbols)} helper="With sufficient history" />
+              <MetricCard label="Above 30W MA" value={String(overview.above_count)} helper={`${overview.above_pct.toFixed(1)}% of eligible`} />
+              <MetricCard label="Below 30W MA" value={String(overview.below_count)} helper={`${(100 - overview.above_pct).toFixed(1)}% of eligible`} />
+              <MetricCard label="Breadth (Above %)" value={`${overview.above_pct.toFixed(1)}%`} helper={`${overview.active_symbols} active symbols`} />
+            </section>
 
-      <main className="dashboard-grid">
-        <section className="panel panel--breadth" id="breadth">
-          <div className="panel-header">
-            <div>
-              <h2>Breadth (% Above 30W MA)</h2>
-              <p>{state.overview.universe_rule}</p>
-            </div>
-            <div className="param-list">
-              <span className="pill">210d trailing MA</span>
-              <span className="pill">ATR%(60) normalized</span>
-            </div>
-          </div>
-          <div className="chart-wrap">
-            <ResponsiveContainer width="100%" height="100%">
-              <LineChart data={state.breadth}>
-                <CartesianGrid strokeDasharray="3 3" stroke="#20324b" />
-                <XAxis dataKey="date" minTickGap={48} stroke="#6f87a8" />
-                <YAxis stroke="#6f87a8" domain={[0, 100]} unit="%" />
-                <Tooltip
-                  contentStyle={{ background: "#081523", border: "1px solid #20324b", borderRadius: 12 }}
+            <div className="overview-stack">
+              <BreadthPanel overview={overview} breadth={breadth} variant="overview" sectionId="breadth" />
+
+              <div className="tables-grid">
+                <DistanceTable
+                  title="Above 30W MA"
+                  rows={above}
+                  direction="above"
+                  className="panel--table"
+                  sectionId="above-30w"
                 />
-                <Line dataKey="above_pct" dot={false} stroke="#63d2ff" strokeWidth={2} />
-              </LineChart>
-            </ResponsiveContainer>
-          </div>
-        </section>
+                <DistanceTable
+                  title="Below 30W MA"
+                  rows={below}
+                  direction="below"
+                  className="panel--table"
+                  sectionId="below-30w"
+                />
+              </div>
 
-        <ClustersPanel payload={state.clusters} className="panel--clusters" />
-        <DistanceTable
-          title="Above 30W MA"
-          rows={state.above}
-          direction="above"
-          className="panel--table panel--table-above"
-          sectionId="above-30w"
-        />
-        <DistanceTable
-          title="Below 30W MA"
-          rows={state.below}
-          direction="below"
-          className="panel--table panel--table-below"
-          sectionId="below-30w"
-        />
-      </main>
+              <ClustersPanel payload={clusters} variant="overview" sectionId="clusters" />
+
+              <MethodologyPanel
+                methodology={methodology}
+                sourceUrl={SOURCE_REPO_URL}
+                className="panel--methodology"
+                sectionId="methodology"
+              />
+            </div>
+          </>
+        ) : null}
+
+        {activeTab === "breadth" ? (
+          <BreadthPanel overview={overview} breadth={breadth} variant="expanded" className="panel--focus" sectionId="breadth" />
+        ) : null}
+
+        {activeTab === "above" ? (
+          <DistanceTable
+            title="Above 30W MA"
+            rows={above}
+            direction="above"
+            className="panel--focus panel--focus-table"
+            sectionId="above-30w"
+          />
+        ) : null}
+
+        {activeTab === "below" ? (
+          <DistanceTable
+            title="Below 30W MA"
+            rows={below}
+            direction="below"
+            className="panel--focus panel--focus-table"
+            sectionId="below-30w"
+          />
+        ) : null}
+
+        {activeTab === "clusters" ? (
+          <ClustersPanel payload={clusters} variant="expanded" className="panel--focus panel--focus-clusters" sectionId="clusters" />
+        ) : null}
+
+        {activeTab === "methodology" ? (
+          <MethodologyPanel
+            methodology={methodology}
+            sourceUrl={SOURCE_REPO_URL}
+            className="panel--focus panel--methodology"
+            sectionId="methodology"
+          />
+        ) : null}
+      </div>
     </div>
   );
 }

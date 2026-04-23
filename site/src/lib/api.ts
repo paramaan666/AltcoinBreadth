@@ -1,6 +1,7 @@
 import type {
   BreadthPoint,
   ClusterPayload,
+  Methodology,
   Overview,
   SnapshotRow,
 } from "./types";
@@ -19,14 +20,16 @@ export async function loadDashboardData(): Promise<{
   above: SnapshotRow[];
   below: SnapshotRow[];
   clusters: ClusterPayload;
+  methodology: Methodology;
 }> {
-  const [overview, breadthPayload, abovePayload, belowPayload, clusters] =
+  const [overview, breadthPayload, abovePayload, belowPayload, clusters, methodology] =
     await Promise.all([
       fetchJson<Overview>("overview.json"),
       fetchJson<{ series: BreadthPoint[] }>("breadth_history.json"),
       fetchJson<{ as_of_date: string | null; rows: SnapshotRow[] }>("above_30w_ma.json"),
       fetchJson<{ as_of_date: string | null; rows: SnapshotRow[] }>("below_30w_ma.json"),
       fetchJson<ClusterPayload>("clusters.json"),
+      fetchJson<Methodology>("methodology.json"),
     ]);
 
   return {
@@ -35,5 +38,6 @@ export async function loadDashboardData(): Promise<{
     above: abovePayload.rows,
     below: belowPayload.rows,
     clusters,
+    methodology,
   };
 }

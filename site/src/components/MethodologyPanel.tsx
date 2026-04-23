@@ -4,6 +4,7 @@ type MethodologyPanelProps = {
   methodology: Methodology;
   sourceUrl: string | undefined;
   className?: string;
+  sectionId?: string;
 };
 
 function formatLabel(key: string) {
@@ -20,9 +21,9 @@ function renderEntries(entries: Record<string, string | number>) {
   ));
 }
 
-export function MethodologyPanel({ methodology, sourceUrl, className }: MethodologyPanelProps) {
+export function MethodologyPanel({ methodology, sourceUrl, className, sectionId }: MethodologyPanelProps) {
   return (
-    <section id="methodology" className={className ? `panel ${className}` : "panel"}>
+    <section id={sectionId ?? "methodology"} className={className ? `panel ${className}` : "panel"}>
       <div className="panel-header">
         <div>
           <h2>Methodology / About</h2>
@@ -50,6 +51,21 @@ export function MethodologyPanel({ methodology, sourceUrl, className }: Methodol
         <article className="method-card">
           <h3>Lifecycle</h3>
           {renderEntries(methodology.lifecycle)}
+        </article>
+        <article className="method-card">
+          <h3>Source</h3>
+          <div className="method-line">
+            <span>Data</span>
+            <strong>Binance USDⓈ-M REST</strong>
+          </div>
+          <div className="method-line">
+            <span>Automation</span>
+            <strong>GitHub Actions daily</strong>
+          </div>
+          <div className="method-line">
+            <span>Frontend</span>
+            <strong>Static GitHub Pages</strong>
+          </div>
         </article>
       </div>
     </section>
