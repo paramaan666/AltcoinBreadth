@@ -56,6 +56,7 @@ def build_methodology(config: AppConfig) -> dict[str, Any]:
             "returns": "Daily log returns",
             "algorithm": "Agglomerative clustering with average linkage",
             "distance": "sqrt(0.5 * (1 - correlation))",
+            "embedding": "2D t-SNE projection of the precomputed correlation distance matrix",
             "lookback_days": config.clustering.lookback_days,
             "min_cluster_size": config.clustering.min_cluster_size,
         },
@@ -65,4 +66,3 @@ def build_methodology(config: AppConfig) -> dict[str, Any]:
             "survivorship_bias": "Historical breadth respects symbol lifecycle intervals instead of today's universe.",
         },
     }
-

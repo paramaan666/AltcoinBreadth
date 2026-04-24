@@ -6,7 +6,7 @@ LiveALT je statický, zdarma provozovatelný dashboard pro Binance USDⓈ-M Futu
 - počítá historickou breadth metriku `% symbolů nad 30W MA`
 - generuje aktuální seznamy symbolů nad a pod 30W MA
 - počítá normalizovanou vzdálenost od MA přes ATR%
-- vytváří korelační clustery z denních výnosů
+- vytváří similarity mapu kryptoměn z korelace denních výnosů
 - publikuje výsledný web přes GitHub Pages
 
 Celý provoz běží bez backendu a bez placených cloud služeb. Automatizace používá jen GitHub Actions a Binance veřejné REST endpointy.
@@ -19,7 +19,7 @@ Systém má dvě vrstvy:
    - objevuje aktuální univerzum aktivních Binance USDT perpetual futures
    - inkrementálně dotahuje chybějící denní data
    - ukládá denní OHLCV do `data/klines_1d/SYMBOL/YYYY.parquet`
-   - počítá breadth, snapshoty, lifecycle a clustery
+   - počítá breadth, snapshoty, lifecycle a similarity artefakty
    - generuje statické JSON do `outputs/api/`
 
 2. Statický frontend v `site/`
@@ -56,7 +56,7 @@ Každý běh udělá:
 4. pro každý aktivní symbol stáhne jen chybějící `1d` svíčky
 5. aktualizuje lifecycle registry a delist inference
 6. spočítá breadth historii a aktuální snapshoty
-7. spočítá clustery
+7. spočítá korelační distance a similarity mapu
 8. zvaliduje JSON výstupy
 9. buildne frontend a publikuje Pages
 
@@ -158,19 +158,20 @@ Kde:
 
 Tím se omezí dominance extrémně volatilních meme coinů a tabulky jsou použitelnější napříč různými typy symbolů.
 
-## Clustering
+## Similarity mapa
 
-Clustery nejsou ML pipeline pro research, ale praktická analytická vrstva pro dashboard.
+Similarity mapa není ML pipeline pro research, ale praktická analytická vrstva pro dashboard.
 
 Použitá metodika:
 
 - vstup: denní log returny
 - okno: posledních 60 dní
 - distance: `sqrt(0.5 * (1 - correlation))`
-- algoritmus: aglomerativní clustering s average linkage
-- malé skupiny pod `min_cluster_size` jdou do `unassigned`
+- embedding: 2D t-SNE projekce nad předpočítanou korelační distance maticí
+- interpretace: body blízko sebe měly podobné nedávné denní pohyby
+- neinterpretuj absolutní směr os; mapa je relativní lokální sousedství
 
-Zvolen byl aglomerativní clustering místo HDBSCAN kvůli jednodušší instalaci, nižší provozní složitosti a spolehlivějším GitHub Actions buildům.
+Pipeline stále interně počítá aglomerativní clustering s average linkage a `min_cluster_size`, ale frontend primárně zobrazuje spojitou similarity mapu místo pevně pojmenovaných skupin. Důvod je praktičnost: pro stovky altcoinů je mapa často čitelnější než rigidní seznam clusterů.
 
 ## Lokální spuštění
 
@@ -263,7 +264,7 @@ Hlavní parametry jsou v `config/settings.yaml`:
 - Binance endpointy a retry limity
 - filtrace universa
 - délka MA a ATR okna
-- cluster parametry
+- similarity / cluster parametry
 - bootstrap chování
 - minimální poměr úspěšných symbol updateů
 

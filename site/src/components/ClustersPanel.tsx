@@ -22,6 +22,19 @@ type ScatterTooltipProps = {
   active?: boolean;
   payload?: Array<{ payload: EmbeddingPoint }>;
 };
+type ScatterDotProps = {
+  cx?: number;
+  cy?: number;
+  fill?: string;
+  fillOpacity?: number;
+};
+
+function SimilarityDot(props: ScatterDotProps) {
+  if (typeof props.cx !== "number" || typeof props.cy !== "number") {
+    return null;
+  }
+  return <circle cx={props.cx} cy={props.cy} r={2.9} fill={props.fill} fillOpacity={props.fillOpacity ?? 1} />;
+}
 
 function SimilarityTooltip({ active, payload }: ScatterTooltipProps) {
   const point = payload?.[0]?.payload;
@@ -75,12 +88,12 @@ export function ClustersPanel({
       <div className="panel-header">
         <div>
           <h2>Crypto Similarity Map</h2>
-          <p>Each point is one symbol. Symbols with similar recent return behavior are positioned closer together.</p>
+          <p>Each point is one symbol. Nearby points had similar recent daily return behavior; absolute map direction has no market meaning.</p>
         </div>
         <div className="param-list">
           <span className="pill">{String(payload.params.lookback_days)}D daily returns</span>
           <span className="pill">Correlation distance</span>
-          <span className="pill">PCA 2D projection</span>
+          <span className="pill">t-SNE 2D map</span>
         </div>
       </div>
 
@@ -99,9 +112,15 @@ export function ClustersPanel({
                 data={backgroundPoints}
                 fill="#5fd5ff"
                 fillOpacity={normalizedQuery ? 0.18 : 0.72}
+                shape={(props: unknown) => <SimilarityDot {...(props as ScatterDotProps)} />}
               />
               {matchingPoints.length > 0 ? (
-                <Scatter data={matchingPoints} fill="#f2b236" fillOpacity={0.98} />
+                <Scatter
+                  data={matchingPoints}
+                  fill="#f2b236"
+                  fillOpacity={0.98}
+                  shape={(props: unknown) => <SimilarityDot {...(props as ScatterDotProps)} />}
+                />
               ) : null}
             </ScatterChart>
           </ResponsiveContainer>

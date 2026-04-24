@@ -6,7 +6,7 @@ from typing import Any
 import numpy as np
 import polars as pl
 from sklearn.cluster import AgglomerativeClustering
-from sklearn.decomposition import PCA
+from sklearn.manifold import TSNE
 
 from livealt.config import AppConfig
 
@@ -95,7 +95,7 @@ def build_clusters(config: AppConfig, metrics: pl.DataFrame, as_of_date: str | N
 
     embedding: list[dict[str, Any]] = []
     if config.clustering.embed_2d and len(valid_columns) <= config.clustering.max_symbols_for_embedding:
-        coords = _build_pca_embedding(normalized)
+        coords = _build_tsne_embedding(distance, random_state=config.clustering.random_state)
         embedding = [
             {
                 "symbol": symbol,
@@ -164,24 +164,36 @@ def _cluster_params(config: AppConfig) -> dict[str, Any]:
         "lookback_days": config.clustering.lookback_days,
         "distance_threshold": config.clustering.distance_threshold,
         "distance_metric": "sqrt(0.5 * (1 - correlation))",
-        "embedding_method": "PCA on standardized daily log returns",
+        "embedding_method": "t-SNE on precomputed correlation distance",
         "min_cluster_size": config.clustering.min_cluster_size,
     }
 
 
-def _build_pca_embedding(normalized_returns: np.ndarray) -> np.ndarray:
-    if normalized_returns.shape[0] < 2:
-        return np.zeros((normalized_returns.shape[0], 2))
-    if np.allclose(normalized_returns, normalized_returns[:1]):
-        return np.zeros((normalized_returns.shape[0], 2))
-    pca = PCA(n_components=2, random_state=0)
-    coords = pca.fit_transform(normalized_returns)
-    if coords.shape[1] < 2:
-        padded = np.zeros((coords.shape[0], 2))
-        padded[:, : coords.shape[1]] = coords
-        coords = padded
-    coords = coords[:, :2]
+def _build_tsne_embedding(distance: np.ndarray, random_state: int) -> np.ndarray:
+    sample_count = distance.shape[0]
+    if sample_count == 0:
+        return np.zeros((0, 2))
+    if sample_count == 1:
+        return np.zeros((1, 2))
+    if sample_count == 2:
+        return np.array([[-1.0, 0.0], [1.0, 0.0]])
+    if np.allclose(distance, 0.0):
+        return np.zeros((sample_count, 2))
+
+    perplexity = min(22.0, max(3.0, sample_count**0.5))
+    perplexity = min(perplexity, sample_count - 1.0)
+    model = TSNE(
+        n_components=2,
+        metric="precomputed",
+        init="random",
+        perplexity=perplexity,
+        early_exaggeration=18.0,
+        learning_rate="auto",
+        max_iter=1000,
+        random_state=random_state,
+    )
+    coords = model.fit_transform(np.maximum(distance, 0.0))
     centered = coords - coords.mean(axis=0, keepdims=True)
     scale = centered.std(axis=0, ddof=1)
     scale[scale == 0] = 1.0
-    return np.clip(centered / scale, -4.0, 4.0)
+    return np.clip(centered / scale, -5.0, 5.0)

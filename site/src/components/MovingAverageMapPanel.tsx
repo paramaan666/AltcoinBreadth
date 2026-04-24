@@ -29,17 +29,60 @@ type DistanceTooltipProps = {
   payload?: Array<{ payload: DistancePoint }>;
   mode: DistanceMode;
 };
+type ScatterDotProps = {
+  cx?: number;
+  cy?: number;
+  fill?: string;
+  fillOpacity?: number;
+};
 
-function symbolJitter(symbol: string) {
-  let hash = 0;
-  for (const char of symbol) {
-    hash = (hash * 31 + char.charCodeAt(0)) % 1009;
+function laneOffset(index: number) {
+  if (index === 0) {
+    return 0;
   }
-  return (hash / 1009 - 0.5) * 1.8;
+  const magnitude = Math.ceil(index / 2);
+  const direction = index % 2 === 0 ? 1 : -1;
+  return Math.max(-0.44, Math.min(0.44, direction * magnitude * 0.055));
 }
 
 function distanceValue(row: SnapshotRow, mode: DistanceMode) {
   return mode === "raw" ? row.raw_distance_pct : row.normalized_distance ?? 0;
+}
+
+function buildBeeswarmPoints(above: SnapshotRow[], below: SnapshotRow[], mode: DistanceMode): DistancePoint[] {
+  const combined = [
+    ...above.map((row) => ({ ...row, status: "above" as const })),
+    ...below.map((row) => ({ ...row, status: "below" as const })),
+  ];
+  if (combined.length === 0) {
+    return [];
+  }
+  const values = combined.map((row) => distanceValue(row, mode));
+  const min = Math.min(...values);
+  const max = Math.max(...values);
+  const binSize = Math.max((max - min) / 80, mode === "raw" ? 0.5 : 0.05);
+  const bins = new Map<number, number>();
+
+  return [...combined]
+    .sort((left, right) => distanceValue(left, mode) - distanceValue(right, mode) || left.symbol.localeCompare(right.symbol))
+    .map((row) => {
+      const y = distanceValue(row, mode);
+      const bin = Math.round(y / binSize);
+      const index = bins.get(bin) ?? 0;
+      bins.set(bin, index + 1);
+      return {
+        ...row,
+        x: laneOffset(index),
+        y,
+      };
+    });
+}
+
+function DistanceDot(props: ScatterDotProps) {
+  if (typeof props.cx !== "number" || typeof props.cy !== "number") {
+    return null;
+  }
+  return <circle cx={props.cx} cy={props.cy} r={3} fill={props.fill} fillOpacity={props.fillOpacity ?? 1} />;
 }
 
 function DistanceTooltip({ active, payload, mode }: DistanceTooltipProps) {
@@ -68,15 +111,7 @@ export function MovingAverageMapPanel({
   const [query, setQuery] = useState("");
   const normalizedQuery = query.trim().toUpperCase();
   const points = useMemo<DistancePoint[]>(() => {
-    const combined = [
-      ...above.map((row) => ({ ...row, status: "above" as const })),
-      ...below.map((row) => ({ ...row, status: "below" as const })),
-    ];
-    return combined.map((row) => ({
-      ...row,
-      x: symbolJitter(row.symbol),
-      y: distanceValue(row, mode),
-    }));
+    return buildBeeswarmPoints(above, below, mode);
   }, [above, below, mode]);
   const abovePoints = points.filter((point) => point.status === "above");
   const belowPoints = points.filter((point) => point.status === "below");
@@ -91,7 +126,7 @@ export function MovingAverageMapPanel({
       <div className="panel-header">
         <div>
           <h2>Distance From 30W Moving Average</h2>
-          <p>Each point is one symbol. The center line is the 30W MA; points above it trade above MA and points below it trade below MA.</p>
+          <p>Read this vertically: higher points are farther above 30W MA, lower points are farther below. Horizontal spread only prevents overlapping dots.</p>
         </div>
         <div className="table-controls">
           <div className="toggle-group">
@@ -130,7 +165,7 @@ export function MovingAverageMapPanel({
           <ResponsiveContainer width="100%" height="100%">
             <ScatterChart margin={{ top: 28, right: 30, bottom: 28, left: 18 }}>
               <CartesianGrid strokeDasharray="3 3" stroke="#20324b" />
-              <XAxis type="number" dataKey="x" domain={[-1, 1]} axisLine={false} tickLine={false} tick={false} />
+              <XAxis type="number" dataKey="x" domain={[-0.55, 0.55]} axisLine={false} tickLine={false} tick={false} />
               <YAxis
                 type="number"
                 dataKey="y"
@@ -141,17 +176,36 @@ export function MovingAverageMapPanel({
                 cursor={{ stroke: "#2a4160", strokeWidth: 1 }}
                 content={(props) => <DistanceTooltip {...(props as DistanceTooltipProps)} mode={mode} />}
               />
+              <ReferenceLine x={0} stroke="#314763" strokeDasharray="3 4" strokeWidth={1} opacity={0.8} />
               <ReferenceLine y={0} stroke="#edf3ff" strokeDasharray="6 4" strokeWidth={2} opacity={0.74} />
-              <Scatter data={abovePoints} fill="#4fd57a" fillOpacity={normalizedQuery ? 0.22 : 0.78} />
-              <Scatter data={belowPoints} fill="#ff6f7d" fillOpacity={normalizedQuery ? 0.22 : 0.78} />
+              <Scatter
+                data={abovePoints}
+                fill="#4fd57a"
+                fillOpacity={normalizedQuery ? 0.22 : 0.78}
+                shape={(props: unknown) => <DistanceDot {...(props as ScatterDotProps)} />}
+              />
+              <Scatter
+                data={belowPoints}
+                fill="#ff6f7d"
+                fillOpacity={normalizedQuery ? 0.22 : 0.78}
+                shape={(props: unknown) => <DistanceDot {...(props as ScatterDotProps)} />}
+              />
               {matchingPoints.length > 0 ? (
-                <Scatter data={matchingPoints} fill="#f2b236" fillOpacity={1} />
+                <Scatter
+                  data={matchingPoints}
+                  fill="#f2b236"
+                  fillOpacity={1}
+                  shape={(props: unknown) => <DistanceDot {...(props as ScatterDotProps)} />}
+                />
               ) : null}
             </ScatterChart>
           </ResponsiveContainer>
         </div>
 
         <aside className="ma-map-side-panel">
+          <div className="cluster-empty-state ma-map-note">
+            X-axis has no signal. Coins are spread left/right only when their MA distance is nearly the same.
+          </div>
           <div className="similarity-stat-grid">
             <article className="cluster-stat-card">
               <span>Above MA</span>

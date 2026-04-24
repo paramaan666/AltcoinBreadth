@@ -871,6 +871,13 @@ tbody tr:hover td {
   background: rgba(255, 111, 125, 0.1);
 }
 
+.ma-map-note {
+  min-height: 0;
+  place-items: start;
+  text-align: left;
+  padding: 12px 14px;
+}
+
 .method-grid {
   display: grid;
   grid-template-columns: repeat(5, minmax(0, 1fr));
