@@ -251,7 +251,7 @@ button {
 
 .metrics-grid {
   display: grid;
-  grid-template-columns: repeat(5, minmax(0, 1fr));
+  grid-template-columns: repeat(6, minmax(0, 1fr));
   gap: 14px;
 }
 
@@ -699,7 +699,15 @@ tbody tr:hover td {
 }
 
 .panel--focus-ma-map .ma-map-shell {
-  height: 660px;
+  height: 560px;
+}
+
+.panel--focus-ma-map {
+  min-height: 0;
+}
+
+.panel--focus-ma-map .similarity-match-list {
+  max-height: 180px;
 }
 
 .similarity-side-panel,
@@ -726,6 +734,30 @@ tbody tr:hover td {
   max-height: 420px;
   overflow: auto;
   padding-right: 4px;
+}
+
+.similarity-legend {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+}
+
+.similarity-legend-item {
+  display: inline-flex;
+  align-items: center;
+  gap: 7px;
+  padding: 7px 9px;
+  border-radius: 999px;
+  border: 1px solid rgba(31, 49, 72, 0.72);
+  color: var(--muted);
+  background: rgba(9, 17, 28, 0.56);
+  font-size: 0.78rem;
+}
+
+.similarity-legend-item i {
+  width: 9px;
+  height: 9px;
+  border-radius: 999px;
 }
 
 @media (min-width: 1181px) {

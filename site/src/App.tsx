@@ -11,6 +11,7 @@ import type {
   ClusterPayload,
   Methodology,
   Overview,
+  RotationPayload,
   SnapshotRow,
 } from "./lib/types";
 
@@ -23,6 +24,7 @@ type DashboardState = {
   breadth: BreadthPoint[];
   above: SnapshotRow[];
   below: SnapshotRow[];
+  rotation: RotationPayload | null;
   clusters: ClusterPayload | null;
   methodology: Methodology | null;
   error: string | null;
@@ -46,6 +48,7 @@ export default function App() {
     breadth: [],
     above: [],
     below: [],
+    rotation: null,
     clusters: null,
     methodology: null,
     error: null,
@@ -64,6 +67,7 @@ export default function App() {
           breadth: payload.breadth,
           above: payload.above,
           below: payload.below,
+          rotation: payload.rotation,
           clusters: payload.clusters,
           methodology: payload.methodology,
           error: null,
@@ -85,11 +89,11 @@ export default function App() {
     return <div className="app-shell status-view">Loading dashboard data...</div>;
   }
 
-  if (state.error || !state.overview || !state.clusters || !state.methodology) {
+  if (state.error || !state.overview || !state.rotation || !state.clusters || !state.methodology) {
     return <div className="app-shell status-view">Unable to load dashboard: {state.error ?? "unknown error"}</div>;
   }
 
-  const { overview, breadth, above, below, clusters, methodology } = state;
+  const { overview, breadth, above, below, rotation, clusters, methodology } = state;
 
   return (
     <div className="app-shell">
@@ -137,6 +141,11 @@ export default function App() {
               <MetricCard label="Above 30W MA" value={String(overview.above_count)} helper={`${overview.above_pct.toFixed(1)}% of eligible`} />
               <MetricCard label="Below 30W MA" value={String(overview.below_count)} helper={`${(100 - overview.above_pct).toFixed(1)}% of eligible`} />
               <MetricCard label="Breadth (Above %)" value={`${overview.above_pct.toFixed(1)}%`} helper={`${overview.active_symbols} active symbols`} />
+              <MetricCard
+                label="Rotation Trend"
+                value={`${rotation.summary.trend_counts.improving ?? 0} / ${rotation.summary.trend_counts.deteriorating ?? 0}`}
+                helper="Improving vs deteriorating symbols"
+              />
             </section>
 
             <div className="overview-stack">
@@ -159,7 +168,7 @@ export default function App() {
                 />
               </div>
 
-              <ClustersPanel payload={clusters} variant="overview" sectionId="similarity" />
+              <ClustersPanel payload={clusters} rotation={rotation} above={above} below={below} variant="overview" sectionId="similarity" />
             </div>
           </>
         ) : null}
@@ -189,13 +198,14 @@ export default function App() {
         ) : null}
 
         {activeTab === "similarity" ? (
-          <ClustersPanel payload={clusters} variant="expanded" className="panel--focus panel--focus-similarity" sectionId="similarity" />
+          <ClustersPanel payload={clusters} rotation={rotation} above={above} below={below} variant="expanded" className="panel--focus panel--focus-similarity" sectionId="similarity" />
         ) : null}
 
         {activeTab === "maDistance" ? (
           <MovingAverageMapPanel
             above={above}
             below={below}
+            rotation={rotation}
             className="panel--focus panel--focus-ma-map"
             sectionId="ma-distance"
           />

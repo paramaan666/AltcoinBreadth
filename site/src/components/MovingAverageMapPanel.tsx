@@ -10,22 +10,34 @@ import {
   XAxis,
   YAxis,
 } from "recharts";
-import type { SnapshotRow } from "../lib/types";
+import type { RotationPayload, RotationPoint, RotationSymbolTrail, SnapshotRow } from "../lib/types";
 
 type MovingAverageMapPanelProps = {
   above: SnapshotRow[];
   below: SnapshotRow[];
+  rotation?: RotationPayload;
   className?: string;
   sectionId?: string;
 };
 
 type DistanceMode = "raw" | "normalized";
+type TrailMode = "off" | "3d" | "7d";
 type DistancePoint = SnapshotRow & {
   x: number;
   y: number;
   momentumPct: number;
   distanceMetric: number;
   status: "above" | "below";
+  trendDirection?: RotationSymbolTrail["trend_direction"];
+  deltas?: RotationSymbolTrail["deltas"];
+};
+type TrailPoint = {
+  symbol: string;
+  x: number;
+  y: number;
+  age: number;
+  status: "above" | "below";
+  trendDirection: RotationSymbolTrail["trend_direction"];
 };
 type DistanceTooltipProps = {
   active?: boolean;
@@ -48,6 +60,10 @@ const RAW_DISTANCE_TICKS = [10, 25, 50, 100, 200, 400, 800];
 
 function distanceValue(row: SnapshotRow, mode: DistanceMode) {
   return mode === "raw" ? row.raw_distance_pct : row.normalized_distance ?? 0;
+}
+
+function rotationDistanceValue(point: RotationPoint, mode: DistanceMode) {
+  return mode === "raw" ? point.raw_distance_pct : point.normalized_distance ?? 0;
 }
 
 function distanceCompressionScale(mode: DistanceMode) {
@@ -79,6 +95,59 @@ function buildMomentumPoints(above: SnapshotRow[], below: SnapshotRow[], mode: D
     x: compressSignedValue(row.momentum_30d_pct, MOMENTUM_COMPRESSION_SCALE),
     y: compressSignedValue(distanceValue(row, mode), yScale),
   }));
+}
+
+function snapshotRowFromRotation(row: RotationSymbolTrail): SnapshotRow {
+  return {
+    symbol: row.symbol,
+    date: row.current.date,
+    close: row.current.close,
+    ma_30w: row.current.ma_30w,
+    raw_distance_pct: row.current.raw_distance_pct,
+    atr_pct_60: 0,
+    normalized_distance: row.current.normalized_distance,
+    momentum_30d_pct: row.current.momentum_30d_pct,
+    days_history: row.trail.length,
+    listing_date: null,
+    delisted_date: null,
+  };
+}
+
+function buildRotationPoints(rotation: RotationPayload, mode: DistanceMode): DistancePoint[] {
+  const yScale = distanceCompressionScale(mode);
+  return rotation.rows.map((row) => {
+    const snapshot = snapshotRowFromRotation(row);
+    const distanceMetric = rotationDistanceValue(row.current, mode);
+    return {
+      ...snapshot,
+      momentumPct: row.current.momentum_30d_pct,
+      distanceMetric,
+      x: compressSignedValue(row.current.momentum_30d_pct, MOMENTUM_COMPRESSION_SCALE),
+      y: compressSignedValue(distanceMetric, yScale),
+      status: row.current.raw_distance_pct >= 0 ? "above" : "below",
+      trendDirection: row.trend_direction,
+      deltas: row.deltas,
+    };
+  });
+}
+
+function buildTrailPoints(rotation: RotationPayload | undefined, mode: DistanceMode, trailMode: TrailMode): TrailPoint[] {
+  if (!rotation || trailMode === "off") {
+    return [];
+  }
+  const lookback = Number.parseInt(trailMode, 10);
+  const yScale = distanceCompressionScale(mode);
+  return rotation.rows.flatMap((row) => {
+    const points = row.trail.slice(-(lookback + 1), -1);
+    return points.map((point, index) => ({
+      symbol: row.symbol,
+      x: compressSignedValue(point.momentum_30d_pct, MOMENTUM_COMPRESSION_SCALE),
+      y: compressSignedValue(rotationDistanceValue(point, mode), yScale),
+      age: points.length - index,
+      status: row.current.raw_distance_pct >= 0 ? "above" as const : "below" as const,
+      trendDirection: row.trend_direction,
+    }));
+  });
 }
 
 function symmetricDomain(values: number[], minimumPadding: number): [number, number] {
@@ -137,15 +206,18 @@ function DistanceTooltip({ active, payload, mode }: DistanceTooltipProps) {
 export function MovingAverageMapPanel({
   above,
   below,
+  rotation,
   className,
   sectionId,
 }: MovingAverageMapPanelProps) {
   const [mode, setMode] = useState<DistanceMode>("normalized");
+  const [trailMode, setTrailMode] = useState<TrailMode>("7d");
   const [query, setQuery] = useState("");
   const normalizedQuery = query.trim().toUpperCase();
   const points = useMemo<DistancePoint[]>(() => {
-    return buildMomentumPoints(above, below, mode);
-  }, [above, below, mode]);
+    return rotation ? buildRotationPoints(rotation, mode) : buildMomentumPoints(above, below, mode);
+  }, [above, below, mode, rotation]);
+  const trailPoints = useMemo(() => buildTrailPoints(rotation, mode, trailMode), [mode, rotation, trailMode]);
   const abovePoints = points.filter((point) => point.status === "above");
   const belowPoints = points.filter((point) => point.status === "below");
   const matchingPoints = normalizedQuery
@@ -172,9 +244,21 @@ export function MovingAverageMapPanel({
       <div className="panel-header">
         <div>
           <h2>MA Distance vs Momentum</h2>
-          <p>Zero is centered. A compressed scale spreads dense clusters while preserving each coin's quadrant and true tooltip values.</p>
+          <p>Zero is centered. Fading trails show recent rotation path without changing the current quadrant logic.</p>
         </div>
         <div className="table-controls">
+          <div className="toggle-group">
+            {(["off", "3d", "7d"] as TrailMode[]).map((value) => (
+              <button
+                key={value}
+                className={trailMode === value ? "toggle active" : "toggle"}
+                onClick={() => setTrailMode(value)}
+                type="button"
+              >
+                Trail {value === "off" ? "Off" : value.toUpperCase()}
+              </button>
+            ))}
+          </div>
           <div className="toggle-group">
             <button
               className={mode === "raw" ? "toggle active" : "toggle"}
@@ -244,6 +328,22 @@ export function MovingAverageMapPanel({
               />
               <ReferenceLine x={0} stroke="#edf3ff" strokeDasharray="6 4" strokeWidth={2} opacity={0.74} />
               <ReferenceLine y={0} stroke="#edf3ff" strokeDasharray="6 4" strokeWidth={2} opacity={0.74} />
+              {trailMode !== "off" ? (
+                <>
+                  <Scatter
+                    data={trailPoints.filter((point) => point.status === "above")}
+                    fill="#4fd57a"
+                    fillOpacity={0.22}
+                    shape={(props: unknown) => <DistanceDot {...(props as ScatterDotProps)} />}
+                  />
+                  <Scatter
+                    data={trailPoints.filter((point) => point.status === "below")}
+                    fill="#ff6f7d"
+                    fillOpacity={0.22}
+                    shape={(props: unknown) => <DistanceDot {...(props as ScatterDotProps)} />}
+                  />
+                </>
+              ) : null}
               <Scatter
                 data={abovePoints}
                 fill="#4fd57a"
@@ -270,8 +370,20 @@ export function MovingAverageMapPanel({
 
         <aside className="ma-map-side-panel">
           <div className="cluster-empty-state ma-map-note">
-            Zero lines meet in the center. Axes use compressed signed scale, so crowded areas are easier to read without changing quadrant logic.
+            Zero lines meet in the center. Trails show where each coin was recently; current dots remain the strongest marks.
           </div>
+          {rotation ? (
+            <div className="similarity-stat-grid">
+              <article className="cluster-stat-card">
+                <span>Improving</span>
+                <strong>{rotation.summary.trend_counts.improving ?? 0}</strong>
+              </article>
+              <article className="cluster-stat-card">
+                <span>Deteriorating</span>
+                <strong>{rotation.summary.trend_counts.deteriorating ?? 0}</strong>
+              </article>
+            </div>
+          ) : null}
           <div className="similarity-stat-grid">
             <article className="cluster-stat-card">
               <span>Above + momentum</span>

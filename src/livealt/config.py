@@ -55,10 +55,19 @@ class IndicatorsConfig:
 
 
 @dataclass(frozen=True)
+class RotationConfig:
+    trail_days: int
+    lookbacks: list[int]
+
+
+@dataclass(frozen=True)
 class ClusteringConfig:
     lookback_days: int
+    return_mode: str
+    knn_neighbors: int
     distance_threshold: float
     min_cluster_size: int
+    max_cluster_size: int
     embed_2d: bool
     max_symbols_for_embedding: int
     random_state: int
@@ -82,6 +91,7 @@ class AppConfig:
     binance: BinanceConfig
     universe: UniverseConfig
     indicators: IndicatorsConfig
+    rotation: RotationConfig
     clustering: ClusteringConfig
     bootstrap: BootstrapConfig
     validation: ValidationConfig
@@ -119,6 +129,7 @@ def load_config(path: str | Path | None = None) -> AppConfig:
     binance = BinanceConfig(**raw["binance"])
     universe = UniverseConfig(**raw["universe"])
     indicators = IndicatorsConfig(**raw["indicators"])
+    rotation = RotationConfig(**raw["rotation"])
     clustering = ClusteringConfig(**raw["clustering"])
     bootstrap_data = raw["bootstrap"].copy()
     local_seed_path = bootstrap_data.get("local_seed_path")
@@ -133,6 +144,7 @@ def load_config(path: str | Path | None = None) -> AppConfig:
         binance=binance,
         universe=universe,
         indicators=indicators,
+        rotation=rotation,
         clustering=clustering,
         bootstrap=bootstrap,
         validation=validation,

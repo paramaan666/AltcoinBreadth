@@ -9,6 +9,7 @@ from livealt.schemas import (
     CLUSTERS_SCHEMA,
     METHODOLOGY_SCHEMA,
     OVERVIEW_SCHEMA,
+    ROTATION_SCHEMA,
     SCHEMA_VERSION,
     SNAPSHOT_SCHEMA,
     VALIDATION_SCHEMA,
@@ -20,6 +21,7 @@ def validate_output_bundle(
     breadth_history: list[dict[str, Any]],
     above_rows: list[dict[str, Any]],
     below_rows: list[dict[str, Any]],
+    rotation: dict[str, Any],
     clusters: dict[str, Any],
     methodology: dict[str, Any],
     min_success_ratio: float,
@@ -45,6 +47,12 @@ def validate_output_bundle(
     validate(above_payload, SNAPSHOT_SCHEMA)
     validate(below_payload, SNAPSHOT_SCHEMA)
     checks.append({"name": "snapshot_schema", "passed": True})
+
+    validate(rotation, ROTATION_SCHEMA)
+    for row in rotation.get("rows", []):
+        if len(row.get("trail", [])) > rotation.get("trail_days", 0):
+            raise ValueError("Rotation trail exceeds configured trail_days.")
+    checks.append({"name": "rotation_schema", "passed": True})
 
     validate(clusters, CLUSTERS_SCHEMA)
     checks.append({"name": "clusters_schema", "passed": True})

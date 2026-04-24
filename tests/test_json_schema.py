@@ -41,15 +41,55 @@ def test_json_outputs_pass_schema_validation() -> None:
                 "days_history": 250,
             }
         ],
+        rotation={
+            "as_of_date": "2024-09-01",
+            "trail_days": 7,
+            "lookbacks": [1, 3, 7],
+            "summary": {
+                "symbol_count": 1,
+                "trend_counts": {"improving": 1, "deteriorating": 0, "mixed": 0, "flat": 0},
+                "quadrant_counts": {"above_momentum": 1, "above_fading": 0, "below_rebound": 0, "below_weak": 0},
+                "median_momentum_30d_pct": 12.0,
+                "median_normalized_distance": 3.125,
+            },
+            "rows": [
+                {
+                    "symbol": "AAAUSDT",
+                    "quadrant": "above_momentum",
+                    "trend_direction": "improving",
+                    "current": {
+                        "date": "2024-09-01",
+                        "close": 1.0,
+                        "ma_30w": 0.8,
+                        "momentum_30d_pct": 12.0,
+                        "raw_distance_pct": 25.0,
+                        "normalized_distance": 3.125,
+                    },
+                    "deltas": {},
+                    "trail": [
+                        {
+                            "date": "2024-09-01",
+                            "close": 1.0,
+                            "ma_30w": 0.8,
+                            "momentum_30d_pct": 12.0,
+                            "raw_distance_pct": 25.0,
+                            "normalized_distance": 3.125,
+                        }
+                    ],
+                }
+            ],
+        },
         clusters={
             "as_of_date": "2024-09-01",
-            "params": {"algorithm": "agglomerative"},
+            "params": {"algorithm": "agglomerative", "return_mode": "residual"},
             "clusters": [{"cluster_id": 1, "label": "Cluster 1", "size": 5, "symbols": ["AAAUSDT"]}],
             "unassigned_symbols": [],
+            "embedding": [],
         },
         methodology={
             "breadth": {"definition": "x"},
             "distance": {"definition": "x"},
+            "rotation": {"definition": "x"},
             "clusters": {"definition": "x"},
             "lifecycle": {"definition": "x"},
         },

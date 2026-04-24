@@ -6,7 +6,7 @@ from typing import Any
 import numpy as np
 import polars as pl
 from sklearn.cluster import AgglomerativeClustering
-from sklearn.manifold import TSNE
+from sklearn.manifold import SpectralEmbedding
 
 from livealt.config import AppConfig
 
@@ -70,19 +70,10 @@ def build_clusters(config: AppConfig, metrics: pl.DataFrame, as_of_date: str | N
             "embedding": [],
         }
 
-    matrix = pivot.select(valid_columns).to_numpy().T
-    centered = matrix - matrix.mean(axis=1, keepdims=True)
-    std = centered.std(axis=1, ddof=1)
-    normalized = np.zeros_like(centered)
-    valid = std > 0
-    if matrix.shape[1] > 1:
-        normalized[valid] = centered[valid] / std[valid, None]
-        corr = normalized @ normalized.T / (matrix.shape[1] - 1)
-    else:
-        corr = np.zeros((matrix.shape[0], matrix.shape[0]))
-    np.fill_diagonal(corr, 1.0)
-    corr = np.clip(corr, -1.0, 1.0)
-    distance = np.sqrt(0.5 * (1.0 - corr))
+    raw_matrix = pivot.select(valid_columns).to_numpy().T
+    matrix = _prepare_return_matrix(raw_matrix, config.clustering.return_mode)
+    corr = _correlation_matrix(matrix)
+    distance = _correlation_distance(corr)
 
     model = AgglomerativeClustering(
         n_clusters=None,
@@ -90,18 +81,31 @@ def build_clusters(config: AppConfig, metrics: pl.DataFrame, as_of_date: str | N
         linkage="average",
         distance_threshold=config.clustering.distance_threshold,
     )
-    labels = model.fit_predict(distance)
+    initial_labels = model.fit_predict(distance)
+    labels = _split_large_clusters(
+        distance=distance,
+        labels=initial_labels,
+        min_cluster_size=config.clustering.min_cluster_size,
+        max_cluster_size=config.clustering.max_cluster_size,
+        distance_threshold=config.clustering.distance_threshold,
+    )
     labels = _relabel_small_clusters(labels, config.clustering.min_cluster_size)
+    nearest_neighbors = _nearest_neighbors(valid_columns, corr, top_n=5)
 
     embedding: list[dict[str, Any]] = []
     if config.clustering.embed_2d and len(valid_columns) <= config.clustering.max_symbols_for_embedding:
-        coords = _build_tsne_embedding(distance, random_state=config.clustering.random_state)
+        coords = _build_spectral_embedding(
+            corr=corr,
+            neighbors=config.clustering.knn_neighbors,
+            random_state=config.clustering.random_state,
+        )
         embedding = [
             {
                 "symbol": symbol,
                 "x": round(float(point[0]), 6),
                 "y": round(float(point[1]), 6),
                 "cluster_id": int(label) + 1 if label >= 0 else "noise",
+                "nearest_neighbors": nearest_neighbors.get(symbol, []),
             }
             for symbol, point, label in zip(valid_columns, coords, labels, strict=True)
         ]
@@ -128,7 +132,12 @@ def build_clusters(config: AppConfig, metrics: pl.DataFrame, as_of_date: str | N
                 "size": len(members),
                 "symbols": members,
                 "avg_pairwise_corr": round(avg_corr, 4),
+                "avg_residual_corr": round(avg_corr, 4),
                 "top_members": top_members,
+                "nearest_neighbors": [
+                    {"symbol": symbol, "neighbors": nearest_neighbors.get(symbol, [])}
+                    for symbol in members[:10]
+                ],
             }
         )
 
@@ -163,37 +172,164 @@ def _cluster_params(config: AppConfig) -> dict[str, Any]:
         "algorithm": "agglomerative-average-linkage",
         "lookback_days": config.clustering.lookback_days,
         "distance_threshold": config.clustering.distance_threshold,
-        "distance_metric": "sqrt(0.5 * (1 - correlation))",
-        "embedding_method": "t-SNE on precomputed correlation distance",
+        "return_mode": config.clustering.return_mode,
+        "knn_neighbors": config.clustering.knn_neighbors,
+        "max_cluster_size": config.clustering.max_cluster_size,
+        "distance_metric": "sqrt(0.5 * (1 - residual correlation))",
+        "embedding_method": "spectral embedding on kNN residual similarity graph",
         "min_cluster_size": config.clustering.min_cluster_size,
     }
 
 
-def _build_tsne_embedding(distance: np.ndarray, random_state: int) -> np.ndarray:
-    sample_count = distance.shape[0]
+def _prepare_return_matrix(matrix: np.ndarray, return_mode: str) -> np.ndarray:
+    if matrix.size == 0:
+        return matrix
+    lower, upper = np.nanquantile(matrix, [0.01, 0.99])
+    winsorized = np.clip(matrix, lower, upper)
+    if return_mode != "residual" or matrix.shape[1] < 3:
+        return winsorized
+
+    market = winsorized.mean(axis=0)
+    centered_market = market - market.mean()
+    market_variance = float(centered_market @ centered_market)
+    if market_variance <= 1e-12:
+        return winsorized
+
+    centered = winsorized - winsorized.mean(axis=1, keepdims=True)
+    beta = centered @ centered_market / market_variance
+    return centered - beta[:, None] * centered_market[None, :]
+
+
+def _correlation_matrix(matrix: np.ndarray) -> np.ndarray:
+    centered = matrix - matrix.mean(axis=1, keepdims=True)
+    std = centered.std(axis=1, ddof=1)
+    normalized = np.zeros_like(centered)
+    valid = std > 0
+    if matrix.shape[1] > 1:
+        normalized[valid] = centered[valid] / std[valid, None]
+        corr = normalized @ normalized.T / (matrix.shape[1] - 1)
+    else:
+        corr = np.zeros((matrix.shape[0], matrix.shape[0]))
+    np.fill_diagonal(corr, 1.0)
+    return np.clip(corr, -1.0, 1.0)
+
+
+def _correlation_distance(corr: np.ndarray) -> np.ndarray:
+    return np.sqrt(np.maximum(0.0, 0.5 * (1.0 - corr)))
+
+
+def _split_large_clusters(
+    distance: np.ndarray,
+    labels: np.ndarray,
+    min_cluster_size: int,
+    max_cluster_size: int,
+    distance_threshold: float,
+) -> np.ndarray:
+    adjusted = np.full_like(labels, -1)
+    next_label = 0
+    for label in sorted(set(labels)):
+        indexes = np.flatnonzero(labels == label)
+        if len(indexes) < min_cluster_size:
+            continue
+        if len(indexes) <= max_cluster_size:
+            adjusted[indexes] = next_label
+            next_label += 1
+            continue
+
+        subdistance = distance[np.ix_(indexes, indexes)]
+        target_clusters = max(2, int(np.ceil(len(indexes) / max_cluster_size)))
+        try:
+            submodel = AgglomerativeClustering(
+                n_clusters=None,
+                metric="precomputed",
+                linkage="average",
+                distance_threshold=max(distance_threshold * 0.74, 0.22),
+            )
+            sublabels = submodel.fit_predict(subdistance)
+        except ValueError:
+            submodel = AgglomerativeClustering(
+                n_clusters=target_clusters,
+                metric="precomputed",
+                linkage="average",
+            )
+            sublabels = submodel.fit_predict(subdistance)
+
+        for sublabel in sorted(set(sublabels)):
+            subindexes = indexes[sublabels == sublabel]
+            if len(subindexes) < min_cluster_size:
+                continue
+            if len(subindexes) > max_cluster_size:
+                chunks = np.array_split(subindexes, int(np.ceil(len(subindexes) / max_cluster_size)))
+                for chunk in chunks:
+                    if len(chunk) >= min_cluster_size:
+                        adjusted[chunk] = next_label
+                        next_label += 1
+                continue
+            adjusted[subindexes] = next_label
+            next_label += 1
+    return adjusted
+
+
+def _nearest_neighbors(symbols: list[str], corr: np.ndarray, top_n: int) -> dict[str, list[dict[str, Any]]]:
+    neighbors: dict[str, list[dict[str, Any]]] = {}
+    for idx, symbol in enumerate(symbols):
+        scores = [
+            (symbols[other_idx], float(corr[idx, other_idx]))
+            for other_idx in range(len(symbols))
+            if other_idx != idx
+        ]
+        neighbors[symbol] = [
+            {"symbol": neighbor, "score": round(score, 4)}
+            for neighbor, score in sorted(scores, key=lambda item: item[1], reverse=True)[:top_n]
+        ]
+    return neighbors
+
+
+def _build_spectral_embedding(corr: np.ndarray, neighbors: int, random_state: int) -> np.ndarray:
+    sample_count = corr.shape[0]
     if sample_count == 0:
         return np.zeros((0, 2))
     if sample_count == 1:
         return np.zeros((1, 2))
     if sample_count == 2:
         return np.array([[-1.0, 0.0], [1.0, 0.0]])
-    if np.allclose(distance, 0.0):
+    if np.allclose(corr, 1.0):
         return np.zeros((sample_count, 2))
 
-    perplexity = min(22.0, max(3.0, sample_count**0.5))
-    perplexity = min(perplexity, sample_count - 1.0)
-    model = TSNE(
-        n_components=2,
-        metric="precomputed",
-        init="random",
-        perplexity=perplexity,
-        early_exaggeration=18.0,
-        learning_rate="auto",
-        max_iter=1000,
-        random_state=random_state,
-    )
-    coords = model.fit_transform(np.maximum(distance, 0.0))
+    affinity = _knn_affinity(corr, neighbors)
+    try:
+        model = SpectralEmbedding(
+            n_components=2,
+            affinity="precomputed",
+            random_state=random_state,
+        )
+        coords = model.fit_transform(affinity)
+    except Exception:  # noqa: BLE001
+        coords = _pca_embedding(corr)
     centered = coords - coords.mean(axis=0, keepdims=True)
     scale = centered.std(axis=0, ddof=1)
     scale[scale == 0] = 1.0
     return np.clip(centered / scale, -5.0, 5.0)
+
+
+def _knn_affinity(corr: np.ndarray, neighbors: int) -> np.ndarray:
+    sample_count = corr.shape[0]
+    similarity = np.maximum(corr, 0.0)
+    np.fill_diagonal(similarity, 1.0)
+    keep_count = min(max(neighbors, 2), max(sample_count - 1, 1))
+    affinity = np.zeros_like(similarity)
+    for idx in range(sample_count):
+        nearest = np.argsort(similarity[idx])[-keep_count - 1 :]
+        affinity[idx, nearest] = similarity[idx, nearest]
+    affinity = np.maximum(affinity, affinity.T)
+    np.fill_diagonal(affinity, 1.0)
+    return affinity
+
+
+def _pca_embedding(corr: np.ndarray) -> np.ndarray:
+    centered = corr - corr.mean(axis=0, keepdims=True)
+    _, _, vh = np.linalg.svd(centered, full_matrices=False)
+    coords = centered @ vh[:2].T
+    if coords.shape[1] == 1:
+        coords = np.column_stack([coords[:, 0], np.zeros(coords.shape[0])])
+    return coords[:, :2]

@@ -5,9 +5,9 @@
     "ma_proxy": "210-day trailing mean of daily closes."
   },
   "clusters": {
-    "algorithm": "Agglomerative clustering with average linkage",
-    "distance": "sqrt(0.5 * (1 - correlation))",
-    "embedding": "2D t-SNE projection of the precomputed correlation distance matrix",
+    "algorithm": "Agglomerative clustering with average linkage on residual returns",
+    "distance": "sqrt(0.5 * (1 - residual correlation))",
+    "embedding": "2D spectral embedding of the k-nearest-neighbor residual similarity graph",
     "lookback_days": 60,
     "min_cluster_size": 5,
     "returns": "Daily log returns"
@@ -21,5 +21,10 @@
     "delist_rule": "Symbol remains in historical calculations until its inferred delist date and is excluded afterwards.",
     "listing_rule": "Inferred from earliest available daily bar, first observed active snapshot, and onboard date when available.",
     "survivorship_bias": "Historical breadth respects symbol lifecycle intervals instead of today's universe."
+  },
+  "rotation": {
+    "lookbacks": "1D, 3D, 7D",
+    "trail": "Last 7 daily positions per currently eligible active symbol.",
+    "trend": "Improving means momentum and MA distance both increased over the best available configured lookback."
   }
 }

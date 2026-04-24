@@ -42,7 +42,9 @@ export type Cluster = {
   size: number;
   symbols: string[];
   avg_pairwise_corr: number;
+  avg_residual_corr: number;
   top_members: Array<{ symbol: string; weight: number }>;
+  nearest_neighbors?: Array<{ symbol: string; neighbors: Array<{ symbol: string; score: number }> }>;
 };
 
 export type ClusterPayload = {
@@ -50,12 +52,58 @@ export type ClusterPayload = {
   params: Record<string, string | number | boolean>;
   clusters: Cluster[];
   unassigned_symbols: string[];
-  embedding: Array<{ symbol: string; x: number; y: number; cluster_id: number | "noise" }>;
+  embedding: Array<{
+    symbol: string;
+    x: number;
+    y: number;
+    cluster_id: number | "noise";
+    nearest_neighbors?: Array<{ symbol: string; score: number }>;
+  }>;
+};
+
+export type RotationPoint = {
+  date: string;
+  close: number;
+  ma_30w: number;
+  momentum_30d_pct: number;
+  raw_distance_pct: number;
+  normalized_distance: number | null;
+};
+
+export type RotationDelta = {
+  from_date: string | null;
+  momentum_change: number | null;
+  raw_distance_change: number | null;
+  normalized_distance_change: number | null;
+};
+
+export type RotationSymbolTrail = {
+  symbol: string;
+  quadrant: "above_momentum" | "above_fading" | "below_rebound" | "below_weak";
+  trend_direction: "improving" | "deteriorating" | "mixed" | "flat";
+  current: RotationPoint;
+  deltas: Record<string, RotationDelta>;
+  trail: RotationPoint[];
+};
+
+export type RotationPayload = {
+  as_of_date: string | null;
+  trail_days: number;
+  lookbacks: number[];
+  summary: {
+    symbol_count: number;
+    trend_counts: Record<string, number>;
+    quadrant_counts: Record<string, number>;
+    median_momentum_30d_pct: number | null;
+    median_normalized_distance: number | null;
+  };
+  rows: RotationSymbolTrail[];
 };
 
 export type Methodology = {
   breadth: Record<string, string | number>;
   distance: Record<string, string | number>;
+  rotation: Record<string, string | number>;
   clusters: Record<string, string | number>;
   lifecycle: Record<string, string | number>;
 };

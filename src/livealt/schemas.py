@@ -91,7 +91,7 @@ SNAPSHOT_SCHEMA = {
 
 CLUSTERS_SCHEMA = {
     "type": "object",
-    "required": ["as_of_date", "params", "clusters", "unassigned_symbols"],
+    "required": ["as_of_date", "params", "clusters", "unassigned_symbols", "embedding"],
     "properties": {
         "as_of_date": {"type": ["string", "null"]},
         "params": {"type": "object"},
@@ -105,20 +105,72 @@ CLUSTERS_SCHEMA = {
                     "label": {"type": "string"},
                     "size": {"type": "integer"},
                     "symbols": {"type": "array", "items": {"type": "string"}},
+                    "avg_residual_corr": {"type": "number"},
+                    "nearest_neighbors": {"type": "array"},
                 },
             },
         },
         "unassigned_symbols": {"type": "array", "items": {"type": "string"}},
+        "embedding": {"type": "array"},
+    },
+}
+
+
+ROTATION_SCHEMA = {
+    "type": "object",
+    "required": ["as_of_date", "trail_days", "lookbacks", "summary", "rows"],
+    "properties": {
+        "as_of_date": {"type": ["string", "null"]},
+        "trail_days": {"type": "integer"},
+        "lookbacks": {"type": "array", "items": {"type": "integer"}},
+        "summary": {"type": "object"},
+        "rows": {
+            "type": "array",
+            "items": {
+                "type": "object",
+                "required": ["symbol", "quadrant", "trend_direction", "current", "deltas", "trail"],
+                "properties": {
+                    "symbol": {"type": "string"},
+                    "quadrant": {"type": "string"},
+                    "trend_direction": {"type": "string"},
+                    "current": {"type": "object"},
+                    "deltas": {"type": "object"},
+                    "trail": {
+                        "type": "array",
+                        "items": {
+                            "type": "object",
+                            "required": [
+                                "date",
+                                "close",
+                                "ma_30w",
+                                "momentum_30d_pct",
+                                "raw_distance_pct",
+                                "normalized_distance",
+                            ],
+                            "properties": {
+                                "date": {"type": "string"},
+                                "close": {"type": "number"},
+                                "ma_30w": {"type": "number"},
+                                "momentum_30d_pct": {"type": "number"},
+                                "raw_distance_pct": {"type": "number"},
+                                "normalized_distance": {"type": ["number", "null"]},
+                            },
+                        },
+                    },
+                },
+            },
+        },
     },
 }
 
 
 METHODOLOGY_SCHEMA = {
     "type": "object",
-    "required": ["breadth", "distance", "clusters", "lifecycle"],
+    "required": ["breadth", "distance", "rotation", "clusters", "lifecycle"],
     "properties": {
         "breadth": {"type": "object"},
         "distance": {"type": "object"},
+        "rotation": {"type": "object"},
         "clusters": {"type": "object"},
         "lifecycle": {"type": "object"},
     },

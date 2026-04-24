@@ -56,10 +56,20 @@ indicators:
   momentum_days: 30
   min_days_for_cluster: 60
 
+rotation:
+  trail_days: 7
+  lookbacks:
+    - 1
+    - 3
+    - 7
+
 clustering:
   lookback_days: 60
-  distance_threshold: 0.55
+  return_mode: residual
+  knn_neighbors: 12
+  distance_threshold: 0.68
   min_cluster_size: 5
+  max_cluster_size: 80
   embed_2d: true
   max_symbols_for_embedding: 1000
   random_state: 42

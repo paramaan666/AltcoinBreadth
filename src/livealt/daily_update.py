@@ -18,6 +18,7 @@ from livealt.breadth import build_metrics_dataset, build_overview, compute_bread
 from livealt.clustering import build_clusters
 from livealt.config import AppConfig, ensure_directories
 from livealt.outputs import build_methodology, write_outputs
+from livealt.rotation import build_rotation_history
 from livealt.storage import (
     MANIFEST_DATA_INVENTORY,
     MANIFEST_LIFECYCLE_REGISTRY,
@@ -121,6 +122,7 @@ def run_pipeline(
     metrics = build_metrics_dataset(config, registry)
     breadth_history = compute_breadth_history(metrics)
     snapshot_date, above_rows, below_rows = compute_snapshot_tables(metrics)
+    rotation = build_rotation_history(config, metrics, snapshot_date)
     overview = build_overview(
         config=config,
         metrics=metrics,
@@ -141,6 +143,7 @@ def run_pipeline(
         methodology=methodology,
         min_success_ratio=config.validation.min_success_ratio,
         symbol_statuses=symbol_statuses,
+        rotation=rotation,
     )
     write_outputs(
         config=config,
@@ -148,6 +151,7 @@ def run_pipeline(
         breadth_history=breadth_history,
         above_rows=above_rows,
         below_rows=below_rows,
+        rotation=rotation,
         clusters=clusters,
         methodology=methodology,
         validation_report=validation_report,
@@ -175,6 +179,7 @@ def validate_existing_outputs(config: AppConfig) -> dict[str, Any]:
     breadth_history = read_json(config.paths.outputs_dir / "breadth_history.json", {}).get("series", [])
     above_rows = read_json(config.paths.outputs_dir / "above_30w_ma.json", {}).get("rows", [])
     below_rows = read_json(config.paths.outputs_dir / "below_30w_ma.json", {}).get("rows", [])
+    rotation = read_json(config.paths.outputs_dir / "rotation_history.json", {})
     clusters = read_json(config.paths.outputs_dir / "clusters.json", {})
     methodology = read_json(config.paths.outputs_dir / "methodology.json", {})
     symbol_statuses = read_json(config.paths.manifests_dir / MANIFEST_SYMBOL_STATUS, {})
@@ -183,6 +188,7 @@ def validate_existing_outputs(config: AppConfig) -> dict[str, Any]:
         breadth_history=breadth_history,
         above_rows=above_rows,
         below_rows=below_rows,
+        rotation=rotation,
         clusters=clusters,
         methodology=methodology,
         min_success_ratio=config.validation.min_success_ratio,
@@ -194,6 +200,7 @@ def validate_existing_outputs(config: AppConfig) -> dict[str, Any]:
         breadth_history=breadth_history,
         above_rows=above_rows,
         below_rows=below_rows,
+        rotation=rotation,
         clusters=clusters,
         methodology=methodology,
         validation_report=report,

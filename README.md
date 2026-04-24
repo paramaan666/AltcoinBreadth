@@ -170,6 +170,7 @@ Záložka `MA Distance` používá 2D scatter:
 - osa Y: vzdálenost od 30W MA, raw nebo normalizovaná podle zvoleného přepínače
 - obě osy jsou centrované na nulu, takže průsečík `momentum = 0` a `distance = 0` je uprostřed grafu
 - vizualizace používá komprimovanou sign-preserving škálu `asinh`, aby extrémní outliery neslepily většinu coinů do jednoho místa; tooltipy pořád ukazují skutečné hodnoty
+- mini trail ukazuje posledních 3 nebo 7 denních pozic coinu, takže je vidět aktuální rotace mezi kvadranty
 - top-right: silné momentum a cena vysoko nad 30W MA
 - bottom-left: slabé momentum a cena pod 30W MA
 
@@ -181,12 +182,14 @@ Použitá metodika:
 
 - vstup: denní log returny
 - okno: posledních 60 dní
-- distance: `sqrt(0.5 * (1 - correlation))`
-- embedding: 2D t-SNE projekce nad předpočítanou korelační distance maticí
+- nejdřív se spočítá equal-weight market faktor všech validních symbolů
+- pro každý symbol se odečte beta vůči market faktoru a podobnost se počítá z residual returnů
+- distance: `sqrt(0.5 * (1 - residual correlation))`
+- embedding: 2D spectral embedding nad k-nearest-neighbor residual similarity grafem
 - interpretace: body blízko sebe měly podobné nedávné denní pohyby
 - neinterpretuj absolutní směr os; mapa je relativní lokální sousedství
 
-Pipeline stále interně počítá aglomerativní clustering s average linkage a `min_cluster_size`, ale frontend primárně zobrazuje spojitou similarity mapu místo pevně pojmenovaných skupin. Důvod je praktičnost: pro stovky altcoinů je mapa často čitelnější než rigidní seznam clusterů.
+Pipeline interně počítá aglomerativní clustering s average linkage, `min_cluster_size` a ochranou proti příliš velkým mega-clusterům. Frontend umí mapu barvit podle residual similarity skupin, MA kvadrantů nebo krátkodobého trendu.
 
 ## Lokální spuštění
 
@@ -266,6 +269,7 @@ V `outputs/api/` vznikají:
 - `breadth_history.json`
 - `above_30w_ma.json`
 - `below_30w_ma.json`
+- `rotation_history.json`
 - `clusters.json`
 - `methodology.json`
 - `schema_version.json`
@@ -279,6 +283,7 @@ Hlavní parametry jsou v `config/settings.yaml`:
 - Binance endpointy a retry limity
 - filtrace universa
 - délka MA, ATR a momentum okna
+- rotation trail okno
 - similarity / cluster parametry
 - bootstrap chování
 - minimální poměr úspěšných symbol updateů

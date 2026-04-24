@@ -17,6 +17,10 @@
       "passed": true
     },
     {
+      "name": "rotation_schema",
+      "passed": true
+    },
+    {
       "name": "clusters_schema",
       "passed": true
     },
