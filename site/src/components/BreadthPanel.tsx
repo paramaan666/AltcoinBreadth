@@ -1,5 +1,6 @@
-import { useMemo, useState } from "react";
+import { useEffect, useMemo, useState } from "react";
 import {
+  Brush,
   CartesianGrid,
   Line,
   LineChart,
@@ -19,22 +20,16 @@ type BreadthPanelProps = {
   variant?: "overview" | "expanded";
 };
 
-type RangeKey = "1Y" | "2Y" | "3Y" | "All";
+type BrushRange = { startIndex: number; endIndex: number };
 
-const RANGE_DAYS: Record<Exclude<RangeKey, "All">, number> = {
-  "1Y": 365,
-  "2Y": 365 * 2,
-  "3Y": 365 * 3,
-};
-
-function filterRange(points: BreadthPoint[], range: RangeKey): BreadthPoint[] {
-  if (range === "All" || points.length === 0) {
-    return points;
+function normalizeBrushRange(points: BreadthPoint[], range: BrushRange): BrushRange {
+  if (points.length === 0) {
+    return { startIndex: 0, endIndex: 0 };
   }
-  const latest = new Date(`${points[points.length - 1].date}T00:00:00Z`);
-  const threshold = new Date(latest);
-  threshold.setUTCDate(threshold.getUTCDate() - RANGE_DAYS[range]);
-  return points.filter((point) => new Date(`${point.date}T00:00:00Z`) >= threshold);
+  return {
+    startIndex: Math.max(0, Math.min(range.startIndex, points.length - 1)),
+    endIndex: Math.max(0, Math.min(range.endIndex, points.length - 1)),
+  };
 }
 
 export function BreadthPanel({
@@ -44,9 +39,24 @@ export function BreadthPanel({
   sectionId,
   variant = "overview",
 }: BreadthPanelProps) {
-  const [range, setRange] = useState<RangeKey>("All");
-  const filteredBreadth = useMemo(() => filterRange(breadth, range), [breadth, range]);
-  const latestPoint = filteredBreadth[filteredBreadth.length - 1] ?? breadth[breadth.length - 1] ?? null;
+  const [brushRange, setBrushRange] = useState<BrushRange>({
+    startIndex: 0,
+    endIndex: Math.max(0, breadth.length - 1),
+  });
+  const normalizedRange = useMemo(() => normalizeBrushRange(breadth, brushRange), [breadth, brushRange]);
+  const selectedBreadth = useMemo(
+    () => breadth.slice(normalizedRange.startIndex, normalizedRange.endIndex + 1),
+    [breadth, normalizedRange.endIndex, normalizedRange.startIndex],
+  );
+  const latestPoint = selectedBreadth[selectedBreadth.length - 1] ?? breadth[breadth.length - 1] ?? null;
+  const rangeLabel =
+    selectedBreadth.length > 0
+      ? `${selectedBreadth[0].date} -> ${selectedBreadth[selectedBreadth.length - 1].date}`
+      : "No data";
+
+  useEffect(() => {
+    setBrushRange({ startIndex: 0, endIndex: Math.max(0, breadth.length - 1) });
+  }, [breadth.length]);
 
   return (
     <section
@@ -65,18 +75,18 @@ export function BreadthPanel({
       </div>
 
       <div className="breadth-toolbar">
-        <div className="toggle-group">
-          {(["1Y", "2Y", "3Y", "All"] as RangeKey[]).map((option) => (
-            <button
-              key={option}
-              type="button"
-              className={range === option ? "toggle active" : "toggle"}
-              onClick={() => setRange(option)}
-            >
-              {option}
-            </button>
-          ))}
+        <div className="range-summary-card">
+          <span>Selected range</span>
+          <strong>{rangeLabel}</strong>
+          <small>{selectedBreadth.length.toLocaleString()} daily points</small>
         </div>
+        <button
+          className="toggle active"
+          type="button"
+          onClick={() => setBrushRange({ startIndex: 0, endIndex: Math.max(0, breadth.length - 1) })}
+        >
+          Reset Zoom
+        </button>
         {latestPoint ? (
           <div className="breadth-latest-card">
             <span>{latestPoint.date}</span>
@@ -90,7 +100,7 @@ export function BreadthPanel({
 
       <div className="chart-wrap">
         <ResponsiveContainer width="100%" height="100%">
-          <LineChart data={filteredBreadth}>
+          <LineChart data={breadth}>
             <CartesianGrid strokeDasharray="3 3" stroke="#20324b" />
             <XAxis dataKey="date" minTickGap={40} stroke="#6f87a8" />
             <YAxis stroke="#6f87a8" domain={[0, 100]} unit="%" />
@@ -100,6 +110,24 @@ export function BreadthPanel({
             />
             <ReferenceLine y={50} stroke="#7d64ff" strokeDasharray="4 4" opacity={0.75} />
             <Line dataKey="above_pct" dot={false} stroke="#8d77ff" strokeWidth={2} />
+            <Brush
+              dataKey="date"
+              height={34}
+              travellerWidth={12}
+              stroke="#8d77ff"
+              fill="#0f1c2d"
+              startIndex={normalizedRange.startIndex}
+              endIndex={normalizedRange.endIndex}
+              onChange={(nextRange: { startIndex?: number; endIndex?: number }) => {
+                if (typeof nextRange.startIndex !== "number" || typeof nextRange.endIndex !== "number") {
+                  return;
+                }
+                setBrushRange({
+                  startIndex: nextRange.startIndex,
+                  endIndex: nextRange.endIndex,
+                });
+              }}
+            />
           </LineChart>
         </ResponsiveContainer>
       </div>

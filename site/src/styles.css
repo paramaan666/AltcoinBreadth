@@ -150,6 +150,8 @@ button {
 .cluster-empty-state,
 .method-line span,
 .panel-footnote,
+.range-summary-card span,
+.range-summary-card small,
 .breadth-latest-card span,
 .breadth-latest-card small {
   color: var(--muted);
@@ -339,7 +341,8 @@ button {
   margin-top: 16px;
 }
 
-.breadth-latest-card {
+.breadth-latest-card,
+.range-summary-card {
   display: grid;
   gap: 4px;
   min-width: 190px;
@@ -350,7 +353,13 @@ button {
   text-align: right;
 }
 
-.breadth-latest-card strong {
+.range-summary-card {
+  min-width: min(420px, 100%);
+  text-align: left;
+}
+
+.breadth-latest-card strong,
+.range-summary-card strong {
   font-size: 1.1rem;
 }
 
@@ -655,6 +664,213 @@ tbody tr:hover td {
   background: rgba(10, 20, 34, 0.65);
 }
 
+.similarity-layout,
+.ma-map-layout {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) minmax(300px, 0.32fr);
+  gap: 14px;
+  margin-top: 16px;
+}
+
+.similarity-layout--expanded {
+  grid-template-columns: minmax(0, 1fr) minmax(320px, 0.28fr);
+}
+
+.similarity-map-shell,
+.ma-map-shell,
+.similarity-side-panel,
+.ma-map-side-panel {
+  border: 1px solid rgba(31, 49, 72, 0.75);
+  border-radius: 18px;
+  background: var(--panel-soft);
+  padding: 16px;
+}
+
+.similarity-map-shell {
+  height: 420px;
+}
+
+.similarity-panel--expanded .similarity-map-shell {
+  height: 640px;
+}
+
+.ma-map-shell {
+  height: 520px;
+}
+
+.panel--focus-ma-map .ma-map-shell {
+  height: 660px;
+}
+
+.similarity-side-panel,
+.ma-map-side-panel {
+  display: grid;
+  align-content: start;
+  gap: 14px;
+}
+
+.similarity-stat-grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 12px;
+}
+
+.similarity-search {
+  width: 100%;
+}
+
+.similarity-match-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  max-height: 420px;
+  overflow: auto;
+  padding-right: 4px;
+}
+
+@media (min-width: 1181px) {
+  .app-shell {
+    max-width: 1880px;
+    padding: 10px 16px;
+  }
+
+  .topbar {
+    padding: 10px 14px;
+    border-radius: 18px;
+  }
+
+  .brand-mark {
+    width: 36px;
+    height: 36px;
+  }
+
+  .topnav-button {
+    padding: 7px 11px;
+  }
+
+  .metrics-grid {
+    gap: 10px;
+  }
+
+  .metric-card {
+    min-height: 92px;
+    padding: 12px 14px;
+  }
+
+  .metric-label {
+    margin-bottom: 6px;
+  }
+
+  .metric-value {
+    font-size: clamp(1.55rem, 1.55vw, 1.95rem);
+  }
+
+  .metric-helper {
+    margin-top: 4px;
+    font-size: 0.82rem;
+  }
+
+  .overview-stack {
+    grid-template-columns: minmax(0, 1.62fr) minmax(420px, 0.95fr);
+    grid-template-areas:
+      "breadth breadth"
+      "tables similarity";
+    gap: 10px;
+    margin-top: 10px;
+  }
+
+  .overview-stack > .breadth-panel {
+    grid-area: breadth;
+  }
+
+  .overview-stack > .tables-grid {
+    grid-area: tables;
+  }
+
+  .overview-stack > .similarity-panel {
+    grid-area: similarity;
+  }
+
+  .panel {
+    padding: 12px;
+    border-radius: 18px;
+  }
+
+  .panel-header p,
+  .table-header p {
+    margin-top: 4px;
+    font-size: 0.82rem;
+  }
+
+  .panel h2 {
+    font-size: 1.1rem;
+  }
+
+  .breadth-toolbar {
+    margin-top: 8px;
+  }
+
+  .breadth-latest-card,
+  .range-summary-card {
+    padding: 7px 10px;
+  }
+
+  .chart-wrap {
+    margin-top: 8px;
+  }
+
+  .breadth-panel--overview .chart-wrap {
+    height: 180px;
+  }
+
+  .panel--table .table-shell {
+    max-height: 235px;
+    margin-top: 8px;
+  }
+
+  .panel--table th,
+  .panel--table td {
+    padding: 7px 10px;
+    font-size: 0.82rem;
+  }
+
+  .tables-grid,
+  .similarity-layout {
+    gap: 10px;
+  }
+
+  .similarity-panel--overview .similarity-layout {
+    grid-template-columns: minmax(0, 1fr);
+  }
+
+  .similarity-panel--overview .similarity-map-shell {
+    height: 260px;
+    padding: 10px;
+  }
+
+  .similarity-panel--overview .similarity-side-panel {
+    display: none;
+  }
+}
+
+.symbol-chip--highlight {
+  color: #f2b236;
+  border-color: rgba(242, 178, 54, 0.55);
+  background: rgba(242, 178, 54, 0.12);
+}
+
+.symbol-chip--above {
+  color: var(--positive);
+  border-color: rgba(79, 213, 122, 0.5);
+  background: rgba(79, 213, 122, 0.1);
+}
+
+.symbol-chip--below {
+  color: var(--negative);
+  border-color: rgba(255, 111, 125, 0.5);
+  background: rgba(255, 111, 125, 0.1);
+}
+
 .method-grid {
   display: grid;
   grid-template-columns: repeat(5, minmax(0, 1fr));
@@ -714,7 +930,10 @@ tbody tr:hover td {
   .tables-grid,
   .clusters-layout--overview,
   .clusters-layout--expanded,
-  .cluster-map-layout {
+  .cluster-map-layout,
+  .similarity-layout,
+  .similarity-layout--expanded,
+  .ma-map-layout {
     grid-template-columns: 1fr;
   }
 

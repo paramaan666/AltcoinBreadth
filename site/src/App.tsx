@@ -4,6 +4,7 @@ import { ClustersPanel } from "./components/ClustersPanel";
 import { DistanceTable } from "./components/DistanceTable";
 import { MethodologyPanel } from "./components/MethodologyPanel";
 import { MetricCard } from "./components/MetricCard";
+import { MovingAverageMapPanel } from "./components/MovingAverageMapPanel";
 import { loadDashboardData } from "./lib/api";
 import type {
   BreadthPoint,
@@ -15,7 +16,7 @@ import type {
 
 const SOURCE_REPO_URL = import.meta.env.VITE_SOURCE_REPO_URL as string | undefined;
 
-type DashboardTab = "overview" | "breadth" | "above" | "below" | "clusters" | "methodology";
+type DashboardTab = "overview" | "breadth" | "above" | "below" | "similarity" | "maDistance" | "methodology";
 
 type DashboardState = {
   overview: Overview | null;
@@ -33,7 +34,8 @@ const TABS: Array<{ id: DashboardTab; label: string }> = [
   { id: "breadth", label: "Breadth" },
   { id: "above", label: "Above 30W MA" },
   { id: "below", label: "Below 30W MA" },
-  { id: "clusters", label: "Clusters" },
+  { id: "similarity", label: "Similarity Map" },
+  { id: "maDistance", label: "MA Distance" },
   { id: "methodology", label: "Methodology" },
 ];
 
@@ -157,14 +159,7 @@ export default function App() {
                 />
               </div>
 
-              <ClustersPanel payload={clusters} variant="overview" sectionId="clusters" />
-
-              <MethodologyPanel
-                methodology={methodology}
-                sourceUrl={SOURCE_REPO_URL}
-                className="panel--methodology"
-                sectionId="methodology"
-              />
+              <ClustersPanel payload={clusters} variant="overview" sectionId="similarity" />
             </div>
           </>
         ) : null}
@@ -193,8 +188,17 @@ export default function App() {
           />
         ) : null}
 
-        {activeTab === "clusters" ? (
-          <ClustersPanel payload={clusters} variant="expanded" className="panel--focus panel--focus-clusters" sectionId="clusters" />
+        {activeTab === "similarity" ? (
+          <ClustersPanel payload={clusters} variant="expanded" className="panel--focus panel--focus-similarity" sectionId="similarity" />
+        ) : null}
+
+        {activeTab === "maDistance" ? (
+          <MovingAverageMapPanel
+            above={above}
+            below={below}
+            className="panel--focus panel--focus-ma-map"
+            sectionId="ma-distance"
+          />
         ) : null}
 
         {activeTab === "methodology" ? (
