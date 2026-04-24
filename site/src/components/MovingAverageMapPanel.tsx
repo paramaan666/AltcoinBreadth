@@ -23,6 +23,8 @@ type DistanceMode = "raw" | "normalized";
 type DistancePoint = SnapshotRow & {
   x: number;
   y: number;
+  momentumPct: number;
+  distanceMetric: number;
   status: "above" | "below";
 };
 type DistanceTooltipProps = {
@@ -37,8 +39,31 @@ type ScatterDotProps = {
   fillOpacity?: number;
 };
 
+const MOMENTUM_COMPRESSION_SCALE = 10;
+const NORMALIZED_DISTANCE_COMPRESSION_SCALE = 1;
+const RAW_DISTANCE_COMPRESSION_SCALE = 10;
+const MOMENTUM_TICKS = [5, 10, 25, 50, 100, 200, 300, 500];
+const NORMALIZED_DISTANCE_TICKS = [1, 2, 5, 10, 20, 50, 100];
+const RAW_DISTANCE_TICKS = [10, 25, 50, 100, 200, 400, 800];
+
 function distanceValue(row: SnapshotRow, mode: DistanceMode) {
   return mode === "raw" ? row.raw_distance_pct : row.normalized_distance ?? 0;
+}
+
+function distanceCompressionScale(mode: DistanceMode) {
+  return mode === "raw" ? RAW_DISTANCE_COMPRESSION_SCALE : NORMALIZED_DISTANCE_COMPRESSION_SCALE;
+}
+
+function distanceTickValues(mode: DistanceMode) {
+  return mode === "raw" ? RAW_DISTANCE_TICKS : NORMALIZED_DISTANCE_TICKS;
+}
+
+function compressSignedValue(value: number, scale: number) {
+  return Math.asinh(value / scale);
+}
+
+function expandSignedValue(value: number, scale: number) {
+  return Math.sinh(value) * scale;
 }
 
 function buildMomentumPoints(above: SnapshotRow[], below: SnapshotRow[], mode: DistanceMode): DistancePoint[] {
@@ -46,10 +71,13 @@ function buildMomentumPoints(above: SnapshotRow[], below: SnapshotRow[], mode: D
     ...above.map((row) => ({ ...row, status: "above" as const })),
     ...below.map((row) => ({ ...row, status: "below" as const })),
   ];
+  const yScale = distanceCompressionScale(mode);
   return combined.map((row) => ({
     ...row,
-    x: row.momentum_30d_pct,
-    y: distanceValue(row, mode),
+    momentumPct: row.momentum_30d_pct,
+    distanceMetric: distanceValue(row, mode),
+    x: compressSignedValue(row.momentum_30d_pct, MOMENTUM_COMPRESSION_SCALE),
+    y: compressSignedValue(distanceValue(row, mode), yScale),
   }));
 }
 
@@ -60,6 +88,26 @@ function symmetricDomain(values: number[], minimumPadding: number): [number, num
   const maxAbs = Math.max(...values.map((value) => Math.abs(value)), minimumPadding);
   const limit = maxAbs + Math.max(maxAbs * 0.08, minimumPadding);
   return [-limit, limit];
+}
+
+function compressedTicks(domain: [number, number], scale: number, actualTickValues: number[]) {
+  const actualLimit = Math.abs(expandSignedValue(domain[1], scale));
+  const positiveTicks = actualTickValues.filter((value) => value <= actualLimit);
+  if (positiveTicks.length === 0) {
+    return [0];
+  }
+  return [
+    ...[...positiveTicks].reverse().map((value) => compressSignedValue(-value, scale)),
+    0,
+    ...positiveTicks.map((value) => compressSignedValue(value, scale)),
+  ];
+}
+
+function formattedTick(value: number, scale: number, suffix = "") {
+  const actual = expandSignedValue(value, scale);
+  const absActual = Math.abs(actual);
+  const decimals = absActual > 0 && absActual < 1 ? 1 : 0;
+  return `${actual.toFixed(decimals)}${suffix}`;
 }
 
 function DistanceDot(props: ScatterDotProps) {
@@ -78,7 +126,7 @@ function DistanceTooltip({ active, payload, mode }: DistanceTooltipProps) {
   return (
     <div className="cluster-tooltip">
       <strong>{point.symbol}</strong>
-      <span>30D momentum: {point.x.toFixed(2)}%</span>
+      <span>30D momentum: {point.momentumPct.toFixed(2)}%</span>
       <span>{mode === "raw" ? "Raw distance" : "Normalized distance"}: {value.toFixed(2)}{mode === "raw" ? "%" : ""}</span>
       <span>Close: {point.close.toLocaleString()}</span>
       <span>30W MA: {point.ma_30w.toLocaleString()}</span>
@@ -103,23 +151,28 @@ export function MovingAverageMapPanel({
   const matchingPoints = normalizedQuery
     ? points.filter((point) => point.symbol.includes(normalizedQuery))
     : [];
-  const xDomain = useMemo(() => symmetricDomain(points.map((point) => point.x), 2), [points]);
-  const yDomain = useMemo(() => symmetricDomain(points.map((point) => point.y), mode === "raw" ? 2 : 0.25), [mode, points]);
-  const strongestAbove = [...abovePoints].sort((left, right) => right.y - left.y)[0] ?? null;
-  const weakestBelow = [...belowPoints].sort((left, right) => left.y - right.y)[0] ?? null;
-  const strongestMomentum = [...points].sort((left, right) => right.x - left.x)[0] ?? null;
-  const weakestMomentum = [...points].sort((left, right) => left.x - right.x)[0] ?? null;
-  const aboveWithMomentumCount = points.filter((point) => point.x > 0 && point.y > 0).length;
-  const aboveFadingCount = points.filter((point) => point.x < 0 && point.y > 0).length;
-  const belowReboundCount = points.filter((point) => point.x > 0 && point.y < 0).length;
-  const belowWeakCount = points.filter((point) => point.x < 0 && point.y < 0).length;
+  const xDomain = useMemo(() => symmetricDomain(points.map((point) => point.x), 0.18), [points]);
+  const yDomain = useMemo(() => symmetricDomain(points.map((point) => point.y), 0.18), [points]);
+  const xTicks = useMemo(() => compressedTicks(xDomain, MOMENTUM_COMPRESSION_SCALE, MOMENTUM_TICKS), [xDomain]);
+  const yTicks = useMemo(
+    () => compressedTicks(yDomain, distanceCompressionScale(mode), distanceTickValues(mode)),
+    [mode, yDomain],
+  );
+  const strongestAbove = [...abovePoints].sort((left, right) => right.distanceMetric - left.distanceMetric)[0] ?? null;
+  const weakestBelow = [...belowPoints].sort((left, right) => left.distanceMetric - right.distanceMetric)[0] ?? null;
+  const strongestMomentum = [...points].sort((left, right) => right.momentumPct - left.momentumPct)[0] ?? null;
+  const weakestMomentum = [...points].sort((left, right) => left.momentumPct - right.momentumPct)[0] ?? null;
+  const aboveWithMomentumCount = points.filter((point) => point.momentumPct > 0 && point.distanceMetric > 0).length;
+  const aboveFadingCount = points.filter((point) => point.momentumPct < 0 && point.distanceMetric > 0).length;
+  const belowReboundCount = points.filter((point) => point.momentumPct > 0 && point.distanceMetric < 0).length;
+  const belowWeakCount = points.filter((point) => point.momentumPct < 0 && point.distanceMetric < 0).length;
 
   return (
     <section id={sectionId ?? "ma-distance"} className={className ? `panel ma-map-panel ${className}` : "panel ma-map-panel"}>
       <div className="panel-header">
         <div>
           <h2>MA Distance vs Momentum</h2>
-          <p>Zero is centered. Right means positive 30D momentum, higher means above 30W MA. Every coin lands in one of four quadrants.</p>
+          <p>Zero is centered. A compressed scale spreads dense clusters while preserving each coin's quadrant and true tooltip values.</p>
         </div>
         <div className="table-controls">
           <div className="toggle-group">
@@ -166,16 +219,18 @@ export function MovingAverageMapPanel({
                 type="number"
                 dataKey="x"
                 domain={xDomain}
+                ticks={xTicks}
                 stroke="#6f87a8"
-                tickFormatter={(value) => `${Number(value).toFixed(0)}%`}
+                tickFormatter={(value) => formattedTick(Number(value), MOMENTUM_COMPRESSION_SCALE, "%")}
                 label={{ value: "30D Momentum", position: "insideBottom", offset: -24, fill: "#9db1cf" }}
               />
               <YAxis
                 type="number"
                 dataKey="y"
                 domain={yDomain}
+                ticks={yTicks}
                 stroke="#6f87a8"
-                tickFormatter={(value) => (mode === "raw" ? `${value}%` : String(value))}
+                tickFormatter={(value) => formattedTick(Number(value), distanceCompressionScale(mode), mode === "raw" ? "%" : "")}
                 label={{
                   value: mode === "raw" ? "Distance from 30W MA" : "Normalized Distance",
                   angle: -90,
@@ -215,7 +270,7 @@ export function MovingAverageMapPanel({
 
         <aside className="ma-map-side-panel">
           <div className="cluster-empty-state ma-map-note">
-            Zero lines meet in the center. X-axis is 30D price momentum, Y-axis is distance from 30W MA.
+            Zero lines meet in the center. Axes use compressed signed scale, so crowded areas are easier to read without changing quadrant logic.
           </div>
           <div className="similarity-stat-grid">
             <article className="cluster-stat-card">
@@ -239,25 +294,25 @@ export function MovingAverageMapPanel({
             {strongestMomentum ? (
               <div className="method-line">
                 <span>Strongest momentum</span>
-                <strong>{strongestMomentum.symbol} {strongestMomentum.x.toFixed(2)}%</strong>
+                <strong>{strongestMomentum.symbol} {strongestMomentum.momentumPct.toFixed(2)}%</strong>
               </div>
             ) : null}
             {weakestMomentum ? (
               <div className="method-line">
                 <span>Weakest momentum</span>
-                <strong>{weakestMomentum.symbol} {weakestMomentum.x.toFixed(2)}%</strong>
+                <strong>{weakestMomentum.symbol} {weakestMomentum.momentumPct.toFixed(2)}%</strong>
               </div>
             ) : null}
             {strongestAbove ? (
               <div className="method-line">
                 <span>Highest above</span>
-                <strong>{strongestAbove.symbol} {strongestAbove.y.toFixed(2)}{mode === "raw" ? "%" : ""}</strong>
+                <strong>{strongestAbove.symbol} {strongestAbove.distanceMetric.toFixed(2)}{mode === "raw" ? "%" : ""}</strong>
               </div>
             ) : null}
             {weakestBelow ? (
               <div className="method-line">
                 <span>Lowest below</span>
-                <strong>{weakestBelow.symbol} {weakestBelow.y.toFixed(2)}{mode === "raw" ? "%" : ""}</strong>
+                <strong>{weakestBelow.symbol} {weakestBelow.distanceMetric.toFixed(2)}{mode === "raw" ? "%" : ""}</strong>
               </div>
             ) : null}
           </div>

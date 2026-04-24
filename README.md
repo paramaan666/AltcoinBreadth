@@ -169,6 +169,7 @@ Záložka `MA Distance` používá 2D scatter:
 - osa X: 30denní momentum
 - osa Y: vzdálenost od 30W MA, raw nebo normalizovaná podle zvoleného přepínače
 - obě osy jsou centrované na nulu, takže průsečík `momentum = 0` a `distance = 0` je uprostřed grafu
+- vizualizace používá komprimovanou sign-preserving škálu `asinh`, aby extrémní outliery neslepily většinu coinů do jednoho místa; tooltipy pořád ukazují skutečné hodnoty
 - top-right: silné momentum a cena vysoko nad 30W MA
 - bottom-left: slabé momentum a cena pod 30W MA
 
