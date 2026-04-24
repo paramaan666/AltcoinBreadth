@@ -1,6 +1,7 @@
 import { useMemo, useState } from "react";
 import {
   CartesianGrid,
+  ReferenceArea,
   ReferenceLine,
   ResponsiveContainer,
   Scatter,
@@ -52,14 +53,13 @@ function buildMomentumPoints(above: SnapshotRow[], below: SnapshotRow[], mode: D
   }));
 }
 
-function paddedDomain(values: number[], minimumPadding: number): [number, number] {
+function symmetricDomain(values: number[], minimumPadding: number): [number, number] {
   if (values.length === 0) {
     return [-1, 1];
   }
-  const min = Math.min(0, ...values);
-  const max = Math.max(0, ...values);
-  const padding = Math.max((max - min) * 0.08, minimumPadding);
-  return [min - padding, max + padding];
+  const maxAbs = Math.max(...values.map((value) => Math.abs(value)), minimumPadding);
+  const limit = maxAbs + Math.max(maxAbs * 0.08, minimumPadding);
+  return [-limit, limit];
 }
 
 function DistanceDot(props: ScatterDotProps) {
@@ -103,21 +103,23 @@ export function MovingAverageMapPanel({
   const matchingPoints = normalizedQuery
     ? points.filter((point) => point.symbol.includes(normalizedQuery))
     : [];
-  const xDomain = useMemo(() => paddedDomain(points.map((point) => point.x), 2), [points]);
-  const yDomain = useMemo(() => paddedDomain(points.map((point) => point.y), mode === "raw" ? 2 : 0.25), [mode, points]);
+  const xDomain = useMemo(() => symmetricDomain(points.map((point) => point.x), 2), [points]);
+  const yDomain = useMemo(() => symmetricDomain(points.map((point) => point.y), mode === "raw" ? 2 : 0.25), [mode, points]);
   const strongestAbove = [...abovePoints].sort((left, right) => right.y - left.y)[0] ?? null;
   const weakestBelow = [...belowPoints].sort((left, right) => left.y - right.y)[0] ?? null;
   const strongestMomentum = [...points].sort((left, right) => right.x - left.x)[0] ?? null;
   const weakestMomentum = [...points].sort((left, right) => left.x - right.x)[0] ?? null;
-  const bullishQuadrantCount = points.filter((point) => point.x > 0 && point.y > 0).length;
-  const bearishQuadrantCount = points.filter((point) => point.x < 0 && point.y < 0).length;
+  const aboveWithMomentumCount = points.filter((point) => point.x > 0 && point.y > 0).length;
+  const aboveFadingCount = points.filter((point) => point.x < 0 && point.y > 0).length;
+  const belowReboundCount = points.filter((point) => point.x > 0 && point.y < 0).length;
+  const belowWeakCount = points.filter((point) => point.x < 0 && point.y < 0).length;
 
   return (
     <section id={sectionId ?? "ma-distance"} className={className ? `panel ma-map-panel ${className}` : "panel ma-map-panel"}>
       <div className="panel-header">
         <div>
           <h2>MA Distance vs Momentum</h2>
-          <p>Right means stronger 30D momentum. Higher means farther above 30W MA. Top-right is current leadership; bottom-left is weak momentum below trend.</p>
+          <p>Zero is centered. Right means positive 30D momentum, higher means above 30W MA. Every coin lands in one of four quadrants.</p>
         </div>
         <div className="table-controls">
           <div className="toggle-group">
@@ -155,6 +157,10 @@ export function MovingAverageMapPanel({
         <div className="ma-map-shell">
           <ResponsiveContainer width="100%" height="100%">
             <ScatterChart margin={{ top: 28, right: 34, bottom: 38, left: 22 }}>
+              <ReferenceArea x1={0} x2={xDomain[1]} y1={0} y2={yDomain[1]} fill="#4fd57a" fillOpacity={0.035} />
+              <ReferenceArea x1={xDomain[0]} x2={0} y1={0} y2={yDomain[1]} fill="#f2b236" fillOpacity={0.03} />
+              <ReferenceArea x1={0} x2={xDomain[1]} y1={yDomain[0]} y2={0} fill="#3ea8ff" fillOpacity={0.03} />
+              <ReferenceArea x1={xDomain[0]} x2={0} y1={yDomain[0]} y2={0} fill="#ff6f7d" fillOpacity={0.035} />
               <CartesianGrid strokeDasharray="3 3" stroke="#20324b" />
               <XAxis
                 type="number"
@@ -181,7 +187,7 @@ export function MovingAverageMapPanel({
                 cursor={{ stroke: "#2a4160", strokeWidth: 1 }}
                 content={(props) => <DistanceTooltip {...(props as DistanceTooltipProps)} mode={mode} />}
               />
-              <ReferenceLine x={0} stroke="#314763" strokeDasharray="3 4" strokeWidth={1} opacity={0.8} />
+              <ReferenceLine x={0} stroke="#edf3ff" strokeDasharray="6 4" strokeWidth={2} opacity={0.74} />
               <ReferenceLine y={0} stroke="#edf3ff" strokeDasharray="6 4" strokeWidth={2} opacity={0.74} />
               <Scatter
                 data={abovePoints}
@@ -209,16 +215,24 @@ export function MovingAverageMapPanel({
 
         <aside className="ma-map-side-panel">
           <div className="cluster-empty-state ma-map-note">
-            X-axis is 30D price momentum. Y-axis is distance from 30W MA. Top-right = strong momentum above trend; bottom-left = weak momentum below trend.
+            Zero lines meet in the center. X-axis is 30D price momentum, Y-axis is distance from 30W MA.
           </div>
           <div className="similarity-stat-grid">
             <article className="cluster-stat-card">
-              <span>Top-right</span>
-              <strong>{bullishQuadrantCount}</strong>
+              <span>Above + momentum</span>
+              <strong>{aboveWithMomentumCount}</strong>
             </article>
             <article className="cluster-stat-card">
-              <span>Bottom-left</span>
-              <strong>{bearishQuadrantCount}</strong>
+              <span>Above + fading</span>
+              <strong>{aboveFadingCount}</strong>
+            </article>
+            <article className="cluster-stat-card">
+              <span>Below + rebound</span>
+              <strong>{belowReboundCount}</strong>
+            </article>
+            <article className="cluster-stat-card">
+              <span>Below + weak</span>
+              <strong>{belowWeakCount}</strong>
             </article>
           </div>
           <div className="cluster-detail-stats">
