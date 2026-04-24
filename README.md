@@ -170,6 +170,7 @@ Záložka `MA Distance` používá 2D scatter:
 - osa Y: vzdálenost od 30W MA, raw nebo normalizovaná podle zvoleného přepínače
 - obě osy jsou centrované na nulu, takže průsečík `momentum = 0` a `distance = 0` je uprostřed grafu
 - vizualizace používá komprimovanou sign-preserving škálu `asinh`, aby extrémní outliery neslepily většinu coinů do jednoho místa; tooltipy pořád ukazují skutečné hodnoty
+- výchozí `Focus` režim ukazuje nejsilnější rotační signály v každém kvadrantu; `All` zobrazí celé universe
 - mini trail ukazuje poslední 3 nebo 7 historické denní pozice plus aktuální bod, takže je vidět aktuální rotace mezi kvadranty
 - top-right: silné momentum a cena vysoko nad 30W MA
 - bottom-left: slabé momentum a cena pod 30W MA
@@ -181,7 +182,7 @@ Similarity mapa není ML pipeline pro research, ale praktická analytická vrstv
 Použitá metodika:
 
 - vstup: denní log returny
-- okno: posledních 60 dní
+- okno: posledních 90 dní
 - nejdřív se spočítá equal-weight market faktor všech validních symbolů
 - pro každý symbol se odečte beta vůči market faktoru a podobnost se počítá z residual returnů
 - distance: `sqrt(0.5 * (1 - residual correlation))`

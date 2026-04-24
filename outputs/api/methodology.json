@@ -8,7 +8,7 @@
     "algorithm": "Agglomerative clustering with average linkage on residual returns",
     "distance": "sqrt(0.5 * (1 - residual correlation))",
     "embedding": "2D spectral embedding of the k-nearest-neighbor residual similarity graph",
-    "lookback_days": 60,
+    "lookback_days": 90,
     "min_cluster_size": 5,
     "returns": "Daily log returns"
   },

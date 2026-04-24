@@ -64,7 +64,7 @@ rotation:
     - 7
 
 clustering:
-  lookback_days: 60
+  lookback_days: 90
   return_mode: residual
   knn_neighbors: 12
   distance_threshold: 0.68

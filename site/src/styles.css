@@ -702,6 +702,11 @@ tbody tr:hover td {
   height: 560px;
 }
 
+.panel--focus-ma-map .ma-map-side-panel {
+  max-height: 560px;
+  overflow: auto;
+}
+
 .panel--focus-ma-map {
   min-height: 0;
 }
@@ -908,6 +913,60 @@ tbody tr:hover td {
   place-items: start;
   text-align: left;
   padding: 12px 14px;
+}
+
+.ma-quadrant-board {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 10px;
+}
+
+.ma-quadrant-card {
+  border: 1px solid rgba(31, 49, 72, 0.82);
+  border-radius: 14px;
+  padding: 10px;
+  background: rgba(10, 20, 34, 0.72);
+}
+
+.ma-quadrant-card--leadership {
+  border-color: rgba(79, 213, 122, 0.38);
+}
+
+.ma-quadrant-card--fading {
+  border-color: rgba(242, 178, 54, 0.38);
+}
+
+.ma-quadrant-card--rebound {
+  border-color: rgba(62, 168, 255, 0.38);
+}
+
+.ma-quadrant-card--weak {
+  border-color: rgba(255, 111, 125, 0.38);
+}
+
+.ma-quadrant-card-header,
+.ma-quadrant-list span {
+  display: grid;
+  gap: 2px;
+}
+
+.ma-quadrant-card-header {
+  margin-bottom: 8px;
+}
+
+.ma-quadrant-card-header span,
+.ma-quadrant-list small {
+  color: var(--muted);
+  font-size: 0.74rem;
+}
+
+.ma-quadrant-list {
+  display: grid;
+  gap: 6px;
+}
+
+.ma-quadrant-list b {
+  font-size: 0.78rem;
 }
 
 .method-grid {

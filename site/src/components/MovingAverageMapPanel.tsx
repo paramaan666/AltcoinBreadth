@@ -22,6 +22,7 @@ type MovingAverageMapPanelProps = {
 
 type DistanceMode = "raw" | "normalized";
 type TrailMode = "off" | "3d" | "7d";
+type ViewMode = "focus" | "all";
 type DistancePoint = SnapshotRow & {
   x: number;
   y: number;
@@ -57,6 +58,7 @@ const RAW_DISTANCE_COMPRESSION_SCALE = 10;
 const MOMENTUM_TICKS = [5, 10, 25, 50, 100, 200, 300, 500];
 const NORMALIZED_DISTANCE_TICKS = [1, 2, 5, 10, 20, 50, 100];
 const RAW_DISTANCE_TICKS = [10, 25, 50, 100, 200, 400, 800];
+const FOCUS_PER_QUADRANT = 36;
 
 function distanceValue(row: SnapshotRow, mode: DistanceMode) {
   return mode === "raw" ? row.raw_distance_pct : row.normalized_distance ?? 0;
@@ -203,6 +205,66 @@ function DistanceTooltip({ active, payload, mode }: DistanceTooltipProps) {
   );
 }
 
+function pointSignalScore(point: DistancePoint) {
+  return Math.abs(point.x) * 1.15 + Math.abs(point.y);
+}
+
+function quadrantKey(point: DistancePoint) {
+  if (point.momentumPct >= 0 && point.distanceMetric >= 0) {
+    return "leadership";
+  }
+  if (point.momentumPct < 0 && point.distanceMetric >= 0) {
+    return "fading";
+  }
+  if (point.momentumPct >= 0 && point.distanceMetric < 0) {
+    return "rebound";
+  }
+  return "weak";
+}
+
+function topBySignal(points: DistancePoint[], limit: number) {
+  return [...points].sort((left, right) => pointSignalScore(right) - pointSignalScore(left)).slice(0, limit);
+}
+
+function buildFocusPoints(points: DistancePoint[]) {
+  const bySymbol = new Map<string, DistancePoint>();
+  const add = (rows: DistancePoint[]) => rows.forEach((point) => bySymbol.set(point.symbol, point));
+  add(topBySignal(points.filter((point) => quadrantKey(point) === "leadership"), FOCUS_PER_QUADRANT));
+  add(topBySignal(points.filter((point) => quadrantKey(point) === "fading"), FOCUS_PER_QUADRANT));
+  add(topBySignal(points.filter((point) => quadrantKey(point) === "rebound"), FOCUS_PER_QUADRANT));
+  add(topBySignal(points.filter((point) => quadrantKey(point) === "weak"), FOCUS_PER_QUADRANT));
+  return [...bySymbol.values()].sort((left, right) => pointSignalScore(right) - pointSignalScore(left));
+}
+
+function quadrantLeaders(points: DistancePoint[]) {
+  return [
+    {
+      key: "leadership",
+      title: "Leadership",
+      helper: "Above MA + momentum",
+      rows: topBySignal(points.filter((point) => quadrantKey(point) === "leadership"), 6),
+    },
+    {
+      key: "fading",
+      title: "Fading",
+      helper: "Above MA, momentum down",
+      rows: topBySignal(points.filter((point) => quadrantKey(point) === "fading"), 6),
+    },
+    {
+      key: "rebound",
+      title: "Rebound",
+      helper: "Below MA + momentum",
+      rows: topBySignal(points.filter((point) => quadrantKey(point) === "rebound"), 6),
+    },
+    {
+      key: "weak",
+      title: "Weak",
+      helper: "Below MA, momentum down",
+      rows: topBySignal(points.filter((point) => quadrantKey(point) === "weak"), 6),
+    },
+  ];
+}
+
 export function MovingAverageMapPanel({
   above,
   below,
@@ -212,19 +274,30 @@ export function MovingAverageMapPanel({
 }: MovingAverageMapPanelProps) {
   const [mode, setMode] = useState<DistanceMode>("normalized");
   const [trailMode, setTrailMode] = useState<TrailMode>("off");
+  const [viewMode, setViewMode] = useState<ViewMode>("focus");
   const [query, setQuery] = useState("");
   const normalizedQuery = query.trim().toUpperCase();
   const points = useMemo<DistancePoint[]>(() => {
     return rotation ? buildRotationPoints(rotation, mode) : buildMomentumPoints(above, below, mode);
   }, [above, below, mode, rotation]);
   const trailPoints = useMemo(() => buildTrailPoints(rotation, mode, trailMode), [mode, rotation, trailMode]);
-  const abovePoints = points.filter((point) => point.status === "above");
-  const belowPoints = points.filter((point) => point.status === "below");
+  const focusPoints = useMemo(() => buildFocusPoints(points), [points]);
   const matchingPoints = normalizedQuery
     ? points.filter((point) => point.symbol.includes(normalizedQuery))
     : [];
-  const xDomain = useMemo(() => symmetricDomain(points.map((point) => point.x), 0.18), [points]);
-  const yDomain = useMemo(() => symmetricDomain(points.map((point) => point.y), 0.18), [points]);
+  const chartPoints = normalizedQuery
+    ? matchingPoints
+    : viewMode === "all"
+      ? points
+      : focusPoints;
+  const chartSymbols = useMemo(() => new Set(chartPoints.map((point) => point.symbol)), [chartPoints]);
+  const chartTrailPoints = trailPoints.filter((point) => chartSymbols.has(point.symbol));
+  const abovePoints = points.filter((point) => point.status === "above");
+  const belowPoints = points.filter((point) => point.status === "below");
+  const chartAbovePoints = chartPoints.filter((point) => point.status === "above");
+  const chartBelowPoints = chartPoints.filter((point) => point.status === "below");
+  const xDomain = useMemo(() => symmetricDomain(chartPoints.map((point) => point.x), 0.18), [chartPoints]);
+  const yDomain = useMemo(() => symmetricDomain(chartPoints.map((point) => point.y), 0.18), [chartPoints]);
   const xTicks = useMemo(() => compressedTicks(xDomain, MOMENTUM_COMPRESSION_SCALE, MOMENTUM_TICKS), [xDomain]);
   const yTicks = useMemo(
     () => compressedTicks(yDomain, distanceCompressionScale(mode), distanceTickValues(mode)),
@@ -238,15 +311,28 @@ export function MovingAverageMapPanel({
   const aboveFadingCount = points.filter((point) => point.momentumPct < 0 && point.distanceMetric > 0).length;
   const belowReboundCount = points.filter((point) => point.momentumPct > 0 && point.distanceMetric < 0).length;
   const belowWeakCount = points.filter((point) => point.momentumPct < 0 && point.distanceMetric < 0).length;
+  const quadrantRows = useMemo(() => quadrantLeaders(points), [points]);
 
   return (
     <section id={sectionId ?? "ma-distance"} className={className ? `panel ma-map-panel ${className}` : "panel ma-map-panel"}>
       <div className="panel-header">
         <div>
           <h2>MA Distance vs Momentum</h2>
-          <p>Zero is centered. Fading trails show recent rotation path without changing the current quadrant logic.</p>
+          <p>Focus view shows the strongest rotation signals first. Use All only when you need the complete universe.</p>
         </div>
         <div className="table-controls">
+          <div className="toggle-group">
+            {(["focus", "all"] as ViewMode[]).map((value) => (
+              <button
+                key={value}
+                className={viewMode === value ? "toggle active" : "toggle"}
+                onClick={() => setViewMode(value)}
+                type="button"
+              >
+                {value === "focus" ? "Focus" : "All"}
+              </button>
+            ))}
+          </div>
           <div className="toggle-group">
             {(["off", "3d", "7d"] as TrailMode[]).map((value) => (
               <button
@@ -332,14 +418,14 @@ export function MovingAverageMapPanel({
               {trailMode !== "off" ? (
                 <>
                   <Scatter
-                    data={trailPoints.filter((point) => point.status === "above")}
+                    data={chartTrailPoints.filter((point) => point.status === "above")}
                     fill="#4fd57a"
                     fillOpacity={0.22}
                     isAnimationActive={false}
                     shape={(props: unknown) => <DistanceDot {...(props as ScatterDotProps)} />}
                   />
                   <Scatter
-                    data={trailPoints.filter((point) => point.status === "below")}
+                    data={chartTrailPoints.filter((point) => point.status === "below")}
                     fill="#ff6f7d"
                     fillOpacity={0.22}
                     isAnimationActive={false}
@@ -348,14 +434,14 @@ export function MovingAverageMapPanel({
                 </>
               ) : null}
               <Scatter
-                data={abovePoints}
+                data={chartAbovePoints}
                 fill="#4fd57a"
                 fillOpacity={normalizedQuery ? 0.22 : 0.78}
                 isAnimationActive={false}
                 shape={(props: unknown) => <DistanceDot {...(props as ScatterDotProps)} />}
               />
               <Scatter
-                data={belowPoints}
+                data={chartBelowPoints}
                 fill="#ff6f7d"
                 fillOpacity={normalizedQuery ? 0.22 : 0.78}
                 isAnimationActive={false}
@@ -376,7 +462,7 @@ export function MovingAverageMapPanel({
 
         <aside className="ma-map-side-panel">
           <div className="cluster-empty-state ma-map-note">
-            Zero lines meet in the center. Trails show where each coin was recently; current dots remain the strongest marks.
+            Showing {chartPoints.length} of {points.length} symbols. Search overrides the focus filter. Trails follow only visible symbols.
           </div>
           {rotation ? (
             <div className="similarity-stat-grid">
@@ -434,8 +520,26 @@ export function MovingAverageMapPanel({
               </div>
             ) : null}
           </div>
+          <div className="ma-quadrant-board">
+            {quadrantRows.map((bucket) => (
+              <article key={bucket.key} className={`ma-quadrant-card ma-quadrant-card--${bucket.key}`}>
+                <div className="ma-quadrant-card-header">
+                  <strong>{bucket.title}</strong>
+                  <span>{bucket.helper}</span>
+                </div>
+                <div className="ma-quadrant-list">
+                  {bucket.rows.map((point) => (
+                    <span key={point.symbol}>
+                      <b>{point.symbol.replace("USDT", "")}</b>
+                      <small>{point.momentumPct.toFixed(1)}% / {point.distanceMetric.toFixed(1)}{mode === "raw" ? "%" : ""}</small>
+                    </span>
+                  ))}
+                </div>
+              </article>
+            ))}
+          </div>
           <div className="similarity-match-list">
-            {(normalizedQuery ? matchingPoints : points.slice(0, 30)).slice(0, 42).map((point) => (
+            {(normalizedQuery ? matchingPoints : focusPoints).slice(0, 42).map((point) => (
               <span key={point.symbol} className={point.status === "above" ? "symbol-chip symbol-chip--above" : "symbol-chip symbol-chip--below"}>
                 {point.symbol}
               </span>
