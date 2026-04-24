@@ -25,6 +25,7 @@ def test_json_outputs_pass_schema_validation() -> None:
                 "raw_distance_pct": 25.0,
                 "atr_pct_60": 8.0,
                 "normalized_distance": 3.125,
+                "momentum_30d_pct": 12.0,
                 "days_history": 250,
             }
         ],
@@ -36,6 +37,7 @@ def test_json_outputs_pass_schema_validation() -> None:
                 "raw_distance_pct": -20.0,
                 "atr_pct_60": 10.0,
                 "normalized_distance": -2.0,
+                "momentum_30d_pct": -8.0,
                 "days_history": 250,
             }
         ],

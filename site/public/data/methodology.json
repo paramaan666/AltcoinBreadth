@@ -13,6 +13,7 @@
     "returns": "Daily log returns"
   },
   "distance": {
+    "momentum_30d_pct": "(close / close_30d_ago - 1) * 100",
     "normalized_distance": "raw_distance_pct / ATR%(60)",
     "raw_distance_pct": "(close / ma_30w - 1) * 100"
   },

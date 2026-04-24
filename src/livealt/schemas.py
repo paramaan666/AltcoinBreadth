@@ -70,6 +70,7 @@ SNAPSHOT_SCHEMA = {
                     "raw_distance_pct",
                     "atr_pct_60",
                     "normalized_distance",
+                    "momentum_30d_pct",
                     "days_history",
                 ],
                 "properties": {
@@ -79,6 +80,7 @@ SNAPSHOT_SCHEMA = {
                     "raw_distance_pct": {"type": "number"},
                     "atr_pct_60": {"type": "number"},
                     "normalized_distance": {"type": ["number", "null"]},
+                    "momentum_30d_pct": {"type": "number"},
                     "days_history": {"type": "integer"},
                 },
             },
@@ -131,4 +133,3 @@ VALIDATION_SCHEMA = {
         "passed": {"type": "boolean"},
     },
 }
-

@@ -30,6 +30,7 @@ export type SnapshotRow = {
   raw_distance_pct: number;
   atr_pct_60: number;
   normalized_distance: number | null;
+  momentum_30d_pct: number;
   days_history: number;
   listing_date: string | null;
   delisted_date: string | null;
@@ -58,4 +59,3 @@ export type Methodology = {
   clusters: Record<string, string | number>;
   lifecycle: Record<string, string | number>;
 };
-

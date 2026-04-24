@@ -24,6 +24,7 @@ def build_metrics_dataset(config: AppConfig, registry: dict[str, Any]) -> pl.Dat
             frame=frame,
             ma_days=config.indicators.ma_days,
             atr_days=config.indicators.atr_days,
+            momentum_days=config.indicators.momentum_days,
             lifecycle_entry=registry.get(symbol, {}),
         )
         frames.append(metrics)
@@ -76,6 +77,7 @@ def compute_snapshot_tables(metrics: pl.DataFrame) -> tuple[str | None, list[dic
             "raw_distance_pct",
             "atr_pct_60",
             "normalized_distance",
+            "momentum_30d_pct",
             "days_history",
             "listing_date",
             "delisted_date",

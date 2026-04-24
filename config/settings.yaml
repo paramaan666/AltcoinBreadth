@@ -53,6 +53,7 @@ universe:
 indicators:
   ma_days: 210
   atr_days: 60
+  momentum_days: 30
   min_days_for_cluster: 60
 
 clustering:

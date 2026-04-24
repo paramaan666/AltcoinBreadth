@@ -158,6 +158,19 @@ Kde:
 
 Tím se omezí dominance extrémně volatilních meme coinů a tabulky jsou použitelnější napříč různými typy symbolů.
 
+### Momentum
+
+```text
+momentum_30d_pct = (close / close před 30 dny - 1) * 100
+```
+
+Záložka `MA Distance` používá 2D scatter:
+
+- osa X: 30denní momentum
+- osa Y: vzdálenost od 30W MA, raw nebo normalizovaná podle zvoleného přepínače
+- top-right: silné momentum a cena vysoko nad 30W MA
+- bottom-left: slabé momentum a cena pod 30W MA
+
 ## Similarity mapa
 
 Similarity mapa není ML pipeline pro research, ale praktická analytická vrstva pro dashboard.
@@ -263,7 +276,7 @@ Hlavní parametry jsou v `config/settings.yaml`:
 
 - Binance endpointy a retry limity
 - filtrace universa
-- délka MA a ATR okna
+- délka MA, ATR a momentum okna
 - similarity / cluster parametry
 - bootstrap chování
 - minimální poměr úspěšných symbol updateů

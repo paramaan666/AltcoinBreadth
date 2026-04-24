@@ -10,6 +10,7 @@ def compute_symbol_metrics(
     frame: pl.DataFrame,
     ma_days: int,
     atr_days: int,
+    momentum_days: int,
     lifecycle_entry: dict[str, Any] | None,
 ) -> pl.DataFrame:
     if frame.is_empty():
@@ -31,6 +32,9 @@ def compute_symbol_metrics(
             [
                 (pl.col("close").log() - pl.col("close").shift(1).log()).alias("log_return"),
                 pl.col("close").rolling_mean(window_size=ma_days, min_samples=ma_days).alias("ma_30w"),
+                ((pl.col("close") / pl.col("close").shift(momentum_days)) - 1.0)
+                .mul(100)
+                .alias("momentum_30d_pct"),
                 pl.col("close").shift(1).alias("prev_close"),
                 (pl.col("row_nr") + 1).alias("days_history"),
                 active_expr.alias("active_on_date"),
@@ -74,4 +78,3 @@ def _parse_iso_date(value: str | None) -> date | None:
     if not value:
         return None
     return date.fromisoformat(value)
-

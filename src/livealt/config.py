@@ -50,6 +50,7 @@ class UniverseConfig:
 class IndicatorsConfig:
     ma_days: int
     atr_days: int
+    momentum_days: int
     min_days_for_cluster: int
 
 

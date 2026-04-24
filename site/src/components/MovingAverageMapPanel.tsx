@@ -36,46 +36,30 @@ type ScatterDotProps = {
   fillOpacity?: number;
 };
 
-function laneOffset(index: number) {
-  if (index === 0) {
-    return 0;
-  }
-  const magnitude = Math.ceil(index / 2);
-  const direction = index % 2 === 0 ? 1 : -1;
-  return Math.max(-0.44, Math.min(0.44, direction * magnitude * 0.055));
-}
-
 function distanceValue(row: SnapshotRow, mode: DistanceMode) {
   return mode === "raw" ? row.raw_distance_pct : row.normalized_distance ?? 0;
 }
 
-function buildBeeswarmPoints(above: SnapshotRow[], below: SnapshotRow[], mode: DistanceMode): DistancePoint[] {
+function buildMomentumPoints(above: SnapshotRow[], below: SnapshotRow[], mode: DistanceMode): DistancePoint[] {
   const combined = [
     ...above.map((row) => ({ ...row, status: "above" as const })),
     ...below.map((row) => ({ ...row, status: "below" as const })),
   ];
-  if (combined.length === 0) {
-    return [];
-  }
-  const values = combined.map((row) => distanceValue(row, mode));
-  const min = Math.min(...values);
-  const max = Math.max(...values);
-  const binSize = Math.max((max - min) / 80, mode === "raw" ? 0.5 : 0.05);
-  const bins = new Map<number, number>();
+  return combined.map((row) => ({
+    ...row,
+    x: row.momentum_30d_pct,
+    y: distanceValue(row, mode),
+  }));
+}
 
-  return [...combined]
-    .sort((left, right) => distanceValue(left, mode) - distanceValue(right, mode) || left.symbol.localeCompare(right.symbol))
-    .map((row) => {
-      const y = distanceValue(row, mode);
-      const bin = Math.round(y / binSize);
-      const index = bins.get(bin) ?? 0;
-      bins.set(bin, index + 1);
-      return {
-        ...row,
-        x: laneOffset(index),
-        y,
-      };
-    });
+function paddedDomain(values: number[], minimumPadding: number): [number, number] {
+  if (values.length === 0) {
+    return [-1, 1];
+  }
+  const min = Math.min(0, ...values);
+  const max = Math.max(0, ...values);
+  const padding = Math.max((max - min) * 0.08, minimumPadding);
+  return [min - padding, max + padding];
 }
 
 function DistanceDot(props: ScatterDotProps) {
@@ -94,6 +78,7 @@ function DistanceTooltip({ active, payload, mode }: DistanceTooltipProps) {
   return (
     <div className="cluster-tooltip">
       <strong>{point.symbol}</strong>
+      <span>30D momentum: {point.x.toFixed(2)}%</span>
       <span>{mode === "raw" ? "Raw distance" : "Normalized distance"}: {value.toFixed(2)}{mode === "raw" ? "%" : ""}</span>
       <span>Close: {point.close.toLocaleString()}</span>
       <span>30W MA: {point.ma_30w.toLocaleString()}</span>
@@ -111,22 +96,28 @@ export function MovingAverageMapPanel({
   const [query, setQuery] = useState("");
   const normalizedQuery = query.trim().toUpperCase();
   const points = useMemo<DistancePoint[]>(() => {
-    return buildBeeswarmPoints(above, below, mode);
+    return buildMomentumPoints(above, below, mode);
   }, [above, below, mode]);
   const abovePoints = points.filter((point) => point.status === "above");
   const belowPoints = points.filter((point) => point.status === "below");
   const matchingPoints = normalizedQuery
     ? points.filter((point) => point.symbol.includes(normalizedQuery))
     : [];
+  const xDomain = useMemo(() => paddedDomain(points.map((point) => point.x), 2), [points]);
+  const yDomain = useMemo(() => paddedDomain(points.map((point) => point.y), mode === "raw" ? 2 : 0.25), [mode, points]);
   const strongestAbove = [...abovePoints].sort((left, right) => right.y - left.y)[0] ?? null;
   const weakestBelow = [...belowPoints].sort((left, right) => left.y - right.y)[0] ?? null;
+  const strongestMomentum = [...points].sort((left, right) => right.x - left.x)[0] ?? null;
+  const weakestMomentum = [...points].sort((left, right) => left.x - right.x)[0] ?? null;
+  const bullishQuadrantCount = points.filter((point) => point.x > 0 && point.y > 0).length;
+  const bearishQuadrantCount = points.filter((point) => point.x < 0 && point.y < 0).length;
 
   return (
     <section id={sectionId ?? "ma-distance"} className={className ? `panel ma-map-panel ${className}` : "panel ma-map-panel"}>
       <div className="panel-header">
         <div>
-          <h2>Distance From 30W Moving Average</h2>
-          <p>Read this vertically: higher points are farther above 30W MA, lower points are farther below. Horizontal spread only prevents overlapping dots.</p>
+          <h2>MA Distance vs Momentum</h2>
+          <p>Right means stronger 30D momentum. Higher means farther above 30W MA. Top-right is current leadership; bottom-left is weak momentum below trend.</p>
         </div>
         <div className="table-controls">
           <div className="toggle-group">
@@ -163,14 +154,28 @@ export function MovingAverageMapPanel({
       <div className="ma-map-layout">
         <div className="ma-map-shell">
           <ResponsiveContainer width="100%" height="100%">
-            <ScatterChart margin={{ top: 28, right: 30, bottom: 28, left: 18 }}>
+            <ScatterChart margin={{ top: 28, right: 34, bottom: 38, left: 22 }}>
               <CartesianGrid strokeDasharray="3 3" stroke="#20324b" />
-              <XAxis type="number" dataKey="x" domain={[-0.55, 0.55]} axisLine={false} tickLine={false} tick={false} />
+              <XAxis
+                type="number"
+                dataKey="x"
+                domain={xDomain}
+                stroke="#6f87a8"
+                tickFormatter={(value) => `${Number(value).toFixed(0)}%`}
+                label={{ value: "30D Momentum", position: "insideBottom", offset: -24, fill: "#9db1cf" }}
+              />
               <YAxis
                 type="number"
                 dataKey="y"
+                domain={yDomain}
                 stroke="#6f87a8"
                 tickFormatter={(value) => (mode === "raw" ? `${value}%` : String(value))}
+                label={{
+                  value: mode === "raw" ? "Distance from 30W MA" : "Normalized Distance",
+                  angle: -90,
+                  position: "insideLeft",
+                  fill: "#9db1cf",
+                }}
               />
               <Tooltip
                 cursor={{ stroke: "#2a4160", strokeWidth: 1 }}
@@ -204,19 +209,31 @@ export function MovingAverageMapPanel({
 
         <aside className="ma-map-side-panel">
           <div className="cluster-empty-state ma-map-note">
-            X-axis has no signal. Coins are spread left/right only when their MA distance is nearly the same.
+            X-axis is 30D price momentum. Y-axis is distance from 30W MA. Top-right = strong momentum above trend; bottom-left = weak momentum below trend.
           </div>
           <div className="similarity-stat-grid">
             <article className="cluster-stat-card">
-              <span>Above MA</span>
-              <strong>{above.length}</strong>
+              <span>Top-right</span>
+              <strong>{bullishQuadrantCount}</strong>
             </article>
             <article className="cluster-stat-card">
-              <span>Below MA</span>
-              <strong>{below.length}</strong>
+              <span>Bottom-left</span>
+              <strong>{bearishQuadrantCount}</strong>
             </article>
           </div>
           <div className="cluster-detail-stats">
+            {strongestMomentum ? (
+              <div className="method-line">
+                <span>Strongest momentum</span>
+                <strong>{strongestMomentum.symbol} {strongestMomentum.x.toFixed(2)}%</strong>
+              </div>
+            ) : null}
+            {weakestMomentum ? (
+              <div className="method-line">
+                <span>Weakest momentum</span>
+                <strong>{weakestMomentum.symbol} {weakestMomentum.x.toFixed(2)}%</strong>
+              </div>
+            ) : null}
             {strongestAbove ? (
               <div className="method-line">
                 <span>Highest above</span>

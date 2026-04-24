@@ -53,7 +53,7 @@ def app_config(tmp_path: Path) -> AppConfig:
             delist_confirmation_days=2,
             exclude_symbols=["BTCDOMUSDT"],
         ),
-        indicators=IndicatorsConfig(ma_days=210, atr_days=60, min_days_for_cluster=60),
+        indicators=IndicatorsConfig(ma_days=210, atr_days=60, momentum_days=30, min_days_for_cluster=60),
         clustering=ClusteringConfig(
             lookback_days=60,
             distance_threshold=0.8,

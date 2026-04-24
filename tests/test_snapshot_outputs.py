@@ -23,5 +23,11 @@ def test_snapshot_rows_include_expected_fields(app_config) -> None:
     assert above
     assert below
     for row in [above[0], below[0]]:
-        assert {"symbol", "close", "ma_30w", "raw_distance_pct", "normalized_distance"} <= set(row)
-
+        assert {
+            "symbol",
+            "close",
+            "ma_30w",
+            "raw_distance_pct",
+            "normalized_distance",
+            "momentum_30d_pct",
+        } <= set(row)

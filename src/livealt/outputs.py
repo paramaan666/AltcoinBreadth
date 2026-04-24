@@ -51,6 +51,7 @@ def build_methodology(config: AppConfig) -> dict[str, Any]:
         "distance": {
             "raw_distance_pct": "(close / ma_30w - 1) * 100",
             "normalized_distance": f"raw_distance_pct / ATR%({config.indicators.atr_days})",
+            "momentum_30d_pct": f"(close / close_{config.indicators.momentum_days}d_ago - 1) * 100",
         },
         "clusters": {
             "returns": "Daily log returns",
