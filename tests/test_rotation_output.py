@@ -32,5 +32,6 @@ def test_rotation_history_has_expected_structure(app_config) -> None:
     row = payload["rows"][0]
     assert row["symbol"] == "AAAUSDT"
     assert row["trend_direction"] == "improving"
-    assert len(row["trail"]) == app_config.rotation.trail_days
+    assert len(row["trail"]) == app_config.rotation.trail_days + 1
+    assert row["deltas"]["7d"]["from_date"] == row["trail"][0]["date"]
     assert row["deltas"]["7d"]["momentum_change"] == 7

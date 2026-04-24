@@ -89,13 +89,16 @@ def _build_symbol_rotation(
     if current["date"] != as_of.isoformat():
         return None
 
-    trail = daily_rows[-config.rotation.trail_days :]
+    # Keep N historical positions plus the current point. This makes a 7D
+    # trail include the same start date used by the 7D delta calculation.
+    trail = daily_rows[-(config.rotation.trail_days + 1) :]
     deltas = {
         f"{lookback}d": _delta_for_lookback(daily_rows, current, lookback)
         for lookback in config.rotation.lookbacks
     }
     trend = _trend_direction(deltas)
-    quadrant = _quadrant(current["momentum_30d_pct"], current["normalized_distance"] or current["raw_distance_pct"])
+    distance = current["normalized_distance"] if current["normalized_distance"] is not None else current["raw_distance_pct"]
+    quadrant = _quadrant(current["momentum_30d_pct"], distance)
     return {
         "symbol": symbol,
         "quadrant": quadrant,

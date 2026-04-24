@@ -24,7 +24,7 @@
   },
   "rotation": {
     "lookbacks": "1D, 3D, 7D",
-    "trail": "Last 7 daily positions per currently eligible active symbol.",
+    "trail": "Last 7 historical daily positions plus the current point per currently eligible active symbol.",
     "trend": "Improving means momentum and MA distance both increased over the best available configured lookback."
   }
 }

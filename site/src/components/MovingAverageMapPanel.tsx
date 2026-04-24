@@ -211,7 +211,7 @@ export function MovingAverageMapPanel({
   sectionId,
 }: MovingAverageMapPanelProps) {
   const [mode, setMode] = useState<DistanceMode>("normalized");
-  const [trailMode, setTrailMode] = useState<TrailMode>("7d");
+  const [trailMode, setTrailMode] = useState<TrailMode>("off");
   const [query, setQuery] = useState("");
   const normalizedQuery = query.trim().toUpperCase();
   const points = useMemo<DistancePoint[]>(() => {
@@ -325,6 +325,7 @@ export function MovingAverageMapPanel({
               <Tooltip
                 cursor={{ stroke: "#2a4160", strokeWidth: 1 }}
                 content={(props) => <DistanceTooltip {...(props as DistanceTooltipProps)} mode={mode} />}
+                isAnimationActive={false}
               />
               <ReferenceLine x={0} stroke="#edf3ff" strokeDasharray="6 4" strokeWidth={2} opacity={0.74} />
               <ReferenceLine y={0} stroke="#edf3ff" strokeDasharray="6 4" strokeWidth={2} opacity={0.74} />
@@ -334,12 +335,14 @@ export function MovingAverageMapPanel({
                     data={trailPoints.filter((point) => point.status === "above")}
                     fill="#4fd57a"
                     fillOpacity={0.22}
+                    isAnimationActive={false}
                     shape={(props: unknown) => <DistanceDot {...(props as ScatterDotProps)} />}
                   />
                   <Scatter
                     data={trailPoints.filter((point) => point.status === "below")}
                     fill="#ff6f7d"
                     fillOpacity={0.22}
+                    isAnimationActive={false}
                     shape={(props: unknown) => <DistanceDot {...(props as ScatterDotProps)} />}
                   />
                 </>
@@ -348,12 +351,14 @@ export function MovingAverageMapPanel({
                 data={abovePoints}
                 fill="#4fd57a"
                 fillOpacity={normalizedQuery ? 0.22 : 0.78}
+                isAnimationActive={false}
                 shape={(props: unknown) => <DistanceDot {...(props as ScatterDotProps)} />}
               />
               <Scatter
                 data={belowPoints}
                 fill="#ff6f7d"
                 fillOpacity={normalizedQuery ? 0.22 : 0.78}
+                isAnimationActive={false}
                 shape={(props: unknown) => <DistanceDot {...(props as ScatterDotProps)} />}
               />
               {matchingPoints.length > 0 ? (
@@ -361,6 +366,7 @@ export function MovingAverageMapPanel({
                   data={matchingPoints}
                   fill="#f2b236"
                   fillOpacity={1}
+                  isAnimationActive={false}
                   shape={(props: unknown) => <DistanceDot {...(props as ScatterDotProps)} />}
                 />
               ) : null}

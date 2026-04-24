@@ -50,8 +50,14 @@ def validate_output_bundle(
 
     validate(rotation, ROTATION_SCHEMA)
     for row in rotation.get("rows", []):
-        if len(row.get("trail", [])) > rotation.get("trail_days", 0):
-            raise ValueError("Rotation trail exceeds configured trail_days.")
+        trail = row.get("trail", [])
+        if len(trail) > rotation.get("trail_days", 0) + 1:
+            raise ValueError("Rotation trail exceeds configured trail_days plus current point.")
+        trail_dates = {point.get("date") for point in trail}
+        for lookback, delta in row.get("deltas", {}).items():
+            from_date = delta.get("from_date")
+            if from_date and from_date not in trail_dates:
+                raise ValueError(f"Rotation delta {lookback} starts outside stored trail for {row.get('symbol')}.")
     checks.append({"name": "rotation_schema", "passed": True})
 
     validate(clusters, CLUSTERS_SCHEMA)

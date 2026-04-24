@@ -56,7 +56,7 @@ def build_methodology(config: AppConfig) -> dict[str, Any]:
             "momentum_30d_pct": f"(close / close_{config.indicators.momentum_days}d_ago - 1) * 100",
         },
         "rotation": {
-            "trail": f"Last {config.rotation.trail_days} daily positions per currently eligible active symbol.",
+            "trail": f"Last {config.rotation.trail_days} historical daily positions plus the current point per currently eligible active symbol.",
             "trend": "Improving means momentum and MA distance both increased over the best available configured lookback.",
             "lookbacks": ", ".join(f"{lookback}D" for lookback in config.rotation.lookbacks),
         },
