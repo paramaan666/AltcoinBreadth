@@ -1,2685 +1,2685 @@
 {
   "active_universe_count": 531,
   "bootstrap": {},
-  "data_as_of": "2026-04-24",
+  "data_as_of": "2026-04-25",
   "overview": {
-    "above_count": 47,
-    "above_pct": 10.4911,
-    "above_rows": 47,
+    "above_count": 45,
+    "above_pct": 10.0223,
+    "above_rows": 45,
     "active_symbols": 531,
-    "as_of_date": "2026-04-23",
-    "below_count": 401,
-    "below_rows": 401,
+    "as_of_date": "2026-04-24",
+    "below_count": 404,
+    "below_rows": 404,
     "candidate_delisted_symbols": 0,
     "delisted_symbols_total": 143,
     "distance_definition": "Raw distance normalized by ATR%(60)",
-    "eligible_symbols": 448,
+    "eligible_symbols": 449,
     "ma_definition": "210-day trailing mean of daily close",
     "methodology_version": "1.0.0",
     "tracked_symbols": 674,
     "universe_rule": "Active Binance USD-M perpetuals quoted in USDT, excluding configured non-coin symbols.",
-    "updated_at_utc": "2026-04-25T04:13:08.704911+00:00"
+    "updated_at_utc": "2026-04-26T04:39:24.248916+00:00"
   },
-  "ran_at_utc": "2026-04-25T04:13:09.308917+00:00",
+  "ran_at_utc": "2026-04-26T04:39:24.881203+00:00",
   "symbol_statuses": {
     "0GUSDT": {
-      "last_date": "2026-04-23",
-      "new_rows": 0,
+      "last_date": "2026-04-24",
+      "new_rows": 1,
       "status": "success"
     },
     "1000000BOBUSDT": {
-      "last_date": "2026-04-23",
-      "new_rows": 0,
+      "last_date": "2026-04-24",
+      "new_rows": 1,
       "status": "success"
     },
     "1000000MOGUSDT": {
-      "last_date": "2026-04-23",
-      "new_rows": 0,
+      "last_date": "2026-04-24",
+      "new_rows": 1,
       "status": "success"
     },
     "1000BONKUSDT": {
-      "last_date": "2026-04-23",
-      "new_rows": 0,
+      "last_date": "2026-04-24",
+      "new_rows": 1,
       "status": "success"
     },
     "1000CATUSDT": {
-      "last_date": "2026-04-23",
-      "new_rows": 0,
+      "last_date": "2026-04-24",
+      "new_rows": 1,
       "status": "success"
     },
     "1000CHEEMSUSDT": {
-      "last_date": "2026-04-23",
-      "new_rows": 0,
+      "last_date": "2026-04-24",
+      "new_rows": 1,
       "status": "success"
     },
     "1000FLOKIUSDT": {
-      "last_date": "2026-04-23",
-      "new_rows": 0,
+      "last_date": "2026-04-24",
+      "new_rows": 1,
       "status": "success"
     },
     "1000LUNCUSDT": {
-      "last_date": "2026-04-23",
-      "new_rows": 0,
+      "last_date": "2026-04-24",
+      "new_rows": 1,
       "status": "success"
     },
     "1000PEPEUSDT": {
-      "last_date": "2026-04-23",
-      "new_rows": 0,
+      "last_date": "2026-04-24",
+      "new_rows": 1,
       "status": "success"
     },
     "1000RATSUSDT": {
-      "last_date": "2026-04-23",
-      "new_rows": 0,
+      "last_date": "2026-04-24",
+      "new_rows": 1,
       "status": "success"
     },
     "1000SATSUSDT": {
-      "last_date": "2026-04-23",
-      "new_rows": 0,
+      "last_date": "2026-04-24",
+      "new_rows": 1,
       "status": "success"
     },
     "1000SHIBUSDT": {
-      "last_date": "2026-04-23",
-      "new_rows": 0,
+      "last_date": "2026-04-24",
+      "new_rows": 1,
       "status": "success"
     },
     "1000XECUSDT": {
-      "last_date": "2026-04-23",
-      "new_rows": 0,
+      "last_date": "2026-04-24",
+      "new_rows": 1,
       "status": "success"
     },
     "1INCHUSDT": {
-      "last_date": "2026-04-23",
-      "new_rows": 0,
+      "last_date": "2026-04-24",
+      "new_rows": 1,
       "status": "success"
     },
     "1MBABYDOGEUSDT": {
-      "last_date": "2026-04-23",
-      "new_rows": 0,
+      "last_date": "2026-04-24",
+      "new_rows": 1,
       "status": "success"
     },
     "2ZUSDT": {
-      "last_date": "2026-04-23",
-      "new_rows": 0,
+      "last_date": "2026-04-24",
+      "new_rows": 1,
       "status": "success"
     },
     "4USDT": {
-      "last_date": "2026-04-23",
-      "new_rows": 0,
+      "last_date": "2026-04-24",
+      "new_rows": 1,
       "status": "success"
     },
     "AAVEUSDT": {
-      "last_date": "2026-04-23",
-      "new_rows": 0,
+      "last_date": "2026-04-24",
+      "new_rows": 1,
       "status": "success"
     },
     "ACEUSDT": {
-      "last_date": "2026-04-23",
-      "new_rows": 0,
+      "last_date": "2026-04-24",
+      "new_rows": 1,
       "status": "success"
     },
     "ACHUSDT": {
-      "last_date": "2026-04-23",
-      "new_rows": 0,
+      "last_date": "2026-04-24",
+      "new_rows": 1,
       "status": "success"
     },
     "ACTUSDT": {
-      "last_date": "2026-04-23",
-      "new_rows": 0,
+      "last_date": "2026-04-24",
+      "new_rows": 1,
       "status": "success"
     },
     "ACUUSDT": {
-      "last_date": "2026-04-23",
-      "new_rows": 0,
+      "last_date": "2026-04-24",
+      "new_rows": 1,
       "status": "success"
     },
     "ACXUSDT": {
-      "last_date": "2026-04-23",
-      "new_rows": 0,
+      "last_date": "2026-04-24",
+      "new_rows": 1,
       "status": "success"
     },
     "ADAUSDT": {
-      "last_date": "2026-04-23",
-      "new_rows": 0,
+      "last_date": "2026-04-24",
+      "new_rows": 1,
       "status": "success"
     },
     "AERGOUSDT": {
-      "last_date": "2026-04-23",
-      "new_rows": 0,
+      "last_date": "2026-04-24",
+      "new_rows": 1,
       "status": "success"
     },
     "AEROUSDT": {
-      "last_date": "2026-04-23",
-      "new_rows": 0,
+      "last_date": "2026-04-24",
+      "new_rows": 1,
       "status": "success"
     },
     "AEVOUSDT": {
-      "last_date": "2026-04-23",
-      "new_rows": 0,
+      "last_date": "2026-04-24",
+      "new_rows": 1,
       "status": "success"
     },
     "AGLDUSDT": {
-      "last_date": "2026-04-23",
-      "new_rows": 0,
+      "last_date": "2026-04-24",
+      "new_rows": 1,
       "status": "success"
     },
     "AGTUSDT": {
-      "last_date": "2026-04-23",
-      "new_rows": 0,
+      "last_date": "2026-04-24",
+      "new_rows": 1,
       "status": "success"
     },
     "AIAUSDT": {
-      "last_date": "2026-04-23",
-      "new_rows": 0,
+      "last_date": "2026-04-24",
+      "new_rows": 1,
       "status": "success"
     },
     "AINUSDT": {
-      "last_date": "2026-04-23",
-      "new_rows": 0,
+      "last_date": "2026-04-24",
+      "new_rows": 1,
       "status": "success"
     },
     "AIOTUSDT": {
-      "last_date": "2026-04-23",
-      "new_rows": 0,
+      "last_date": "2026-04-24",
+      "new_rows": 1,
       "status": "success"
     },
     "AIOUSDT": {
-      "last_date": "2026-04-23",
-      "new_rows": 0,
+      "last_date": "2026-04-24",
+      "new_rows": 1,
       "status": "success"
     },
     "AIUSDT": {
-      "last_date": "2026-04-23",
-      "new_rows": 0,
+      "last_date": "2026-04-24",
+      "new_rows": 1,
       "status": "success"
     },
     "AIXBTUSDT": {
-      "last_date": "2026-04-23",
-      "new_rows": 0,
+      "last_date": "2026-04-24",
+      "new_rows": 1,
       "status": "success"
     },
     "AKEUSDT": {
-      "last_date": "2026-04-23",
-      "new_rows": 0,
+      "last_date": "2026-04-24",
+      "new_rows": 1,
       "status": "success"
     },
     "AKTUSDT": {
-      "last_date": "2026-04-23",
-      "new_rows": 0,
+      "last_date": "2026-04-24",
+      "new_rows": 1,
       "status": "success"
     },
     "ALCHUSDT": {
-      "last_date": "2026-04-23",
-      "new_rows": 0,
+      "last_date": "2026-04-24",
+      "new_rows": 1,
       "status": "success"
     },
     "ALGOUSDT": {
-      "last_date": "2026-04-23",
-      "new_rows": 0,
+      "last_date": "2026-04-24",
+      "new_rows": 1,
       "status": "success"
     },
     "ALICEUSDT": {
-      "last_date": "2026-04-23",
-      "new_rows": 0,
+      "last_date": "2026-04-24",
+      "new_rows": 1,
       "status": "success"
     },
     "ALLOUSDT": {
-      "last_date": "2026-04-23",
-      "new_rows": 0,
+      "last_date": "2026-04-24",
+      "new_rows": 1,
       "status": "success"
     },
     "ALLUSDT": {
-      "last_date": "2026-04-23",
-      "new_rows": 0,
+      "last_date": "2026-04-24",
+      "new_rows": 1,
       "status": "success"
     },
     "ALPINEUSDT": {
-      "last_date": "2026-04-23",
-      "new_rows": 0,
+      "last_date": "2026-04-24",
+      "new_rows": 1,
       "status": "success"
     },
     "ALTUSDT": {
-      "last_date": "2026-04-23",
-      "new_rows": 0,
+      "last_date": "2026-04-24",
+      "new_rows": 1,
       "status": "success"
     },
     "ANIMEUSDT": {
-      "last_date": "2026-04-23",
-      "new_rows": 0,
+      "last_date": "2026-04-24",
+      "new_rows": 1,
       "status": "success"
     },
     "ANKRUSDT": {
-      "last_date": "2026-04-23",
-      "new_rows": 0,
+      "last_date": "2026-04-24",
+      "new_rows": 1,
       "status": "success"
     },
     "APEUSDT": {
-      "last_date": "2026-04-23",
-      "new_rows": 0,
+      "last_date": "2026-04-24",
+      "new_rows": 1,
       "status": "success"
     },
     "API3USDT": {
-      "last_date": "2026-04-23",
-      "new_rows": 0,
+      "last_date": "2026-04-24",
+      "new_rows": 1,
       "status": "success"
     },
     "APRUSDT": {
-      "last_date": "2026-04-23",
-      "new_rows": 0,
+      "last_date": "2026-04-24",
+      "new_rows": 1,
       "status": "success"
     },
     "APTUSDT": {
-      "last_date": "2026-04-23",
-      "new_rows": 0,
+      "last_date": "2026-04-24",
+      "new_rows": 1,
       "status": "success"
     },
     "ARBUSDT": {
-      "last_date": "2026-04-23",
-      "new_rows": 0,
+      "last_date": "2026-04-24",
+      "new_rows": 1,
       "status": "success"
     },
     "ARCUSDT": {
-      "last_date": "2026-04-23",
-      "new_rows": 0,
+      "last_date": "2026-04-24",
+      "new_rows": 1,
       "status": "success"
     },
     "ARIAUSDT": {
-      "last_date": "2026-04-23",
-      "new_rows": 0,
+      "last_date": "2026-04-24",
+      "new_rows": 1,
       "status": "success"
     },
     "ARKMUSDT": {
-      "last_date": "2026-04-23",
-      "new_rows": 0,
+      "last_date": "2026-04-24",
+      "new_rows": 1,
       "status": "success"
     },
     "ARKUSDT": {
-      "last_date": "2026-04-23",
-      "new_rows": 0,
+      "last_date": "2026-04-24",
+      "new_rows": 1,
       "status": "success"
     },
     "ARPAUSDT": {
-      "last_date": "2026-04-23",
-      "new_rows": 0,
+      "last_date": "2026-04-24",
+      "new_rows": 1,
       "status": "success"
     },
     "ARUSDT": {
-      "last_date": "2026-04-23",
-      "new_rows": 0,
+      "last_date": "2026-04-24",
+      "new_rows": 1,
       "status": "success"
     },
     "ASRUSDT": {
-      "last_date": "2026-04-23",
-      "new_rows": 0,
+      "last_date": "2026-04-24",
+      "new_rows": 1,
       "status": "success"
     },
     "ASTERUSDT": {
-      "last_date": "2026-04-23",
-      "new_rows": 0,
+      "last_date": "2026-04-24",
+      "new_rows": 1,
       "status": "success"
     },
     "ASTRUSDT": {
-      "last_date": "2026-04-23",
-      "new_rows": 0,
+      "last_date": "2026-04-24",
+      "new_rows": 1,
       "status": "success"
     },
     "ATAUSDT": {
-      "last_date": "2026-04-23",
-      "new_rows": 0,
+      "last_date": "2026-04-24",
+      "new_rows": 1,
       "status": "success"
     },
     "ATHUSDT": {
-      "last_date": "2026-04-23",
-      "new_rows": 0,
+      "last_date": "2026-04-24",
+      "new_rows": 1,
       "status": "success"
     },
     "ATOMUSDT": {
-      "last_date": "2026-04-23",
-      "new_rows": 0,
+      "last_date": "2026-04-24",
+      "new_rows": 1,
       "status": "success"
     },
     "ATUSDT": {
-      "last_date": "2026-04-23",
-      "new_rows": 0,
+      "last_date": "2026-04-24",
+      "new_rows": 1,
       "status": "success"
     },
     "AUCTIONUSDT": {
-      "last_date": "2026-04-23",
-      "new_rows": 0,
+      "last_date": "2026-04-24",
+      "new_rows": 1,
       "status": "success"
     },
     "AUSDT": {
-      "last_date": "2026-04-23",
-      "new_rows": 0,
+      "last_date": "2026-04-24",
+      "new_rows": 1,
       "status": "success"
     },
     "AVAAIUSDT": {
-      "last_date": "2026-04-23",
-      "new_rows": 0,
+      "last_date": "2026-04-24",
+      "new_rows": 1,
       "status": "success"
     },
     "AVAUSDT": {
-      "last_date": "2026-04-23",
-      "new_rows": 0,
+      "last_date": "2026-04-24",
+      "new_rows": 1,
       "status": "success"
     },
     "AVAXUSDT": {
-      "last_date": "2026-04-23",
-      "new_rows": 0,
+      "last_date": "2026-04-24",
+      "new_rows": 1,
       "status": "success"
     },
     "AVNTUSDT": {
-      "last_date": "2026-04-23",
-      "new_rows": 0,
+      "last_date": "2026-04-24",
+      "new_rows": 1,
       "status": "success"
     },
     "AWEUSDT": {
-      "last_date": "2026-04-23",
-      "new_rows": 0,
+      "last_date": "2026-04-24",
+      "new_rows": 1,
       "status": "success"
     },
     "AXLUSDT": {
-      "last_date": "2026-04-23",
-      "new_rows": 0,
+      "last_date": "2026-04-24",
+      "new_rows": 1,
       "status": "success"
     },
     "AXSUSDT": {
-      "last_date": "2026-04-23",
-      "new_rows": 0,
+      "last_date": "2026-04-24",
+      "new_rows": 1,
       "status": "success"
     },
     "AZTECUSDT": {
-      "last_date": "2026-04-23",
-      "new_rows": 0,
+      "last_date": "2026-04-24",
+      "new_rows": 1,
       "status": "success"
     },
     "B2USDT": {
-      "last_date": "2026-04-23",
-      "new_rows": 0,
+      "last_date": "2026-04-24",
+      "new_rows": 1,
       "status": "success"
     },
     "B3USDT": {
-      "last_date": "2026-04-23",
-      "new_rows": 0,
+      "last_date": "2026-04-24",
+      "new_rows": 1,
       "status": "success"
     },
     "BABYUSDT": {
-      "last_date": "2026-04-23",
-      "new_rows": 0,
+      "last_date": "2026-04-24",
+      "new_rows": 1,
       "status": "success"
     },
     "BANANAS31USDT": {
-      "last_date": "2026-04-23",
-      "new_rows": 0,
+      "last_date": "2026-04-24",
+      "new_rows": 1,
       "status": "success"
     },
     "BANANAUSDT": {
-      "last_date": "2026-04-23",
-      "new_rows": 0,
+      "last_date": "2026-04-24",
+      "new_rows": 1,
       "status": "success"
     },
     "BANDUSDT": {
-      "last_date": "2026-04-23",
-      "new_rows": 0,
+      "last_date": "2026-04-24",
+      "new_rows": 1,
       "status": "success"
     },
     "BANKUSDT": {
-      "last_date": "2026-04-23",
-      "new_rows": 0,
+      "last_date": "2026-04-24",
+      "new_rows": 1,
       "status": "success"
     },
     "BANUSDT": {
-      "last_date": "2026-04-23",
-      "new_rows": 0,
+      "last_date": "2026-04-24",
+      "new_rows": 1,
       "status": "success"
     },
     "BARDUSDT": {
-      "last_date": "2026-04-23",
-      "new_rows": 0,
+      "last_date": "2026-04-24",
+      "new_rows": 1,
       "status": "success"
     },
     "BASEDUSDT": {
-      "last_date": "2026-04-23",
-      "new_rows": 0,
+      "last_date": "2026-04-24",
+      "new_rows": 1,
       "status": "success"
     },
     "BASUSDT": {
-      "last_date": "2026-04-23",
-      "new_rows": 0,
+      "last_date": "2026-04-24",
+      "new_rows": 1,
       "status": "success"
     },
     "BATUSDT": {
-      "last_date": "2026-04-23",
-      "new_rows": 0,
+      "last_date": "2026-04-24",
+      "new_rows": 1,
       "status": "success"
     },
     "BBUSDT": {
-      "last_date": "2026-04-23",
-      "new_rows": 0,
+      "last_date": "2026-04-24",
+      "new_rows": 1,
       "status": "success"
     },
     "BCHUSDT": {
-      "last_date": "2026-04-23",
-      "new_rows": 0,
+      "last_date": "2026-04-24",
+      "new_rows": 1,
       "status": "success"
     },
     "BEAMXUSDT": {
-      "last_date": "2026-04-23",
-      "new_rows": 0,
+      "last_date": "2026-04-24",
+      "new_rows": 1,
       "status": "success"
     },
     "BEATUSDT": {
-      "last_date": "2026-04-23",
-      "new_rows": 0,
+      "last_date": "2026-04-24",
+      "new_rows": 1,
       "status": "success"
     },
     "BELUSDT": {
-      "last_date": "2026-04-23",
-      "new_rows": 0,
+      "last_date": "2026-04-24",
+      "new_rows": 1,
       "status": "success"
     },
     "BERAUSDT": {
-      "last_date": "2026-04-23",
-      "new_rows": 0,
+      "last_date": "2026-04-24",
+      "new_rows": 1,
       "status": "success"
     },
     "BICOUSDT": {
-      "last_date": "2026-04-23",
-      "new_rows": 0,
+      "last_date": "2026-04-24",
+      "new_rows": 1,
       "status": "success"
     },
     "BIGTIMEUSDT": {
-      "last_date": "2026-04-23",
-      "new_rows": 0,
+      "last_date": "2026-04-24",
+      "new_rows": 1,
       "status": "success"
     },
     "BIOUSDT": {
-      "last_date": "2026-04-23",
-      "new_rows": 0,
+      "last_date": "2026-04-24",
+      "new_rows": 1,
       "status": "success"
     },
     "BIRBUSDT": {
-      "last_date": "2026-04-23",
-      "new_rows": 0,
+      "last_date": "2026-04-24",
+      "new_rows": 1,
       "status": "success"
     },
     "BLESSUSDT": {
-      "last_date": "2026-04-23",
-      "new_rows": 0,
+      "last_date": "2026-04-24",
+      "new_rows": 1,
       "status": "success"
     },
     "BLUAIUSDT": {
-      "last_date": "2026-04-23",
-      "new_rows": 0,
+      "last_date": "2026-04-24",
+      "new_rows": 1,
       "status": "success"
     },
     "BLURUSDT": {
-      "last_date": "2026-04-23",
-      "new_rows": 0,
+      "last_date": "2026-04-24",
+      "new_rows": 1,
       "status": "success"
     },
     "BMTUSDT": {
-      "last_date": "2026-04-23",
-      "new_rows": 0,
+      "last_date": "2026-04-24",
+      "new_rows": 1,
       "status": "success"
     },
     "BNBUSDT": {
-      "last_date": "2026-04-23",
-      "new_rows": 0,
+      "last_date": "2026-04-24",
+      "new_rows": 1,
       "status": "success"
     },
     "BNTUSDT": {
-      "last_date": "2026-04-23",
-      "new_rows": 0,
+      "last_date": "2026-04-24",
+      "new_rows": 1,
       "status": "success"
     },
     "BOBUSDT": {
-      "last_date": "2026-04-23",
-      "new_rows": 0,
+      "last_date": "2026-04-24",
+      "new_rows": 1,
       "status": "success"
     },
     "BOMEUSDT": {
-      "last_date": "2026-04-23",
-      "new_rows": 0,
+      "last_date": "2026-04-24",
+      "new_rows": 1,
       "status": "success"
     },
     "BRETTUSDT": {
-      "last_date": "2026-04-23",
-      "new_rows": 0,
+      "last_date": "2026-04-24",
+      "new_rows": 1,
       "status": "success"
     },
     "BREVUSDT": {
-      "last_date": "2026-04-23",
-      "new_rows": 0,
+      "last_date": "2026-04-24",
+      "new_rows": 1,
       "status": "success"
     },
     "BROCCOLI714USDT": {
-      "last_date": "2026-04-23",
-      "new_rows": 0,
+      "last_date": "2026-04-24",
+      "new_rows": 1,
       "status": "success"
     },
     "BROCCOLIF3BUSDT": {
-      "last_date": "2026-04-23",
-      "new_rows": 0,
+      "last_date": "2026-04-24",
+      "new_rows": 1,
       "status": "success"
     },
     "BRUSDT": {
-      "last_date": "2026-04-23",
-      "new_rows": 0,
+      "last_date": "2026-04-24",
+      "new_rows": 1,
       "status": "success"
     },
     "BSBUSDT": {
-      "last_date": "2026-04-23",
-      "new_rows": 0,
+      "last_date": "2026-04-24",
+      "new_rows": 1,
       "status": "success"
     },
     "BSVUSDT": {
-      "last_date": "2026-04-23",
-      "new_rows": 0,
+      "last_date": "2026-04-24",
+      "new_rows": 1,
       "status": "success"
     },
     "BTCUSDT": {
-      "last_date": "2026-04-23",
-      "new_rows": 0,
+      "last_date": "2026-04-24",
+      "new_rows": 1,
       "status": "success"
     },
     "BTRUSDT": {
-      "last_date": "2026-04-23",
-      "new_rows": 0,
+      "last_date": "2026-04-24",
+      "new_rows": 1,
       "status": "success"
     },
     "BULLAUSDT": {
-      "last_date": "2026-04-23",
-      "new_rows": 0,
+      "last_date": "2026-04-24",
+      "new_rows": 1,
       "status": "success"
     },
     "BUSDT": {
-      "last_date": "2026-04-23",
-      "new_rows": 0,
+      "last_date": "2026-04-24",
+      "new_rows": 1,
       "status": "success"
     },
     "C98USDT": {
-      "last_date": "2026-04-23",
-      "new_rows": 0,
+      "last_date": "2026-04-24",
+      "new_rows": 1,
       "status": "success"
     },
     "CAKEUSDT": {
-      "last_date": "2026-04-23",
-      "new_rows": 0,
+      "last_date": "2026-04-24",
+      "new_rows": 1,
       "status": "success"
     },
     "CARVUSDT": {
-      "last_date": "2026-04-23",
-      "new_rows": 0,
+      "last_date": "2026-04-24",
+      "new_rows": 1,
       "status": "success"
     },
     "CATIUSDT": {
-      "last_date": "2026-04-23",
-      "new_rows": 0,
+      "last_date": "2026-04-24",
+      "new_rows": 1,
       "status": "success"
     },
     "CCUSDT": {
-      "last_date": "2026-04-23",
-      "new_rows": 0,
+      "last_date": "2026-04-24",
+      "new_rows": 1,
       "status": "success"
     },
     "CELOUSDT": {
-      "last_date": "2026-04-23",
-      "new_rows": 0,
+      "last_date": "2026-04-24",
+      "new_rows": 1,
       "status": "success"
     },
     "CELRUSDT": {
-      "last_date": "2026-04-23",
-      "new_rows": 0,
+      "last_date": "2026-04-24",
+      "new_rows": 1,
       "status": "success"
     },
     "CETUSUSDT": {
-      "last_date": "2026-04-23",
-      "new_rows": 0,
+      "last_date": "2026-04-24",
+      "new_rows": 1,
       "status": "success"
     },
     "CFGUSDT": {
-      "last_date": "2026-04-23",
-      "new_rows": 0,
+      "last_date": "2026-04-24",
+      "new_rows": 1,
       "status": "success"
     },
     "CFXUSDT": {
-      "last_date": "2026-04-23",
-      "new_rows": 0,
+      "last_date": "2026-04-24",
+      "new_rows": 1,
       "status": "success"
     },
     "CGPTUSDT": {
-      "last_date": "2026-04-23",
-      "new_rows": 0,
+      "last_date": "2026-04-24",
+      "new_rows": 1,
       "status": "success"
     },
     "CHILLGUYUSDT": {
-      "last_date": "2026-04-23",
-      "new_rows": 0,
+      "last_date": "2026-04-24",
+      "new_rows": 1,
       "status": "success"
     },
     "CHIPUSDT": {
-      "last_date": "2026-04-23",
-      "new_rows": 0,
+      "last_date": "2026-04-24",
+      "new_rows": 1,
       "status": "success"
     },
     "CHRUSDT": {
-      "last_date": "2026-04-23",
-      "new_rows": 0,
+      "last_date": "2026-04-24",
+      "new_rows": 1,
       "status": "success"
     },
     "CHZUSDT": {
-      "last_date": "2026-04-23",
-      "new_rows": 0,
+      "last_date": "2026-04-24",
+      "new_rows": 1,
       "status": "success"
     },
     "CKBUSDT": {
-      "last_date": "2026-04-23",
-      "new_rows": 0,
+      "last_date": "2026-04-24",
+      "new_rows": 1,
       "status": "success"
     },
     "CLANKERUSDT": {
-      "last_date": "2026-04-23",
-      "new_rows": 0,
+      "last_date": "2026-04-24",
+      "new_rows": 1,
       "status": "success"
     },
     "CLOUSDT": {
-      "last_date": "2026-04-23",
-      "new_rows": 0,
+      "last_date": "2026-04-24",
+      "new_rows": 1,
       "status": "success"
     },
     "COAIUSDT": {
-      "last_date": "2026-04-23",
-      "new_rows": 0,
+      "last_date": "2026-04-24",
+      "new_rows": 1,
       "status": "success"
     },
     "COLLECTUSDT": {
-      "last_date": "2026-04-23",
-      "new_rows": 0,
+      "last_date": "2026-04-24",
+      "new_rows": 1,
       "status": "success"
     },
     "COMPUSDT": {
-      "last_date": "2026-04-23",
-      "new_rows": 0,
+      "last_date": "2026-04-24",
+      "new_rows": 1,
       "status": "success"
     },
     "COOKIEUSDT": {
-      "last_date": "2026-04-23",
-      "new_rows": 0,
+      "last_date": "2026-04-24",
+      "new_rows": 1,
       "status": "success"
     },
     "COSUSDT": {
-      "last_date": "2026-04-23",
-      "new_rows": 0,
+      "last_date": "2026-04-24",
+      "new_rows": 1,
       "status": "success"
     },
     "COTIUSDT": {
-      "last_date": "2026-04-23",
-      "new_rows": 0,
+      "last_date": "2026-04-24",
+      "new_rows": 1,
       "status": "success"
     },
     "COWUSDT": {
-      "last_date": "2026-04-23",
-      "new_rows": 0,
+      "last_date": "2026-04-24",
+      "new_rows": 1,
       "status": "success"
     },
     "CROSSUSDT": {
-      "last_date": "2026-04-23",
-      "new_rows": 0,
+      "last_date": "2026-04-24",
+      "new_rows": 1,
       "status": "success"
     },
     "CRVUSDT": {
-      "last_date": "2026-04-23",
-      "new_rows": 0,
+      "last_date": "2026-04-24",
+      "new_rows": 1,
       "status": "success"
     },
     "CTKUSDT": {
-      "last_date": "2026-04-23",
-      "new_rows": 0,
+      "last_date": "2026-04-24",
+      "new_rows": 1,
       "status": "success"
     },
     "CTSIUSDT": {
-      "last_date": "2026-04-23",
-      "new_rows": 0,
+      "last_date": "2026-04-24",
+      "new_rows": 1,
       "status": "success"
     },
     "CUSDT": {
-      "last_date": "2026-04-23",
-      "new_rows": 0,
+      "last_date": "2026-04-24",
+      "new_rows": 1,
       "status": "success"
     },
     "CVCUSDT": {
-      "last_date": "2026-04-23",
-      "new_rows": 0,
+      "last_date": "2026-04-24",
+      "new_rows": 1,
       "status": "success"
     },
     "CVXUSDT": {
-      "last_date": "2026-04-23",
-      "new_rows": 0,
+      "last_date": "2026-04-24",
+      "new_rows": 1,
       "status": "success"
     },
     "CYBERUSDT": {
-      "last_date": "2026-04-23",
-      "new_rows": 0,
+      "last_date": "2026-04-24",
+      "new_rows": 1,
       "status": "success"
     },
     "CYSUSDT": {
-      "last_date": "2026-04-23",
-      "new_rows": 0,
+      "last_date": "2026-04-24",
+      "new_rows": 1,
       "status": "success"
     },
     "DAMUSDT": {
-      "last_date": "2026-04-23",
-      "new_rows": 0,
+      "last_date": "2026-04-24",
+      "new_rows": 1,
       "status": "success"
     },
     "DASHUSDT": {
-      "last_date": "2026-04-23",
-      "new_rows": 0,
+      "last_date": "2026-04-24",
+      "new_rows": 1,
       "status": "success"
     },
     "DEEPUSDT": {
-      "last_date": "2026-04-23",
-      "new_rows": 0,
+      "last_date": "2026-04-24",
+      "new_rows": 1,
       "status": "success"
     },
     "DEGENUSDT": {
-      "last_date": "2026-04-23",
-      "new_rows": 0,
+      "last_date": "2026-04-24",
+      "new_rows": 1,
       "status": "success"
     },
     "DEXEUSDT": {
-      "last_date": "2026-04-23",
-      "new_rows": 0,
+      "last_date": "2026-04-24",
+      "new_rows": 1,
       "status": "success"
     },
     "DIAUSDT": {
-      "last_date": "2026-04-23",
-      "new_rows": 0,
+      "last_date": "2026-04-24",
+      "new_rows": 1,
       "status": "success"
     },
     "DODOXUSDT": {
-      "last_date": "2026-04-23",
-      "new_rows": 0,
+      "last_date": "2026-04-24",
+      "new_rows": 1,
       "status": "success"
     },
     "DOGEUSDT": {
-      "last_date": "2026-04-23",
-      "new_rows": 0,
+      "last_date": "2026-04-24",
+      "new_rows": 1,
       "status": "success"
     },
     "DOGSUSDT": {
-      "last_date": "2026-04-23",
-      "new_rows": 0,
+      "last_date": "2026-04-24",
+      "new_rows": 1,
       "status": "success"
     },
     "DOLOUSDT": {
-      "last_date": "2026-04-23",
-      "new_rows": 0,
+      "last_date": "2026-04-24",
+      "new_rows": 1,
       "status": "success"
     },
     "DOODUSDT": {
-      "last_date": "2026-04-23",
-      "new_rows": 0,
+      "last_date": "2026-04-24",
+      "new_rows": 1,
       "status": "success"
     },
     "DOTUSDT": {
-      "last_date": "2026-04-23",
-      "new_rows": 0,
+      "last_date": "2026-04-24",
+      "new_rows": 1,
       "status": "success"
     },
     "DRIFTUSDT": {
-      "last_date": "2026-04-23",
-      "new_rows": 0,
+      "last_date": "2026-04-24",
+      "new_rows": 1,
       "status": "success"
     },
     "DUSDT": {
-      "last_date": "2026-04-23",
-      "new_rows": 0,
+      "last_date": "2026-04-24",
+      "new_rows": 1,
       "status": "success"
     },
     "DUSKUSDT": {
-      "last_date": "2026-04-23",
-      "new_rows": 0,
+      "last_date": "2026-04-24",
+      "new_rows": 1,
       "status": "success"
     },
     "DYDXUSDT": {
-      "last_date": "2026-04-23",
-      "new_rows": 0,
+      "last_date": "2026-04-24",
+      "new_rows": 1,
       "status": "success"
     },
     "DYMUSDT": {
-      "last_date": "2026-04-23",
-      "new_rows": 0,
+      "last_date": "2026-04-24",
+      "new_rows": 1,
       "status": "success"
     },
     "EDENUSDT": {
-      "last_date": "2026-04-23",
-      "new_rows": 0,
+      "last_date": "2026-04-24",
+      "new_rows": 1,
       "status": "success"
     },
     "EDGEUSDT": {
-      "last_date": "2026-04-23",
-      "new_rows": 0,
+      "last_date": "2026-04-24",
+      "new_rows": 1,
       "status": "success"
     },
     "EDUUSDT": {
-      "last_date": "2026-04-23",
-      "new_rows": 0,
+      "last_date": "2026-04-24",
+      "new_rows": 1,
       "status": "success"
     },
     "EGLDUSDT": {
-      "last_date": "2026-04-23",
-      "new_rows": 0,
+      "last_date": "2026-04-24",
+      "new_rows": 1,
       "status": "success"
     },
     "EIGENUSDT": {
-      "last_date": "2026-04-23",
-      "new_rows": 0,
+      "last_date": "2026-04-24",
+      "new_rows": 1,
       "status": "success"
     },
     "ELSAUSDT": {
-      "last_date": "2026-04-23",
-      "new_rows": 0,
+      "last_date": "2026-04-24",
+      "new_rows": 1,
       "status": "success"
     },
     "ENAUSDT": {
-      "last_date": "2026-04-23",
-      "new_rows": 0,
+      "last_date": "2026-04-24",
+      "new_rows": 1,
       "status": "success"
     },
     "ENJUSDT": {
-      "last_date": "2026-04-23",
-      "new_rows": 0,
+      "last_date": "2026-04-24",
+      "new_rows": 1,
       "status": "success"
     },
     "ENSOUSDT": {
-      "last_date": "2026-04-23",
-      "new_rows": 0,
+      "last_date": "2026-04-24",
+      "new_rows": 1,
       "status": "success"
     },
     "ENSUSDT": {
-      "last_date": "2026-04-23",
-      "new_rows": 0,
+      "last_date": "2026-04-24",
+      "new_rows": 1,
       "status": "success"
     },
     "EPICUSDT": {
-      "last_date": "2026-04-23",
-      "new_rows": 0,
+      "last_date": "2026-04-24",
+      "new_rows": 1,
       "status": "success"
     },
     "ERAUSDT": {
-      "last_date": "2026-04-23",
-      "new_rows": 0,
+      "last_date": "2026-04-24",
+      "new_rows": 1,
       "status": "success"
     },
     "ESPORTSUSDT": {
-      "last_date": "2026-04-23",
-      "new_rows": 0,
+      "last_date": "2026-04-24",
+      "new_rows": 1,
       "status": "success"
     },
     "ESPUSDT": {
-      "last_date": "2026-04-23",
-      "new_rows": 0,
+      "last_date": "2026-04-24",
+      "new_rows": 1,
       "status": "success"
     },
     "ETCUSDT": {
-      "last_date": "2026-04-23",
-      "new_rows": 0,
+      "last_date": "2026-04-24",
+      "new_rows": 1,
       "status": "success"
     },
     "ETHFIUSDT": {
-      "last_date": "2026-04-23",
-      "new_rows": 0,
+      "last_date": "2026-04-24",
+      "new_rows": 1,
       "status": "success"
     },
     "ETHUSDT": {
-      "last_date": "2026-04-23",
-      "new_rows": 0,
+      "last_date": "2026-04-24",
+      "new_rows": 1,
       "status": "success"
     },
     "ETHWUSDT": {
-      "last_date": "2026-04-23",
-      "new_rows": 0,
+      "last_date": "2026-04-24",
+      "new_rows": 1,
       "status": "success"
     },
     "EULUSDT": {
-      "last_date": "2026-04-23",
-      "new_rows": 0,
+      "last_date": "2026-04-24",
+      "new_rows": 1,
       "status": "success"
     },
     "EVAAUSDT": {
-      "last_date": "2026-04-23",
-      "new_rows": 0,
+      "last_date": "2026-04-24",
+      "new_rows": 1,
       "status": "success"
     },
     "FARTCOINUSDT": {
-      "last_date": "2026-04-23",
-      "new_rows": 0,
+      "last_date": "2026-04-24",
+      "new_rows": 1,
       "status": "success"
     },
     "FETUSDT": {
-      "last_date": "2026-04-23",
-      "new_rows": 0,
+      "last_date": "2026-04-24",
+      "new_rows": 1,
       "status": "success"
     },
     "FFUSDT": {
-      "last_date": "2026-04-23",
-      "new_rows": 0,
+      "last_date": "2026-04-24",
+      "new_rows": 1,
       "status": "success"
     },
     "FHEUSDT": {
-      "last_date": "2026-04-23",
-      "new_rows": 0,
+      "last_date": "2026-04-24",
+      "new_rows": 1,
       "status": "success"
     },
     "FIDAUSDT": {
-      "last_date": "2026-04-23",
-      "new_rows": 0,
+      "last_date": "2026-04-24",
+      "new_rows": 1,
       "status": "success"
     },
     "FIGHTUSDT": {
-      "last_date": "2026-04-23",
-      "new_rows": 0,
+      "last_date": "2026-04-24",
+      "new_rows": 1,
       "status": "success"
     },
     "FILUSDT": {
-      "last_date": "2026-04-23",
-      "new_rows": 0,
+      "last_date": "2026-04-24",
+      "new_rows": 1,
       "status": "success"
     },
     "FLOCKUSDT": {
-      "last_date": "2026-04-23",
-      "new_rows": 0,
+      "last_date": "2026-04-24",
+      "new_rows": 1,
       "status": "success"
     },
     "FLOWUSDT": {
-      "last_date": "2026-04-23",
-      "new_rows": 0,
+      "last_date": "2026-04-24",
+      "new_rows": 1,
       "status": "success"
     },
     "FLUIDUSDT": {
-      "last_date": "2026-04-23",
-      "new_rows": 0,
+      "last_date": "2026-04-24",
+      "new_rows": 1,
       "status": "success"
     },
     "FLUXUSDT": {
-      "last_date": "2026-04-23",
-      "new_rows": 0,
+      "last_date": "2026-04-24",
+      "new_rows": 1,
       "status": "success"
     },
     "FOGOUSDT": {
-      "last_date": "2026-04-23",
-      "new_rows": 0,
+      "last_date": "2026-04-24",
+      "new_rows": 1,
       "status": "success"
     },
     "FOLKSUSDT": {
-      "last_date": "2026-04-23",
-      "new_rows": 0,
+      "last_date": "2026-04-24",
+      "new_rows": 1,
       "status": "success"
     },
     "FORMUSDT": {
-      "last_date": "2026-04-23",
-      "new_rows": 0,
+      "last_date": "2026-04-24",
+      "new_rows": 1,
       "status": "success"
     },
     "FRAXUSDT": {
-      "last_date": "2026-04-23",
-      "new_rows": 0,
+      "last_date": "2026-04-24",
+      "new_rows": 1,
       "status": "success"
     },
     "FUSDT": {
-      "last_date": "2026-04-23",
-      "new_rows": 0,
+      "last_date": "2026-04-24",
+      "new_rows": 1,
       "status": "success"
     },
     "GALAUSDT": {
-      "last_date": "2026-04-23",
-      "new_rows": 0,
+      "last_date": "2026-04-24",
+      "new_rows": 1,
       "status": "success"
     },
     "GASUSDT": {
-      "last_date": "2026-04-23",
-      "new_rows": 0,
+      "last_date": "2026-04-24",
+      "new_rows": 1,
       "status": "success"
     },
     "GENIUSUSDT": {
-      "last_date": "2026-04-23",
-      "new_rows": 0,
+      "last_date": "2026-04-24",
+      "new_rows": 1,
       "status": "success"
     },
     "GIGGLEUSDT": {
-      "last_date": "2026-04-23",
-      "new_rows": 0,
+      "last_date": "2026-04-24",
+      "new_rows": 1,
       "status": "success"
     },
     "GLMUSDT": {
-      "last_date": "2026-04-23",
-      "new_rows": 0,
+      "last_date": "2026-04-24",
+      "new_rows": 1,
       "status": "success"
     },
     "GMTUSDT": {
-      "last_date": "2026-04-23",
-      "new_rows": 0,
+      "last_date": "2026-04-24",
+      "new_rows": 1,
       "status": "success"
     },
     "GMXUSDT": {
-      "last_date": "2026-04-23",
-      "new_rows": 0,
+      "last_date": "2026-04-24",
+      "new_rows": 1,
       "status": "success"
     },
     "GOATUSDT": {
-      "last_date": "2026-04-23",
-      "new_rows": 0,
+      "last_date": "2026-04-24",
+      "new_rows": 1,
       "status": "success"
     },
     "GPSUSDT": {
-      "last_date": "2026-04-23",
-      "new_rows": 0,
+      "last_date": "2026-04-24",
+      "new_rows": 1,
       "status": "success"
     },
     "GRASSUSDT": {
-      "last_date": "2026-04-23",
-      "new_rows": 0,
+      "last_date": "2026-04-24",
+      "new_rows": 1,
       "status": "success"
     },
     "GRIFFAINUSDT": {
-      "last_date": "2026-04-23",
-      "new_rows": 0,
+      "last_date": "2026-04-24",
+      "new_rows": 1,
       "status": "success"
     },
     "GRTUSDT": {
-      "last_date": "2026-04-23",
-      "new_rows": 0,
+      "last_date": "2026-04-24",
+      "new_rows": 1,
       "status": "success"
     },
     "GTCUSDT": {
-      "last_date": "2026-04-23",
-      "new_rows": 0,
+      "last_date": "2026-04-24",
+      "new_rows": 1,
       "status": "success"
     },
     "GUAUSDT": {
-      "last_date": "2026-04-23",
-      "new_rows": 0,
+      "last_date": "2026-04-24",
+      "new_rows": 1,
       "status": "success"
     },
     "GUNUSDT": {
-      "last_date": "2026-04-23",
-      "new_rows": 0,
+      "last_date": "2026-04-24",
+      "new_rows": 1,
       "status": "success"
     },
     "GUSDT": {
-      "last_date": "2026-04-23",
-      "new_rows": 0,
+      "last_date": "2026-04-24",
+      "new_rows": 1,
       "status": "success"
     },
     "GWEIUSDT": {
-      "last_date": "2026-04-23",
-      "new_rows": 0,
+      "last_date": "2026-04-24",
+      "new_rows": 1,
       "status": "success"
     },
     "HAEDALUSDT": {
-      "last_date": "2026-04-23",
-      "new_rows": 0,
+      "last_date": "2026-04-24",
+      "new_rows": 1,
       "status": "success"
     },
     "HANAUSDT": {
-      "last_date": "2026-04-23",
-      "new_rows": 0,
+      "last_date": "2026-04-24",
+      "new_rows": 1,
       "status": "success"
     },
     "HBARUSDT": {
-      "last_date": "2026-04-23",
-      "new_rows": 0,
+      "last_date": "2026-04-24",
+      "new_rows": 1,
       "status": "success"
     },
     "HEIUSDT": {
-      "last_date": "2026-04-23",
-      "new_rows": 0,
+      "last_date": "2026-04-24",
+      "new_rows": 1,
       "status": "success"
     },
     "HEMIUSDT": {
-      "last_date": "2026-04-23",
-      "new_rows": 0,
+      "last_date": "2026-04-24",
+      "new_rows": 1,
       "status": "success"
     },
     "HFTUSDT": {
-      "last_date": "2026-04-23",
-      "new_rows": 0,
+      "last_date": "2026-04-24",
+      "new_rows": 1,
       "status": "success"
     },
     "HIGHUSDT": {
-      "last_date": "2026-04-23",
-      "new_rows": 0,
+      "last_date": "2026-04-24",
+      "new_rows": 1,
       "status": "success"
     },
     "HIVEUSDT": {
-      "last_date": "2026-04-23",
-      "new_rows": 0,
+      "last_date": "2026-04-24",
+      "new_rows": 1,
       "status": "success"
     },
     "HMSTRUSDT": {
-      "last_date": "2026-04-23",
-      "new_rows": 0,
+      "last_date": "2026-04-24",
+      "new_rows": 1,
       "status": "success"
     },
     "HOLOUSDT": {
-      "last_date": "2026-04-23",
-      "new_rows": 0,
+      "last_date": "2026-04-24",
+      "new_rows": 1,
       "status": "success"
     },
     "HOMEUSDT": {
-      "last_date": "2026-04-23",
-      "new_rows": 0,
+      "last_date": "2026-04-24",
+      "new_rows": 1,
       "status": "success"
     },
     "HOTUSDT": {
-      "last_date": "2026-04-23",
-      "new_rows": 0,
+      "last_date": "2026-04-24",
+      "new_rows": 1,
       "status": "success"
     },
     "HUMAUSDT": {
-      "last_date": "2026-04-23",
-      "new_rows": 0,
+      "last_date": "2026-04-24",
+      "new_rows": 1,
       "status": "success"
     },
     "HUSDT": {
-      "last_date": "2026-04-23",
-      "new_rows": 0,
+      "last_date": "2026-04-24",
+      "new_rows": 1,
       "status": "success"
     },
     "HYPERUSDT": {
-      "last_date": "2026-04-23",
-      "new_rows": 0,
+      "last_date": "2026-04-24",
+      "new_rows": 1,
       "status": "success"
     },
     "HYPEUSDT": {
-      "last_date": "2026-04-23",
-      "new_rows": 0,
+      "last_date": "2026-04-24",
+      "new_rows": 1,
       "status": "success"
     },
     "ICNTUSDT": {
-      "last_date": "2026-04-23",
-      "new_rows": 0,
+      "last_date": "2026-04-24",
+      "new_rows": 1,
       "status": "success"
     },
     "ICPUSDT": {
-      "last_date": "2026-04-23",
-      "new_rows": 0,
+      "last_date": "2026-04-24",
+      "new_rows": 1,
       "status": "success"
     },
     "ICXUSDT": {
-      "last_date": "2026-04-23",
-      "new_rows": 0,
+      "last_date": "2026-04-24",
+      "new_rows": 1,
       "status": "success"
     },
     "IDOLUSDT": {
-      "last_date": "2026-04-23",
-      "new_rows": 0,
+      "last_date": "2026-04-24",
+      "new_rows": 1,
       "status": "success"
     },
     "IDUSDT": {
-      "last_date": "2026-04-23",
-      "new_rows": 0,
+      "last_date": "2026-04-24",
+      "new_rows": 1,
       "status": "success"
     },
     "ILVUSDT": {
-      "last_date": "2026-04-23",
-      "new_rows": 0,
+      "last_date": "2026-04-24",
+      "new_rows": 1,
       "status": "success"
     },
     "IMXUSDT": {
-      "last_date": "2026-04-23",
-      "new_rows": 0,
+      "last_date": "2026-04-24",
+      "new_rows": 1,
       "status": "success"
     },
     "INITUSDT": {
-      "last_date": "2026-04-23",
-      "new_rows": 0,
+      "last_date": "2026-04-24",
+      "new_rows": 1,
       "status": "success"
     },
     "INJUSDT": {
-      "last_date": "2026-04-23",
-      "new_rows": 0,
+      "last_date": "2026-04-24",
+      "new_rows": 1,
       "status": "success"
     },
     "INUSDT": {
-      "last_date": "2026-04-23",
-      "new_rows": 0,
+      "last_date": "2026-04-24",
+      "new_rows": 1,
       "status": "success"
     },
     "INXUSDT": {
-      "last_date": "2026-04-23",
-      "new_rows": 0,
+      "last_date": "2026-04-24",
+      "new_rows": 1,
       "status": "success"
     },
     "IOSTUSDT": {
-      "last_date": "2026-04-23",
-      "new_rows": 0,
+      "last_date": "2026-04-24",
+      "new_rows": 1,
       "status": "success"
     },
     "IOTAUSDT": {
-      "last_date": "2026-04-23",
-      "new_rows": 0,
+      "last_date": "2026-04-24",
+      "new_rows": 1,
       "status": "success"
     },
     "IOTXUSDT": {
-      "last_date": "2026-04-23",
-      "new_rows": 0,
+      "last_date": "2026-04-24",
+      "new_rows": 1,
       "status": "success"
     },
     "IOUSDT": {
-      "last_date": "2026-04-23",
-      "new_rows": 0,
+      "last_date": "2026-04-24",
+      "new_rows": 1,
       "status": "success"
     },
     "IPUSDT": {
-      "last_date": "2026-04-23",
-      "new_rows": 0,
+      "last_date": "2026-04-24",
+      "new_rows": 1,
       "status": "success"
     },
     "IRUSDT": {
-      "last_date": "2026-04-23",
-      "new_rows": 0,
+      "last_date": "2026-04-24",
+      "new_rows": 1,
       "status": "success"
     },
     "IRYSUSDT": {
-      "last_date": "2026-04-23",
-      "new_rows": 0,
+      "last_date": "2026-04-24",
+      "new_rows": 1,
       "status": "success"
     },
     "JASMYUSDT": {
-      "last_date": "2026-04-23",
-      "new_rows": 0,
+      "last_date": "2026-04-24",
+      "new_rows": 1,
       "status": "success"
     },
     "JCTUSDT": {
-      "last_date": "2026-04-23",
-      "new_rows": 0,
+      "last_date": "2026-04-24",
+      "new_rows": 1,
       "status": "success"
     },
     "JELLYJELLYUSDT": {
-      "last_date": "2026-04-23",
-      "new_rows": 0,
+      "last_date": "2026-04-24",
+      "new_rows": 1,
       "status": "success"
     },
     "JOEUSDT": {
-      "last_date": "2026-04-23",
-      "new_rows": 0,
+      "last_date": "2026-04-24",
+      "new_rows": 1,
       "status": "success"
     },
     "JSTUSDT": {
-      "last_date": "2026-04-23",
-      "new_rows": 0,
+      "last_date": "2026-04-24",
+      "new_rows": 1,
       "status": "success"
     },
     "JTOUSDT": {
-      "last_date": "2026-04-23",
-      "new_rows": 0,
+      "last_date": "2026-04-24",
+      "new_rows": 1,
       "status": "success"
     },
     "JUPUSDT": {
-      "last_date": "2026-04-23",
-      "new_rows": 0,
+      "last_date": "2026-04-24",
+      "new_rows": 1,
       "status": "success"
     },
     "KAIAUSDT": {
-      "last_date": "2026-04-23",
-      "new_rows": 0,
+      "last_date": "2026-04-24",
+      "new_rows": 1,
       "status": "success"
     },
     "KAITOUSDT": {
-      "last_date": "2026-04-23",
-      "new_rows": 0,
+      "last_date": "2026-04-24",
+      "new_rows": 1,
       "status": "success"
     },
     "KASUSDT": {
-      "last_date": "2026-04-23",
-      "new_rows": 0,
+      "last_date": "2026-04-24",
+      "new_rows": 1,
       "status": "success"
     },
     "KATUSDT": {
-      "last_date": "2026-04-23",
-      "new_rows": 0,
+      "last_date": "2026-04-24",
+      "new_rows": 1,
       "status": "success"
     },
     "KAVAUSDT": {
-      "last_date": "2026-04-23",
-      "new_rows": 0,
+      "last_date": "2026-04-24",
+      "new_rows": 1,
       "status": "success"
     },
     "KERNELUSDT": {
-      "last_date": "2026-04-23",
-      "new_rows": 0,
+      "last_date": "2026-04-24",
+      "new_rows": 1,
       "status": "success"
     },
     "KGENUSDT": {
-      "last_date": "2026-04-23",
-      "new_rows": 0,
+      "last_date": "2026-04-24",
+      "new_rows": 1,
       "status": "success"
     },
     "KITEUSDT": {
-      "last_date": "2026-04-23",
-      "new_rows": 0,
+      "last_date": "2026-04-24",
+      "new_rows": 1,
       "status": "success"
     },
     "KMNOUSDT": {
-      "last_date": "2026-04-23",
-      "new_rows": 0,
+      "last_date": "2026-04-24",
+      "new_rows": 1,
       "status": "success"
     },
     "KNCUSDT": {
-      "last_date": "2026-04-23",
-      "new_rows": 0,
+      "last_date": "2026-04-24",
+      "new_rows": 1,
       "status": "success"
     },
     "KOMAUSDT": {
-      "last_date": "2026-04-23",
-      "new_rows": 0,
+      "last_date": "2026-04-24",
+      "new_rows": 1,
       "status": "success"
     },
     "KSMUSDT": {
-      "last_date": "2026-04-23",
-      "new_rows": 0,
+      "last_date": "2026-04-24",
+      "new_rows": 1,
       "status": "success"
     },
     "LABUSDT": {
-      "last_date": "2026-04-23",
-      "new_rows": 0,
+      "last_date": "2026-04-24",
+      "new_rows": 1,
       "status": "success"
     },
     "LAUSDT": {
-      "last_date": "2026-04-23",
-      "new_rows": 0,
+      "last_date": "2026-04-24",
+      "new_rows": 1,
       "status": "success"
     },
     "LAYERUSDT": {
-      "last_date": "2026-04-23",
-      "new_rows": 0,
+      "last_date": "2026-04-24",
+      "new_rows": 1,
       "status": "success"
     },
     "LDOUSDT": {
-      "last_date": "2026-04-23",
-      "new_rows": 0,
+      "last_date": "2026-04-24",
+      "new_rows": 1,
       "status": "success"
     },
     "LIGHTUSDT": {
-      "last_date": "2026-04-23",
-      "new_rows": 0,
+      "last_date": "2026-04-24",
+      "new_rows": 1,
       "status": "success"
     },
     "LINEAUSDT": {
-      "last_date": "2026-04-23",
-      "new_rows": 0,
+      "last_date": "2026-04-24",
+      "new_rows": 1,
       "status": "success"
     },
     "LINKUSDT": {
-      "last_date": "2026-04-23",
-      "new_rows": 0,
+      "last_date": "2026-04-24",
+      "new_rows": 1,
       "status": "success"
     },
     "LISTAUSDT": {
-      "last_date": "2026-04-23",
-      "new_rows": 0,
+      "last_date": "2026-04-24",
+      "new_rows": 1,
       "status": "success"
     },
     "LITUSDT": {
-      "last_date": "2026-04-23",
-      "new_rows": 0,
+      "last_date": "2026-04-24",
+      "new_rows": 1,
       "status": "success"
     },
     "LPTUSDT": {
-      "last_date": "2026-04-23",
-      "new_rows": 0,
+      "last_date": "2026-04-24",
+      "new_rows": 1,
       "status": "success"
     },
     "LQTYUSDT": {
-      "last_date": "2026-04-23",
-      "new_rows": 0,
+      "last_date": "2026-04-24",
+      "new_rows": 1,
       "status": "success"
     },
     "LSKUSDT": {
-      "last_date": "2026-04-23",
-      "new_rows": 0,
+      "last_date": "2026-04-24",
+      "new_rows": 1,
       "status": "success"
     },
     "LTCUSDT": {
-      "last_date": "2026-04-23",
-      "new_rows": 0,
+      "last_date": "2026-04-24",
+      "new_rows": 1,
       "status": "success"
     },
     "LUMIAUSDT": {
-      "last_date": "2026-04-23",
-      "new_rows": 0,
+      "last_date": "2026-04-24",
+      "new_rows": 1,
       "status": "success"
     },
     "LUNA2USDT": {
-      "last_date": "2026-04-23",
-      "new_rows": 0,
+      "last_date": "2026-04-24",
+      "new_rows": 1,
       "status": "success"
     },
     "LYNUSDT": {
-      "last_date": "2026-04-23",
-      "new_rows": 0,
+      "last_date": "2026-04-24",
+      "new_rows": 1,
       "status": "success"
     },
     "MAGICUSDT": {
-      "last_date": "2026-04-23",
-      "new_rows": 0,
+      "last_date": "2026-04-24",
+      "new_rows": 1,
       "status": "success"
     },
     "MAGMAUSDT": {
-      "last_date": "2026-04-23",
-      "new_rows": 0,
+      "last_date": "2026-04-24",
+      "new_rows": 1,
       "status": "success"
     },
     "MANAUSDT": {
-      "last_date": "2026-04-23",
-      "new_rows": 0,
+      "last_date": "2026-04-24",
+      "new_rows": 1,
       "status": "success"
     },
     "MANTAUSDT": {
-      "last_date": "2026-04-23",
-      "new_rows": 0,
+      "last_date": "2026-04-24",
+      "new_rows": 1,
       "status": "success"
     },
     "MANTRAUSDT": {
-      "last_date": "2026-04-23",
-      "new_rows": 0,
+      "last_date": "2026-04-24",
+      "new_rows": 1,
       "status": "success"
     },
     "MASKUSDT": {
-      "last_date": "2026-04-23",
-      "new_rows": 0,
+      "last_date": "2026-04-24",
+      "new_rows": 1,
       "status": "success"
     },
     "MAVIAUSDT": {
-      "last_date": "2026-04-23",
-      "new_rows": 0,
+      "last_date": "2026-04-24",
+      "new_rows": 1,
       "status": "success"
     },
     "MAVUSDT": {
-      "last_date": "2026-04-23",
-      "new_rows": 0,
+      "last_date": "2026-04-24",
+      "new_rows": 1,
       "status": "success"
     },
     "MBOXUSDT": {
-      "last_date": "2026-04-23",
-      "new_rows": 0,
+      "last_date": "2026-04-24",
+      "new_rows": 1,
       "status": "success"
     },
     "MEGAUSDT": {
-      "last_date": "2026-04-23",
-      "new_rows": 0,
+      "last_date": "2026-04-24",
+      "new_rows": 1,
       "status": "success"
     },
     "MELANIAUSDT": {
-      "last_date": "2026-04-23",
-      "new_rows": 0,
+      "last_date": "2026-04-24",
+      "new_rows": 1,
       "status": "success"
     },
     "MEMEUSDT": {
-      "last_date": "2026-04-23",
-      "new_rows": 0,
+      "last_date": "2026-04-24",
+      "new_rows": 1,
       "status": "success"
     },
     "MERLUSDT": {
-      "last_date": "2026-04-23",
-      "new_rows": 0,
+      "last_date": "2026-04-24",
+      "new_rows": 1,
       "status": "success"
     },
     "METISUSDT": {
-      "last_date": "2026-04-23",
-      "new_rows": 0,
+      "last_date": "2026-04-24",
+      "new_rows": 1,
       "status": "success"
     },
     "METUSDT": {
-      "last_date": "2026-04-23",
-      "new_rows": 0,
+      "last_date": "2026-04-24",
+      "new_rows": 1,
       "status": "success"
     },
     "MEUSDT": {
-      "last_date": "2026-04-23",
-      "new_rows": 0,
+      "last_date": "2026-04-24",
+      "new_rows": 1,
       "status": "success"
     },
     "MEWUSDT": {
-      "last_date": "2026-04-23",
-      "new_rows": 0,
+      "last_date": "2026-04-24",
+      "new_rows": 1,
       "status": "success"
     },
     "MINAUSDT": {
-      "last_date": "2026-04-23",
-      "new_rows": 0,
+      "last_date": "2026-04-24",
+      "new_rows": 1,
       "status": "success"
     },
     "MIRAUSDT": {
-      "last_date": "2026-04-23",
-      "new_rows": 0,
+      "last_date": "2026-04-24",
+      "new_rows": 1,
       "status": "success"
     },
     "MITOUSDT": {
-      "last_date": "2026-04-23",
-      "new_rows": 0,
+      "last_date": "2026-04-24",
+      "new_rows": 1,
       "status": "success"
     },
     "MLNUSDT": {
-      "last_date": "2026-04-23",
-      "new_rows": 0,
+      "last_date": "2026-04-24",
+      "new_rows": 1,
       "status": "success"
     },
     "MMTUSDT": {
-      "last_date": "2026-04-23",
-      "new_rows": 0,
+      "last_date": "2026-04-24",
+      "new_rows": 1,
       "status": "success"
     },
     "MOCAUSDT": {
-      "last_date": "2026-04-23",
-      "new_rows": 0,
+      "last_date": "2026-04-24",
+      "new_rows": 1,
       "status": "success"
     },
     "MONUSDT": {
-      "last_date": "2026-04-23",
-      "new_rows": 0,
+      "last_date": "2026-04-24",
+      "new_rows": 1,
       "status": "success"
     },
     "MOODENGUSDT": {
-      "last_date": "2026-04-23",
-      "new_rows": 0,
+      "last_date": "2026-04-24",
+      "new_rows": 1,
       "status": "success"
     },
     "MORPHOUSDT": {
-      "last_date": "2026-04-23",
-      "new_rows": 0,
+      "last_date": "2026-04-24",
+      "new_rows": 1,
       "status": "success"
     },
     "MOVEUSDT": {
-      "last_date": "2026-04-23",
-      "new_rows": 0,
+      "last_date": "2026-04-24",
+      "new_rows": 1,
       "status": "success"
     },
     "MOVRUSDT": {
-      "last_date": "2026-04-23",
-      "new_rows": 0,
+      "last_date": "2026-04-24",
+      "new_rows": 1,
       "status": "success"
     },
     "MTLUSDT": {
-      "last_date": "2026-04-23",
-      "new_rows": 0,
+      "last_date": "2026-04-24",
+      "new_rows": 1,
       "status": "success"
     },
     "MUBARAKUSDT": {
-      "last_date": "2026-04-23",
-      "new_rows": 0,
+      "last_date": "2026-04-24",
+      "new_rows": 1,
       "status": "success"
     },
     "MUSDT": {
-      "last_date": "2026-04-23",
-      "new_rows": 0,
+      "last_date": "2026-04-24",
+      "new_rows": 1,
       "status": "success"
     },
     "MYXUSDT": {
-      "last_date": "2026-04-23",
-      "new_rows": 0,
+      "last_date": "2026-04-24",
+      "new_rows": 1,
       "status": "success"
     },
     "NAORISUSDT": {
-      "last_date": "2026-04-23",
-      "new_rows": 0,
+      "last_date": "2026-04-24",
+      "new_rows": 1,
       "status": "success"
     },
     "NEARUSDT": {
-      "last_date": "2026-04-23",
-      "new_rows": 0,
+      "last_date": "2026-04-24",
+      "new_rows": 1,
       "status": "success"
     },
     "NEIROUSDT": {
-      "last_date": "2026-04-23",
-      "new_rows": 0,
+      "last_date": "2026-04-24",
+      "new_rows": 1,
       "status": "success"
     },
     "NEOUSDT": {
-      "last_date": "2026-04-23",
-      "new_rows": 0,
+      "last_date": "2026-04-24",
+      "new_rows": 1,
       "status": "success"
     },
     "NEWTUSDT": {
-      "last_date": "2026-04-23",
-      "new_rows": 0,
+      "last_date": "2026-04-24",
+      "new_rows": 1,
       "status": "success"
     },
     "NFPUSDT": {
-      "last_date": "2026-04-23",
-      "new_rows": 0,
+      "last_date": "2026-04-24",
+      "new_rows": 1,
       "status": "success"
     },
     "NIGHTUSDT": {
-      "last_date": "2026-04-23",
-      "new_rows": 0,
+      "last_date": "2026-04-24",
+      "new_rows": 1,
       "status": "success"
     },
     "NILUSDT": {
-      "last_date": "2026-04-23",
-      "new_rows": 0,
+      "last_date": "2026-04-24",
+      "new_rows": 1,
       "status": "success"
     },
     "NMRUSDT": {
-      "last_date": "2026-04-23",
-      "new_rows": 0,
+      "last_date": "2026-04-24",
+      "new_rows": 1,
       "status": "success"
     },
     "NOMUSDT": {
-      "last_date": "2026-04-23",
-      "new_rows": 0,
+      "last_date": "2026-04-24",
+      "new_rows": 1,
       "status": "success"
     },
     "NOTUSDT": {
-      "last_date": "2026-04-23",
-      "new_rows": 0,
+      "last_date": "2026-04-24",
+      "new_rows": 1,
       "status": "success"
     },
     "NXPCUSDT": {
-      "last_date": "2026-04-23",
-      "new_rows": 0,
+      "last_date": "2026-04-24",
+      "new_rows": 1,
       "status": "success"
     },
     "OGNUSDT": {
-      "last_date": "2026-04-23",
-      "new_rows": 0,
+      "last_date": "2026-04-24",
+      "new_rows": 1,
       "status": "success"
     },
     "OGUSDT": {
-      "last_date": "2026-04-23",
-      "new_rows": 0,
+      "last_date": "2026-04-24",
+      "new_rows": 1,
       "status": "success"
     },
     "ONDOUSDT": {
-      "last_date": "2026-04-23",
-      "new_rows": 0,
+      "last_date": "2026-04-24",
+      "new_rows": 1,
       "status": "success"
     },
     "ONEUSDT": {
-      "last_date": "2026-04-23",
-      "new_rows": 0,
+      "last_date": "2026-04-24",
+      "new_rows": 1,
       "status": "success"
     },
     "ONGUSDT": {
-      "last_date": "2026-04-23",
-      "new_rows": 0,
+      "last_date": "2026-04-24",
+      "new_rows": 1,
       "status": "success"
     },
     "ONTUSDT": {
-      "last_date": "2026-04-23",
-      "new_rows": 0,
+      "last_date": "2026-04-24",
+      "new_rows": 1,
       "status": "success"
     },
     "ONUSDT": {
-      "last_date": "2026-04-23",
-      "new_rows": 0,
+      "last_date": "2026-04-24",
+      "new_rows": 1,
       "status": "success"
     },
     "OPENUSDT": {
-      "last_date": "2026-04-23",
-      "new_rows": 0,
+      "last_date": "2026-04-24",
+      "new_rows": 1,
       "status": "success"
     },
     "OPGUSDT": {
-      "last_date": "2026-04-23",
-      "new_rows": 0,
+      "last_date": "2026-04-24",
+      "new_rows": 1,
       "status": "success"
     },
     "OPNUSDT": {
-      "last_date": "2026-04-23",
-      "new_rows": 0,
+      "last_date": "2026-04-24",
+      "new_rows": 1,
       "status": "success"
     },
     "OPUSDT": {
-      "last_date": "2026-04-23",
-      "new_rows": 0,
+      "last_date": "2026-04-24",
+      "new_rows": 1,
       "status": "success"
     },
     "ORCAUSDT": {
-      "last_date": "2026-04-23",
-      "new_rows": 0,
+      "last_date": "2026-04-24",
+      "new_rows": 1,
       "status": "success"
     },
     "ORDERUSDT": {
-      "last_date": "2026-04-23",
-      "new_rows": 0,
+      "last_date": "2026-04-24",
+      "new_rows": 1,
       "status": "success"
     },
     "ORDIUSDT": {
-      "last_date": "2026-04-23",
-      "new_rows": 0,
+      "last_date": "2026-04-24",
+      "new_rows": 1,
       "status": "success"
     },
     "PARTIUSDT": {
-      "last_date": "2026-04-23",
-      "new_rows": 0,
+      "last_date": "2026-04-24",
+      "new_rows": 1,
       "status": "success"
     },
     "PAXGUSDT": {
-      "last_date": "2026-04-23",
-      "new_rows": 0,
+      "last_date": "2026-04-24",
+      "new_rows": 1,
       "status": "success"
     },
     "PENDLEUSDT": {
-      "last_date": "2026-04-23",
-      "new_rows": 0,
+      "last_date": "2026-04-24",
+      "new_rows": 1,
       "status": "success"
     },
     "PENGUUSDT": {
-      "last_date": "2026-04-23",
-      "new_rows": 0,
+      "last_date": "2026-04-24",
+      "new_rows": 1,
       "status": "success"
     },
     "PEOPLEUSDT": {
-      "last_date": "2026-04-23",
-      "new_rows": 0,
+      "last_date": "2026-04-24",
+      "new_rows": 1,
       "status": "success"
     },
     "PHAUSDT": {
-      "last_date": "2026-04-23",
-      "new_rows": 0,
+      "last_date": "2026-04-24",
+      "new_rows": 1,
       "status": "success"
     },
     "PHBUSDT": {
-      "last_date": "2026-04-23",
-      "new_rows": 0,
+      "last_date": "2026-04-24",
+      "new_rows": 1,
       "status": "success"
     },
     "PIEVERSEUSDT": {
-      "last_date": "2026-04-23",
-      "new_rows": 0,
+      "last_date": "2026-04-24",
+      "new_rows": 1,
       "status": "success"
     },
     "PIPPINUSDT": {
-      "last_date": "2026-04-23",
-      "new_rows": 0,
+      "last_date": "2026-04-24",
+      "new_rows": 1,
       "status": "success"
     },
     "PIXELUSDT": {
-      "last_date": "2026-04-23",
-      "new_rows": 0,
+      "last_date": "2026-04-24",
+      "new_rows": 1,
       "status": "success"
     },
     "PLAYUSDT": {
-      "last_date": "2026-04-23",
-      "new_rows": 0,
+      "last_date": "2026-04-24",
+      "new_rows": 1,
       "status": "success"
     },
     "PLUMEUSDT": {
-      "last_date": "2026-04-23",
-      "new_rows": 0,
+      "last_date": "2026-04-24",
+      "new_rows": 1,
       "status": "success"
     },
     "PNUTUSDT": {
-      "last_date": "2026-04-23",
-      "new_rows": 0,
+      "last_date": "2026-04-24",
+      "new_rows": 1,
       "status": "success"
     },
     "POLUSDT": {
-      "last_date": "2026-04-23",
-      "new_rows": 0,
+      "last_date": "2026-04-24",
+      "new_rows": 1,
       "status": "success"
     },
     "POLYXUSDT": {
-      "last_date": "2026-04-23",
-      "new_rows": 0,
+      "last_date": "2026-04-24",
+      "new_rows": 1,
       "status": "success"
     },
     "POPCATUSDT": {
-      "last_date": "2026-04-23",
-      "new_rows": 0,
+      "last_date": "2026-04-24",
+      "new_rows": 1,
       "status": "success"
     },
     "PORTALUSDT": {
-      "last_date": "2026-04-23",
-      "new_rows": 0,
+      "last_date": "2026-04-24",
+      "new_rows": 1,
       "status": "success"
     },
     "POWERUSDT": {
-      "last_date": "2026-04-23",
-      "new_rows": 0,
+      "last_date": "2026-04-24",
+      "new_rows": 1,
       "status": "success"
     },
     "POWRUSDT": {
-      "last_date": "2026-04-23",
-      "new_rows": 0,
+      "last_date": "2026-04-24",
+      "new_rows": 1,
       "status": "success"
     },
     "PRLUSDT": {
-      "last_date": "2026-04-23",
-      "new_rows": 0,
+      "last_date": "2026-04-24",
+      "new_rows": 1,
       "status": "success"
     },
     "PROMPTUSDT": {
-      "last_date": "2026-04-23",
-      "new_rows": 0,
+      "last_date": "2026-04-24",
+      "new_rows": 1,
       "status": "success"
     },
     "PROMUSDT": {
-      "last_date": "2026-04-23",
-      "new_rows": 0,
+      "last_date": "2026-04-24",
+      "new_rows": 1,
       "status": "success"
     },
     "PROVEUSDT": {
-      "last_date": "2026-04-23",
-      "new_rows": 0,
+      "last_date": "2026-04-24",
+      "new_rows": 1,
       "status": "success"
     },
     "PTBUSDT": {
-      "last_date": "2026-04-23",
-      "new_rows": 0,
+      "last_date": "2026-04-24",
+      "new_rows": 1,
       "status": "success"
     },
     "PUMPBTCUSDT": {
-      "last_date": "2026-04-23",
-      "new_rows": 0,
+      "last_date": "2026-04-24",
+      "new_rows": 1,
       "status": "success"
     },
     "PUMPUSDT": {
-      "last_date": "2026-04-23",
-      "new_rows": 0,
+      "last_date": "2026-04-24",
+      "new_rows": 1,
       "status": "success"
     },
     "PUNDIXUSDT": {
-      "last_date": "2026-04-23",
-      "new_rows": 0,
+      "last_date": "2026-04-24",
+      "new_rows": 1,
       "status": "success"
     },
     "PYTHUSDT": {
-      "last_date": "2026-04-23",
-      "new_rows": 0,
+      "last_date": "2026-04-24",
+      "new_rows": 1,
       "status": "success"
     },
     "QNTUSDT": {
-      "last_date": "2026-04-23",
-      "new_rows": 0,
+      "last_date": "2026-04-24",
+      "new_rows": 1,
       "status": "success"
     },
     "QTUMUSDT": {
-      "last_date": "2026-04-23",
-      "new_rows": 0,
+      "last_date": "2026-04-24",
+      "new_rows": 1,
       "status": "success"
     },
     "QUSDT": {
-      "last_date": "2026-04-23",
-      "new_rows": 0,
+      "last_date": "2026-04-24",
+      "new_rows": 1,
       "status": "success"
     },
     "RAREUSDT": {
-      "last_date": "2026-04-23",
-      "new_rows": 0,
+      "last_date": "2026-04-24",
+      "new_rows": 1,
       "status": "success"
     },
     "RAVEUSDT": {
-      "last_date": "2026-04-23",
-      "new_rows": 0,
+      "last_date": "2026-04-24",
+      "new_rows": 1,
       "status": "success"
     },
     "RAYSOLUSDT": {
-      "last_date": "2026-04-23",
-      "new_rows": 0,
+      "last_date": "2026-04-24",
+      "new_rows": 1,
       "status": "success"
     },
     "RECALLUSDT": {
-      "last_date": "2026-04-23",
-      "new_rows": 0,
+      "last_date": "2026-04-24",
+      "new_rows": 1,
       "status": "success"
     },
     "REDUSDT": {
-      "last_date": "2026-04-23",
-      "new_rows": 0,
+      "last_date": "2026-04-24",
+      "new_rows": 1,
       "status": "success"
     },
     "RENDERUSDT": {
-      "last_date": "2026-04-23",
-      "new_rows": 0,
+      "last_date": "2026-04-24",
+      "new_rows": 1,
       "status": "success"
     },
     "RESOLVUSDT": {
-      "last_date": "2026-04-23",
-      "new_rows": 0,
+      "last_date": "2026-04-24",
+      "new_rows": 1,
       "status": "success"
     },
     "REZUSDT": {
-      "last_date": "2026-04-23",
-      "new_rows": 0,
+      "last_date": "2026-04-24",
+      "new_rows": 1,
       "status": "success"
     },
     "RIFUSDT": {
-      "last_date": "2026-04-23",
-      "new_rows": 0,
+      "last_date": "2026-04-24",
+      "new_rows": 1,
       "status": "success"
     },
     "RIVERUSDT": {
-      "last_date": "2026-04-23",
-      "new_rows": 0,
+      "last_date": "2026-04-24",
+      "new_rows": 1,
       "status": "success"
     },
     "RLCUSDT": {
-      "last_date": "2026-04-23",
-      "new_rows": 0,
+      "last_date": "2026-04-24",
+      "new_rows": 1,
       "status": "success"
     },
     "ROBOUSDT": {
-      "last_date": "2026-04-23",
-      "new_rows": 0,
+      "last_date": "2026-04-24",
+      "new_rows": 1,
       "status": "success"
     },
     "RONINUSDT": {
-      "last_date": "2026-04-23",
-      "new_rows": 0,
+      "last_date": "2026-04-24",
+      "new_rows": 1,
       "status": "success"
     },
     "ROSEUSDT": {
-      "last_date": "2026-04-23",
-      "new_rows": 0,
+      "last_date": "2026-04-24",
+      "new_rows": 1,
       "status": "success"
     },
     "RPLUSDT": {
-      "last_date": "2026-04-23",
-      "new_rows": 0,
+      "last_date": "2026-04-24",
+      "new_rows": 1,
       "status": "success"
     },
     "RSRUSDT": {
-      "last_date": "2026-04-23",
-      "new_rows": 0,
+      "last_date": "2026-04-24",
+      "new_rows": 1,
       "status": "success"
     },
     "RUNEUSDT": {
-      "last_date": "2026-04-23",
-      "new_rows": 0,
+      "last_date": "2026-04-24",
+      "new_rows": 1,
       "status": "success"
     },
     "RVNUSDT": {
-      "last_date": "2026-04-23",
-      "new_rows": 0,
+      "last_date": "2026-04-24",
+      "new_rows": 1,
       "status": "success"
     },
     "SAFEUSDT": {
-      "last_date": "2026-04-23",
-      "new_rows": 0,
+      "last_date": "2026-04-24",
+      "new_rows": 1,
       "status": "success"
     },
     "SAGAUSDT": {
-      "last_date": "2026-04-23",
-      "new_rows": 0,
+      "last_date": "2026-04-24",
+      "new_rows": 1,
       "status": "success"
     },
     "SAHARAUSDT": {
-      "last_date": "2026-04-23",
-      "new_rows": 0,
+      "last_date": "2026-04-24",
+      "new_rows": 1,
       "status": "success"
     },
     "SANDUSDT": {
-      "last_date": "2026-04-23",
-      "new_rows": 0,
+      "last_date": "2026-04-24",
+      "new_rows": 1,
       "status": "success"
     },
     "SANTOSUSDT": {
-      "last_date": "2026-04-23",
-      "new_rows": 0,
+      "last_date": "2026-04-24",
+      "new_rows": 1,
       "status": "success"
     },
     "SAPIENUSDT": {
-      "last_date": "2026-04-23",
-      "new_rows": 0,
+      "last_date": "2026-04-24",
+      "new_rows": 1,
       "status": "success"
     },
     "SCRTUSDT": {
-      "last_date": "2026-04-23",
-      "new_rows": 0,
+      "last_date": "2026-04-24",
+      "new_rows": 1,
       "status": "success"
     },
     "SCRUSDT": {
-      "last_date": "2026-04-23",
-      "new_rows": 0,
+      "last_date": "2026-04-24",
+      "new_rows": 1,
       "status": "success"
     },
     "SEIUSDT": {
-      "last_date": "2026-04-23",
-      "new_rows": 0,
+      "last_date": "2026-04-24",
+      "new_rows": 1,
       "status": "success"
     },
     "SENTUSDT": {
-      "last_date": "2026-04-23",
-      "new_rows": 0,
+      "last_date": "2026-04-24",
+      "new_rows": 1,
       "status": "success"
     },
     "SFPUSDT": {
-      "last_date": "2026-04-23",
-      "new_rows": 0,
+      "last_date": "2026-04-24",
+      "new_rows": 1,
       "status": "success"
     },
     "SHELLUSDT": {
-      "last_date": "2026-04-23",
-      "new_rows": 0,
+      "last_date": "2026-04-24",
+      "new_rows": 1,
       "status": "success"
     },
     "SIGNUSDT": {
-      "last_date": "2026-04-23",
-      "new_rows": 0,
+      "last_date": "2026-04-24",
+      "new_rows": 1,
       "status": "success"
     },
     "SIRENUSDT": {
-      "last_date": "2026-04-23",
-      "new_rows": 0,
+      "last_date": "2026-04-24",
+      "new_rows": 1,
       "status": "success"
     },
     "SKLUSDT": {
-      "last_date": "2026-04-23",
-      "new_rows": 0,
+      "last_date": "2026-04-24",
+      "new_rows": 1,
       "status": "success"
     },
     "SKRUSDT": {
-      "last_date": "2026-04-23",
-      "new_rows": 0,
+      "last_date": "2026-04-24",
+      "new_rows": 1,
       "status": "success"
     },
     "SKYAIUSDT": {
-      "last_date": "2026-04-23",
-      "new_rows": 0,
+      "last_date": "2026-04-24",
+      "new_rows": 1,
       "status": "success"
     },
     "SKYUSDT": {
-      "last_date": "2026-04-23",
-      "new_rows": 0,
+      "last_date": "2026-04-24",
+      "new_rows": 1,
       "status": "success"
     },
     "SLPUSDT": {
-      "last_date": "2026-04-23",
-      "new_rows": 0,
+      "last_date": "2026-04-24",
+      "new_rows": 1,
       "status": "success"
     },
     "SNXUSDT": {
-      "last_date": "2026-04-23",
-      "new_rows": 0,
+      "last_date": "2026-04-24",
+      "new_rows": 1,
       "status": "success"
     },
     "SOLUSDT": {
-      "last_date": "2026-04-23",
-      "new_rows": 0,
+      "last_date": "2026-04-24",
+      "new_rows": 1,
       "status": "success"
     },
     "SOLVUSDT": {
-      "last_date": "2026-04-23",
-      "new_rows": 0,
+      "last_date": "2026-04-24",
+      "new_rows": 1,
       "status": "success"
     },
     "SOMIUSDT": {
-      "last_date": "2026-04-23",
-      "new_rows": 0,
+      "last_date": "2026-04-24",
+      "new_rows": 1,
       "status": "success"
     },
     "SONICUSDT": {
-      "last_date": "2026-04-23",
-      "new_rows": 0,
+      "last_date": "2026-04-24",
+      "new_rows": 1,
       "status": "success"
     },
     "SOONUSDT": {
-      "last_date": "2026-04-23",
-      "new_rows": 0,
+      "last_date": "2026-04-24",
+      "new_rows": 1,
       "status": "success"
     },
     "SOPHUSDT": {
-      "last_date": "2026-04-23",
-      "new_rows": 0,
+      "last_date": "2026-04-24",
+      "new_rows": 1,
       "status": "success"
     },
     "SPACEUSDT": {
-      "last_date": "2026-04-23",
-      "new_rows": 0,
+      "last_date": "2026-04-24",
+      "new_rows": 1,
       "status": "success"
     },
     "SPELLUSDT": {
-      "last_date": "2026-04-23",
-      "new_rows": 0,
+      "last_date": "2026-04-24",
+      "new_rows": 1,
       "status": "success"
     },
     "SPKUSDT": {
-      "last_date": "2026-04-23",
-      "new_rows": 0,
+      "last_date": "2026-04-24",
+      "new_rows": 1,
       "status": "success"
     },
     "SPORTFUNUSDT": {
-      "last_date": "2026-04-23",
-      "new_rows": 0,
+      "last_date": "2026-04-24",
+      "new_rows": 1,
       "status": "success"
     },
     "SPXUSDT": {
-      "last_date": "2026-04-23",
-      "new_rows": 0,
+      "last_date": "2026-04-24",
+      "new_rows": 1,
       "status": "success"
     },
     "SQDUSDT": {
-      "last_date": "2026-04-23",
-      "new_rows": 0,
+      "last_date": "2026-04-24",
+      "new_rows": 1,
       "status": "success"
     },
     "SSVUSDT": {
-      "last_date": "2026-04-23",
-      "new_rows": 0,
+      "last_date": "2026-04-24",
+      "new_rows": 1,
       "status": "success"
     },
     "STABLEUSDT": {
-      "last_date": "2026-04-23",
-      "new_rows": 0,
+      "last_date": "2026-04-24",
+      "new_rows": 1,
       "status": "success"
     },
     "STBLUSDT": {
-      "last_date": "2026-04-23",
-      "new_rows": 0,
+      "last_date": "2026-04-24",
+      "new_rows": 1,
       "status": "success"
     },
     "STEEMUSDT": {
-      "last_date": "2026-04-23",
-      "new_rows": 0,
+      "last_date": "2026-04-24",
+      "new_rows": 1,
       "status": "success"
     },
     "STGUSDT": {
-      "last_date": "2026-04-23",
-      "new_rows": 0,
+      "last_date": "2026-04-24",
+      "new_rows": 1,
       "status": "success"
     },
     "STORJUSDT": {
-      "last_date": "2026-04-23",
-      "new_rows": 0,
+      "last_date": "2026-04-24",
+      "new_rows": 1,
       "status": "success"
     },
     "STOUSDT": {
-      "last_date": "2026-04-23",
-      "new_rows": 0,
+      "last_date": "2026-04-24",
+      "new_rows": 1,
       "status": "success"
     },
     "STRKUSDT": {
-      "last_date": "2026-04-23",
-      "new_rows": 0,
+      "last_date": "2026-04-24",
+      "new_rows": 1,
       "status": "success"
     },
     "STXUSDT": {
-      "last_date": "2026-04-23",
-      "new_rows": 0,
+      "last_date": "2026-04-24",
+      "new_rows": 1,
       "status": "success"
     },
     "SUIUSDT": {
-      "last_date": "2026-04-23",
-      "new_rows": 0,
+      "last_date": "2026-04-24",
+      "new_rows": 1,
       "status": "success"
     },
     "SUNUSDT": {
-      "last_date": "2026-04-23",
-      "new_rows": 0,
+      "last_date": "2026-04-24",
+      "new_rows": 1,
       "status": "success"
     },
     "SUPERUSDT": {
-      "last_date": "2026-04-23",
-      "new_rows": 0,
+      "last_date": "2026-04-24",
+      "new_rows": 1,
       "status": "success"
     },
     "SUSDT": {
-      "last_date": "2026-04-23",
-      "new_rows": 0,
+      "last_date": "2026-04-24",
+      "new_rows": 1,
       "status": "success"
     },
     "SUSHIUSDT": {
-      "last_date": "2026-04-23",
-      "new_rows": 0,
+      "last_date": "2026-04-24",
+      "new_rows": 1,
       "status": "success"
     },
     "SWARMSUSDT": {
-      "last_date": "2026-04-23",
-      "new_rows": 0,
+      "last_date": "2026-04-24",
+      "new_rows": 1,
       "status": "success"
     },
     "SXTUSDT": {
-      "last_date": "2026-04-23",
-      "new_rows": 0,
+      "last_date": "2026-04-24",
+      "new_rows": 1,
       "status": "success"
     },
     "SYNUSDT": {
-      "last_date": "2026-04-23",
-      "new_rows": 0,
+      "last_date": "2026-04-24",
+      "new_rows": 1,
       "status": "success"
     },
     "SYRUPUSDT": {
-      "last_date": "2026-04-23",
-      "new_rows": 0,
+      "last_date": "2026-04-24",
+      "new_rows": 1,
       "status": "success"
     },
     "SYSUSDT": {
-      "last_date": "2026-04-23",
-      "new_rows": 0,
+      "last_date": "2026-04-24",
+      "new_rows": 1,
       "status": "success"
     },
     "TACUSDT": {
-      "last_date": "2026-04-23",
-      "new_rows": 0,
+      "last_date": "2026-04-24",
+      "new_rows": 1,
       "status": "success"
     },
     "TAGUSDT": {
-      "last_date": "2026-04-23",
-      "new_rows": 0,
+      "last_date": "2026-04-24",
+      "new_rows": 1,
       "status": "success"
     },
     "TAIKOUSDT": {
-      "last_date": "2026-04-23",
-      "new_rows": 0,
+      "last_date": "2026-04-24",
+      "new_rows": 1,
       "status": "success"
     },
     "TAKEUSDT": {
-      "last_date": "2026-04-23",
-      "new_rows": 0,
+      "last_date": "2026-04-24",
+      "new_rows": 1,
       "status": "success"
     },
     "TAOUSDT": {
-      "last_date": "2026-04-23",
-      "new_rows": 0,
+      "last_date": "2026-04-24",
+      "new_rows": 1,
       "status": "success"
     },
     "TAUSDT": {
-      "last_date": "2026-04-23",
-      "new_rows": 0,
+      "last_date": "2026-04-24",
+      "new_rows": 1,
       "status": "success"
     },
     "THETAUSDT": {
-      "last_date": "2026-04-23",
-      "new_rows": 0,
+      "last_date": "2026-04-24",
+      "new_rows": 1,
       "status": "success"
     },
     "THEUSDT": {
-      "last_date": "2026-04-23",
-      "new_rows": 0,
+      "last_date": "2026-04-24",
+      "new_rows": 1,
       "status": "success"
     },
     "TIAUSDT": {
-      "last_date": "2026-04-23",
-      "new_rows": 0,
+      "last_date": "2026-04-24",
+      "new_rows": 1,
       "status": "success"
     },
     "TLMUSDT": {
-      "last_date": "2026-04-23",
-      "new_rows": 0,
+      "last_date": "2026-04-24",
+      "new_rows": 1,
       "status": "success"
     },
     "TNSRUSDT": {
-      "last_date": "2026-04-23",
-      "new_rows": 0,
+      "last_date": "2026-04-24",
+      "new_rows": 1,
       "status": "success"
     },
     "TONUSDT": {
-      "last_date": "2026-04-23",
-      "new_rows": 0,
+      "last_date": "2026-04-24",
+      "new_rows": 1,
       "status": "success"
     },
     "TOSHIUSDT": {
-      "last_date": "2026-04-23",
-      "new_rows": 0,
+      "last_date": "2026-04-24",
+      "new_rows": 1,
       "status": "success"
     },
     "TOWNSUSDT": {
-      "last_date": "2026-04-23",
-      "new_rows": 0,
+      "last_date": "2026-04-24",
+      "new_rows": 1,
       "status": "success"
     },
     "TRADOORUSDT": {
-      "last_date": "2026-04-23",
-      "new_rows": 0,
+      "last_date": "2026-04-24",
+      "new_rows": 1,
       "status": "success"
     },
     "TRBUSDT": {
-      "last_date": "2026-04-23",
-      "new_rows": 0,
+      "last_date": "2026-04-24",
+      "new_rows": 1,
       "status": "success"
     },
     "TREEUSDT": {
-      "last_date": "2026-04-23",
-      "new_rows": 0,
+      "last_date": "2026-04-24",
+      "new_rows": 1,
       "status": "success"
     },
     "TRIAUSDT": {
-      "last_date": "2026-04-23",
-      "new_rows": 0,
+      "last_date": "2026-04-24",
+      "new_rows": 1,
       "status": "success"
     },
     "TRUMPUSDT": {
-      "last_date": "2026-04-23",
-      "new_rows": 0,
+      "last_date": "2026-04-24",
+      "new_rows": 1,
       "status": "success"
     },
     "TRUSTUSDT": {
-      "last_date": "2026-04-23",
-      "new_rows": 0,
+      "last_date": "2026-04-24",
+      "new_rows": 1,
       "status": "success"
     },
     "TRUTHUSDT": {
-      "last_date": "2026-04-23",
-      "new_rows": 0,
+      "last_date": "2026-04-24",
+      "new_rows": 1,
       "status": "success"
     },
     "TRXUSDT": {
-      "last_date": "2026-04-23",
-      "new_rows": 0,
+      "last_date": "2026-04-24",
+      "new_rows": 1,
       "status": "success"
     },
     "TSTUSDT": {
-      "last_date": "2026-04-23",
-      "new_rows": 0,
+      "last_date": "2026-04-24",
+      "new_rows": 1,
       "status": "success"
     },
     "TURBOUSDT": {
-      "last_date": "2026-04-23",
-      "new_rows": 0,
+      "last_date": "2026-04-24",
+      "new_rows": 1,
       "status": "success"
     },
     "TURTLEUSDT": {
-      "last_date": "2026-04-23",
-      "new_rows": 0,
+      "last_date": "2026-04-24",
+      "new_rows": 1,
       "status": "success"
     },
     "TUSDT": {
-      "last_date": "2026-04-23",
-      "new_rows": 0,
+      "last_date": "2026-04-24",
+      "new_rows": 1,
       "status": "success"
     },
     "TUTUSDT": {
-      "last_date": "2026-04-23",
-      "new_rows": 0,
+      "last_date": "2026-04-24",
+      "new_rows": 1,
       "status": "success"
     },
     "TWTUSDT": {
-      "last_date": "2026-04-23",
-      "new_rows": 0,
+      "last_date": "2026-04-24",
+      "new_rows": 1,
       "status": "success"
     },
     "UAIUSDT": {
-      "last_date": "2026-04-23",
-      "new_rows": 0,
+      "last_date": "2026-04-24",
+      "new_rows": 1,
       "status": "success"
     },
     "UBUSDT": {
-      "last_date": "2026-04-23",
-      "new_rows": 0,
+      "last_date": "2026-04-24",
+      "new_rows": 1,
       "status": "success"
     },
     "UMAUSDT": {
-      "last_date": "2026-04-23",
-      "new_rows": 0,
+      "last_date": "2026-04-24",
+      "new_rows": 1,
       "status": "success"
     },
     "UNIUSDT": {
-      "last_date": "2026-04-23",
-      "new_rows": 0,
+      "last_date": "2026-04-24",
+      "new_rows": 1,
       "status": "success"
     },
     "USDCUSDT": {
-      "last_date": "2026-04-23",
-      "new_rows": 0,
+      "last_date": "2026-04-24",
+      "new_rows": 1,
       "status": "success"
     },
     "USELESSUSDT": {
-      "last_date": "2026-04-23",
-      "new_rows": 0,
+      "last_date": "2026-04-24",
+      "new_rows": 1,
       "status": "success"
     },
     "USTCUSDT": {
-      "last_date": "2026-04-23",
-      "new_rows": 0,
+      "last_date": "2026-04-24",
+      "new_rows": 1,
       "status": "success"
     },
     "USUALUSDT": {
-      "last_date": "2026-04-23",
-      "new_rows": 0,
+      "last_date": "2026-04-24",
+      "new_rows": 1,
       "status": "success"
     },
     "USUSDT": {
-      "last_date": "2026-04-23",
-      "new_rows": 0,
+      "last_date": "2026-04-24",
+      "new_rows": 1,
       "status": "success"
     },
     "VANAUSDT": {
-      "last_date": "2026-04-23",
-      "new_rows": 0,
+      "last_date": "2026-04-24",
+      "new_rows": 1,
       "status": "success"
     },
     "VANRYUSDT": {
-      "last_date": "2026-04-23",
-      "new_rows": 0,
+      "last_date": "2026-04-24",
+      "new_rows": 1,
       "status": "success"
     },
     "VELODROMEUSDT": {
-      "last_date": "2026-04-23",
-      "new_rows": 0,
+      "last_date": "2026-04-24",
+      "new_rows": 1,
       "status": "success"
     },
     "VELVETUSDT": {
-      "last_date": "2026-04-23",
-      "new_rows": 0,
+      "last_date": "2026-04-24",
+      "new_rows": 1,
       "status": "success"
     },
     "VETUSDT": {
-      "last_date": "2026-04-23",
-      "new_rows": 0,
+      "last_date": "2026-04-24",
+      "new_rows": 1,
       "status": "success"
     },
     "VICUSDT": {
-      "last_date": "2026-04-23",
-      "new_rows": 0,
+      "last_date": "2026-04-24",
+      "new_rows": 1,
       "status": "success"
     },
     "VINEUSDT": {
-      "last_date": "2026-04-23",
-      "new_rows": 0,
+      "last_date": "2026-04-24",
+      "new_rows": 1,
       "status": "success"
     },
     "VIRTUALUSDT": {
-      "last_date": "2026-04-23",
-      "new_rows": 0,
+      "last_date": "2026-04-24",
+      "new_rows": 1,
       "status": "success"
     },
     "VTHOUSDT": {
-      "last_date": "2026-04-23",
-      "new_rows": 0,
+      "last_date": "2026-04-24",
+      "new_rows": 1,
       "status": "success"
     },
     "VVVUSDT": {
-      "last_date": "2026-04-23",
-      "new_rows": 0,
+      "last_date": "2026-04-24",
+      "new_rows": 1,
       "status": "success"
     },
     "WALUSDT": {
-      "last_date": "2026-04-23",
-      "new_rows": 0,
+      "last_date": "2026-04-24",
+      "new_rows": 1,
       "status": "success"
     },
     "WAXPUSDT": {
-      "last_date": "2026-04-23",
-      "new_rows": 0,
+      "last_date": "2026-04-24",
+      "new_rows": 1,
       "status": "success"
     },
     "WCTUSDT": {
-      "last_date": "2026-04-23",
-      "new_rows": 0,
+      "last_date": "2026-04-24",
+      "new_rows": 1,
       "status": "success"
     },
     "WETUSDT": {
-      "last_date": "2026-04-23",
-      "new_rows": 0,
+      "last_date": "2026-04-24",
+      "new_rows": 1,
       "status": "success"
     },
     "WIFUSDT": {
-      "last_date": "2026-04-23",
-      "new_rows": 0,
+      "last_date": "2026-04-24",
+      "new_rows": 1,
       "status": "success"
     },
     "WLDUSDT": {
-      "last_date": "2026-04-23",
-      "new_rows": 0,
+      "last_date": "2026-04-24",
+      "new_rows": 1,
       "status": "success"
     },
     "WLFIUSDT": {
-      "last_date": "2026-04-23",
-      "new_rows": 0,
+      "last_date": "2026-04-24",
+      "new_rows": 1,
       "status": "success"
     },
     "WOOUSDT": {
-      "last_date": "2026-04-23",
-      "new_rows": 0,
+      "last_date": "2026-04-24",
+      "new_rows": 1,
       "status": "success"
     },
     "WUSDT": {
-      "last_date": "2026-04-23",
-      "new_rows": 0,
+      "last_date": "2026-04-24",
+      "new_rows": 1,
       "status": "success"
     },
     "XAIUSDT": {
-      "last_date": "2026-04-23",
-      "new_rows": 0,
+      "last_date": "2026-04-24",
+      "new_rows": 1,
       "status": "success"
     },
     "XANUSDT": {
-      "last_date": "2026-04-23",
-      "new_rows": 0,
+      "last_date": "2026-04-24",
+      "new_rows": 1,
       "status": "success"
     },
     "XAUTUSDT": {
-      "last_date": "2026-04-23",
-      "new_rows": 0,
+      "last_date": "2026-04-24",
+      "new_rows": 1,
       "status": "success"
     },
     "XLMUSDT": {
-      "last_date": "2026-04-23",
-      "new_rows": 0,
+      "last_date": "2026-04-24",
+      "new_rows": 1,
       "status": "success"
     },
     "XMRUSDT": {
-      "last_date": "2026-04-23",
-      "new_rows": 0,
+      "last_date": "2026-04-24",
+      "new_rows": 1,
       "status": "success"
     },
     "XNYUSDT": {
-      "last_date": "2026-04-23",
-      "new_rows": 0,
+      "last_date": "2026-04-24",
+      "new_rows": 1,
       "status": "success"
     },
     "XPINUSDT": {
-      "last_date": "2026-04-23",
-      "new_rows": 0,
+      "last_date": "2026-04-24",
+      "new_rows": 1,
       "status": "success"
     },
     "XPLUSDT": {
-      "last_date": "2026-04-23",
-      "new_rows": 0,
+      "last_date": "2026-04-24",
+      "new_rows": 1,
       "status": "success"
     },
     "XRPUSDT": {
-      "last_date": "2026-04-23",
-      "new_rows": 0,
+      "last_date": "2026-04-24",
+      "new_rows": 1,
       "status": "success"
     },
     "XTZUSDT": {
-      "last_date": "2026-04-23",
-      "new_rows": 0,
+      "last_date": "2026-04-24",
+      "new_rows": 1,
       "status": "success"
     },
     "XVGUSDT": {
-      "last_date": "2026-04-23",
-      "new_rows": 0,
+      "last_date": "2026-04-24",
+      "new_rows": 1,
       "status": "success"
     },
     "XVSUSDT": {
-      "last_date": "2026-04-23",
-      "new_rows": 0,
+      "last_date": "2026-04-24",
+      "new_rows": 1,
       "status": "success"
     },
     "YBUSDT": {
-      "last_date": "2026-04-23",
-      "new_rows": 0,
+      "last_date": "2026-04-24",
+      "new_rows": 1,
       "status": "success"
     },
     "YFIUSDT": {
-      "last_date": "2026-04-23",
-      "new_rows": 0,
+      "last_date": "2026-04-24",
+      "new_rows": 1,
       "status": "success"
     },
     "YGGUSDT": {
-      "last_date": "2026-04-23",
-      "new_rows": 0,
+      "last_date": "2026-04-24",
+      "new_rows": 1,
       "status": "success"
     },
     "ZAMAUSDT": {
-      "last_date": "2026-04-23",
-      "new_rows": 0,
+      "last_date": "2026-04-24",
+      "new_rows": 1,
       "status": "success"
     },
     "ZBTUSDT": {
-      "last_date": "2026-04-23",
-      "new_rows": 0,
+      "last_date": "2026-04-24",
+      "new_rows": 1,
       "status": "success"
     },
     "ZECUSDT": {
-      "last_date": "2026-04-23",
-      "new_rows": 0,
+      "last_date": "2026-04-24",
+      "new_rows": 1,
       "status": "success"
     },
     "ZENUSDT": {
-      "last_date": "2026-04-23",
-      "new_rows": 0,
+      "last_date": "2026-04-24",
+      "new_rows": 1,
       "status": "success"
     },
     "ZEREBROUSDT": {
-      "last_date": "2026-04-23",
-      "new_rows": 0,
+      "last_date": "2026-04-24",
+      "new_rows": 1,
       "status": "success"
     },
     "ZETAUSDT": {
-      "last_date": "2026-04-23",
-      "new_rows": 0,
+      "last_date": "2026-04-24",
+      "new_rows": 1,
       "status": "success"
     },
     "ZILUSDT": {
-      "last_date": "2026-04-23",
-      "new_rows": 0,
+      "last_date": "2026-04-24",
+      "new_rows": 1,
       "status": "success"
     },
     "ZKCUSDT": {
-      "last_date": "2026-04-23",
-      "new_rows": 0,
+      "last_date": "2026-04-24",
+      "new_rows": 1,
       "status": "success"
     },
     "ZKJUSDT": {
-      "last_date": "2026-04-23",
-      "new_rows": 0,
+      "last_date": "2026-04-24",
+      "new_rows": 1,
       "status": "success"
     },
     "ZKPUSDT": {
-      "last_date": "2026-04-23",
-      "new_rows": 0,
+      "last_date": "2026-04-24",
+      "new_rows": 1,
       "status": "success"
     },
     "ZKUSDT": {
-      "last_date": "2026-04-23",
-      "new_rows": 0,
+      "last_date": "2026-04-24",
+      "new_rows": 1,
       "status": "success"
     },
     "ZORAUSDT": {
-      "last_date": "2026-04-23",
-      "new_rows": 0,
+      "last_date": "2026-04-24",
+      "new_rows": 1,
       "status": "success"
     },
     "ZROUSDT": {
-      "last_date": "2026-04-23",
-      "new_rows": 0,
+      "last_date": "2026-04-24",
+      "new_rows": 1,
       "status": "success"
     },
     "ZRXUSDT": {
-      "last_date": "2026-04-23",
-      "new_rows": 0,
+      "last_date": "2026-04-24",
+      "new_rows": 1,
       "status": "success"
     }
   },
   "universe_mode": "archive_fallback",
-  "universe_snapshot_date": "2026-04-25",
+  "universe_snapshot_date": "2026-04-26",
   "validation": {
     "checks": [
       {
