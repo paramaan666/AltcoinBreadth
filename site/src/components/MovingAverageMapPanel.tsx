@@ -296,8 +296,8 @@ export function MovingAverageMapPanel({
   const belowPoints = points.filter((point) => point.status === "below");
   const chartAbovePoints = chartPoints.filter((point) => point.status === "above");
   const chartBelowPoints = chartPoints.filter((point) => point.status === "below");
-  const xDomain = useMemo(() => symmetricDomain(chartPoints.map((point) => point.x), 0.18), [chartPoints]);
-  const yDomain = useMemo(() => symmetricDomain(chartPoints.map((point) => point.y), 0.18), [chartPoints]);
+  const xDomain = useMemo(() => symmetricDomain(points.map((point) => point.x), 0.18), [points]);
+  const yDomain = useMemo(() => symmetricDomain(points.map((point) => point.y), 0.18), [points]);
   const xTicks = useMemo(() => compressedTicks(xDomain, MOMENTUM_COMPRESSION_SCALE, MOMENTUM_TICKS), [xDomain]);
   const yTicks = useMemo(
     () => compressedTicks(yDomain, distanceCompressionScale(mode), distanceTickValues(mode)),
