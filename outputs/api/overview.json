@@ -1,11 +1,11 @@
 {
-  "above_count": 45,
-  "above_pct": 10.0223,
-  "above_rows": 45,
+  "above_count": 47,
+  "above_pct": 10.4677,
+  "above_rows": 47,
   "active_symbols": 531,
-  "as_of_date": "2026-04-24",
-  "below_count": 404,
-  "below_rows": 404,
+  "as_of_date": "2026-04-25",
+  "below_count": 402,
+  "below_rows": 402,
   "candidate_delisted_symbols": 0,
   "delisted_symbols_total": 143,
   "distance_definition": "Raw distance normalized by ATR%(60)",
@@ -14,5 +14,5 @@
   "methodology_version": "1.0.0",
   "tracked_symbols": 674,
   "universe_rule": "Active Binance USD-M perpetuals quoted in USDT, excluding configured non-coin symbols.",
-  "updated_at_utc": "2026-04-26T04:39:24.248916+00:00"
+  "updated_at_utc": "2026-04-27T04:49:58.966500+00:00"
 }
