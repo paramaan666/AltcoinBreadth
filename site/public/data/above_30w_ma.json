@@ -639,6 +639,19 @@
       "symbol": "XMRUSDT"
     },
     {
+      "atr_pct_60": 16.074434641517087,
+      "close": 0.006574,
+      "date": "2026-04-26",
+      "days_history": 257,
+      "delisted_date": null,
+      "listing_date": "2025-08-13",
+      "ma_30w": 0.004957871428571428,
+      "momentum_30d_pct": 4.233391469795467,
+      "normalized_distance": 2.0278925555529455,
+      "raw_distance_pct": 32.59722634425488,
+      "symbol": "XNYUSDT"
+    },
+    {
       "atr_pct_60": 6.805524249596153,
       "close": 354.92,
       "date": "2026-04-26",

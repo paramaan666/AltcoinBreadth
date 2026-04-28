@@ -40029,6 +40029,105 @@
     },
     {
       "current": {
+        "close": 0.005865,
+        "date": "2026-04-26",
+        "ma_30w": 0.006443119,
+        "momentum_30d_pct": 31.916329,
+        "normalized_distance": -1.58222,
+        "raw_distance_pct": -8.972658
+      },
+      "deltas": {
+        "1d": {
+          "from_date": "2026-04-25",
+          "momentum_change": 17.034102,
+          "normalized_distance_change": 1.205263,
+          "raw_distance_change": 8.083031
+        },
+        "3d": {
+          "from_date": "2026-04-23",
+          "momentum_change": 13.851813,
+          "normalized_distance_change": 0.694035,
+          "raw_distance_change": 4.06241
+        },
+        "7d": {
+          "from_date": "2026-04-19",
+          "momentum_change": 27.760158,
+          "normalized_distance_change": 2.390972,
+          "raw_distance_change": 16.210109
+        }
+      },
+      "quadrant": "below_rebound",
+      "symbol": "USTCUSDT",
+      "trail": [
+        {
+          "close": 0.004962,
+          "date": "2026-04-19",
+          "ma_30w": 0.0066321619,
+          "momentum_30d_pct": 4.156171,
+          "normalized_distance": -3.973192,
+          "raw_distance_pct": -25.182767
+        },
+        {
+          "close": 0.005224,
+          "date": "2026-04-20",
+          "ma_30w": 0.0066035952,
+          "momentum_30d_pct": 10.467329,
+          "normalized_distance": -3.481263,
+          "raw_distance_pct": -20.891578
+        },
+        {
+          "close": 0.005432,
+          "date": "2026-04-21",
+          "ma_30w": 0.0065755048,
+          "momentum_30d_pct": 16.292015,
+          "normalized_distance": -2.981677,
+          "raw_distance_pct": -17.390372
+        },
+        {
+          "close": 0.005366,
+          "date": "2026-04-22",
+          "ma_30w": 0.0065475238,
+          "momentum_30d_pct": 11.58245,
+          "normalized_distance": -3.048847,
+          "raw_distance_pct": -18.045353
+        },
+        {
+          "close": 0.005673,
+          "date": "2026-04-23",
+          "ma_30w": 0.006523319,
+          "momentum_30d_pct": 18.064516,
+          "normalized_distance": -2.276255,
+          "raw_distance_pct": -13.035068
+        },
+        {
+          "close": 0.005449,
+          "date": "2026-04-24",
+          "ma_30w": 0.0064960429,
+          "momentum_30d_pct": 14.378673,
+          "normalized_distance": -2.669405,
+          "raw_distance_pct": -16.118164
+        },
+        {
+          "close": 0.005365,
+          "date": "2026-04-25",
+          "ma_30w": 0.0064681952,
+          "momentum_30d_pct": 14.882227,
+          "normalized_distance": -2.787483,
+          "raw_distance_pct": -17.055689
+        },
+        {
+          "close": 0.005865,
+          "date": "2026-04-26",
+          "ma_30w": 0.006443119,
+          "momentum_30d_pct": 31.916329,
+          "normalized_distance": -1.58222,
+          "raw_distance_pct": -8.972658
+        }
+      ],
+      "trend_direction": "improving"
+    },
+    {
+      "current": {
         "close": 0.01445,
         "date": "2026-04-26",
         "ma_30w": 0.0237748571,
@@ -40623,6 +40722,105 @@
     },
     {
       "current": {
+        "close": 0.05795,
+        "date": "2026-04-26",
+        "ma_30w": 0.0913078571,
+        "momentum_30d_pct": 41.27255,
+        "normalized_distance": -4.96411,
+        "raw_distance_pct": -36.533392
+      },
+      "deltas": {
+        "1d": {
+          "from_date": "2026-04-25",
+          "momentum_change": 6.191048,
+          "normalized_distance_change": 0.100369,
+          "raw_distance_change": 1.324727
+        },
+        "3d": {
+          "from_date": "2026-04-23",
+          "momentum_change": 10.421002,
+          "normalized_distance_change": 0.199539,
+          "raw_distance_change": 1.937159
+        },
+        "7d": {
+          "from_date": "2026-04-19",
+          "momentum_change": 22.090852,
+          "normalized_distance_change": 0.701389,
+          "raw_distance_change": 7.156894
+        }
+      },
+      "quadrant": "below_rebound",
+      "symbol": "VICUSDT",
+      "trail": [
+        {
+          "close": 0.05418,
+          "date": "2026-04-19",
+          "ma_30w": 0.0962178571,
+          "momentum_30d_pct": 19.181698,
+          "normalized_distance": -5.665499,
+          "raw_distance_pct": -43.690286
+        },
+        {
+          "close": 0.05886,
+          "date": "2026-04-20",
+          "ma_30w": 0.095501,
+          "momentum_30d_pct": 32.657201,
+          "normalized_distance": -5.333283,
+          "raw_distance_pct": -38.367138
+        },
+        {
+          "close": 0.05889,
+          "date": "2026-04-21",
+          "ma_30w": 0.094787619,
+          "momentum_30d_pct": 37.8834,
+          "normalized_distance": -5.235353,
+          "raw_distance_pct": -37.871633
+        },
+        {
+          "close": 0.05734,
+          "date": "2026-04-22",
+          "ma_30w": 0.094064,
+          "momentum_30d_pct": 29.728507,
+          "normalized_distance": -5.242921,
+          "raw_distance_pct": -39.041504
+        },
+        {
+          "close": 0.05747,
+          "date": "2026-04-23",
+          "ma_30w": 0.0934024286,
+          "momentum_30d_pct": 30.851548,
+          "normalized_distance": -5.163649,
+          "raw_distance_pct": -38.470551
+        },
+        {
+          "close": 0.05781,
+          "date": "2026-04-24",
+          "ma_30w": 0.0927110476,
+          "momentum_30d_pct": 31.565772,
+          "normalized_distance": -5.094232,
+          "raw_distance_pct": -37.644972
+        },
+        {
+          "close": 0.05718,
+          "date": "2026-04-25",
+          "ma_30w": 0.0920152381,
+          "momentum_30d_pct": 35.081502,
+          "normalized_distance": -5.064479,
+          "raw_distance_pct": -37.858119
+        },
+        {
+          "close": 0.05795,
+          "date": "2026-04-26",
+          "ma_30w": 0.0913078571,
+          "momentum_30d_pct": 41.27255,
+          "normalized_distance": -4.96411,
+          "raw_distance_pct": -36.533392
+        }
+      ],
+      "trend_direction": "improving"
+    },
+    {
+      "current": {
         "close": 0.01562,
         "date": "2026-04-26",
         "ma_30w": 0.0288421905,
@@ -41112,6 +41310,105 @@
           "momentum_30d_pct": 8.120149,
           "normalized_distance": -7.065977,
           "raw_distance_pct": -47.806256
+        }
+      ],
+      "trend_direction": "improving"
+    },
+    {
+      "current": {
+        "close": 0.006886,
+        "date": "2026-04-26",
+        "ma_30w": 0.0089949857,
+        "momentum_30d_pct": 7.342167,
+        "normalized_distance": -4.750416,
+        "raw_distance_pct": -23.446238
+      },
+      "deltas": {
+        "1d": {
+          "from_date": "2026-04-25",
+          "momentum_change": 6.384454,
+          "normalized_distance_change": 0.052055,
+          "raw_distance_change": 0.820772
+        },
+        "3d": {
+          "from_date": "2026-04-23",
+          "momentum_change": 11.209649,
+          "normalized_distance_change": 0.312046,
+          "raw_distance_change": 2.666013
+        },
+        "7d": {
+          "from_date": "2026-04-19",
+          "momentum_change": 26.599765,
+          "normalized_distance_change": 0.938087,
+          "raw_distance_change": 7.294085
+        }
+      },
+      "quadrant": "below_rebound",
+      "symbol": "WAXPUSDT",
+      "trail": [
+        {
+          "close": 0.006482,
+          "date": "2026-04-19",
+          "ma_30w": 0.009358981,
+          "momentum_30d_pct": -19.257598,
+          "normalized_distance": -5.688503,
+          "raw_distance_pct": -30.740323
+        },
+        {
+          "close": 0.006768,
+          "date": "2026-04-20",
+          "ma_30w": 0.0093061143,
+          "momentum_30d_pct": -6.32526,
+          "normalized_distance": -5.23926,
+          "raw_distance_pct": -27.27362
+        },
+        {
+          "close": 0.006757,
+          "date": "2026-04-21",
+          "ma_30w": 0.0092538619,
+          "momentum_30d_pct": 1.107287,
+          "normalized_distance": -5.188283,
+          "raw_distance_pct": -26.981837
+        },
+        {
+          "close": 0.006755,
+          "date": "2026-04-22",
+          "ma_30w": 0.0092000286,
+          "momentum_30d_pct": -10.113107,
+          "normalized_distance": -5.096948,
+          "raw_distance_pct": -26.576315
+        },
+        {
+          "close": 0.006761,
+          "date": "2026-04-23",
+          "ma_30w": 0.0091503667,
+          "momentum_30d_pct": -3.867482,
+          "normalized_distance": -5.062462,
+          "raw_distance_pct": -26.112251
+        },
+        {
+          "close": 0.006802,
+          "date": "2026-04-24",
+          "ma_30w": 0.0090981857,
+          "momentum_30d_pct": -1.061818,
+          "normalized_distance": -4.961497,
+          "raw_distance_pct": -25.237842
+        },
+        {
+          "close": 0.006852,
+          "date": "2026-04-25",
+          "ma_30w": 0.0090475762,
+          "momentum_30d_pct": 0.957713,
+          "normalized_distance": -4.802471,
+          "raw_distance_pct": -24.26701
+        },
+        {
+          "close": 0.006886,
+          "date": "2026-04-26",
+          "ma_30w": 0.0089949857,
+          "momentum_30d_pct": 7.342167,
+          "normalized_distance": -4.750416,
+          "raw_distance_pct": -23.446238
         }
       ],
       "trend_direction": "improving"
@@ -41613,6 +41910,105 @@
     },
     {
       "current": {
+        "close": 0.01345,
+        "date": "2026-04-26",
+        "ma_30w": 0.0388359524,
+        "momentum_30d_pct": -10.571809,
+        "normalized_distance": -8.189921,
+        "raw_distance_pct": -65.367143
+      },
+      "deltas": {
+        "1d": {
+          "from_date": "2026-04-25",
+          "momentum_change": 2.113317,
+          "normalized_distance_change": -0.050287,
+          "raw_distance_change": 0.122099
+        },
+        "3d": {
+          "from_date": "2026-04-23",
+          "momentum_change": 10.474493,
+          "normalized_distance_change": 0.090832,
+          "raw_distance_change": 1.936308
+        },
+        "7d": {
+          "from_date": "2026-04-19",
+          "momentum_change": 17.507584,
+          "normalized_distance_change": -0.130366,
+          "raw_distance_change": 5.208482
+        }
+      },
+      "quadrant": "below_weak",
+      "symbol": "WUSDT",
+      "trail": [
+        {
+          "close": 0.01232,
+          "date": "2026-04-19",
+          "ma_30w": 0.0418700476,
+          "momentum_30d_pct": -28.079393,
+          "normalized_distance": -8.059555,
+          "raw_distance_pct": -70.575625
+        },
+        {
+          "close": 0.01272,
+          "date": "2026-04-20",
+          "ma_30w": 0.041439,
+          "momentum_30d_pct": -24.778238,
+          "normalized_distance": -8.232377,
+          "raw_distance_pct": -69.304279
+        },
+        {
+          "close": 0.01242,
+          "date": "2026-04-21",
+          "ma_30w": 0.0410236667,
+          "momentum_30d_pct": -23.616236,
+          "normalized_distance": -8.112243,
+          "raw_distance_pct": -69.724793
+        },
+        {
+          "close": 0.01281,
+          "date": "2026-04-22",
+          "ma_30w": 0.0405813333,
+          "momentum_30d_pct": -22.970535,
+          "normalized_distance": -8.176308,
+          "raw_distance_pct": -68.433763
+        },
+        {
+          "close": 0.01313,
+          "date": "2026-04-23",
+          "ma_30w": 0.0401571429,
+          "momentum_30d_pct": -21.046302,
+          "normalized_distance": -8.280753,
+          "raw_distance_pct": -67.303451
+        },
+        {
+          "close": 0.01423,
+          "date": "2026-04-24",
+          "ma_30w": 0.0397296667,
+          "momentum_30d_pct": -14.841412,
+          "normalized_distance": -8.542384,
+          "raw_distance_pct": -64.182936
+        },
+        {
+          "close": 0.01356,
+          "date": "2026-04-25",
+          "ma_30w": 0.0392920952,
+          "momentum_30d_pct": -12.685126,
+          "normalized_distance": -8.139634,
+          "raw_distance_pct": -65.489242
+        },
+        {
+          "close": 0.01345,
+          "date": "2026-04-26",
+          "ma_30w": 0.0388359524,
+          "momentum_30d_pct": -10.571809,
+          "normalized_distance": -8.189921,
+          "raw_distance_pct": -65.367143
+        }
+      ],
+      "trend_direction": "mixed"
+    },
+    {
+      "current": {
         "close": 0.01079,
         "date": "2026-04-26",
         "ma_30w": 0.0168866667,
@@ -41947,6 +42343,105 @@
           "momentum_30d_pct": 20.410669,
           "normalized_distance": 0.638175,
           "raw_distance_pct": 2.741064
+        }
+      ],
+      "trend_direction": "improving"
+    },
+    {
+      "current": {
+        "close": 0.006574,
+        "date": "2026-04-26",
+        "ma_30w": 0.0049578714,
+        "momentum_30d_pct": 4.233391,
+        "normalized_distance": 2.027893,
+        "raw_distance_pct": 32.597226
+      },
+      "deltas": {
+        "1d": {
+          "from_date": "2026-04-25",
+          "momentum_change": 5.7794,
+          "normalized_distance_change": -0.047006,
+          "raw_distance_change": -0.835179
+        },
+        "3d": {
+          "from_date": "2026-04-23",
+          "momentum_change": -54.167948,
+          "normalized_distance_change": -1.734028,
+          "raw_distance_change": -19.727603
+        },
+        "7d": {
+          "from_date": "2026-04-19",
+          "momentum_change": 7.090534,
+          "normalized_distance_change": 1.924967,
+          "raw_distance_change": 30.479645
+        }
+      },
+      "quadrant": "above_momentum",
+      "symbol": "XNYUSDT",
+      "trail": [
+        {
+          "close": 0.0051,
+          "date": "2026-04-19",
+          "ma_30w": 0.0049942429,
+          "momentum_30d_pct": -2.857143,
+          "normalized_distance": 0.102926,
+          "raw_distance_pct": 2.117581
+        },
+        {
+          "close": 0.005667,
+          "date": "2026-04-20",
+          "ma_30w": 0.004983981,
+          "momentum_30d_pct": 8.169498,
+          "normalized_distance": 0.746548,
+          "raw_distance_pct": 13.704287
+        },
+        {
+          "close": 0.005991,
+          "date": "2026-04-21",
+          "ma_30w": 0.0049757667,
+          "momentum_30d_pct": 13.059068,
+          "normalized_distance": 1.180147,
+          "raw_distance_pct": 20.403556
+        },
+        {
+          "close": 0.006984,
+          "date": "2026-04-22",
+          "ma_30w": 0.0049669095,
+          "momentum_30d_pct": 42.6762,
+          "normalized_distance": 2.714108,
+          "raw_distance_pct": 40.610574
+        },
+        {
+          "close": 0.00757,
+          "date": "2026-04-23",
+          "ma_30w": 0.0049696429,
+          "momentum_30d_pct": 58.401339,
+          "normalized_distance": 3.761921,
+          "raw_distance_pct": 52.324829
+        },
+        {
+          "close": 0.006532,
+          "date": "2026-04-24",
+          "ma_30w": 0.0049666286,
+          "momentum_30d_pct": 27.528309,
+          "normalized_distance": 1.931821,
+          "raw_distance_pct": 31.517787
+        },
+        {
+          "close": 0.006623,
+          "date": "2026-04-25",
+          "ma_30w": 0.0049635619,
+          "momentum_30d_pct": -1.546009,
+          "normalized_distance": 2.074899,
+          "raw_distance_pct": 33.432405
+        },
+        {
+          "close": 0.006574,
+          "date": "2026-04-26",
+          "ma_30w": 0.0049578714,
+          "momentum_30d_pct": 4.233391,
+          "normalized_distance": 2.027893,
+          "raw_distance_pct": 32.597226
         }
       ],
       "trend_direction": "improving"
@@ -42448,6 +42943,105 @@
     },
     {
       "current": {
+        "close": 2.659,
+        "date": "2026-04-26",
+        "ma_30w": 4.0560809524,
+        "momentum_30d_pct": 2.822892,
+        "normalized_distance": -5.855315,
+        "raw_distance_pct": -34.444109
+      },
+      "deltas": {
+        "1d": {
+          "from_date": "2026-04-25",
+          "momentum_change": 5.139783,
+          "normalized_distance_change": 0.077324,
+          "raw_distance_change": 1.365821
+        },
+        "3d": {
+          "from_date": "2026-04-23",
+          "momentum_change": 6.083762,
+          "normalized_distance_change": -0.201262,
+          "raw_distance_change": 0.514316
+        },
+        "7d": {
+          "from_date": "2026-04-19",
+          "momentum_change": 8.502335,
+          "normalized_distance_change": -0.26327,
+          "raw_distance_change": 0.670573
+        }
+      },
+      "quadrant": "below_rebound",
+      "symbol": "XVSUSDT",
+      "trail": [
+        {
+          "close": 2.707,
+          "date": "2026-04-19",
+          "ma_30w": 4.1719761905,
+          "momentum_30d_pct": -5.679443,
+          "normalized_distance": -5.592045,
+          "raw_distance_pct": -35.114682
+        },
+        {
+          "close": 2.713,
+          "date": "2026-04-20",
+          "ma_30w": 4.1551904762,
+          "momentum_30d_pct": -2.410072,
+          "normalized_distance": -5.598846,
+          "raw_distance_pct": -34.708168
+        },
+        {
+          "close": 2.663,
+          "date": "2026-04-21",
+          "ma_30w": 4.1377428571,
+          "momentum_30d_pct": -3.093159,
+          "normalized_distance": -5.674895,
+          "raw_distance_pct": -35.64124
+        },
+        {
+          "close": 2.638,
+          "date": "2026-04-22",
+          "ma_30w": 4.1204571429,
+          "momentum_30d_pct": -6.387509,
+          "normalized_distance": -5.716316,
+          "raw_distance_pct": -35.977977
+        },
+        {
+          "close": 2.67,
+          "date": "2026-04-23",
+          "ma_30w": 4.1050666667,
+          "momentum_30d_pct": -3.26087,
+          "normalized_distance": -5.654053,
+          "raw_distance_pct": -34.958425
+        },
+        {
+          "close": 2.648,
+          "date": "2026-04-24",
+          "ma_30w": 4.0886190476,
+          "momentum_30d_pct": -3.392922,
+          "normalized_distance": -5.721118,
+          "raw_distance_pct": -35.234856
+        },
+        {
+          "close": 2.614,
+          "date": "2026-04-25",
+          "ma_30w": 4.0722809524,
+          "momentum_30d_pct": -2.316891,
+          "normalized_distance": -5.932639,
+          "raw_distance_pct": -35.80993
+        },
+        {
+          "close": 2.659,
+          "date": "2026-04-26",
+          "ma_30w": 4.0560809524,
+          "momentum_30d_pct": 2.822892,
+          "normalized_distance": -5.855315,
+          "raw_distance_pct": -34.444109
+        }
+      ],
+      "trend_direction": "mixed"
+    },
+    {
+      "current": {
         "close": 2759.0,
         "date": "2026-04-26",
         "ma_30w": 3528.5142857143,
@@ -42745,6 +43339,105 @@
     },
     {
       "current": {
+        "close": 6.107,
+        "date": "2026-04-26",
+        "ma_30w": 8.894647619,
+        "momentum_30d_pct": 18.513487,
+        "normalized_distance": -4.906169,
+        "raw_distance_pct": -31.340731
+      },
+      "deltas": {
+        "1d": {
+          "from_date": "2026-04-25",
+          "momentum_change": 7.527105,
+          "normalized_distance_change": 0.015673,
+          "raw_distance_change": 0.869
+        },
+        "3d": {
+          "from_date": "2026-04-23",
+          "momentum_change": 10.950462,
+          "normalized_distance_change": -0.13663,
+          "raw_distance_change": -0.377024
+        },
+        "7d": {
+          "from_date": "2026-04-19",
+          "momentum_change": 17.196774,
+          "normalized_distance_change": 0.392415,
+          "raw_distance_change": 3.892878
+        }
+      },
+      "quadrant": "below_rebound",
+      "symbol": "ZENUSDT",
+      "trail": [
+        {
+          "close": 5.771,
+          "date": "2026-04-19",
+          "ma_30w": 8.9104857143,
+          "momentum_30d_pct": 1.316713,
+          "normalized_distance": -5.298584,
+          "raw_distance_pct": -35.233609
+        },
+        {
+          "close": 6.134,
+          "date": "2026-04-20",
+          "ma_30w": 8.9074,
+          "momentum_30d_pct": 12.612447,
+          "normalized_distance": -4.935294,
+          "raw_distance_pct": -31.135909
+        },
+        {
+          "close": 6.123,
+          "date": "2026-04-21",
+          "ma_30w": 8.9040857143,
+          "momentum_30d_pct": 12.97048,
+          "normalized_distance": -4.848183,
+          "raw_distance_pct": -31.233816
+        },
+        {
+          "close": 6.07,
+          "date": "2026-04-22",
+          "ma_30w": 8.900152381,
+          "momentum_30d_pct": 8.645069,
+          "normalized_distance": -4.861951,
+          "raw_distance_pct": -31.798921
+        },
+        {
+          "close": 6.144,
+          "date": "2026-04-23",
+          "ma_30w": 8.8996666667,
+          "momentum_30d_pct": 7.563025,
+          "normalized_distance": -4.769539,
+          "raw_distance_pct": -30.963707
+        },
+        {
+          "close": 6.1,
+          "date": "2026-04-24",
+          "ma_30w": 8.8982142857,
+          "momentum_30d_pct": 7.678729,
+          "normalized_distance": -4.842669,
+          "raw_distance_pct": -31.44692
+        },
+        {
+          "close": 6.031,
+          "date": "2026-04-25",
+          "ma_30w": 8.8965571429,
+          "momentum_30d_pct": 10.986382,
+          "normalized_distance": -4.921842,
+          "raw_distance_pct": -32.209731
+        },
+        {
+          "close": 6.107,
+          "date": "2026-04-26",
+          "ma_30w": 8.894647619,
+          "momentum_30d_pct": 18.513487,
+          "normalized_distance": -4.906169,
+          "raw_distance_pct": -31.340731
+        }
+      ],
+      "trend_direction": "improving"
+    },
+    {
+      "current": {
         "close": 0.014898,
         "date": "2026-04-26",
         "ma_30w": 0.0201191619,
@@ -42937,6 +43630,204 @@
           "momentum_30d_pct": 11.703177,
           "normalized_distance": -4.269645,
           "raw_distance_pct": -28.481904
+        }
+      ],
+      "trend_direction": "improving"
+    },
+    {
+      "current": {
+        "close": 0.00417,
+        "date": "2026-04-26",
+        "ma_30w": 0.005535381,
+        "momentum_30d_pct": 10.31746,
+        "normalized_distance": -5.173128,
+        "raw_distance_pct": -24.666432
+      },
+      "deltas": {
+        "1d": {
+          "from_date": "2026-04-25",
+          "momentum_change": 3.840776,
+          "normalized_distance_change": 0.083966,
+          "raw_distance_change": 1.491126
+        },
+        "3d": {
+          "from_date": "2026-04-23",
+          "momentum_change": 9.073679,
+          "normalized_distance_change": 0.225086,
+          "raw_distance_change": 2.987812
+        },
+        "7d": {
+          "from_date": "2026-04-19",
+          "momentum_change": 16.370729,
+          "normalized_distance_change": 0.758409,
+          "raw_distance_change": 7.870392
+        }
+      },
+      "quadrant": "below_rebound",
+      "symbol": "ZILUSDT",
+      "trail": [
+        {
+          "close": 0.00388,
+          "date": "2026-04-19",
+          "ma_30w": 0.0057512857,
+          "momentum_30d_pct": -6.053269,
+          "normalized_distance": -5.931537,
+          "raw_distance_pct": -32.536824
+        },
+        {
+          "close": 0.00409,
+          "date": "2026-04-20",
+          "ma_30w": 0.0057190476,
+          "momentum_30d_pct": 1.488834,
+          "normalized_distance": -5.461031,
+          "raw_distance_pct": -28.484596
+        },
+        {
+          "close": 0.00405,
+          "date": "2026-04-21",
+          "ma_30w": 0.0056871429,
+          "momentum_30d_pct": 4.113111,
+          "normalized_distance": -5.464982,
+          "raw_distance_pct": -28.786737
+        },
+        {
+          "close": 0.00404,
+          "date": "2026-04-22",
+          "ma_30w": 0.0056548095,
+          "momentum_30d_pct": 0.0,
+          "normalized_distance": -5.489349,
+          "raw_distance_pct": -28.556391
+        },
+        {
+          "close": 0.00407,
+          "date": "2026-04-23",
+          "ma_30w": 0.0056257619,
+          "momentum_30d_pct": 1.243781,
+          "normalized_distance": -5.398214,
+          "raw_distance_pct": -27.654244
+        },
+        {
+          "close": 0.00414,
+          "date": "2026-04-24",
+          "ma_30w": 0.0055958571,
+          "momentum_30d_pct": 2.985075,
+          "normalized_distance": -5.258379,
+          "raw_distance_pct": -26.016696
+        },
+        {
+          "close": 0.00411,
+          "date": "2026-04-25",
+          "ma_30w": 0.0055659048,
+          "momentum_30d_pct": 6.476684,
+          "normalized_distance": -5.257094,
+          "raw_distance_pct": -26.157558
+        },
+        {
+          "close": 0.00417,
+          "date": "2026-04-26",
+          "ma_30w": 0.005535381,
+          "momentum_30d_pct": 10.31746,
+          "normalized_distance": -5.173128,
+          "raw_distance_pct": -24.666432
+        }
+      ],
+      "trend_direction": "improving"
+    },
+    {
+      "current": {
+        "close": 0.07955,
+        "date": "2026-04-26",
+        "ma_30w": 0.1352445238,
+        "momentum_30d_pct": 14.213927,
+        "normalized_distance": -7.316672,
+        "raw_distance_pct": -41.180613
+      },
+      "deltas": {
+        "1d": {
+          "from_date": "2026-04-25",
+          "momentum_change": 10.05653,
+          "normalized_distance_change": 0.280096,
+          "raw_distance_change": 4.353345
+        },
+        "3d": {
+          "from_date": "2026-04-23",
+          "momentum_change": 17.841077,
+          "normalized_distance_change": 0.524518,
+          "raw_distance_change": 7.974655
+        },
+        "7d": {
+          "from_date": "2026-04-19",
+          "momentum_change": 23.566259,
+          "normalized_distance_change": 0.661049,
+          "raw_distance_change": 13.149891
+        }
+      },
+      "quadrant": "below_rebound",
+      "symbol": "ZKCUSDT",
+      "trail": [
+        {
+          "close": 0.06998,
+          "date": "2026-04-19",
+          "ma_30w": 0.153231381,
+          "momentum_30d_pct": -9.352332,
+          "normalized_distance": -7.977721,
+          "raw_distance_pct": -54.330504
+        },
+        {
+          "close": 0.07183,
+          "date": "2026-04-20",
+          "ma_30w": 0.1504100952,
+          "momentum_30d_pct": -5.037017,
+          "normalized_distance": -8.027407,
+          "raw_distance_pct": -52.243897
+        },
+        {
+          "close": 0.0722,
+          "date": "2026-04-21",
+          "ma_30w": 0.1473200952,
+          "momentum_30d_pct": -0.482426,
+          "normalized_distance": -8.007733,
+          "raw_distance_pct": -50.991072
+        },
+        {
+          "close": 0.07182,
+          "date": "2026-04-22",
+          "ma_30w": 0.1444754286,
+          "momentum_30d_pct": -5.288145,
+          "normalized_distance": -7.893705,
+          "raw_distance_pct": -50.289125
+        },
+        {
+          "close": 0.07227,
+          "date": "2026-04-23",
+          "ma_30w": 0.142138619,
+          "momentum_30d_pct": -3.62715,
+          "normalized_distance": -7.84119,
+          "raw_distance_pct": -49.155268
+        },
+        {
+          "close": 0.07368,
+          "date": "2026-04-24",
+          "ma_30w": 0.1398470952,
+          "momentum_30d_pct": -6.698746,
+          "normalized_distance": -7.76469,
+          "raw_distance_pct": -47.313886
+        },
+        {
+          "close": 0.07491,
+          "date": "2026-04-25",
+          "ma_30w": 0.1375352381,
+          "momentum_30d_pct": 4.157397,
+          "normalized_distance": -7.596768,
+          "raw_distance_pct": -45.533958
+        },
+        {
+          "close": 0.07955,
+          "date": "2026-04-26",
+          "ma_30w": 0.1352445238,
+          "momentum_30d_pct": 14.213927,
+          "normalized_distance": -7.316672,
+          "raw_distance_pct": -41.180613
         }
       ],
       "trend_direction": "improving"
@@ -43240,6 +44131,105 @@
     },
     {
       "current": {
+        "close": 1.5533,
+        "date": "2026-04-26",
+        "ma_30w": 1.7078171429,
+        "momentum_30d_pct": -22.586594,
+        "normalized_distance": -0.89211,
+        "raw_distance_pct": -9.04764
+      },
+      "deltas": {
+        "1d": {
+          "from_date": "2026-04-25",
+          "momentum_change": 6.529806,
+          "normalized_distance_change": 0.170128,
+          "raw_distance_change": 2.027174
+        },
+        "3d": {
+          "from_date": "2026-04-23",
+          "momentum_change": 6.481378,
+          "normalized_distance_change": -0.247526,
+          "raw_distance_change": -2.611818
+        },
+        "7d": {
+          "from_date": "2026-04-19",
+          "momentum_change": -1.394249,
+          "normalized_distance_change": -0.202205,
+          "raw_distance_change": -2.015787
+        }
+      },
+      "quadrant": "below_weak",
+      "symbol": "ZROUSDT",
+      "trail": [
+        {
+          "close": 1.6061,
+          "date": "2026-04-19",
+          "ma_30w": 1.7275809524,
+          "momentum_30d_pct": -21.192345,
+          "normalized_distance": -0.689905,
+          "raw_distance_pct": -7.031853
+        },
+        {
+          "close": 1.6651,
+          "date": "2026-04-20",
+          "ma_30w": 1.7263790476,
+          "momentum_30d_pct": -15.136843,
+          "normalized_distance": -0.358764,
+          "raw_distance_pct": -3.549571
+        },
+        {
+          "close": 1.6009,
+          "date": "2026-04-21",
+          "ma_30w": 1.7241480952,
+          "momentum_30d_pct": -16.961461,
+          "normalized_distance": -0.701786,
+          "raw_distance_pct": -7.148347
+        },
+        {
+          "close": 1.5593,
+          "date": "2026-04-22",
+          "ma_30w": 1.7212952381,
+          "momentum_30d_pct": -29.379529,
+          "normalized_distance": -0.904521,
+          "raw_distance_pct": -9.411241
+        },
+        {
+          "close": 1.6081,
+          "date": "2026-04-23",
+          "ma_30w": 1.7187133333,
+          "momentum_30d_pct": -29.067972,
+          "normalized_distance": -0.644584,
+          "raw_distance_pct": -6.435822
+        },
+        {
+          "close": 1.5726,
+          "date": "2026-04-24",
+          "ma_30w": 1.7149666667,
+          "momentum_30d_pct": -26.613468,
+          "normalized_distance": -0.818843,
+          "raw_distance_pct": -8.301425
+        },
+        {
+          "close": 1.5218,
+          "date": "2026-04-25",
+          "ma_30w": 1.7113261905,
+          "momentum_30d_pct": -29.1164,
+          "normalized_distance": -1.062238,
+          "raw_distance_pct": -11.074814
+        },
+        {
+          "close": 1.5533,
+          "date": "2026-04-26",
+          "ma_30w": 1.7078171429,
+          "momentum_30d_pct": -22.586594,
+          "normalized_distance": -0.89211,
+          "raw_distance_pct": -9.04764
+        }
+      ],
+      "trend_direction": "deteriorating"
+    },
+    {
+      "current": {
         "close": 0.1161,
         "date": "2026-04-26",
         "ma_30w": 0.1427552381,
@@ -43339,20 +44329,20 @@
     }
   ],
   "summary": {
-    "median_momentum_30d_pct": 14.419208,
-    "median_normalized_distance": -4.580788,
+    "median_momentum_30d_pct": 14.336918,
+    "median_normalized_distance": -4.624,
     "quadrant_counts": {
       "above_fading": 7,
-      "above_momentum": 43,
-      "below_rebound": 318,
-      "below_weak": 73
+      "above_momentum": 44,
+      "below_rebound": 325,
+      "below_weak": 75
     },
-    "symbol_count": 441,
+    "symbol_count": 451,
     "trend_counts": {
-      "deteriorating": 30,
+      "deteriorating": 31,
       "flat": 2,
-      "improving": 331,
-      "mixed": 78
+      "improving": 338,
+      "mixed": 80
     }
   },
   "trail_days": 7
