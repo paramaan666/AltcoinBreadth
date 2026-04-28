@@ -43,6 +43,10 @@ from livealt.universe import (
 from livealt.validation import validate_output_bundle
 
 
+ARCHIVE_DATA_AS_OF_LOOKBACK_DAYS = 7
+ARCHIVE_FRESHNESS_PROBES = ("BTCUSDT", "ETHUSDT", "BNBUSDT")
+
+
 def run_pipeline(
     config: AppConfig,
     logger: logging.Logger,
@@ -77,6 +81,12 @@ def run_pipeline(
                 "Binance REST exchangeInfo returned 451. Falling back to Binance archive listing for symbol discovery."
             )
             archive_symbols = client.list_archive_symbols()
+            data_as_of = _resolve_archive_data_as_of(
+                client=client,
+                preferred_date=data_as_of,
+                archive_symbols=archive_symbols,
+                logger=logger,
+            )
             discovered_symbols = _build_archive_discovered_symbols(
                 client=client,
                 config=config,
@@ -303,6 +313,40 @@ def _derive_active_symbols_from_inventory(
             )
         )
     return sorted(active, key=lambda item: item.symbol)
+
+
+def _resolve_archive_data_as_of(
+    client: BinanceClient,
+    preferred_date: date,
+    archive_symbols: list[str],
+    logger: logging.Logger,
+) -> date:
+    archive_symbol_set = set(archive_symbols)
+    probe_symbols = [symbol for symbol in ARCHIVE_FRESHNESS_PROBES if symbol in archive_symbol_set]
+    if not probe_symbols:
+        probe_symbols = sorted(archive_symbol_set)[:3]
+
+    for days_back in range(ARCHIVE_DATA_AS_OF_LOOKBACK_DAYS + 1):
+        candidate = preferred_date - timedelta(days=days_back)
+        for symbol in probe_symbols:
+            try:
+                if client.has_archive_daily_kline(symbol, candidate):
+                    if candidate != preferred_date:
+                        logger.warning(
+                            "Binance archive daily files are not available for %s; using %s as data_as_of.",
+                            preferred_date.isoformat(),
+                            candidate.isoformat(),
+                        )
+                    return candidate
+            except Exception as exc:  # noqa: BLE001
+                logger.warning("Archive freshness probe failed for %s on %s: %s", symbol, candidate, exc)
+
+    logger.warning(
+        "Could not confirm Binance archive freshness for %s within %s days; using preferred date.",
+        preferred_date.isoformat(),
+        ARCHIVE_DATA_AS_OF_LOOKBACK_DAYS,
+    )
+    return preferred_date
 
 
 def _build_archive_discovered_symbols(
