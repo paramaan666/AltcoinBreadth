@@ -2,7 +2,7 @@
   "as_of_date": "2026-04-27",
   "rows": [
     {
-      "atr_pct_60": 6.702515493984689,
+      "atr_pct_60": 6.702515493984687,
       "close": 0.5486,
       "date": "2026-04-27",
       "days_history": 223,
@@ -10,7 +10,7 @@
       "listing_date": "2025-09-17",
       "ma_30w": 1.0086080952380954,
       "momentum_30d_pct": 14.386989157631348,
-      "normalized_distance": -6.804640698243881,
+      "normalized_distance": -6.804640698243883,
       "raw_distance_pct": -45.60820971097841,
       "symbol": "0GUSDT"
     },
@@ -28,7 +28,7 @@
       "symbol": "1000000BOBUSDT"
     },
     {
-      "atr_pct_60": 7.195887445887446,
+      "atr_pct_60": 7.195887445887447,
       "close": 0.154,
       "date": "2026-04-27",
       "days_history": 537,
@@ -36,7 +36,7 @@
       "listing_date": "2024-11-07",
       "ma_30w": 0.2784538095238095,
       "momentum_30d_pct": 9.452736318407972,
-      "normalized_distance": -6.211130716555074,
+      "normalized_distance": -6.211130716555073,
       "raw_distance_pct": -44.694597548024554,
       "symbol": "1000000MOGUSDT"
     },
@@ -54,7 +54,7 @@
       "symbol": "1000BONKUSDT"
     },
     {
-      "atr_pct_60": 6.76615553121577,
+      "atr_pct_60": 6.766155531215771,
       "close": 0.001826,
       "date": "2026-04-27",
       "days_history": 554,
@@ -62,7 +62,7 @@
       "listing_date": "2024-10-21",
       "ma_30w": 0.0031094238095238096,
       "momentum_30d_pct": 15.350600126342396,
-      "normalized_distance": -6.100257894164894,
+      "normalized_distance": -6.100257894164893,
       "raw_distance_pct": -41.27529369244647,
       "symbol": "1000CATUSDT"
     },
@@ -73,7 +73,7 @@
       "days_history": 519,
       "delisted_date": null,
       "listing_date": "2024-11-25",
-      "ma_30w": 0.0008833447619047619,
+      "ma_30w": 0.0008833447619047618,
       "momentum_30d_pct": 44.79902557856272,
       "normalized_distance": -4.0479555213934635,
       "raw_distance_pct": -32.71030455670654,
@@ -93,7 +93,7 @@
       "symbol": "1000FLOKIUSDT"
     },
     {
-      "atr_pct_60": 6.118037067376614,
+      "atr_pct_60": 6.118037067376613,
       "close": 0.0039064,
       "date": "2026-04-27",
       "days_history": 1089,
@@ -101,7 +101,7 @@
       "listing_date": "2023-05-05",
       "ma_30w": 0.004905099047619048,
       "momentum_30d_pct": 19.050376375217137,
-      "normalized_distance": -3.327934349909693,
+      "normalized_distance": -3.3279343499096936,
       "raw_distance_pct": -20.360425710543396,
       "symbol": "1000PEPEUSDT"
     },
@@ -119,7 +119,7 @@
       "symbol": "1000RATSUSDT"
     },
     {
-      "atr_pct_60": 8.658790826963171,
+      "atr_pct_60": 8.65879082696317,
       "close": 1.439e-05,
       "date": "2026-04-27",
       "days_history": 868,
@@ -127,7 +127,7 @@
       "listing_date": "2023-12-12",
       "ma_30w": 1.6943285714285713e-05,
       "momentum_30d_pct": 37.04761904761904,
-      "normalized_distance": -1.740381798164503,
+      "normalized_distance": -1.7403817981645033,
       "raw_distance_pct": -15.069601949360468,
       "symbol": "1000SATSUSDT"
     },
@@ -158,16 +158,16 @@
       "symbol": "1000XECUSDT"
     },
     {
-      "atr_pct_60": 4.669117647058831,
+      "atr_pct_60": 4.669117647058824,
       "close": 0.0952,
       "date": "2026-04-27",
       "days_history": 1950,
       "delisted_date": null,
       "listing_date": "2020-12-25",
-      "ma_30w": 0.1426309523809524,
+      "ma_30w": 0.14263095238095239,
       "momentum_30d_pct": 9.174311926605515,
-      "normalized_distance": -7.122184929287635,
-      "raw_distance_pct": -33.25431933895335,
+      "normalized_distance": -7.122184929287644,
+      "raw_distance_pct": -33.254319338953344,
       "symbol": "1INCHUSDT"
     },
     {
@@ -203,10 +203,10 @@
       "days_history": 862,
       "delisted_date": null,
       "listing_date": "2023-12-18",
-      "ma_30w": 0.22503619047619042,
+      "ma_30w": 0.22503619047619047,
       "momentum_30d_pct": 3.050847457627115,
-      "normalized_distance": -5.850578266960719,
-      "raw_distance_pct": -45.964247020585034,
+      "normalized_distance": -5.850578266960721,
+      "raw_distance_pct": -45.96424702058505,
       "symbol": "ACEUSDT"
     },
     {
@@ -223,16 +223,16 @@
       "symbol": "ACHUSDT"
     },
     {
-      "atr_pct_60": 7.0688431511710395,
+      "atr_pct_60": 7.068843151171043,
       "close": 0.01409,
       "date": "2026-04-27",
       "days_history": 533,
       "delisted_date": null,
       "listing_date": "2024-11-11",
-      "ma_30w": 0.020269333333333334,
+      "ma_30w": 0.02026933333333333,
       "momentum_30d_pct": 19.81292517006803,
-      "normalized_distance": -4.312745324146213,
-      "raw_distance_pct": -30.48612024733588,
+      "normalized_distance": -4.312745324146209,
+      "raw_distance_pct": -30.48612024733587,
       "symbol": "ACTUSDT"
     },
     {
@@ -242,10 +242,10 @@
       "days_history": 508,
       "delisted_date": null,
       "listing_date": "2024-12-06",
-      "ma_30w": 0.054678619047619045,
+      "ma_30w": 0.05467861904761905,
       "momentum_30d_pct": 4.902427415516408,
-      "normalized_distance": -2.7672151154063993,
-      "raw_distance_pct": -19.383479744411282,
+      "normalized_distance": -2.767215115406401,
+      "raw_distance_pct": -19.383479744411293,
       "symbol": "ACXUSDT"
     },
     {
@@ -262,7 +262,7 @@
       "symbol": "ADAUSDT"
     },
     {
-      "atr_pct_60": 3.319125492925073,
+      "atr_pct_60": 3.319125492925074,
       "close": 0.05748,
       "date": "2026-04-27",
       "days_history": 595,
@@ -270,7 +270,7 @@
       "listing_date": "2024-09-10",
       "ma_30w": 0.06278657142857143,
       "momentum_30d_pct": 9.652804273178184,
-      "normalized_distance": -2.5463821023665085,
+      "normalized_distance": -2.5463821023665076,
       "raw_distance_pct": -8.451761750692821,
       "symbol": "AERGOUSDT"
     },
@@ -288,20 +288,20 @@
       "symbol": "AEROUSDT"
     },
     {
-      "atr_pct_60": 6.468915600361891,
+      "atr_pct_60": 6.468915600361898,
       "close": 0.02579,
       "date": "2026-04-27",
       "days_history": 776,
       "delisted_date": null,
       "listing_date": "2024-03-13",
-      "ma_30w": 0.041596857142857144,
+      "ma_30w": 0.04159685714285714,
       "momentum_30d_pct": 15.185350602947745,
-      "normalized_distance": -5.874264866523903,
-      "raw_distance_pct": -38.00012363571423,
+      "normalized_distance": -5.874264866523895,
+      "raw_distance_pct": -38.000123635714225,
       "symbol": "AEVOUSDT"
     },
     {
-      "atr_pct_60": 6.977896341463416,
+      "atr_pct_60": 6.977896341463413,
       "close": 0.2624,
       "date": "2026-04-27",
       "days_history": 1004,
@@ -309,12 +309,12 @@
       "listing_date": "2023-07-29",
       "ma_30w": 0.2999195238095238,
       "momentum_30d_pct": 13.347732181425487,
-      "normalized_distance": -1.792784407353277,
+      "normalized_distance": -1.7927844073532777,
       "raw_distance_pct": -12.50986375710309,
       "symbol": "AGLDUSDT"
     },
     {
-      "atr_pct_60": 30.518746280499894,
+      "atr_pct_60": 30.518746280499897,
       "close": 0.05041,
       "date": "2026-04-27",
       "days_history": 222,
@@ -327,7 +327,7 @@
       "symbol": "AIAUSDT"
     },
     {
-      "atr_pct_60": 12.884492406075143,
+      "atr_pct_60": 12.884492406075138,
       "close": 0.0834,
       "date": "2026-04-27",
       "days_history": 363,
@@ -335,7 +335,7 @@
       "listing_date": "2025-04-30",
       "ma_30w": 0.23165814285714284,
       "momentum_30d_pct": 752.7607361963189,
-      "normalized_distance": -4.9671087824833915,
+      "normalized_distance": -4.967108782483394,
       "raw_distance_pct": -63.99867538805641,
       "symbol": "AIOTUSDT"
     },
@@ -353,7 +353,7 @@
       "symbol": "AIOUSDT"
     },
     {
-      "atr_pct_60": 9.099722991689752,
+      "atr_pct_60": 9.099722991689749,
       "close": 0.01805,
       "date": "2026-04-27",
       "days_history": 841,
@@ -361,12 +361,12 @@
       "listing_date": "2024-01-08",
       "ma_30w": 0.042392761904761905,
       "momentum_30d_pct": 2.3242630385487573,
-      "normalized_distance": -6.310299428885561,
+      "normalized_distance": -6.310299428885564,
       "raw_distance_pct": -57.42197679747666,
       "symbol": "AIUSDT"
     },
     {
-      "atr_pct_60": 9.596497673279455,
+      "atr_pct_60": 9.59649767327945,
       "close": 0.02722,
       "date": "2026-04-27",
       "days_history": 494,
@@ -374,7 +374,7 @@
       "listing_date": "2024-12-20",
       "ma_30w": 0.03938847619047619,
       "momentum_30d_pct": 15.682107947301338,
-      "normalized_distance": -3.2192466661661743,
+      "normalized_distance": -3.219246666166176,
       "raw_distance_pct": -30.893493141576332,
       "symbol": "AIXBTUSDT"
     },
@@ -398,10 +398,10 @@
       "days_history": 526,
       "delisted_date": null,
       "listing_date": "2024-11-18",
-      "ma_30w": 0.5019419047619047,
+      "ma_30w": 0.5019419047619048,
       "momentum_30d_pct": -2.5382755842062843,
-      "normalized_distance": -0.4115205491466581,
-      "raw_distance_pct": -3.6143435305546534,
+      "normalized_distance": -0.4115205491466606,
+      "raw_distance_pct": -3.6143435305546756,
       "symbol": "AKTUSDT"
     },
     {
@@ -424,23 +424,23 @@
       "days_history": 2142,
       "delisted_date": null,
       "listing_date": "2019-09-25",
-      "ma_30w": 0.12874190476190475,
+      "ma_30w": 0.12874190476190478,
       "momentum_30d_pct": 42.94478527607362,
-      "normalized_distance": -1.7668002446469655,
-      "raw_distance_pct": -9.508873419687959,
+      "normalized_distance": -1.7668002446469695,
+      "raw_distance_pct": -9.50887341968798,
       "symbol": "ALGOUSDT"
     },
     {
-      "atr_pct_60": 10.02669452181985,
+      "atr_pct_60": 10.026694521819872,
       "close": 0.1436,
       "date": "2026-04-27",
       "days_history": 1869,
       "delisted_date": null,
       "listing_date": "2021-03-15",
-      "ma_30w": 0.19244428571428585,
+      "ma_30w": 0.19244428571428573,
       "momentum_30d_pct": 36.76190476190477,
-      "normalized_distance": -2.5313427824001304,
-      "raw_distance_pct": -25.381000809139607,
+      "normalized_distance": -2.531342782400122,
+      "raw_distance_pct": -25.381000809139575,
       "symbol": "ALICEUSDT"
     },
     {
@@ -470,16 +470,16 @@
       "symbol": "ALPINEUSDT"
     },
     {
-      "atr_pct_60": 6.367826739005779,
+      "atr_pct_60": 6.3678267390057774,
       "close": 0.007557,
       "date": "2026-04-27",
       "days_history": 824,
       "delisted_date": null,
       "listing_date": "2024-01-25",
-      "ma_30w": 0.012287928571428568,
+      "ma_30w": 0.012287928571428573,
       "momentum_30d_pct": 22.084006462035543,
-      "normalized_distance": -6.046115990976269,
-      "raw_distance_pct": -38.500619074469114,
+      "normalized_distance": -6.046115990976276,
+      "raw_distance_pct": -38.50061907446914,
       "symbol": "ALTUSDT"
     },
     {
@@ -502,23 +502,23 @@
       "days_history": 1918,
       "delisted_date": null,
       "listing_date": "2021-01-25",
-      "ma_30w": 0.006982571428571427,
+      "ma_30w": 0.006982571428571428,
       "momentum_30d_pct": 4.949874686716793,
       "normalized_distance": -4.393007124146284,
       "raw_distance_pct": -28.035107819468873,
       "symbol": "ANKRUSDT"
     },
     {
-      "atr_pct_60": 7.351916376306636,
+      "atr_pct_60": 7.351916376306621,
       "close": 0.1435,
       "date": "2026-04-27",
       "days_history": 1503,
       "delisted_date": null,
       "listing_date": "2022-03-17",
-      "ma_30w": 0.22371095238095234,
+      "ma_30w": 0.2237109523809524,
       "momentum_30d_pct": 66.66666666666666,
-      "normalized_distance": -4.876922651514057,
-      "raw_distance_pct": -35.85472750764698,
+      "normalized_distance": -4.87692265151407,
+      "raw_distance_pct": -35.854727507647,
       "symbol": "APEUSDT"
     },
     {
@@ -528,10 +528,10 @@
       "days_history": 1526,
       "delisted_date": null,
       "listing_date": "2022-02-21",
-      "ma_30w": 0.44858523809523804,
+      "ma_30w": 0.4485852380952381,
       "momentum_30d_pct": 22.737471952131628,
-      "normalized_distance": -4.059823755294286,
-      "raw_distance_pct": -26.83664727943619,
+      "normalized_distance": -4.059823755294288,
+      "raw_distance_pct": -26.8366472794362,
       "symbol": "API3USDT"
     },
     {
@@ -574,7 +574,7 @@
       "symbol": "ARIAUSDT"
     },
     {
-      "atr_pct_60": 6.982957827845181,
+      "atr_pct_60": 6.982957827845176,
       "close": 0.1154,
       "date": "2026-04-27",
       "days_history": 1005,
@@ -582,7 +582,7 @@
       "listing_date": "2023-07-28",
       "ma_30w": 0.20813238095238096,
       "momentum_30d_pct": 19.95841995841996,
-      "normalized_distance": -6.380465122586928,
+      "normalized_distance": -6.380465122586933,
       "raw_distance_pct": -44.554518873061554,
       "symbol": "ARKMUSDT"
     },
@@ -593,10 +593,10 @@
       "days_history": 952,
       "delisted_date": null,
       "listing_date": "2023-09-19",
-      "ma_30w": 0.24981095238095236,
+      "ma_30w": 0.2498109523809524,
       "momentum_30d_pct": 6.447613143211406,
-      "normalized_distance": -7.107749317447548,
-      "raw_distance_pct": -31.268025535500175,
+      "normalized_distance": -7.10774931744755,
+      "raw_distance_pct": -31.268025535500186,
       "symbol": "ARKUSDT"
     },
     {
@@ -645,36 +645,36 @@
       "days_history": 221,
       "delisted_date": null,
       "listing_date": "2025-09-19",
-      "ma_30w": 0.8718952380952382,
+      "ma_30w": 0.8718952380952381,
       "momentum_30d_pct": -1.4189807750991767,
-      "normalized_distance": -5.882950195437778,
-      "raw_distance_pct": -25.89706059050345,
+      "normalized_distance": -5.882950195437775,
+      "raw_distance_pct": -25.89706059050344,
       "symbol": "ASTERUSDT"
     },
     {
-      "atr_pct_60": 5.616776987823816,
+      "atr_pct_60": 5.616776987823813,
       "close": 0.008158,
       "date": "2026-04-27",
       "days_history": 1169,
       "delisted_date": null,
       "listing_date": "2023-02-13",
-      "ma_30w": 0.01146932380952381,
+      "ma_30w": 0.011469323809523809,
       "momentum_30d_pct": 11.554765486120623,
-      "normalized_distance": -5.140160228021296,
-      "raw_distance_pct": -28.871133682477236,
+      "normalized_distance": -5.140160228021297,
+      "raw_distance_pct": -28.871133682477222,
       "symbol": "ASTRUSDT"
     },
     {
-      "atr_pct_60": 7.595044127630684,
+      "atr_pct_60": 7.595044127630687,
       "close": 0.00982,
       "date": "2026-04-27",
       "days_history": 1701,
       "delisted_date": null,
       "listing_date": "2021-08-30",
-      "ma_30w": 0.01820414285714285,
+      "ma_30w": 0.018204142857142856,
       "momentum_30d_pct": 11.590909090909097,
-      "normalized_distance": -6.063985207054283,
-      "raw_distance_pct": -46.05623523687697,
+      "normalized_distance": -6.063985207054284,
+      "raw_distance_pct": -46.056235236876994,
       "symbol": "ATAUSDT"
     },
     {
@@ -684,27 +684,27 @@
       "days_history": 391,
       "delisted_date": null,
       "listing_date": "2025-04-02",
-      "ma_30w": 0.014576485714285716,
+      "ma_30w": 0.014576485714285712,
       "momentum_30d_pct": -13.944631609784675,
-      "normalized_distance": -5.817698264303051,
-      "raw_distance_pct": -59.69536062974223,
+      "normalized_distance": -5.81769826430305,
+      "raw_distance_pct": -59.695360629742225,
       "symbol": "ATHUSDT"
     },
     {
-      "atr_pct_60": 3.7991927346115064,
+      "atr_pct_60": 3.799192734611504,
       "close": 1.982,
       "date": "2026-04-27",
       "days_history": 2272,
       "delisted_date": null,
       "listing_date": "2019-09-25",
-      "ma_30w": 2.3503000000000003,
+      "ma_30w": 2.3503,
       "momentum_30d_pct": 19.03903903903903,
-      "normalized_distance": -4.124649906239542,
-      "raw_distance_pct": -15.670339956601298,
+      "normalized_distance": -4.124649906239538,
+      "raw_distance_pct": -15.670339956601275,
       "symbol": "ATOMUSDT"
     },
     {
-      "atr_pct_60": 3.817586399108138,
+      "atr_pct_60": 3.8175863991081367,
       "close": 4.784,
       "date": "2026-04-27",
       "days_history": 865,
@@ -712,7 +712,7 @@
       "listing_date": "2023-12-15",
       "ma_30w": 5.555585714285714,
       "momentum_30d_pct": 8.064151795798512,
-      "normalized_distance": -3.638023088580213,
+      "normalized_distance": -3.6380230885802143,
       "raw_distance_pct": -13.888467462605202,
       "symbol": "AUCTIONUSDT"
     },
@@ -775,7 +775,7 @@
       "days_history": 231,
       "delisted_date": null,
       "listing_date": "2025-09-09",
-      "ma_30w": 0.3445371428571429,
+      "ma_30w": 0.3445371428571428,
       "momentum_30d_pct": 15.805243445692874,
       "normalized_distance": -7.148018322186621,
       "raw_distance_pct": -55.12820512820513,
@@ -795,20 +795,20 @@
       "symbol": "AWEUSDT"
     },
     {
-      "atr_pct_60": 7.846002151308714,
+      "atr_pct_60": 7.8460021513087135,
       "close": 0.05578,
       "date": "2026-04-27",
       "days_history": 788,
       "delisted_date": null,
       "listing_date": "2024-03-01",
-      "ma_30w": 0.10370614285714284,
+      "ma_30w": 0.10370614285714287,
       "momentum_30d_pct": 16.232548447593253,
-      "normalized_distance": -5.89005802554278,
-      "raw_distance_pct": -46.21340793974181,
+      "normalized_distance": -5.890058025542784,
+      "raw_distance_pct": -46.213407939741835,
       "symbol": "AXLUSDT"
     },
     {
-      "atr_pct_60": 8.354523855390742,
+      "atr_pct_60": 8.35452385539074,
       "close": 0.5191,
       "date": "2026-04-27",
       "days_history": 357,
@@ -816,7 +816,7 @@
       "listing_date": "2025-05-06",
       "ma_30w": 0.8313957142857142,
       "momentum_30d_pct": -31.769190325972662,
-      "normalized_distance": -4.496105977777787,
+      "normalized_distance": -4.496105977777788,
       "raw_distance_pct": -37.562824647709434,
       "symbol": "B2USDT"
     },
@@ -834,7 +834,7 @@
       "symbol": "B3USDT"
     },
     {
-      "atr_pct_60": 7.728555917480998,
+      "atr_pct_60": 7.728555917481001,
       "close": 0.01535,
       "date": "2026-04-27",
       "days_history": 388,
@@ -842,7 +842,7 @@
       "listing_date": "2025-04-05",
       "ma_30w": 0.020200047619047617,
       "momentum_30d_pct": 19.362363919129088,
-      "normalized_distance": -3.106670946483267,
+      "normalized_distance": -3.106670946483266,
       "raw_distance_pct": -24.010080127109546,
       "symbol": "BABYUSDT"
     },
@@ -860,7 +860,7 @@
       "symbol": "BANANAUSDT"
     },
     {
-      "atr_pct_60": 6.283753873395313,
+      "atr_pct_60": 6.283753873395306,
       "close": 0.2259,
       "date": "2026-04-27",
       "days_history": 2099,
@@ -868,7 +868,7 @@
       "listing_date": "2019-09-25",
       "ma_30w": 0.340592380952381,
       "momentum_30d_pct": 11.061946902654874,
-      "normalized_distance": -5.358959489339728,
+      "normalized_distance": -5.3589594893397345,
       "raw_distance_pct": -33.67438244850709,
       "symbol": "BANDUSDT"
     },
@@ -938,7 +938,7 @@
       "symbol": "BBUSDT"
     },
     {
-      "atr_pct_60": 3.5948286729102246,
+      "atr_pct_60": 3.5948286729102255,
       "close": 449.53,
       "date": "2026-04-27",
       "days_history": 2309,
@@ -946,7 +946,7 @@
       "listing_date": "2019-09-25",
       "ma_30w": 524.7476666666666,
       "momentum_30d_pct": -6.49207471814287,
-      "normalized_distance": -3.9874122967061334,
+      "normalized_distance": -3.9874122967061325,
       "raw_distance_pct": -14.33406405491402,
       "symbol": "BCHUSDT"
     },
@@ -964,7 +964,7 @@
       "symbol": "BEAMXUSDT"
     },
     {
-      "atr_pct_60": 7.067471371092543,
+      "atr_pct_60": 7.06747137109254,
       "close": 0.1077,
       "date": "2026-04-27",
       "days_history": 1987,
@@ -972,7 +972,7 @@
       "listing_date": "2019-09-25",
       "ma_30w": 0.14306095238095237,
       "momentum_30d_pct": 18.7431091510474,
-      "normalized_distance": -3.4973474774266187,
+      "normalized_distance": -3.49734747742662,
       "raw_distance_pct": -24.71740317147535,
       "symbol": "BELUSDT"
     },
@@ -1003,7 +1003,7 @@
       "symbol": "BICOUSDT"
     },
     {
-      "atr_pct_60": 5.933532486930537,
+      "atr_pct_60": 5.933532486930544,
       "close": 0.01339,
       "date": "2026-04-27",
       "days_history": 929,
@@ -1011,7 +1011,7 @@
       "listing_date": "2023-10-12",
       "ma_30w": 0.021610523809523812,
       "momentum_30d_pct": 11.769616026711205,
-      "normalized_distance": -6.410927614342384,
+      "normalized_distance": -6.410927614342377,
       "raw_distance_pct": -38.039447271060624,
       "symbol": "BIGTIMEUSDT"
     },
@@ -1029,7 +1029,7 @@
       "symbol": "BIOUSDT"
     },
     {
-      "atr_pct_60": 35.25145711906744,
+      "atr_pct_60": 35.25145711906745,
       "close": 0.006005,
       "date": "2026-04-27",
       "days_history": 217,
@@ -1037,12 +1037,12 @@
       "listing_date": "2025-09-23",
       "ma_30w": 0.01697055238095238,
       "momentum_30d_pct": 20.655013060076357,
-      "normalized_distance": -1.8329788843295978,
+      "normalized_distance": -1.832978884329597,
       "raw_distance_pct": -64.6151765411009,
       "symbol": "BLESSUSDT"
     },
     {
-      "atr_pct_60": 7.839768567717559,
+      "atr_pct_60": 7.839768567717558,
       "close": 0.02823,
       "date": "2026-04-27",
       "days_history": 1096,
@@ -1050,7 +1050,7 @@
       "listing_date": "2023-04-27",
       "ma_30w": 0.03306690476190476,
       "momentum_30d_pct": 63.65217391304348,
-      "normalized_distance": -1.8658243190577861,
+      "normalized_distance": -1.8658243190577863,
       "raw_distance_pct": -14.627630849432249,
       "symbol": "BLURUSDT"
     },
@@ -1081,20 +1081,20 @@
       "symbol": "BNBUSDT"
     },
     {
-      "atr_pct_60": 4.935554856963218,
+      "atr_pct_60": 4.93555485696322,
       "close": 0.3181,
       "date": "2026-04-27",
       "days_history": 992,
       "delisted_date": null,
       "listing_date": "2023-08-10",
-      "ma_30w": 0.4104785238095238,
+      "ma_30w": 0.41047852380952377,
       "momentum_30d_pct": 16.13727637824025,
-      "normalized_distance": -4.5597874078616405,
-      "raw_distance_pct": -22.505080887591244,
+      "normalized_distance": -4.559787407861637,
+      "raw_distance_pct": -22.505080887591234,
       "symbol": "BNTUSDT"
     },
     {
-      "atr_pct_60": 8.754714527246717,
+      "atr_pct_60": 8.754714527246716,
       "close": 0.0005126,
       "date": "2026-04-27",
       "days_history": 773,
@@ -1102,12 +1102,12 @@
       "listing_date": "2024-03-16",
       "ma_30w": 0.00067463,
       "momentum_30d_pct": 36.40234167110166,
-      "normalized_distance": -2.743391526696856,
+      "normalized_distance": -2.7433915266968563,
       "raw_distance_pct": -24.017609652698514,
       "symbol": "BOMEUSDT"
     },
     {
-      "atr_pct_60": 8.080231246474902,
+      "atr_pct_60": 8.0802312464749,
       "close": 0.007092,
       "date": "2026-04-27",
       "days_history": 616,
@@ -1115,12 +1115,12 @@
       "listing_date": "2024-08-20",
       "ma_30w": 0.015504061904761906,
       "momentum_30d_pct": 17.417218543046364,
-      "normalized_distance": -6.714801462043877,
+      "normalized_distance": -6.714801462043879,
       "raw_distance_pct": -54.2571485874823,
       "symbol": "BRETTUSDT"
     },
     {
-      "atr_pct_60": 7.779835390946502,
+      "atr_pct_60": 7.779835390946503,
       "close": 0.0162,
       "date": "2026-04-27",
       "days_history": 403,
@@ -1128,21 +1128,21 @@
       "listing_date": "2025-03-21",
       "ma_30w": 0.01745204761904762,
       "momentum_30d_pct": 33.11421528348397,
-      "normalized_distance": -0.9221552630556742,
+      "normalized_distance": -0.9221552630556741,
       "raw_distance_pct": -7.174216151468116,
       "symbol": "BROCCOLI714USDT"
     },
     {
-      "atr_pct_60": 9.197727644270069,
+      "atr_pct_60": 9.197727644270067,
       "close": 0.004078,
       "date": "2026-04-27",
       "days_history": 403,
       "delisted_date": null,
       "listing_date": "2025-03-21",
-      "ma_30w": 0.006748023809523809,
+      "ma_30w": 0.0067480238095238105,
       "momentum_30d_pct": 29.214195183776926,
-      "normalized_distance": -4.30187693668829,
-      "raw_distance_pct": -39.56749242282572,
+      "normalized_distance": -4.301876936688292,
+      "raw_distance_pct": -39.56749242282574,
       "symbol": "BROCCOLIF3BUSDT"
     },
     {
@@ -1172,7 +1172,7 @@
       "symbol": "BTCUSDT"
     },
     {
-      "atr_pct_60": 48.83048766878696,
+      "atr_pct_60": 48.830487668786965,
       "close": 0.02987,
       "date": "2026-04-27",
       "days_history": 244,
@@ -1180,7 +1180,7 @@
       "listing_date": "2025-08-27",
       "ma_30w": 0.07333166666666667,
       "momentum_30d_pct": -3.8622465400708017,
-      "normalized_distance": -1.2137346748614604,
+      "normalized_distance": -1.2137346748614601,
       "raw_distance_pct": -59.267256074001686,
       "symbol": "BTRUSDT"
     },
@@ -1217,7 +1217,7 @@
       "days_history": 1708,
       "delisted_date": null,
       "listing_date": "2021-08-23",
-      "ma_30w": 0.028698619047619046,
+      "ma_30w": 0.02869861904761905,
       "momentum_30d_pct": -10.919999999999996,
       "normalized_distance": -2.7668217543232085,
       "raw_distance_pct": -22.40044734191623,
@@ -1243,7 +1243,7 @@
       "days_history": 264,
       "delisted_date": null,
       "listing_date": "2025-08-07",
-      "ma_30w": 0.1138527619047619,
+      "ma_30w": 0.11385276190476191,
       "momentum_30d_pct": 4.402054292002933,
       "normalized_distance": -7.577722887313972,
       "raw_distance_pct": -50.00560456529486,
@@ -1276,15 +1276,15 @@
       "symbol": "CELOUSDT"
     },
     {
-      "atr_pct_60": 6.305344432380262,
+      "atr_pct_60": 6.305344432380264,
       "close": 0.002763,
       "date": "2026-04-27",
       "days_history": 1856,
       "delisted_date": null,
       "listing_date": "2021-03-29",
-      "ma_30w": 0.003882466666666666,
+      "ma_30w": 0.0038824666666666665,
       "momentum_30d_pct": 17.07627118644066,
-      "normalized_distance": -4.572930655016639,
+      "normalized_distance": -4.572930655016638,
       "raw_distance_pct": -28.833902845270188,
       "symbol": "CELRUSDT"
     },
@@ -1295,10 +1295,10 @@
       "days_history": 1163,
       "delisted_date": null,
       "listing_date": "2023-02-19",
-      "ma_30w": 0.07499338095238095,
+      "ma_30w": 0.07499338095238096,
       "momentum_30d_pct": 5.130908451941663,
-      "normalized_distance": -3.114676126540874,
-      "raw_distance_pct": -20.21962573204873,
+      "normalized_distance": -3.1146761265408758,
+      "raw_distance_pct": -20.21962573204874,
       "symbol": "CFXUSDT"
     },
     {
@@ -1315,7 +1315,7 @@
       "symbol": "CGPTUSDT"
     },
     {
-      "atr_pct_60": 10.037769351149624,
+      "atr_pct_60": 10.037769351149633,
       "close": 0.011076,
       "date": "2026-04-27",
       "days_history": 517,
@@ -1323,12 +1323,12 @@
       "listing_date": "2024-11-27",
       "ma_30w": 0.01753532380952381,
       "momentum_30d_pct": 50.899182561307896,
-      "normalized_distance": -3.6697464099289165,
+      "normalized_distance": -3.6697464099289134,
       "raw_distance_pct": -36.836068040075844,
       "symbol": "CHILLGUYUSDT"
     },
     {
-      "atr_pct_60": 8.812460468058186,
+      "atr_pct_60": 8.812460468058191,
       "close": 0.02108,
       "date": "2026-04-27",
       "days_history": 1873,
@@ -1336,7 +1336,7 @@
       "listing_date": "2021-03-12",
       "ma_30w": 0.04217442857142858,
       "momentum_30d_pct": 42.43243243243244,
-      "normalized_distance": -5.67572541295196,
+      "normalized_distance": -5.675725412951956,
       "raw_distance_pct": -50.01710582919237,
       "symbol": "CHRUSDT"
     },
@@ -1347,14 +1347,14 @@
       "days_history": 1155,
       "delisted_date": null,
       "listing_date": "2023-02-27",
-      "ma_30w": 0.002347057142857143,
+      "ma_30w": 0.0023470571428571433,
       "momentum_30d_pct": 9.317681584739535,
-      "normalized_distance": -6.325425938628405,
-      "raw_distance_pct": -36.51624526762998,
+      "normalized_distance": -6.325425938628408,
+      "raw_distance_pct": -36.51624526762999,
       "symbol": "CKBUSDT"
     },
     {
-      "atr_pct_60": 8.038303830383029,
+      "atr_pct_60": 8.03830383038304,
       "close": 0.3333,
       "date": "2026-04-27",
       "days_history": 215,
@@ -1362,7 +1362,7 @@
       "listing_date": "2025-09-25",
       "ma_30w": 1.3664367142857143,
       "momentum_30d_pct": 24.738023952095812,
-      "normalized_distance": -9.405975761485006,
+      "normalized_distance": -9.405975761484994,
       "raw_distance_pct": -75.60809099203486,
       "symbol": "COAIUSDT"
     },
@@ -1380,16 +1380,16 @@
       "symbol": "COMPUSDT"
     },
     {
-      "atr_pct_60": 7.685576342788174,
+      "atr_pct_60": 7.685576342788171,
       "close": 0.01657,
       "date": "2026-04-27",
       "days_history": 476,
       "delisted_date": null,
       "listing_date": "2025-01-07",
-      "ma_30w": 0.043784333333333335,
+      "ma_30w": 0.04378433333333333,
       "momentum_30d_pct": 10.24617431803061,
       "normalized_distance": -8.087280706540774,
-      "raw_distance_pct": -62.155413275677,
+      "raw_distance_pct": -62.155413275676985,
       "symbol": "COOKIEUSDT"
     },
     {
@@ -1399,14 +1399,14 @@
       "days_history": 575,
       "delisted_date": null,
       "listing_date": "2024-09-30",
-      "ma_30w": 0.0014926619047619047,
+      "ma_30w": 0.0014926619047619049,
       "momentum_30d_pct": -20.246238030095764,
-      "normalized_distance": -1.3491726065846448,
-      "raw_distance_pct": -21.884520782622285,
+      "normalized_distance": -1.3491726065846454,
+      "raw_distance_pct": -21.884520782622296,
       "symbol": "COSUSDT"
     },
     {
-      "atr_pct_60": 6.36439665471923,
+      "atr_pct_60": 6.3643966547192345,
       "close": 0.01395,
       "date": "2026-04-27",
       "days_history": 1875,
@@ -1414,7 +1414,7 @@
       "listing_date": "2021-03-09",
       "ma_30w": 0.022260000000000002,
       "momentum_30d_pct": 11.155378486055788,
-      "normalized_distance": -5.865683491059385,
+      "normalized_distance": -5.865683491059381,
       "raw_distance_pct": -37.331536388140165,
       "symbol": "COTIUSDT"
     },
@@ -1425,10 +1425,10 @@
       "days_history": 538,
       "delisted_date": null,
       "listing_date": "2024-11-06",
-      "ma_30w": 0.21281571428571427,
+      "ma_30w": 0.2128157142857143,
       "momentum_30d_pct": -4.236855538540074,
-      "normalized_distance": -1.6961466175578603,
-      "raw_distance_pct": -11.8486148310745,
+      "normalized_distance": -1.6961466175578637,
+      "raw_distance_pct": -11.848614831074523,
       "symbol": "COWUSDT"
     },
     {
@@ -1438,14 +1438,14 @@
       "days_history": 292,
       "delisted_date": null,
       "listing_date": "2025-07-10",
-      "ma_30w": 0.11463538095238095,
+      "ma_30w": 0.11463538095238096,
       "momentum_30d_pct": 49.10224068852944,
       "normalized_distance": -1.4981826494128465,
       "raw_distance_pct": -12.348178053563618,
       "symbol": "CROSSUSDT"
     },
     {
-      "atr_pct_60": 6.4020028612303275,
+      "atr_pct_60": 6.40200286123033,
       "close": 0.233,
       "date": "2026-04-27",
       "days_history": 2065,
@@ -1453,7 +1453,7 @@
       "listing_date": "2019-09-25",
       "ma_30w": 0.3637761904761905,
       "momentum_30d_pct": 11.483253588516762,
-      "normalized_distance": -5.615372200222798,
+      "normalized_distance": -5.6153722002227955,
       "raw_distance_pct": -35.94962889269959,
       "symbol": "CRVUSDT"
     },
@@ -1484,29 +1484,29 @@
       "symbol": "CTSIUSDT"
     },
     {
-      "atr_pct_60": 12.723428372133577,
+      "atr_pct_60": 12.723428372133574,
       "close": 0.07646,
       "date": "2026-04-27",
       "days_history": 287,
       "delisted_date": null,
       "listing_date": "2025-07-15",
-      "ma_30w": 0.08273980952380952,
+      "ma_30w": 0.08273980952380951,
       "momentum_30d_pct": -4.88866774474438,
-      "normalized_distance": -0.5965238403242412,
-      "raw_distance_pct": -7.5898283546355305,
+      "normalized_distance": -0.5965238403242397,
+      "raw_distance_pct": -7.589828354635508,
       "symbol": "CUSDT"
     },
     {
-      "atr_pct_60": 4.965779061062991,
+      "atr_pct_60": 4.965779061062987,
       "close": 0.03117,
       "date": "2026-04-27",
       "days_history": 1994,
       "delisted_date": null,
       "listing_date": "2020-11-11",
-      "ma_30w": 0.04374790476190476,
+      "ma_30w": 0.043747904761904766,
       "momentum_30d_pct": 2.973240832507429,
-      "normalized_distance": -5.789801188832333,
-      "raw_distance_pct": -28.750873511221208,
+      "normalized_distance": -5.789801188832339,
+      "raw_distance_pct": -28.75087351122122,
       "symbol": "CVCUSDT"
     },
     {
@@ -1536,7 +1536,7 @@
       "symbol": "CYBERUSDT"
     },
     {
-      "atr_pct_60": 7.044237813468582,
+      "atr_pct_60": 7.04423781346858,
       "close": 35.49,
       "date": "2026-04-27",
       "days_history": 2275,
@@ -1544,7 +1544,7 @@
       "listing_date": "2019-09-25",
       "ma_30w": 46.19990476190476,
       "momentum_30d_pct": 12.02651515151516,
-      "normalized_distance": -3.2908684289186327,
+      "normalized_distance": -3.2908684289186336,
       "raw_distance_pct": -23.181659826138578,
       "symbol": "DASHUSDT"
     },
@@ -1562,16 +1562,16 @@
       "symbol": "DEEPUSDT"
     },
     {
-      "atr_pct_60": 7.565699491989057,
+      "atr_pct_60": 7.565699491989059,
       "close": 0.0006824,
       "date": "2026-04-27",
       "days_history": 529,
       "delisted_date": null,
       "listing_date": "2024-11-15",
-      "ma_30w": 0.0012287138095238095,
+      "ma_30w": 0.0012287138095238097,
       "momentum_30d_pct": 0.5747973470891843,
       "normalized_distance": -5.876819499925839,
-      "raw_distance_pct": -44.462250305100305,
+      "raw_distance_pct": -44.46225030510031,
       "symbol": "DEGENUSDT"
     },
     {
@@ -1627,7 +1627,7 @@
       "symbol": "DOGSUSDT"
     },
     {
-      "atr_pct_60": 6.657142857142855,
+      "atr_pct_60": 6.6571428571428575,
       "close": 0.035,
       "date": "2026-04-27",
       "days_history": 362,
@@ -1635,12 +1635,12 @@
       "listing_date": "2025-05-01",
       "ma_30w": 0.04962819047619048,
       "momentum_30d_pct": 15.39729640619849,
-      "normalized_distance": -4.427660261261162,
+      "normalized_distance": -4.427660261261161,
       "raw_distance_pct": -29.475566882110016,
       "symbol": "DOLOUSDT"
     },
     {
-      "atr_pct_60": 7.087751186509136,
+      "atr_pct_60": 7.087751186509138,
       "close": 0.003301,
       "date": "2026-04-27",
       "days_history": 354,
@@ -1648,7 +1648,7 @@
       "listing_date": "2025-05-09",
       "ma_30w": 0.004807051904761905,
       "momentum_30d_pct": 16.31430584918958,
-      "normalized_distance": -4.42030935864121,
+      "normalized_distance": -4.420309358641209,
       "raw_distance_pct": -31.33005290144667,
       "symbol": "DOODUSDT"
     },
@@ -1659,10 +1659,10 @@
       "days_history": 2075,
       "delisted_date": null,
       "listing_date": "2019-09-25",
-      "ma_30w": 2.0475428571428567,
+      "ma_30w": 2.047542857142857,
       "momentum_30d_pct": -2.068416865552891,
-      "normalized_distance": -6.207533470209061,
-      "raw_distance_pct": -39.8791582942621,
+      "normalized_distance": -6.207533470209062,
+      "raw_distance_pct": -39.879158294262105,
       "symbol": "DOTUSDT"
     },
     {
@@ -1672,10 +1672,10 @@
       "days_history": 536,
       "delisted_date": null,
       "listing_date": "2024-11-08",
-      "ma_30w": 0.21515166666666666,
+      "ma_30w": 0.21515166666666669,
       "momentum_30d_pct": -47.15175451921616,
-      "normalized_distance": -3.9599621120614468,
-      "raw_distance_pct": -83.83001138731592,
+      "normalized_distance": -3.9599621120614477,
+      "raw_distance_pct": -83.83001138731593,
       "symbol": "DRIFTUSDT"
     },
     {
@@ -1692,16 +1692,16 @@
       "symbol": "DUSDT"
     },
     {
-      "atr_pct_60": 6.329955668144392,
+      "atr_pct_60": 6.329955668144393,
       "close": 0.1579,
       "date": "2026-04-27",
       "days_history": 1691,
       "delisted_date": null,
       "listing_date": "2021-09-09",
-      "ma_30w": 0.2017885714285714,
+      "ma_30w": 0.20178857142857146,
       "momentum_30d_pct": 67.97872340425532,
-      "normalized_distance": -3.436008350506632,
-      "raw_distance_pct": -21.74978053408092,
+      "normalized_distance": -3.436008350506635,
+      "raw_distance_pct": -21.74978053408094,
       "symbol": "DYDXUSDT"
     },
     {
@@ -1711,10 +1711,10 @@
       "days_history": 811,
       "delisted_date": null,
       "listing_date": "2024-02-07",
-      "ma_30w": 0.06742176190476189,
+      "ma_30w": 0.0674217619047619,
       "momentum_30d_pct": -28.007889546351095,
-      "normalized_distance": -5.9410868420663085,
-      "raw_distance_pct": -72.9315884301875,
+      "normalized_distance": -5.941086842066309,
+      "raw_distance_pct": -72.93158843018752,
       "symbol": "DYMUSDT"
     },
     {
@@ -1744,7 +1744,7 @@
       "symbol": "EDUUSDT"
     },
     {
-      "atr_pct_60": 5.287288469106655,
+      "atr_pct_60": 5.287288469106651,
       "close": 4.235,
       "date": "2026-04-27",
       "days_history": 2052,
@@ -1752,12 +1752,12 @@
       "listing_date": "2019-09-25",
       "ma_30w": 6.5314000000000005,
       "momentum_30d_pct": 11.506055818852046,
-      "normalized_distance": -6.649794900496077,
+      "normalized_distance": -6.649794900496082,
       "raw_distance_pct": -35.15938389931714,
       "symbol": "EGLDUSDT"
     },
     {
-      "atr_pct_60": 7.4037742899850505,
+      "atr_pct_60": 7.403774289985051,
       "close": 0.1784,
       "date": "2026-04-27",
       "days_history": 574,
@@ -1765,7 +1765,7 @@
       "listing_date": "2024-10-01",
       "ma_30w": 0.501265238095238,
       "momentum_30d_pct": 5.749851807943096,
-      "normalized_distance": -8.699624944562323,
+      "normalized_distance": -8.699624944562322,
       "raw_distance_pct": -64.41005949706314,
       "symbol": "EIGENUSDT"
     },
@@ -1776,7 +1776,7 @@
       "days_history": 756,
       "delisted_date": null,
       "listing_date": "2024-04-02",
-      "ma_30w": 0.22451204761904764,
+      "ma_30w": 0.2245120476190476,
       "momentum_30d_pct": 18.198895027624307,
       "normalized_distance": -6.924420028367357,
       "raw_distance_pct": -52.35444995739969,
@@ -1796,7 +1796,7 @@
       "symbol": "ENSUSDT"
     },
     {
-      "atr_pct_60": 7.265383293227913,
+      "atr_pct_60": 7.265383293227911,
       "close": 0.2909,
       "date": "2026-04-27",
       "days_history": 411,
@@ -1804,21 +1804,21 @@
       "listing_date": "2025-03-13",
       "ma_30w": 0.5703961904761905,
       "momentum_30d_pct": 17.725617159044926,
-      "normalized_distance": -6.7443600253341875,
+      "normalized_distance": -6.744360025334189,
       "raw_distance_pct": -49.00036065157719,
       "symbol": "EPICUSDT"
     },
     {
-      "atr_pct_60": 4.783356258596973,
+      "atr_pct_60": 4.783356258596974,
       "close": 0.1454,
       "date": "2026-04-27",
       "days_history": 285,
       "delisted_date": null,
       "listing_date": "2025-07-17",
-      "ma_30w": 0.2192061904761905,
+      "ma_30w": 0.21920619047619047,
       "momentum_30d_pct": 16.32,
-      "normalized_distance": -7.038939739936305,
-      "raw_distance_pct": -33.66975645891127,
+      "normalized_distance": -7.0389397399363,
+      "raw_distance_pct": -33.66975645891126,
       "symbol": "ERAUSDT"
     },
     {
@@ -1854,10 +1854,10 @@
       "days_history": 771,
       "delisted_date": null,
       "listing_date": "2024-03-18",
-      "ma_30w": 0.729487619047619,
+      "ma_30w": 0.7294876190476192,
       "momentum_30d_pct": -5.608695652173923,
-      "normalized_distance": -5.248098580349197,
-      "raw_distance_pct": -40.478770487308765,
+      "normalized_distance": -5.248098580349199,
+      "raw_distance_pct": -40.47877048730878,
       "symbol": "ETHFIUSDT"
     },
     {
@@ -1874,7 +1874,7 @@
       "symbol": "ETHUSDT"
     },
     {
-      "atr_pct_60": 7.5574345883854495,
+      "atr_pct_60": 7.55743458838545,
       "close": 0.3134,
       "date": "2026-04-27",
       "days_history": 882,
@@ -1882,12 +1882,12 @@
       "listing_date": "2023-11-28",
       "ma_30w": 0.5578742857142857,
       "momentum_30d_pct": 23.92249901146699,
-      "normalized_distance": -5.798590573469187,
+      "normalized_distance": -5.798590573469186,
       "raw_distance_pct": -43.82246896382185,
       "symbol": "ETHWUSDT"
     },
     {
-      "atr_pct_60": 9.576285240464342,
+      "atr_pct_60": 9.576285240464344,
       "close": 0.201,
       "date": "2026-04-27",
       "days_history": 494,
@@ -1895,7 +1895,7 @@
       "listing_date": "2024-12-20",
       "ma_30w": 0.28553666666666666,
       "momentum_30d_pct": 18.724158298877725,
-      "normalized_distance": -3.09162037277897,
+      "normalized_distance": -3.0916203727789693,
       "raw_distance_pct": -29.606238544962117,
       "symbol": "FARTCOINUSDT"
     },
@@ -1926,7 +1926,7 @@
       "symbol": "FFUSDT"
     },
     {
-      "atr_pct_60": 15.353452963567154,
+      "atr_pct_60": 15.353452963567157,
       "close": 0.01839,
       "date": "2026-04-27",
       "days_history": 381,
@@ -1934,7 +1934,7 @@
       "listing_date": "2025-04-12",
       "ma_30w": 0.04492552380952381,
       "momentum_30d_pct": 5.38681948424069,
-      "normalized_distance": -3.8470555082991473,
+      "normalized_distance": -3.8470555082991464,
       "raw_distance_pct": -59.06558579490289,
       "symbol": "FHEUSDT"
     },
@@ -1945,10 +1945,10 @@
       "days_history": 586,
       "delisted_date": null,
       "listing_date": "2024-09-19",
-      "ma_30w": 0.035292,
+      "ma_30w": 0.035292000000000004,
       "momentum_30d_pct": 31.94988253719655,
-      "normalized_distance": -5.648484851569442,
-      "raw_distance_pct": -52.25546866145301,
+      "normalized_distance": -5.648484851569444,
+      "raw_distance_pct": -52.25546866145303,
       "symbol": "FIDAUSDT"
     },
     {
@@ -1958,23 +1958,23 @@
       "days_history": 2015,
       "delisted_date": null,
       "listing_date": "2019-09-25",
-      "ma_30w": 1.3379714285714281,
+      "ma_30w": 1.3379714285714288,
       "momentum_30d_pct": 15.269086357947437,
-      "normalized_distance": -5.302178179556327,
-      "raw_distance_pct": -31.164449379657878,
+      "normalized_distance": -5.302178179556332,
+      "raw_distance_pct": -31.16444937965791,
       "symbol": "FILUSDT"
     },
     {
-      "atr_pct_60": 7.265599477295001,
+      "atr_pct_60": 7.265599477295003,
       "close": 0.06122,
       "date": "2026-04-27",
       "days_history": 231,
       "delisted_date": null,
       "listing_date": "2025-09-09",
-      "ma_30w": 0.11135261904761903,
+      "ma_30w": 0.11135261904761906,
       "momentum_30d_pct": 17.43717629004411,
-      "normalized_distance": -6.196529252422395,
-      "raw_distance_pct": -45.02149969744333,
+      "normalized_distance": -6.196529252422396,
+      "raw_distance_pct": -45.02149969744336,
       "symbol": "FLOCKUSDT"
     },
     {
@@ -1991,7 +1991,7 @@
       "symbol": "FLOWUSDT"
     },
     {
-      "atr_pct_60": 8.038872691933916,
+      "atr_pct_60": 8.038872691933914,
       "close": 1.715,
       "date": "2026-04-27",
       "days_history": 216,
@@ -1999,7 +1999,7 @@
       "listing_date": "2025-09-24",
       "ma_30w": 2.995647619047619,
       "momentum_30d_pct": 3.8135593220339103,
-      "normalized_distance": -5.317944124161195,
+      "normalized_distance": -5.317944124161197,
       "raw_distance_pct": -42.75027579694986,
       "symbol": "FLUIDUSDT"
     },
@@ -2017,7 +2017,7 @@
       "symbol": "FLUXUSDT"
     },
     {
-      "atr_pct_60": 10.353899572649572,
+      "atr_pct_60": 10.353899572649574,
       "close": 0.2496,
       "date": "2026-04-27",
       "days_history": 405,
@@ -2025,12 +2025,12 @@
       "listing_date": "2025-03-19",
       "ma_30w": 0.3983009523809524,
       "momentum_30d_pct": -0.9523809523809601,
-      "normalized_distance": -3.6057736188617597,
+      "normalized_distance": -3.6057736188617593,
       "raw_distance_pct": -37.33381793140388,
       "symbol": "FORMUSDT"
     },
     {
-      "atr_pct_60": 5.600892857142858,
+      "atr_pct_60": 5.600892857142857,
       "close": 0.0056,
       "date": "2026-04-27",
       "days_history": 314,
@@ -2043,29 +2043,29 @@
       "symbol": "FUSDT"
     },
     {
-      "atr_pct_60": 6.4747474747474705,
+      "atr_pct_60": 6.474747474747475,
       "close": 0.0033,
       "date": "2026-04-27",
       "days_history": 1683,
       "delisted_date": null,
       "listing_date": "2021-09-17",
-      "ma_30w": 0.006551476190476188,
+      "ma_30w": 0.00655147619047619,
       "momentum_30d_pct": 16.607773851590114,
-      "normalized_distance": -7.665113256611587,
-      "raw_distance_pct": -49.62967270189923,
+      "normalized_distance": -7.6651132566115825,
+      "raw_distance_pct": -49.62967270189924,
       "symbol": "GALAUSDT"
     },
     {
-      "atr_pct_60": 5.376960193003623,
+      "atr_pct_60": 5.37696019300362,
       "close": 1.658,
       "date": "2026-04-27",
       "days_history": 916,
       "delisted_date": null,
       "listing_date": "2023-10-25",
-      "ma_30w": 2.009414285714286,
+      "ma_30w": 2.0094142857142856,
       "momentum_30d_pct": 6.829896907216493,
-      "normalized_distance": -3.2524685490436642,
-      "raw_distance_pct": -17.488393917204036,
+      "normalized_distance": -3.2524685490436624,
+      "raw_distance_pct": -17.488393917204014,
       "symbol": "GASUSDT"
     },
     {
@@ -2075,14 +2075,14 @@
       "days_history": 796,
       "delisted_date": null,
       "listing_date": "2024-02-22",
-      "ma_30w": 0.1890097619047619,
+      "ma_30w": 0.18900976190476187,
       "momentum_30d_pct": 4.204204204204198,
       "normalized_distance": -5.950523067636965,
       "raw_distance_pct": -28.400523530530663,
       "symbol": "GLMUSDT"
     },
     {
-      "atr_pct_60": 5.417026171987313,
+      "atr_pct_60": 5.417026171987344,
       "close": 0.01159,
       "date": "2026-04-27",
       "days_history": 1503,
@@ -2090,12 +2090,12 @@
       "listing_date": "2022-03-14",
       "ma_30w": 0.01724290476190476,
       "momentum_30d_pct": 18.87179487179487,
-      "normalized_distance": -6.052019314553031,
+      "normalized_distance": -6.052019314552997,
       "raw_distance_pct": -32.78394702030649,
       "symbol": "GMTUSDT"
     },
     {
-      "atr_pct_60": 5.38627010849233,
+      "atr_pct_60": 5.386270108492331,
       "close": 7.128,
       "date": "2026-04-27",
       "days_history": 1166,
@@ -2103,20 +2103,20 @@
       "listing_date": "2023-02-16",
       "ma_30w": 8.104809523809523,
       "momentum_30d_pct": 15.116279069767447,
-      "normalized_distance": -2.2375819197680706,
+      "normalized_distance": -2.23758191976807,
       "raw_distance_pct": -12.052220609749643,
       "symbol": "GMXUSDT"
     },
     {
-      "atr_pct_60": 8.031936127744515,
+      "atr_pct_60": 8.031936127744512,
       "close": 0.0167,
       "date": "2026-04-27",
       "days_history": 551,
       "delisted_date": null,
       "listing_date": "2024-10-24",
-      "ma_30w": 0.03432080952380953,
+      "ma_30w": 0.034320809523809524,
       "momentum_30d_pct": 3.3415841584158334,
-      "normalized_distance": -6.392166628057062,
+      "normalized_distance": -6.392166628057065,
       "raw_distance_pct": -51.341474074454354,
       "symbol": "GOATUSDT"
     },
@@ -2134,16 +2134,16 @@
       "symbol": "GPSUSDT"
     },
     {
-      "atr_pct_60": 5.206812652068119,
+      "atr_pct_60": 5.206812652068126,
       "close": 0.02466,
       "date": "2026-04-27",
       "days_history": 1951,
       "delisted_date": null,
       "listing_date": "2020-12-18",
-      "ma_30w": 0.041133952380952375,
+      "ma_30w": 0.04113395238095238,
       "momentum_30d_pct": 4.2265426880811585,
-      "normalized_distance": -7.691754492424279,
-      "raw_distance_pct": -40.049524607756524,
+      "normalized_distance": -7.691754492424271,
+      "raw_distance_pct": -40.04952460775654,
       "symbol": "GRTUSDT"
     },
     {
@@ -2153,10 +2153,10 @@
       "days_history": 1777,
       "delisted_date": null,
       "listing_date": "2021-03-15",
-      "ma_30w": 0.136119619047619,
+      "ma_30w": 0.13611961904761904,
       "momentum_30d_pct": 23.34177215189872,
-      "normalized_distance": -2.5459478626172958,
-      "raw_distance_pct": -28.415903099234818,
+      "normalized_distance": -2.5459478626172993,
+      "raw_distance_pct": -28.415903099234853,
       "symbol": "GTCUSDT"
     },
     {
@@ -2179,10 +2179,10 @@
       "days_history": 621,
       "delisted_date": null,
       "listing_date": "2024-08-15",
-      "ma_30w": 0.005024580952380952,
+      "ma_30w": 0.0050245809523809535,
       "momentum_30d_pct": 8.62629246676514,
-      "normalized_distance": -3.72605617587619,
-      "raw_distance_pct": -26.81976795980142,
+      "normalized_distance": -3.726056175876193,
+      "raw_distance_pct": -26.819767959801442,
       "symbol": "GUSDT"
     },
     {
@@ -2225,7 +2225,7 @@
       "symbol": "HEIUSDT"
     },
     {
-      "atr_pct_60": 10.92583333333333,
+      "atr_pct_60": 10.925833333333333,
       "close": 0.008,
       "date": "2026-04-27",
       "days_history": 242,
@@ -2233,21 +2233,21 @@
       "listing_date": "2025-08-29",
       "ma_30w": 0.022685523809523808,
       "momentum_30d_pct": 33.73453694416582,
-      "normalized_distance": -5.9249686778059,
+      "normalized_distance": -5.924968677805898,
       "raw_distance_pct": -64.73522027892761,
       "symbol": "HEMIUSDT"
     },
     {
-      "atr_pct_60": 7.989254686785552,
+      "atr_pct_60": 7.98925468678555,
       "close": 0.01458,
       "date": "2026-04-27",
       "days_history": 1118,
       "delisted_date": null,
       "listing_date": "2023-04-05",
-      "ma_30w": 0.029570142857142854,
+      "ma_30w": 0.02957014285714286,
       "momentum_30d_pct": 18.536585365853654,
-      "normalized_distance": -6.345211211911636,
-      "raw_distance_pct": -50.69350841340927,
+      "normalized_distance": -6.34521121191164,
+      "raw_distance_pct": -50.69350841340929,
       "symbol": "HFTUSDT"
     },
     {
@@ -2264,7 +2264,7 @@
       "symbol": "HIVEUSDT"
     },
     {
-      "atr_pct_60": 6.041261611579173,
+      "atr_pct_60": 6.0412616115791735,
       "close": 0.0001543,
       "date": "2026-04-27",
       "days_history": 579,
@@ -2272,7 +2272,7 @@
       "listing_date": "2024-09-26",
       "ma_30w": 0.00024862047619047617,
       "momentum_30d_pct": 16.54078549848943,
-      "normalized_distance": -6.2797368890412075,
+      "normalized_distance": -6.279736889041207,
       "raw_distance_pct": -37.93753339858227,
       "symbol": "HMSTRUSDT"
     },
@@ -2283,10 +2283,10 @@
       "days_history": 229,
       "delisted_date": null,
       "listing_date": "2025-09-11",
-      "ma_30w": 0.08505623809523809,
+      "ma_30w": 0.0850562380952381,
       "momentum_30d_pct": 13.334601483735975,
-      "normalized_distance": -4.14434214007965,
-      "raw_distance_pct": -29.952227685772037,
+      "normalized_distance": -4.144342140079652,
+      "raw_distance_pct": -29.952227685772048,
       "symbol": "HOLOUSDT"
     },
     {
@@ -2303,16 +2303,16 @@
       "symbol": "HOMEUSDT"
     },
     {
-      "atr_pct_60": 5.755857898715046,
+      "atr_pct_60": 5.7558578987150435,
       "close": 0.000441,
       "date": "2026-04-27",
       "days_history": 1850,
       "delisted_date": null,
       "listing_date": "2021-03-30",
-      "ma_30w": 0.0005107142857142858,
+      "ma_30w": 0.0005107142857142857,
       "momentum_30d_pct": 8.62068965517242,
-      "normalized_distance": -2.3715577921749964,
-      "raw_distance_pct": -13.65034965034967,
+      "normalized_distance": -2.3715577921749937,
+      "raw_distance_pct": -13.650349650349646,
       "symbol": "HOTUSDT"
     },
     {
@@ -2342,7 +2342,7 @@
       "symbol": "HYPERUSDT"
     },
     {
-      "atr_pct_60": 5.495811014970461,
+      "atr_pct_60": 5.495811014970471,
       "close": 2.427,
       "date": "2026-04-27",
       "days_history": 1787,
@@ -2350,25 +2350,25 @@
       "listing_date": "2021-05-11",
       "ma_30w": 3.2636714285714286,
       "momentum_30d_pct": 9.422903516681691,
-      "normalized_distance": -4.664624820766042,
+      "normalized_distance": -4.664624820766034,
       "raw_distance_pct": -25.635896470670627,
       "symbol": "ICPUSDT"
     },
     {
-      "atr_pct_60": 5.831122900088408,
+      "atr_pct_60": 5.831122900088417,
       "close": 0.0377,
       "date": "2026-04-27",
       "days_history": 2051,
       "delisted_date": null,
       "listing_date": "2019-09-25",
-      "ma_30w": 0.05802047619047618,
+      "ma_30w": 0.05802047619047619,
       "momentum_30d_pct": 12.874251497005984,
-      "normalized_distance": -6.006208402133634,
-      "raw_distance_pct": -35.02293935638484,
+      "normalized_distance": -6.006208402133629,
+      "raw_distance_pct": -35.02293935638486,
       "symbol": "ICXUSDT"
     },
     {
-      "atr_pct_60": 9.270008795074759,
+      "atr_pct_60": 9.27000879507476,
       "close": 0.02274,
       "date": "2026-04-27",
       "days_history": 298,
@@ -2376,7 +2376,7 @@
       "listing_date": "2025-07-04",
       "ma_30w": 0.02867590476190476,
       "momentum_30d_pct": -6.458247634718218,
-      "normalized_distance": -2.233004759780395,
+      "normalized_distance": -2.2330047597803944,
       "raw_distance_pct": -20.69997376260806,
       "symbol": "IDOLUSDT"
     },
@@ -2400,10 +2400,10 @@
       "days_history": 900,
       "delisted_date": null,
       "listing_date": "2023-11-10",
-      "ma_30w": 6.536723809523811,
+      "ma_30w": 6.536723809523809,
       "momentum_30d_pct": 43.5207100591716,
-      "normalized_distance": -4.051168138601288,
-      "raw_distance_pct": -25.78851208410797,
+      "normalized_distance": -4.051168138601285,
+      "raw_distance_pct": -25.78851208410795,
       "symbol": "ILVUSDT"
     },
     {
@@ -2459,15 +2459,15 @@
       "symbol": "INUSDT"
     },
     {
-      "atr_pct_60": 4.958791208791219,
+      "atr_pct_60": 4.958791208791208,
       "close": 0.001092,
       "date": "2026-04-27",
       "days_history": 2258,
       "delisted_date": null,
       "listing_date": "2019-09-25",
-      "ma_30w": 0.001652414285714286,
+      "ma_30w": 0.0016524142857142858,
       "momentum_30d_pct": 5.711519845111335,
-      "normalized_distance": -6.839343777517403,
+      "normalized_distance": -6.839343777517418,
       "raw_distance_pct": -33.914877797854224,
       "symbol": "IOSTUSDT"
     },
@@ -2485,7 +2485,7 @@
       "symbol": "IOTAUSDT"
     },
     {
-      "atr_pct_60": 7.099023709902378,
+      "atr_pct_60": 7.0990237099023705,
       "close": 0.00478,
       "date": "2026-04-27",
       "days_history": 1720,
@@ -2493,7 +2493,7 @@
       "listing_date": "2021-08-11",
       "ma_30w": 0.008237476190476191,
       "momentum_30d_pct": 2.35546038543899,
-      "normalized_distance": -5.912435270156627,
+      "normalized_distance": -5.912435270156633,
       "raw_distance_pct": -41.97251816610497,
       "symbol": "IOTXUSDT"
     },
@@ -2511,7 +2511,7 @@
       "symbol": "IOUSDT"
     },
     {
-      "atr_pct_60": 9.624245924785004,
+      "atr_pct_60": 9.624245924785008,
       "close": 0.5194,
       "date": "2026-04-27",
       "days_history": 439,
@@ -2519,7 +2519,7 @@
       "listing_date": "2025-02-13",
       "ma_30w": 2.405322857142857,
       "momentum_30d_pct": -5.25355709595039,
-      "normalized_distance": -8.146739583930106,
+      "normalized_distance": -8.146739583930103,
       "raw_distance_pct": -78.406225240924,
       "symbol": "IPUSDT"
     },
@@ -2543,10 +2543,10 @@
       "days_history": 398,
       "delisted_date": null,
       "listing_date": "2025-03-26",
-      "ma_30w": 0.06492219047619048,
+      "ma_30w": 0.06492219047619047,
       "momentum_30d_pct": -4.887983706720989,
-      "normalized_distance": -1.637093739358972,
-      "raw_distance_pct": -20.87451205325643,
+      "normalized_distance": -1.6370937393589702,
+      "raw_distance_pct": -20.87451205325641,
       "symbol": "JELLYJELLYUSDT"
     },
     {
@@ -2569,10 +2569,10 @@
       "days_history": 872,
       "delisted_date": null,
       "listing_date": "2023-12-08",
-      "ma_30w": 0.5186785714285714,
+      "ma_30w": 0.5186785714285715,
       "momentum_30d_pct": 15.387205387205395,
-      "normalized_distance": -5.457930779608318,
-      "raw_distance_pct": -33.9282517386215,
+      "normalized_distance": -5.4579307796083185,
+      "raw_distance_pct": -33.928251738621505,
       "symbol": "JTOUSDT"
     },
     {
@@ -2589,7 +2589,7 @@
       "symbol": "JUPUSDT"
     },
     {
-      "atr_pct_60": 4.785749351286905,
+      "atr_pct_60": 4.785749351286906,
       "close": 0.04753,
       "date": "2026-04-27",
       "days_history": 510,
@@ -2597,7 +2597,7 @@
       "listing_date": "2024-12-04",
       "ma_30w": 0.07160309523809524,
       "momentum_30d_pct": 4.163927240850329,
-      "normalized_distance": -7.025062438395685,
+      "normalized_distance": -7.0250624383956835,
       "raw_distance_pct": -33.620188007302154,
       "symbol": "KAIAUSDT"
     },
@@ -2615,7 +2615,7 @@
       "symbol": "KAITOUSDT"
     },
     {
-      "atr_pct_60": 5.975512243878062,
+      "atr_pct_60": 5.97551224387806,
       "close": 0.03335,
       "date": "2026-04-27",
       "days_history": 893,
@@ -2623,7 +2623,7 @@
       "listing_date": "2023-11-17",
       "ma_30w": 0.04307919047619048,
       "momentum_30d_pct": -4.028776978417281,
-      "normalized_distance": -3.779497233236485,
+      "normalized_distance": -3.779497233236486,
       "raw_distance_pct": -22.584431992907874,
       "symbol": "KASUSDT"
     },
@@ -2634,14 +2634,14 @@
       "days_history": 2100,
       "delisted_date": null,
       "listing_date": "2019-09-25",
-      "ma_30w": 0.09856666666666669,
+      "ma_30w": 0.09856666666666666,
       "momentum_30d_pct": 9.800362976406518,
-      "normalized_distance": -5.9605191417114725,
-      "raw_distance_pct": -38.62022319918839,
+      "normalized_distance": -5.960519141711469,
+      "raw_distance_pct": -38.620223199188366,
       "symbol": "KAVAUSDT"
     },
     {
-      "atr_pct_60": 15.141897312474933,
+      "atr_pct_60": 15.141897312474931,
       "close": 0.06648,
       "date": "2026-04-27",
       "days_history": 379,
@@ -2649,7 +2649,7 @@
       "listing_date": "2025-04-14",
       "ma_30w": 0.09522052380952381,
       "momentum_30d_pct": -13.684757205920551,
-      "normalized_distance": -1.9933511740664747,
+      "normalized_distance": -1.9933511740664749,
       "raw_distance_pct": -30.183118785415907,
       "symbol": "KERNELUSDT"
     },
@@ -2673,14 +2673,14 @@
       "days_history": 2131,
       "delisted_date": null,
       "listing_date": "2019-09-25",
-      "ma_30w": 0.21435666666666664,
+      "ma_30w": 0.2143566666666667,
       "momentum_30d_pct": -6.127770534550203,
-      "normalized_distance": -5.238946649295447,
-      "raw_distance_pct": -32.82224330166233,
+      "normalized_distance": -5.238946649295451,
+      "raw_distance_pct": -32.822243301662354,
       "symbol": "KNCUSDT"
     },
     {
-      "atr_pct_60": 12.805267532922082,
+      "atr_pct_60": 12.805267532922079,
       "close": 0.007619,
       "date": "2026-04-27",
       "days_history": 504,
@@ -2688,21 +2688,21 @@
       "listing_date": "2024-12-10",
       "ma_30w": 0.011457004761904763,
       "momentum_30d_pct": 29.02624894157495,
-      "normalized_distance": -2.6160483071822536,
+      "normalized_distance": -2.6160483071822545,
       "raw_distance_pct": -33.49919845251669,
       "symbol": "KOMAUSDT"
     },
     {
-      "atr_pct_60": 5.938838564707525,
+      "atr_pct_60": 5.9388385647075355,
       "close": 4.747,
       "date": "2026-04-27",
       "days_history": 2017,
       "delisted_date": null,
       "listing_date": "2019-09-25",
-      "ma_30w": 7.289895238095239,
+      "ma_30w": 7.289895238095237,
       "momentum_30d_pct": 16.89239103669047,
-      "normalized_distance": -5.873617502863289,
-      "raw_distance_pct": -34.88246614034561,
+      "normalized_distance": -5.873617502863277,
+      "raw_distance_pct": -34.8824661403456,
       "symbol": "KSMUSDT"
     },
     {
@@ -2719,16 +2719,16 @@
       "symbol": "LAUSDT"
     },
     {
-      "atr_pct_60": 6.128327373857768,
+      "atr_pct_60": 6.128327373857767,
       "close": 0.0839,
       "date": "2026-04-27",
       "days_history": 441,
       "delisted_date": null,
       "listing_date": "2025-02-11",
-      "ma_30w": 0.16669742857142855,
+      "ma_30w": 0.16669742857142858,
       "momentum_30d_pct": 8.496055864476926,
-      "normalized_distance": -8.104868846105846,
-      "raw_distance_pct": -49.669289611117485,
+      "normalized_distance": -8.10486884610585,
+      "raw_distance_pct": -49.66928961111749,
       "symbol": "LAYERUSDT"
     },
     {
@@ -2745,7 +2745,7 @@
       "symbol": "LDOUSDT"
     },
     {
-      "atr_pct_60": 17.279874213836486,
+      "atr_pct_60": 17.27987421383648,
       "close": 0.159,
       "date": "2026-04-27",
       "days_history": 213,
@@ -2753,18 +2753,18 @@
       "listing_date": "2025-09-27",
       "ma_30w": 0.7351141904761904,
       "momentum_30d_pct": 4.743083003952586,
-      "normalized_distance": -4.535374871462968,
+      "normalized_distance": -4.535374871462969,
       "raw_distance_pct": -78.3707072914749,
       "symbol": "LIGHTUSDT"
     },
     {
-      "atr_pct_60": 5.9625887493173115,
+      "atr_pct_60": 5.962588749317312,
       "close": 0.003662,
       "date": "2026-04-27",
       "days_history": 239,
       "delisted_date": null,
       "listing_date": "2025-09-01",
-      "ma_30w": 0.007994642857142856,
+      "ma_30w": 0.007994642857142858,
       "momentum_30d_pct": 24.94029341521664,
       "normalized_distance": -9.089059942993371,
       "raw_distance_pct": -54.194326557962924,
@@ -2784,16 +2784,16 @@
       "symbol": "LINKUSDT"
     },
     {
-      "atr_pct_60": 7.776968202368943,
+      "atr_pct_60": 7.776968202368942,
       "close": 0.08921,
       "date": "2026-04-27",
       "days_history": 677,
       "delisted_date": null,
       "listing_date": "2024-06-20",
-      "ma_30w": 0.16506276190476188,
+      "ma_30w": 0.16506276190476193,
       "momentum_30d_pct": 7.249338783361381,
-      "normalized_distance": -5.908972485928983,
-      "raw_distance_pct": -45.953891131742665,
+      "normalized_distance": -5.908972485928986,
+      "raw_distance_pct": -45.95389113174269,
       "symbol": "LISTAUSDT"
     },
     {
@@ -2803,23 +2803,23 @@
       "days_history": 1890,
       "delisted_date": null,
       "listing_date": "2021-02-18",
-      "ma_30w": 1.1851690476190475,
+      "ma_30w": 1.1851690476190477,
       "momentum_30d_pct": 0.7117852975495831,
-      "normalized_distance": -2.258879211615268,
-      "raw_distance_pct": -27.1749459088617,
+      "normalized_distance": -2.258879211615269,
+      "raw_distance_pct": -27.174945908861716,
       "symbol": "LITUSDT"
     },
     {
-      "atr_pct_60": 5.436582318025617,
+      "atr_pct_60": 5.436582318025618,
       "close": 2.134,
       "date": "2026-04-27",
       "days_history": 1629,
       "delisted_date": null,
       "listing_date": "2021-11-10",
-      "ma_30w": 3.3706380952380957,
+      "ma_30w": 3.3706380952380948,
       "momentum_30d_pct": 3.592233009708723,
-      "normalized_distance": -6.748457665730186,
-      "raw_distance_pct": -36.68854561945316,
+      "normalized_distance": -6.748457665730181,
+      "raw_distance_pct": -36.68854561945314,
       "symbol": "LPTUSDT"
     },
     {
@@ -2849,7 +2849,7 @@
       "symbol": "LSKUSDT"
     },
     {
-      "atr_pct_60": 3.3675429120153657,
+      "atr_pct_60": 3.3675429120153653,
       "close": 55.54,
       "date": "2026-04-27",
       "days_history": 2296,
@@ -2857,12 +2857,12 @@
       "listing_date": "2019-09-25",
       "ma_30w": 73.94871428571429,
       "momentum_30d_pct": 3.1958379784466695,
-      "normalized_distance": -7.392301833962018,
+      "normalized_distance": -7.392301833962019,
       "raw_distance_pct": -24.893893644436982,
       "symbol": "LTCUSDT"
     },
     {
-      "atr_pct_60": 4.798997493734348,
+      "atr_pct_60": 4.798997493734336,
       "close": 0.0665,
       "date": "2026-04-27",
       "days_history": 1326,
@@ -2870,7 +2870,7 @@
       "listing_date": "2022-09-09",
       "ma_30w": 0.08313328571428572,
       "momentum_30d_pct": 17.99148332150462,
-      "normalized_distance": -4.169198557118826,
+      "normalized_distance": -4.169198557118837,
       "raw_distance_pct": -20.007973426494107,
       "symbol": "LUNA2USDT"
     },
@@ -2881,14 +2881,14 @@
       "days_history": 1189,
       "delisted_date": null,
       "listing_date": "2023-01-23",
-      "ma_30w": 0.09457609523809522,
+      "ma_30w": 0.09457609523809525,
       "momentum_30d_pct": 15.499825844653436,
-      "normalized_distance": -4.886147528283035,
-      "raw_distance_pct": -29.87657205233577,
+      "normalized_distance": -4.886147528283039,
+      "raw_distance_pct": -29.876572052335792,
       "symbol": "MAGICUSDT"
     },
     {
-      "atr_pct_60": 5.278076785073563,
+      "atr_pct_60": 5.278076785073556,
       "close": 0.0929,
       "date": "2026-04-27",
       "days_history": 1865,
@@ -2896,7 +2896,7 @@
       "listing_date": "2021-03-14",
       "ma_30w": 0.14870095238095238,
       "momentum_30d_pct": 14.408866995073888,
-      "normalized_distance": -7.109714431877904,
+      "normalized_distance": -7.109714431877913,
       "raw_distance_pct": -37.52561869139724,
       "symbol": "MANAUSDT"
     },
@@ -2914,7 +2914,7 @@
       "symbol": "MANTAUSDT"
     },
     {
-      "atr_pct_60": 5.979716800612324,
+      "atr_pct_60": 5.979716800612323,
       "close": 0.5226,
       "date": "2026-04-27",
       "days_history": 1700,
@@ -2922,21 +2922,21 @@
       "listing_date": "2021-07-16",
       "ma_30w": 0.6293790476190476,
       "momentum_30d_pct": 30.06470881035339,
-      "normalized_distance": -2.8372208701547117,
+      "normalized_distance": -2.837220870154712,
       "raw_distance_pct": -16.965777304312045,
       "symbol": "MASKUSDT"
     },
     {
-      "atr_pct_60": 6.643271570278873,
+      "atr_pct_60": 6.643271570278869,
       "close": 0.03562,
       "date": "2026-04-27",
       "days_history": 797,
       "delisted_date": null,
       "listing_date": "2024-02-21",
-      "ma_30w": 0.05767076190476192,
+      "ma_30w": 0.057670761904761905,
       "momentum_30d_pct": 24.414949353824667,
-      "normalized_distance": -5.755537721103963,
-      "raw_distance_pct": -38.23560011427761,
+      "normalized_distance": -5.755537721103965,
+      "raw_distance_pct": -38.2356001142776,
       "symbol": "MAVIAUSDT"
     },
     {
@@ -2946,10 +2946,10 @@
       "days_history": 1034,
       "delisted_date": null,
       "listing_date": "2023-06-29",
-      "ma_30w": 0.025354285714285718,
+      "ma_30w": 0.025354285714285715,
       "momentum_30d_pct": 19.844961240310077,
-      "normalized_distance": -5.4581980456589285,
-      "raw_distance_pct": -39.024115393283765,
+      "normalized_distance": -5.458198045658926,
+      "raw_distance_pct": -39.02411539328375,
       "symbol": "MAVUSDT"
     },
     {
@@ -2979,16 +2979,16 @@
       "symbol": "MELANIAUSDT"
     },
     {
-      "atr_pct_60": 7.29695580629995,
+      "atr_pct_60": 7.296955806299953,
       "close": 0.0005672,
       "date": "2026-04-27",
       "days_history": 907,
       "delisted_date": null,
       "listing_date": "2023-11-03",
-      "ma_30w": 0.001062975714285714,
+      "ma_30w": 0.0010629757142857142,
       "momentum_30d_pct": 10.673170731707305,
       "normalized_distance": -6.391756041234204,
-      "raw_distance_pct": -46.640361357536705,
+      "raw_distance_pct": -46.64036135753672,
       "symbol": "MEMEUSDT"
     },
     {
@@ -3024,10 +3024,10 @@
       "days_history": 504,
       "delisted_date": null,
       "listing_date": "2024-12-10",
-      "ma_30w": 0.24902380952380954,
+      "ma_30w": 0.2490238095238095,
       "momentum_30d_pct": 9.480122324159002,
-      "normalized_distance": -10.174362874010727,
-      "raw_distance_pct": -56.87159384262358,
+      "normalized_distance": -10.174362874010724,
+      "raw_distance_pct": -56.87159384262357,
       "symbol": "MEUSDT"
     },
     {
@@ -3050,10 +3050,10 @@
       "days_history": 1176,
       "delisted_date": null,
       "listing_date": "2023-02-03",
-      "ma_30w": 0.0875904761904762,
+      "ma_30w": 0.08759047619047618,
       "momentum_30d_pct": 17.122517796927706,
-      "normalized_distance": -5.719900915497859,
-      "raw_distance_pct": -28.622376862020225,
+      "normalized_distance": -5.719900915497854,
+      "raw_distance_pct": -28.622376862020204,
       "symbol": "MINAUSDT"
     },
     {
@@ -3063,10 +3063,10 @@
       "days_history": 214,
       "delisted_date": null,
       "listing_date": "2025-09-26",
-      "ma_30w": 0.16338685714285714,
+      "ma_30w": 0.16338685714285717,
       "momentum_30d_pct": 10.613424405621942,
-      "normalized_distance": -6.817232327381578,
-      "raw_distance_pct": -48.45974671856803,
+      "normalized_distance": -6.817232327381579,
+      "raw_distance_pct": -48.45974671856804,
       "symbol": "MIRAUSDT"
     },
     {
@@ -3083,7 +3083,7 @@
       "symbol": "MITOUSDT"
     },
     {
-      "atr_pct_60": 7.658678756476682,
+      "atr_pct_60": 7.658678756476683,
       "close": 3.088,
       "date": "2026-04-27",
       "days_history": 393,
@@ -3091,7 +3091,7 @@
       "listing_date": "2025-03-31",
       "ma_30w": 4.8143095238095235,
       "momentum_30d_pct": 0.6518904823989535,
-      "normalized_distance": -4.68199347784398,
+      "normalized_distance": -4.681993477843979,
       "raw_distance_pct": -35.857883986726065,
       "symbol": "MLNUSDT"
     },
@@ -3109,7 +3109,7 @@
       "symbol": "MOCAUSDT"
     },
     {
-      "atr_pct_60": 7.3135089209855595,
+      "atr_pct_60": 7.313508920985558,
       "close": 0.05885,
       "date": "2026-04-27",
       "days_history": 550,
@@ -3117,12 +3117,12 @@
       "listing_date": "2024-10-25",
       "ma_30w": 0.07476228571428571,
       "momentum_30d_pct": 31.626034444195938,
-      "normalized_distance": -2.910209151563719,
+      "normalized_distance": -2.91020915156372,
       "raw_distance_pct": -21.283840591895075,
       "symbol": "MOODENGUSDT"
     },
     {
-      "atr_pct_60": 6.737128898910186,
+      "atr_pct_60": 6.737128898910185,
       "close": 0.01774,
       "date": "2026-04-27",
       "days_history": 505,
@@ -3130,7 +3130,7 @@
       "listing_date": "2024-12-09",
       "ma_30w": 0.04058723809523809,
       "momentum_30d_pct": 0.2259887005649608,
-      "normalized_distance": -8.35544051666929,
+      "normalized_distance": -8.355440516669292,
       "raw_distance_pct": -56.29167976797773,
       "symbol": "MOVEUSDT"
     },
@@ -3148,7 +3148,7 @@
       "symbol": "MOVRUSDT"
     },
     {
-      "atr_pct_60": 3.6356045424181684,
+      "atr_pct_60": 3.63560454241817,
       "close": 0.2994,
       "date": "2026-04-27",
       "days_history": 1854,
@@ -3156,7 +3156,7 @@
       "listing_date": "2021-03-31",
       "ma_30w": 0.3714509523809524,
       "momentum_30d_pct": 12.683477606322935,
-      "normalized_distance": -5.335334001130903,
+      "normalized_distance": -5.3353340011309,
       "raw_distance_pct": -19.397164529829613,
       "symbol": "MTLUSDT"
     },
@@ -3174,20 +3174,20 @@
       "symbol": "MUBARAKUSDT"
     },
     {
-      "atr_pct_60": 19.405953297408264,
+      "atr_pct_60": 19.405953297408267,
       "close": 0.2598,
       "date": "2026-04-27",
       "days_history": 314,
       "delisted_date": null,
       "listing_date": "2025-06-18",
-      "ma_30w": 2.8053133333333333,
+      "ma_30w": 2.805313333333333,
       "momentum_30d_pct": 5.182186234817809,
-      "normalized_distance": -4.675833288177647,
+      "normalized_distance": -4.675833288177646,
       "raw_distance_pct": -90.73900241684233,
       "symbol": "MYXUSDT"
     },
     {
-      "atr_pct_60": 5.665933528836754,
+      "atr_pct_60": 5.665933528836755,
       "close": 1.364,
       "date": "2026-04-27",
       "days_history": 2016,
@@ -3195,7 +3195,7 @@
       "listing_date": "2019-09-25",
       "ma_30w": 1.6699285714285714,
       "momentum_30d_pct": 16.382252559726986,
-      "normalized_distance": -3.23333473820572,
+      "normalized_distance": -3.2333347382057194,
       "raw_distance_pct": -18.319859703152396,
       "symbol": "NEARUSDT"
     },
@@ -3213,7 +3213,7 @@
       "symbol": "NEIROUSDT"
     },
     {
-      "atr_pct_60": 5.2803955788248995,
+      "atr_pct_60": 5.280395578824897,
       "close": 2.865,
       "date": "2026-04-27",
       "days_history": 2262,
@@ -3221,7 +3221,7 @@
       "listing_date": "2019-09-25",
       "ma_30w": 3.7523809523809524,
       "momentum_30d_pct": 10.917537746806039,
-      "normalized_distance": -4.47854271604082,
+      "normalized_distance": -4.478542716040822,
       "raw_distance_pct": -23.648477157360404,
       "symbol": "NEOUSDT"
     },
@@ -3232,23 +3232,23 @@
       "days_history": 313,
       "delisted_date": null,
       "listing_date": "2025-06-19",
-      "ma_30w": 0.10195495238095238,
+      "ma_30w": 0.10195495238095237,
       "momentum_30d_pct": 7.93628418381731,
-      "normalized_distance": -3.5324356244089876,
-      "raw_distance_pct": -24.898204342347274,
+      "normalized_distance": -3.5324356244089863,
+      "raw_distance_pct": -24.898204342347263,
       "symbol": "NEWTUSDT"
     },
     {
-      "atr_pct_60": 7.146090534979425,
+      "atr_pct_60": 7.146090534979424,
       "close": 0.0162,
       "date": "2026-04-27",
       "days_history": 853,
       "delisted_date": null,
       "listing_date": "2023-12-27",
-      "ma_30w": 0.026076142857142853,
+      "ma_30w": 0.02607614285714286,
       "momentum_30d_pct": 15.879828326180267,
-      "normalized_distance": -5.299995460590712,
-      "raw_distance_pct": -37.874247396361206,
+      "normalized_distance": -5.299995460590713,
+      "raw_distance_pct": -37.87424739636121,
       "symbol": "NFPUSDT"
     },
     {
@@ -3271,10 +3271,10 @@
       "days_history": 1041,
       "delisted_date": null,
       "listing_date": "2023-06-22",
-      "ma_30w": 9.960214285714285,
+      "ma_30w": 9.960214285714288,
       "momentum_30d_pct": 38.087965791081245,
-      "normalized_distance": -1.6298620049240893,
-      "raw_distance_pct": -9.218820593360721,
+      "normalized_distance": -1.629862004924095,
+      "raw_distance_pct": -9.218820593360755,
       "symbol": "NMRUSDT"
     },
     {
@@ -3291,7 +3291,7 @@
       "symbol": "NOTUSDT"
     },
     {
-      "atr_pct_60": 4.641564902758931,
+      "atr_pct_60": 4.641564902758932,
       "close": 0.2948,
       "date": "2026-04-27",
       "days_history": 348,
@@ -3299,12 +3299,12 @@
       "listing_date": "2025-05-15",
       "ma_30w": 0.3550209523809524,
       "momentum_30d_pct": 7.473569084943499,
-      "normalized_distance": -3.6545104430313216,
+      "normalized_distance": -3.6545104430313207,
       "raw_distance_pct": -16.962647409140175,
       "symbol": "NXPCUSDT"
     },
     {
-      "atr_pct_60": 7.697691197691209,
+      "atr_pct_60": 7.697691197691199,
       "close": 0.0231,
       "date": "2026-04-27",
       "days_history": 1848,
@@ -3312,7 +3312,7 @@
       "listing_date": "2021-03-31",
       "ma_30w": 0.03199414285714286,
       "momentum_30d_pct": 16.080402010050232,
-      "normalized_distance": -3.6113795651921334,
+      "normalized_distance": -3.611379565192138,
       "raw_distance_pct": -27.79928469050139,
       "symbol": "OGNUSDT"
     },
@@ -3323,14 +3323,14 @@
       "days_history": 351,
       "delisted_date": null,
       "listing_date": "2025-05-12",
-      "ma_30w": 8.109552380952382,
+      "ma_30w": 8.10955238095238,
       "momentum_30d_pct": 15.765247410817018,
       "normalized_distance": -10.381737403441369,
       "raw_distance_pct": -62.78462906178839,
       "symbol": "OGUSDT"
     },
     {
-      "atr_pct_60": 5.814244586306169,
+      "atr_pct_60": 5.81424458630617,
       "close": 0.2663,
       "date": "2026-04-27",
       "days_history": 829,
@@ -3338,12 +3338,12 @@
       "listing_date": "2024-01-20",
       "ma_30w": 0.4283295238095238,
       "momentum_30d_pct": -0.7454342154304849,
-      "normalized_distance": -6.506131668138272,
+      "normalized_distance": -6.506131668138271,
       "raw_distance_pct": -37.828240829268076,
       "symbol": "ONDOUSDT"
     },
     {
-      "atr_pct_60": 7.151406343506869,
+      "atr_pct_60": 7.15140634350688,
       "close": 0.002228,
       "date": "2026-04-27",
       "days_history": 1862,
@@ -3351,7 +3351,7 @@
       "listing_date": "2021-03-17",
       "ma_30w": 0.003947342857142857,
       "momentum_30d_pct": 5.592417061611377,
-      "normalized_distance": -6.090685622563367,
+      "normalized_distance": -6.090685622563357,
       "raw_distance_pct": -43.55696779750574,
       "symbol": "ONEUSDT"
     },
@@ -3369,7 +3369,7 @@
       "symbol": "ONGUSDT"
     },
     {
-      "atr_pct_60": 6.186971926955575,
+      "atr_pct_60": 6.1869719269555725,
       "close": 0.1223,
       "date": "2026-04-27",
       "days_history": 1427,
@@ -3377,7 +3377,7 @@
       "listing_date": "2022-06-01",
       "ma_30w": 0.27773333333333333,
       "momentum_30d_pct": 19.43359375,
-      "normalized_distance": -9.045613113076064,
+      "normalized_distance": -9.045613113076069,
       "raw_distance_pct": -55.964954392702836,
       "symbol": "OPUSDT"
     },
@@ -3408,7 +3408,7 @@
       "symbol": "PARTIUSDT"
     },
     {
-      "atr_pct_60": 6.5550753209988875,
+      "atr_pct_60": 6.555075320998887,
       "close": 1.3188,
       "date": "2026-04-27",
       "days_history": 1005,
@@ -3416,21 +3416,21 @@
       "listing_date": "2023-07-28",
       "ma_30w": 2.0554590476190477,
       "momentum_30d_pct": 15.269644261865235,
-      "normalized_distance": -5.467389475727839,
+      "normalized_distance": -5.46738947572784,
       "raw_distance_pct": -35.839149822632606,
       "symbol": "PENDLEUSDT"
     },
     {
-      "atr_pct_60": 5.507428940568476,
+      "atr_pct_60": 5.507428940568475,
       "close": 0.01032,
       "date": "2026-04-27",
       "days_history": 497,
       "delisted_date": null,
       "listing_date": "2024-12-17",
-      "ma_30w": 0.011643990476190478,
+      "ma_30w": 0.011643990476190476,
       "momentum_30d_pct": 62.136684996072255,
-      "normalized_distance": -2.064591415291554,
-      "raw_distance_pct": -11.370590511025934,
+      "normalized_distance": -2.0645914152915528,
+      "raw_distance_pct": -11.370590511025924,
       "symbol": "PENGUUSDT"
     },
     {
@@ -3460,16 +3460,16 @@
       "symbol": "PHAUSDT"
     },
     {
-      "atr_pct_60": 13.539654667837286,
+      "atr_pct_60": 13.539654667837283,
       "close": 0.1139,
       "date": "2026-04-27",
       "days_history": 1167,
       "delisted_date": null,
       "listing_date": "2023-02-15",
-      "ma_30w": 0.2606514285714286,
+      "ma_30w": 0.26065142857142853,
       "momentum_30d_pct": 14.357429718875503,
-      "normalized_distance": -4.158288722297595,
-      "raw_distance_pct": -56.301793309071776,
+      "normalized_distance": -4.158288722297596,
+      "raw_distance_pct": -56.30179330907177,
       "symbol": "PHBUSDT"
     },
     {
@@ -3486,7 +3486,7 @@
       "symbol": "PIPPINUSDT"
     },
     {
-      "atr_pct_60": 15.607685433422699,
+      "atr_pct_60": 15.607685433422697,
       "close": 0.008206,
       "date": "2026-04-27",
       "days_history": 799,
@@ -3512,7 +3512,7 @@
       "symbol": "PLUMEUSDT"
     },
     {
-      "atr_pct_60": 8.177813736066163,
+      "atr_pct_60": 8.177813736066158,
       "close": 0.05562,
       "date": "2026-04-27",
       "days_history": 533,
@@ -3520,7 +3520,7 @@
       "listing_date": "2024-11-11",
       "ma_30w": 0.08171128571428571,
       "momentum_30d_pct": 44.46753246753248,
-      "normalized_distance": -3.9045970512269985,
+      "normalized_distance": -3.904597051227001,
       "raw_distance_pct": -31.931067399327585,
       "symbol": "PNUTUSDT"
     },
@@ -3531,10 +3531,10 @@
       "days_history": 592,
       "delisted_date": null,
       "listing_date": "2024-09-13",
-      "ma_30w": 0.12987061904761904,
+      "ma_30w": 0.12987061904761907,
       "momentum_30d_pct": 0.9180327868852478,
-      "normalized_distance": -5.736414714144919,
-      "raw_distance_pct": -28.898467815771223,
+      "normalized_distance": -5.736414714144921,
+      "raw_distance_pct": -28.898467815771234,
       "symbol": "POLUSDT"
     },
     {
@@ -3551,7 +3551,7 @@
       "symbol": "POLYXUSDT"
     },
     {
-      "atr_pct_60": 6.019131714495952,
+      "atr_pct_60": 6.019131714495953,
       "close": 0.06342,
       "date": "2026-04-27",
       "days_history": 614,
@@ -3564,7 +3564,7 @@
       "symbol": "POPCATUSDT"
     },
     {
-      "atr_pct_60": 10.72675250357654,
+      "atr_pct_60": 10.726752503576538,
       "close": 0.01165,
       "date": "2026-04-27",
       "days_history": 789,
@@ -3572,7 +3572,7 @@
       "listing_date": "2024-02-29",
       "ma_30w": 0.01859042857142857,
       "momentum_30d_pct": 25.268817204301097,
-      "normalized_distance": -3.4803957271143746,
+      "normalized_distance": -3.480395727114375,
       "raw_distance_pct": -37.33334357926121,
       "symbol": "PORTALUSDT"
     },
@@ -3583,14 +3583,14 @@
       "days_history": 914,
       "delisted_date": null,
       "listing_date": "2023-10-27",
-      "ma_30w": 0.08540704761904763,
+      "ma_30w": 0.0854070476190476,
       "momentum_30d_pct": 8.91055817081372,
-      "normalized_distance": -4.894769459968994,
-      "raw_distance_pct": -24.151458449955065,
+      "normalized_distance": -4.89476945996899,
+      "raw_distance_pct": -24.151458449955044,
       "symbol": "POWRUSDT"
     },
     {
-      "atr_pct_60": 7.611884865366762,
+      "atr_pct_60": 7.611884865366761,
       "close": 0.0359,
       "date": "2026-04-27",
       "days_history": 382,
@@ -3598,12 +3598,12 @@
       "listing_date": "2025-04-11",
       "ma_30w": 0.05924885714285714,
       "momentum_30d_pct": 20.187479075995984,
-      "normalized_distance": -5.1771820852554695,
+      "normalized_distance": -5.17718208525547,
       "raw_distance_pct": -39.408113960004044,
       "symbol": "PROMPTUSDT"
     },
     {
-      "atr_pct_60": 6.6433871671759075,
+      "atr_pct_60": 6.643387167175906,
       "close": 2.291,
       "date": "2026-04-27",
       "days_history": 468,
@@ -3611,7 +3611,7 @@
       "listing_date": "2025-01-15",
       "ma_30w": 5.38555238095238,
       "momentum_30d_pct": 133.0620549338759,
-      "normalized_distance": -8.649241447247856,
+      "normalized_distance": -8.649241447247858,
       "raw_distance_pct": -57.460259636452385,
       "symbol": "PROMUSDT"
     },
@@ -3655,7 +3655,7 @@
       "symbol": "PUMPBTCUSDT"
     },
     {
-      "atr_pct_60": 7.665165165165167,
+      "atr_pct_60": 7.665165165165165,
       "close": 0.001776,
       "date": "2026-04-27",
       "days_history": 381,
@@ -3663,7 +3663,7 @@
       "listing_date": "2025-04-12",
       "ma_30w": 0.002750447619047619,
       "momentum_30d_pct": 4.0421792618629215,
-      "normalized_distance": -4.6220389727949,
+      "normalized_distance": -4.6220389727949005,
       "raw_distance_pct": -35.428692126303254,
       "symbol": "PUMPUSDT"
     },
@@ -3687,10 +3687,10 @@
       "days_history": 888,
       "delisted_date": null,
       "listing_date": "2023-11-22",
-      "ma_30w": 0.06992161904761904,
+      "ma_30w": 0.06992161904761905,
       "momentum_30d_pct": 28.67393037470105,
-      "normalized_distance": -4.984539223444581,
-      "raw_distance_pct": -30.751031427026444,
+      "normalized_distance": -4.984539223444584,
+      "raw_distance_pct": -30.751031427026465,
       "symbol": "PYTHUSDT"
     },
     {
@@ -3739,10 +3739,10 @@
       "days_history": 621,
       "delisted_date": null,
       "listing_date": "2024-08-15",
-      "ma_30w": 0.02419542857142857,
+      "ma_30w": 0.024195428571428576,
       "momentum_30d_pct": 22.238163558106173,
-      "normalized_distance": -3.7913377988373225,
-      "raw_distance_pct": -29.573473147229702,
+      "normalized_distance": -3.791337798837324,
+      "raw_distance_pct": -29.573473147229713,
       "symbol": "RAREUSDT"
     },
     {
@@ -3765,10 +3765,10 @@
       "days_history": 418,
       "delisted_date": null,
       "listing_date": "2025-03-06",
-      "ma_30w": 0.23244714285714285,
+      "ma_30w": 0.23244714285714288,
       "momentum_30d_pct": 21.13594040968343,
-      "normalized_distance": -4.148966876750516,
-      "raw_distance_pct": -44.03028645529245,
+      "normalized_distance": -4.148966876750517,
+      "raw_distance_pct": -44.030286455292455,
       "symbol": "REDUSDT"
     },
     {
@@ -3804,23 +3804,23 @@
       "days_history": 728,
       "delisted_date": null,
       "listing_date": "2024-04-30",
-      "ma_30w": 0.005676838095238094,
+      "ma_30w": 0.005676838095238095,
       "momentum_30d_pct": 23.242065961418803,
-      "normalized_distance": -3.8860325635685227,
-      "raw_distance_pct": -30.225242757537718,
+      "normalized_distance": -3.886032563568524,
+      "raw_distance_pct": -30.22524275753773,
       "symbol": "REZUSDT"
     },
     {
-      "atr_pct_60": 6.2662313292801874,
+      "atr_pct_60": 6.266231329280194,
       "close": 0.4441,
       "date": "2026-04-27",
       "days_history": 2092,
       "delisted_date": null,
       "listing_date": "2019-09-25",
-      "ma_30w": 0.62315,
+      "ma_30w": 0.6231499999999999,
       "momentum_30d_pct": 10.720518573921712,
-      "normalized_distance": -4.585379683196276,
-      "raw_distance_pct": -28.733049827489367,
+      "normalized_distance": -4.58537968319627,
+      "raw_distance_pct": -28.733049827489353,
       "symbol": "RLCUSDT"
     },
     {
@@ -3837,15 +3837,15 @@
       "symbol": "RONINUSDT"
     },
     {
-      "atr_pct_60": 7.02273487128051,
+      "atr_pct_60": 7.022734871280509,
       "close": 0.00997,
       "date": "2026-04-27",
       "days_history": 1574,
       "delisted_date": null,
       "listing_date": "2021-12-31",
-      "ma_30w": 0.01451490476190476,
+      "ma_30w": 0.014514904761904762,
       "momentum_30d_pct": -4.684512428298282,
-      "normalized_distance": -4.458659667348595,
+      "normalized_distance": -4.458659667348596,
       "raw_distance_pct": -31.311984725060938,
       "symbol": "ROSEUSDT"
     },
@@ -3863,7 +3863,7 @@
       "symbol": "RPLUSDT"
     },
     {
-      "atr_pct_60": 6.832309696631304,
+      "atr_pct_60": 6.832309696631306,
       "close": 0.001791,
       "date": "2026-04-27",
       "days_history": 2012,
@@ -3871,12 +3871,12 @@
       "listing_date": "2019-09-25",
       "ma_30w": 0.002914009523809524,
       "momentum_30d_pct": 15.250965250965255,
-      "normalized_distance": -5.640595136334082,
+      "normalized_distance": -5.64059513633408,
       "raw_distance_pct": -38.53829284474672,
       "symbol": "RSRUSDT"
     },
     {
-      "atr_pct_60": 3.9605557750559703,
+      "atr_pct_60": 3.9605557750559717,
       "close": 0.5062,
       "date": "2026-04-27",
       "days_history": 2062,
@@ -3884,21 +3884,21 @@
       "listing_date": "2019-09-25",
       "ma_30w": 0.5988790476190475,
       "momentum_30d_pct": 28.21681864235055,
-      "normalized_distance": -3.907385940303677,
+      "normalized_distance": -3.9073859403036755,
       "raw_distance_pct": -15.47541995124223,
       "symbol": "RUNEUSDT"
     },
     {
-      "atr_pct_60": 4.878324844368988,
+      "atr_pct_60": 4.8783248443689855,
       "close": 0.00589,
       "date": "2026-04-27",
       "days_history": 1885,
       "delisted_date": null,
       "listing_date": "2021-02-23",
-      "ma_30w": 0.007443142857142857,
+      "ma_30w": 0.0074431428571428565,
       "momentum_30d_pct": 3.1523642732049106,
       "normalized_distance": -4.277444003512295,
-      "raw_distance_pct": -20.866761352731178,
+      "raw_distance_pct": -20.866761352731167,
       "symbol": "RVNUSDT"
     },
     {
@@ -3908,10 +3908,10 @@
       "days_history": 550,
       "delisted_date": null,
       "listing_date": "2024-10-25",
-      "ma_30w": 0.1634557142857143,
+      "ma_30w": 0.16345571428571432,
       "momentum_30d_pct": 48.38373305526591,
-      "normalized_distance": -1.8283497643540334,
-      "raw_distance_pct": -12.942780482262561,
+      "normalized_distance": -1.828349764354035,
+      "raw_distance_pct": -12.942780482262572,
       "symbol": "SAFEUSDT"
     },
     {
@@ -3921,27 +3921,27 @@
       "days_history": 749,
       "delisted_date": null,
       "listing_date": "2024-04-09",
-      "ma_30w": 0.06487504761904761,
+      "ma_30w": 0.06487504761904762,
       "momentum_30d_pct": -38.94331700489854,
       "normalized_distance": -5.638984730453324,
       "raw_distance_pct": -73.10213920386148,
       "symbol": "SAGAUSDT"
     },
     {
-      "atr_pct_60": 11.391342756183743,
+      "atr_pct_60": 11.391342756183747,
       "close": 0.02264,
       "date": "2026-04-27",
       "days_history": 306,
       "delisted_date": null,
       "listing_date": "2025-06-26",
-      "ma_30w": 0.039810904761904756,
+      "ma_30w": 0.03981090476190477,
       "momentum_30d_pct": -11.250490003920033,
-      "normalized_distance": -3.7863103805211447,
-      "raw_distance_pct": -43.13115932581285,
+      "normalized_distance": -3.786310380521145,
+      "raw_distance_pct": -43.131159325812874,
       "symbol": "SAHARAUSDT"
     },
     {
-      "atr_pct_60": 6.058344058344041,
+      "atr_pct_60": 6.058344058344058,
       "close": 0.0777,
       "date": "2026-04-27",
       "days_history": 1914,
@@ -3949,7 +3949,7 @@
       "listing_date": "2021-01-18",
       "ma_30w": 0.13167685714285715,
       "momentum_30d_pct": 5.9015946572168465,
-      "normalized_distance": -6.766190293732876,
+      "normalized_distance": -6.766190293732857,
       "raw_distance_pct": -40.99190876366169,
       "symbol": "SANDUSDT"
     },
@@ -3960,10 +3960,10 @@
       "days_history": 547,
       "delisted_date": null,
       "listing_date": "2024-10-28",
-      "ma_30w": 1.6095428571428572,
+      "ma_30w": 1.609542857142857,
       "momentum_30d_pct": 21.1141060197664,
-      "normalized_distance": -2.7227274034120783,
-      "raw_distance_pct": -16.249511840096563,
+      "normalized_distance": -2.7227274034120765,
+      "raw_distance_pct": -16.249511840096552,
       "symbol": "SANTOSUSDT"
     },
     {
@@ -3999,10 +3999,10 @@
       "days_history": 553,
       "delisted_date": null,
       "listing_date": "2024-10-22",
-      "ma_30w": 0.09179380952380951,
+      "ma_30w": 0.09179380952380953,
       "momentum_30d_pct": 11.293082375947193,
-      "normalized_distance": -6.521809249115404,
-      "raw_distance_pct": -50.39970534375696,
+      "normalized_distance": -6.521809249115405,
+      "raw_distance_pct": -50.39970534375697,
       "symbol": "SCRUSDT"
     },
     {
@@ -4012,7 +4012,7 @@
       "days_history": 985,
       "delisted_date": null,
       "listing_date": "2023-08-17",
-      "ma_30w": 0.1186657619047619,
+      "ma_30w": 0.11866576190476191,
       "momentum_30d_pct": 13.35456077917212,
       "normalized_distance": -8.648587372663489,
       "raw_distance_pct": -48.999611152733515,
@@ -4025,10 +4025,10 @@
       "days_history": 435,
       "delisted_date": null,
       "listing_date": "2025-02-17",
-      "ma_30w": 0.05542180952380952,
+      "ma_30w": 0.055421809523809526,
       "momentum_30d_pct": 25.36764705882353,
-      "normalized_distance": -5.381748744698506,
-      "raw_distance_pct": -38.47187543497574,
+      "normalized_distance": -5.381748744698508,
+      "raw_distance_pct": -38.47187543497576,
       "symbol": "SHELLUSDT"
     },
     {
@@ -4045,16 +4045,16 @@
       "symbol": "SIGNUSDT"
     },
     {
-      "atr_pct_60": 7.179487179487188,
+      "atr_pct_60": 7.179487179487179,
       "close": 0.00702,
       "date": "2026-04-27",
       "days_history": 1962,
       "delisted_date": null,
       "listing_date": "2020-08-24",
-      "ma_30w": 0.011291047619047617,
+      "ma_30w": 0.011291047619047619,
       "momentum_30d_pct": 21.45328719723183,
-      "normalized_distance": -5.268739787827806,
-      "raw_distance_pct": -37.82684975876378,
+      "normalized_distance": -5.268739787827815,
+      "raw_distance_pct": -37.82684975876379,
       "symbol": "SKLUSDT"
     },
     {
@@ -4155,14 +4155,14 @@
       "days_history": 335,
       "delisted_date": null,
       "listing_date": "2025-05-28",
-      "ma_30w": 0.014484657142857143,
+      "ma_30w": 0.014484657142857144,
       "momentum_30d_pct": 9.585299230196176,
-      "normalized_distance": -7.229047115779414,
-      "raw_distance_pct": -39.06655909800123,
+      "normalized_distance": -7.229047115779417,
+      "raw_distance_pct": -39.06655909800124,
       "symbol": "SOPHUSDT"
     },
     {
-      "atr_pct_60": 4.7058823529411775,
+      "atr_pct_60": 4.705882352941175,
       "close": 0.0001819,
       "date": "2026-04-27",
       "days_history": 1330,
@@ -4170,7 +4170,7 @@
       "listing_date": "2022-09-05",
       "ma_30w": 0.0002453952380952381,
       "momentum_30d_pct": 11.938461538461542,
-      "normalized_distance": -5.498369976519899,
+      "normalized_distance": -5.498369976519902,
       "raw_distance_pct": -25.87468224244659,
       "symbol": "SPELLUSDT"
     },
@@ -4188,7 +4188,7 @@
       "symbol": "SPXUSDT"
     },
     {
-      "atr_pct_60": 8.358130209982063,
+      "atr_pct_60": 8.358130209982061,
       "close": 0.03159,
       "date": "2026-04-27",
       "days_history": 321,
@@ -4196,25 +4196,25 @@
       "listing_date": "2025-06-11",
       "ma_30w": 0.06752766666666667,
       "momentum_30d_pct": -3.098159509202447,
-      "normalized_distance": -6.367354064374497,
+      "normalized_distance": -6.3673540643744975,
       "raw_distance_pct": -53.21917436310055,
       "symbol": "SQDUSDT"
     },
     {
-      "atr_pct_60": 6.842893342547803,
+      "atr_pct_60": 6.842893342547801,
       "close": 2.894,
       "date": "2026-04-27",
       "days_history": 1159,
       "delisted_date": null,
       "listing_date": "2023-02-23",
-      "ma_30w": 3.8082476190476195,
+      "ma_30w": 3.808247619047619,
       "momentum_30d_pct": 29.659498207885292,
-      "normalized_distance": -3.508317484640471,
-      "raw_distance_pct": -24.007042359190333,
+      "normalized_distance": -3.5083174846404703,
+      "raw_distance_pct": -24.007042359190322,
       "symbol": "SSVUSDT"
     },
     {
-      "atr_pct_60": 9.529287700124627,
+      "atr_pct_60": 9.529287700124629,
       "close": 0.03477,
       "date": "2026-04-27",
       "days_history": 223,
@@ -4222,7 +4222,7 @@
       "listing_date": "2025-09-17",
       "ma_30w": 0.06579533333333333,
       "momentum_30d_pct": 2.7482269503546153,
-      "normalized_distance": -4.948355876496962,
+      "normalized_distance": -4.948355876496961,
       "raw_distance_pct": -47.154306789741916,
       "symbol": "STBLUSDT"
     },
@@ -4240,7 +4240,7 @@
       "symbol": "STEEMUSDT"
     },
     {
-      "atr_pct_60": 4.9713225371120044,
+      "atr_pct_60": 4.97132253711201,
       "close": 0.0988,
       "date": "2026-04-27",
       "days_history": 2045,
@@ -4248,7 +4248,7 @@
       "listing_date": "2019-09-25",
       "ma_30w": 0.13189666666666666,
       "momentum_30d_pct": 13.043478260869556,
-      "normalized_distance": -5.047525190476422,
+      "normalized_distance": -5.047525190476416,
       "raw_distance_pct": -25.092875736055998,
       "symbol": "STORJUSDT"
     },
@@ -4266,7 +4266,7 @@
       "symbol": "STOUSDT"
     },
     {
-      "atr_pct_60": 6.444040194040196,
+      "atr_pct_60": 6.444040194040193,
       "close": 0.03848,
       "date": "2026-04-27",
       "days_history": 798,
@@ -4274,21 +4274,21 @@
       "listing_date": "2024-02-20",
       "ma_30w": 0.08429719047619048,
       "momentum_30d_pct": 12.94393894922219,
-      "normalized_distance": -8.43445671153191,
+      "normalized_distance": -8.434456711531913,
       "raw_distance_pct": -54.35197806400372,
       "symbol": "STRKUSDT"
     },
     {
-      "atr_pct_60": 5.4518027961736575,
+      "atr_pct_60": 5.451802796173659,
       "close": 0.2265,
       "date": "2026-04-27",
       "days_history": 1162,
       "delisted_date": null,
       "listing_date": "2023-02-20",
-      "ma_30w": 0.31542666666666663,
+      "ma_30w": 0.3154266666666667,
       "momentum_30d_pct": 2.814344076259645,
-      "normalized_distance": -5.171225412304624,
-      "raw_distance_pct": -28.192501162446625,
+      "normalized_distance": -5.171225412304625,
+      "raw_distance_pct": -28.192501162446636,
       "symbol": "STXUSDT"
     },
     {
@@ -4305,16 +4305,16 @@
       "symbol": "SUIUSDT"
     },
     {
-      "atr_pct_60": 3.4837367210601244,
+      "atr_pct_60": 3.4837367210601253,
       "close": 0.018262,
       "date": "2026-04-27",
       "days_history": 614,
       "delisted_date": null,
       "listing_date": "2024-08-22",
-      "ma_30w": 0.019760242857142857,
+      "ma_30w": 0.019760242857142854,
       "momentum_30d_pct": 6.223825034899955,
-      "normalized_distance": -2.176429539442046,
-      "raw_distance_pct": -7.58210750735423,
+      "normalized_distance": -2.1764295394420423,
+      "raw_distance_pct": -7.582107507354219,
       "symbol": "SUNUSDT"
     },
     {
@@ -4344,20 +4344,20 @@
       "symbol": "SUSDT"
     },
     {
-      "atr_pct_60": 5.26406519354335,
+      "atr_pct_60": 5.264065193543329,
       "close": 0.2127,
       "date": "2026-04-27",
       "days_history": 2057,
       "delisted_date": null,
       "listing_date": "2019-09-25",
-      "ma_30w": 0.32986666666666653,
+      "ma_30w": 0.3298666666666667,
       "momentum_30d_pct": 13.0781499202552,
-      "normalized_distance": -6.747523154170419,
-      "raw_distance_pct": -35.51940177849634,
+      "normalized_distance": -6.747523154170452,
+      "raw_distance_pct": -35.51940177849637,
       "symbol": "SUSHIUSDT"
     },
     {
-      "atr_pct_60": 7.996422182468692,
+      "atr_pct_60": 7.996422182468693,
       "close": 0.01677,
       "date": "2026-04-27",
       "days_history": 361,
@@ -4365,7 +4365,7 @@
       "listing_date": "2025-05-02",
       "ma_30w": 0.03121647619047619,
       "momentum_30d_pct": 6.747294716740937,
-      "normalized_distance": -5.7873844608627945,
+      "normalized_distance": -5.787384460862794,
       "raw_distance_pct": -46.27836948131786,
       "symbol": "SXTUSDT"
     },
@@ -4396,7 +4396,7 @@
       "symbol": "SYRUPUSDT"
     },
     {
-      "atr_pct_60": 9.324849770236835,
+      "atr_pct_60": 9.324849770236833,
       "close": 0.00943,
       "date": "2026-04-27",
       "days_history": 617,
@@ -4404,21 +4404,21 @@
       "listing_date": "2024-08-19",
       "ma_30w": 0.018792952380952382,
       "momentum_30d_pct": -7.001972386587774,
-      "normalized_distance": -5.342886611585987,
+      "normalized_distance": -5.342886611585988,
       "raw_distance_pct": -49.82161499244905,
       "symbol": "SYSUSDT"
     },
     {
-      "atr_pct_60": 4.820426487093153,
+      "atr_pct_60": 4.820426487093154,
       "close": 0.1188,
       "date": "2026-04-27",
       "days_history": 321,
       "delisted_date": null,
       "listing_date": "2025-06-11",
-      "ma_30w": 0.17789380952380954,
+      "ma_30w": 0.1778938095238095,
       "momentum_30d_pct": 1.3651877133105783,
-      "normalized_distance": -6.891213233167422,
-      "raw_distance_pct": -33.21858679736708,
+      "normalized_distance": -6.891213233167417,
+      "raw_distance_pct": -33.21858679736707,
       "symbol": "TAIKOUSDT"
     },
     {
@@ -4448,7 +4448,7 @@
       "symbol": "TAOUSDT"
     },
     {
-      "atr_pct_60": 5.975743348982773,
+      "atr_pct_60": 5.975743348982786,
       "close": 0.213,
       "date": "2026-04-27",
       "days_history": 2162,
@@ -4456,7 +4456,7 @@
       "listing_date": "2019-09-25",
       "ma_30w": 0.31589857142857136,
       "momentum_30d_pct": 40.13157894736843,
-      "normalized_distance": -5.4509192278077006,
+      "normalized_distance": -5.450919227807689,
       "raw_distance_pct": -32.57329432141418,
       "symbol": "THETAUSDT"
     },
@@ -4467,40 +4467,40 @@
       "days_history": 517,
       "delisted_date": null,
       "listing_date": "2024-11-27",
-      "ma_30w": 0.21083380952380953,
+      "ma_30w": 0.2108338095238095,
       "momentum_30d_pct": -1.725790987535969,
       "normalized_distance": -3.1734141438404833,
       "raw_distance_pct": -51.38350901522526,
       "symbol": "THEUSDT"
     },
     {
-      "atr_pct_60": 6.279365977922445,
+      "atr_pct_60": 6.279365977922446,
       "close": 0.3533,
       "date": "2026-04-27",
       "days_history": 910,
       "delisted_date": null,
       "listing_date": "2023-10-31",
-      "ma_30w": 0.5796090476190475,
+      "ma_30w": 0.5796090476190476,
       "momentum_30d_pct": 20.170068027210885,
-      "normalized_distance": -6.218003543921731,
-      "raw_distance_pct": -39.045119904303306,
+      "normalized_distance": -6.21800354392173,
+      "raw_distance_pct": -39.04511990430331,
       "symbol": "TIAUSDT"
     },
     {
-      "atr_pct_60": 6.5531335149863885,
+      "atr_pct_60": 6.553133514986374,
       "close": 0.001835,
       "date": "2026-04-27",
       "days_history": 1718,
       "delisted_date": null,
       "listing_date": "2021-07-16",
-      "ma_30w": 0.002349909523809527,
+      "ma_30w": 0.002349909523809524,
       "momentum_30d_pct": 12.507664009809938,
-      "normalized_distance": -3.3437266515338515,
-      "raw_distance_pct": -21.911887185119696,
+      "normalized_distance": -3.3437266515338413,
+      "raw_distance_pct": -21.911887185119582,
       "symbol": "TLMUSDT"
     },
     {
-      "atr_pct_60": 7.758872143898884,
+      "atr_pct_60": 7.7588721438988815,
       "close": 0.04114,
       "date": "2026-04-27",
       "days_history": 750,
@@ -4508,7 +4508,7 @@
       "listing_date": "2024-04-08",
       "ma_30w": 0.06567304761904762,
       "momentum_30d_pct": 7.639979068550518,
-      "normalized_distance": -4.8146612439763805,
+      "normalized_distance": -4.814661243976382,
       "raw_distance_pct": -37.35634100819789,
       "symbol": "TNSRUSDT"
     },
@@ -4519,10 +4519,10 @@
       "days_history": 788,
       "delisted_date": null,
       "listing_date": "2024-03-01",
-      "ma_30w": 1.6422990476190475,
+      "ma_30w": 1.6422990476190478,
       "momentum_30d_pct": 5.563642244864941,
-      "normalized_distance": -4.743388964477881,
-      "raw_distance_pct": -20.513867319564795,
+      "normalized_distance": -4.743388964477883,
+      "raw_distance_pct": -20.513867319564806,
       "symbol": "TONUSDT"
     },
     {
@@ -4578,7 +4578,7 @@
       "symbol": "TRBUSDT"
     },
     {
-      "atr_pct_60": 7.597925150281173,
+      "atr_pct_60": 7.597925150281171,
       "close": 0.06876,
       "date": "2026-04-27",
       "days_history": 273,
@@ -4586,12 +4586,12 @@
       "listing_date": "2025-07-29",
       "ma_30w": 0.11068733333333333,
       "momentum_30d_pct": 15.060240963855431,
-      "normalized_distance": -4.985449320271028,
+      "normalized_distance": -4.98544932027103,
       "raw_distance_pct": -37.879070775939425,
       "symbol": "TREEUSDT"
     },
     {
-      "atr_pct_60": 8.835182250396194,
+      "atr_pct_60": 8.835182250396196,
       "close": 2.524,
       "date": "2026-04-27",
       "days_history": 465,
@@ -4599,21 +4599,21 @@
       "listing_date": "2025-01-18",
       "ma_30w": 4.893138095238095,
       "momentum_30d_pct": -14.091218515997284,
-      "normalized_distance": -5.480086214333097,
+      "normalized_distance": -5.480086214333095,
       "raw_distance_pct": -48.41756045151665,
       "symbol": "TRUMPUSDT"
     },
     {
-      "atr_pct_60": 9.671107410491256,
+      "atr_pct_60": 9.671107410491258,
       "close": 0.010809,
       "date": "2026-04-27",
       "days_history": 443,
       "delisted_date": null,
       "listing_date": "2025-02-09",
-      "ma_30w": 0.014882457142857144,
+      "ma_30w": 0.014882457142857141,
       "momentum_30d_pct": 32.62576687116565,
-      "normalized_distance": -2.830168572888996,
-      "raw_distance_pct": -27.37086425820623,
+      "normalized_distance": -2.830168572888993,
+      "raw_distance_pct": -27.370864258206208,
       "symbol": "TSTUSDT"
     },
     {
@@ -4630,7 +4630,7 @@
       "symbol": "TURBOUSDT"
     },
     {
-      "atr_pct_60": 5.240493093390566,
+      "atr_pct_60": 5.240493093390565,
       "close": 0.006057,
       "date": "2026-04-27",
       "days_history": 1182,
@@ -4638,21 +4638,21 @@
       "listing_date": "2023-01-31",
       "ma_30w": 0.009276109523809525,
       "momentum_30d_pct": -0.09896091044037103,
-      "normalized_distance": -6.622130458178536,
+      "normalized_distance": -6.622130458178537,
       "raw_distance_pct": -34.703228929615925,
       "symbol": "TUSDT"
     },
     {
-      "atr_pct_60": 8.55209316965691,
+      "atr_pct_60": 8.552093169656908,
       "close": 0.01059,
       "date": "2026-04-27",
       "days_history": 404,
       "delisted_date": null,
       "listing_date": "2025-03-20",
-      "ma_30w": 0.017979142857142857,
+      "ma_30w": 0.01797914285714286,
       "momentum_30d_pct": 19.12260967379078,
-      "normalized_distance": -4.805655739377604,
-      "raw_distance_pct": -41.098415624453736,
+      "normalized_distance": -4.805655739377606,
+      "raw_distance_pct": -41.09841562445374,
       "symbol": "TUTUSDT"
     },
     {
@@ -4669,7 +4669,7 @@
       "symbol": "TWTUSDT"
     },
     {
-      "atr_pct_60": 6.153228162430617,
+      "atr_pct_60": 6.153228162430618,
       "close": 0.4564,
       "date": "2026-04-27",
       "days_history": 1084,
@@ -4677,21 +4677,21 @@
       "listing_date": "2023-05-09",
       "ma_30w": 0.7094061904761905,
       "momentum_30d_pct": 14.846502264720684,
-      "normalized_distance": -5.796063762275722,
+      "normalized_distance": -5.796063762275721,
       "raw_distance_pct": -35.66450277327853,
       "symbol": "UMAUSDT"
     },
     {
-      "atr_pct_60": 5.853846153846153,
+      "atr_pct_60": 5.853846153846154,
       "close": 3.25,
       "date": "2026-04-27",
       "days_history": 2048,
       "delisted_date": null,
       "listing_date": "2019-09-25",
-      "ma_30w": 5.024333333333333,
+      "ma_30w": 5.024333333333334,
       "momentum_30d_pct": -3.8745933155870937,
-      "normalized_distance": -6.032751864709575,
-      "raw_distance_pct": -35.31480130033835,
+      "normalized_distance": -6.032751864709574,
+      "raw_distance_pct": -35.31480130033836,
       "symbol": "UNIUSDT"
     },
     {
@@ -4708,7 +4708,7 @@
       "symbol": "USDCUSDT"
     },
     {
-      "atr_pct_60": 11.159706778683798,
+      "atr_pct_60": 11.1597067786838,
       "close": 0.04047,
       "date": "2026-04-27",
       "days_history": 256,
@@ -4716,12 +4716,12 @@
       "listing_date": "2025-08-15",
       "ma_30w": 0.10622447619047619,
       "momentum_30d_pct": 33.25650312808692,
-      "normalized_distance": -5.546869399892223,
+      "normalized_distance": -5.5468693998922225,
       "raw_distance_pct": -61.901436042450975,
       "symbol": "USELESSUSDT"
     },
     {
-      "atr_pct_60": 5.739329689139198,
+      "atr_pct_60": 5.739329689139196,
       "close": 0.006037,
       "date": "2026-04-27",
       "days_history": 883,
@@ -4729,25 +4729,25 @@
       "listing_date": "2023-11-27",
       "ma_30w": 0.006419695238095238,
       "momentum_30d_pct": 37.26693951796272,
-      "normalized_distance": -1.0386697272184142,
+      "normalized_distance": -1.0386697272184147,
       "raw_distance_pct": -5.961268002634757,
       "symbol": "USTCUSDT"
     },
     {
-      "atr_pct_60": 7.152092148566054,
+      "atr_pct_60": 7.152092148566055,
       "close": 0.01418,
       "date": "2026-04-27",
       "days_history": 496,
       "delisted_date": null,
       "listing_date": "2024-12-18",
-      "ma_30w": 0.02360033333333333,
+      "ma_30w": 0.023600333333333334,
       "momentum_30d_pct": 18.561872909698995,
       "normalized_distance": -5.581038673824375,
-      "raw_distance_pct": -39.916102879902816,
+      "raw_distance_pct": -39.91610287990282,
       "symbol": "USUALUSDT"
     },
     {
-      "atr_pct_60": 5.113504748668058,
+      "atr_pct_60": 5.113504748668057,
       "close": 1.439,
       "date": "2026-04-27",
       "days_history": 498,
@@ -4755,12 +4755,12 @@
       "listing_date": "2024-12-16",
       "ma_30w": 2.2070523809523808,
       "momentum_30d_pct": 21.43459915611814,
-      "normalized_distance": -6.805492122548139,
+      "normalized_distance": -6.805492122548141,
       "raw_distance_pct": -34.79991628567297,
       "symbol": "VANAUSDT"
     },
     {
-      "atr_pct_60": 8.255931030142849,
+      "atr_pct_60": 8.255931030142847,
       "close": 0.005297,
       "date": "2026-04-27",
       "days_history": 776,
@@ -4768,7 +4768,7 @@
       "listing_date": "2024-03-13",
       "ma_30w": 0.009539980952380952,
       "momentum_30d_pct": 3.174912349045589,
-      "normalized_distance": -5.3871307745866215,
+      "normalized_distance": -5.387130774586622,
       "raw_distance_pct": -44.475780125347164,
       "symbol": "VANRYUSDT"
     },
@@ -4779,10 +4779,10 @@
       "days_history": 501,
       "delisted_date": null,
       "listing_date": "2024-12-13",
-      "ma_30w": 0.023617000000000003,
+      "ma_30w": 0.023616999999999996,
       "momentum_30d_pct": 19.489723600283494,
-      "normalized_distance": -4.730734088840077,
-      "raw_distance_pct": -28.610746496168026,
+      "normalized_distance": -4.730734088840073,
+      "raw_distance_pct": -28.610746496168005,
       "symbol": "VELODROMEUSDT"
     },
     {
@@ -4812,28 +4812,28 @@
       "symbol": "VETUSDT"
     },
     {
-      "atr_pct_60": 7.717450027012426,
+      "atr_pct_60": 7.717450027012424,
       "close": 0.05553,
       "date": "2026-04-27",
       "days_history": 412,
       "delisted_date": null,
       "listing_date": "2025-03-12",
-      "ma_30w": 0.09060561904761906,
+      "ma_30w": 0.09060561904761903,
       "momentum_30d_pct": 36.20309050772627,
       "normalized_distance": -5.016217820190338,
-      "raw_distance_pct": -38.71241035192814,
+      "raw_distance_pct": -38.71241035192813,
       "symbol": "VICUSDT"
     },
     {
-      "atr_pct_60": 8.372115571068454,
+      "atr_pct_60": 8.372115571068452,
       "close": 0.01719,
       "date": "2026-04-27",
       "days_history": 459,
       "delisted_date": null,
       "listing_date": "2025-01-24",
-      "ma_30w": 0.02866542857142857,
+      "ma_30w": 0.028665428571428574,
       "momentum_30d_pct": 15.5241935483871,
-      "normalized_distance": -4.781622209312368,
+      "normalized_distance": -4.781622209312369,
       "raw_distance_pct": -40.03229375355082,
       "symbol": "VINEUSDT"
     },
@@ -4864,7 +4864,7 @@
       "symbol": "VTHOUSDT"
     },
     {
-      "atr_pct_60": 6.847909604519773,
+      "atr_pct_60": 6.847909604519775,
       "close": 0.07375,
       "date": "2026-04-27",
       "days_history": 397,
@@ -4872,7 +4872,7 @@
       "listing_date": "2025-03-27",
       "ma_30w": 0.14261866666666667,
       "momentum_30d_pct": 7.664233576642321,
-      "normalized_distance": -7.051593749456919,
+      "normalized_distance": -7.051593749456917,
       "raw_distance_pct": -48.28867656407764,
       "symbol": "WALUSDT"
     },
@@ -4903,7 +4903,7 @@
       "symbol": "WCTUSDT"
     },
     {
-      "atr_pct_60": 7.6668546719308175,
+      "atr_pct_60": 7.666854671930815,
       "close": 0.1773,
       "date": "2026-04-27",
       "days_history": 831,
@@ -4911,12 +4911,12 @@
       "listing_date": "2024-01-18",
       "ma_30w": 0.3369285714285714,
       "momentum_30d_pct": 1.0256410256410442,
-      "normalized_distance": -6.17953157025037,
+      "normalized_distance": -6.179531570250372,
       "raw_distance_pct": -47.37757048971803,
       "symbol": "WIFUSDT"
     },
     {
-      "atr_pct_60": 9.172241899514624,
+      "atr_pct_60": 9.172241899514628,
       "close": 0.2541,
       "date": "2026-04-27",
       "days_history": 1009,
@@ -4924,12 +4924,12 @@
       "listing_date": "2023-07-24",
       "ma_30w": 0.55301,
       "momentum_30d_pct": -5.433569036099739,
-      "normalized_distance": -5.89293919625307,
+      "normalized_distance": -5.892939196253067,
       "raw_distance_pct": -54.05146380716444,
       "symbol": "WLDUSDT"
     },
     {
-      "atr_pct_60": 7.127464465841357,
+      "atr_pct_60": 7.1274644658413555,
       "close": 0.0727,
       "date": "2026-04-27",
       "days_history": 248,
@@ -4937,21 +4937,21 @@
       "listing_date": "2025-08-23",
       "ma_30w": 0.13029333333333332,
       "momentum_30d_pct": -25.435897435897438,
-      "normalized_distance": -6.201760051990134,
+      "normalized_distance": -6.201760051990135,
       "raw_distance_pct": -44.20282439623413,
       "symbol": "WLFIUSDT"
     },
     {
-      "atr_pct_60": 5.980291345329905,
+      "atr_pct_60": 5.980291345329906,
       "close": 0.01945,
       "date": "2026-04-27",
       "days_history": 1481,
       "delisted_date": null,
       "listing_date": "2022-04-07",
-      "ma_30w": 0.02728309523809524,
+      "ma_30w": 0.027283095238095238,
       "momentum_30d_pct": 20.73246430788329,
-      "normalized_distance": -4.800842137294507,
-      "raw_distance_pct": -28.710434683957466,
+      "normalized_distance": -4.800842137294504,
+      "raw_distance_pct": -28.710434683957452,
       "symbol": "WOOUSDT"
     },
     {
@@ -4968,20 +4968,20 @@
       "symbol": "WUSDT"
     },
     {
-      "atr_pct_60": 6.979454155167128,
+      "atr_pct_60": 6.979454155167125,
       "close": 0.01087,
       "date": "2026-04-27",
       "days_history": 840,
       "delisted_date": null,
       "listing_date": "2024-01-09",
-      "ma_30w": 0.016745428571428574,
+      "ma_30w": 0.01674542857142857,
       "momentum_30d_pct": 18.927789934354465,
-      "normalized_distance": -5.027149779745855,
-      "raw_distance_pct": -35.08676141889472,
+      "normalized_distance": -5.027149779745856,
+      "raw_distance_pct": -35.08676141889471,
       "symbol": "XAIUSDT"
     },
     {
-      "atr_pct_60": 14.167554976509141,
+      "atr_pct_60": 14.16755497650914,
       "close": 0.008443,
       "date": "2026-04-27",
       "days_history": 211,
@@ -4989,12 +4989,12 @@
       "listing_date": "2025-09-29",
       "ma_30w": 0.021770104761904763,
       "momentum_30d_pct": -1.3783436514425706,
-      "normalized_distance": -4.320961394249821,
+      "normalized_distance": -4.320961394249822,
       "raw_distance_pct": -61.21745810440793,
       "symbol": "XANUSDT"
     },
     {
-      "atr_pct_60": 4.888192393466335,
+      "atr_pct_60": 4.888192393466337,
       "close": 0.16591,
       "date": "2026-04-27",
       "days_history": 2285,
@@ -5002,7 +5002,7 @@
       "listing_date": "2019-09-25",
       "ma_30w": 0.22279861904761902,
       "momentum_30d_pct": -1.1440147768575382,
-      "normalized_distance": -5.223536166372688,
+      "normalized_distance": -5.2235361663726865,
       "raw_distance_pct": -25.533649755459276,
       "symbol": "XLMUSDT"
     },
@@ -5020,7 +5020,7 @@
       "symbol": "XMRUSDT"
     },
     {
-      "atr_pct_60": 9.756944444444446,
+      "atr_pct_60": 9.756944444444445,
       "close": 0.001392,
       "date": "2026-04-27",
       "days_history": 228,
@@ -5028,12 +5028,12 @@
       "listing_date": "2025-09-12",
       "ma_30w": 0.002290017142857143,
       "momentum_30d_pct": 27.8236914600551,
-      "normalized_distance": -4.019130073046741,
+      "normalized_distance": -4.019130073046742,
       "raw_distance_pct": -39.214428837713,
       "symbol": "XPINUSDT"
     },
     {
-      "atr_pct_60": 12.116429056347588,
+      "atr_pct_60": 12.116429056347592,
       "close": 0.0982,
       "date": "2026-04-27",
       "days_history": 249,
@@ -5041,7 +5041,7 @@
       "listing_date": "2025-08-22",
       "ma_30w": 0.20740904761904763,
       "momentum_30d_pct": 10.96045197740112,
-      "normalized_distance": -4.345665344469881,
+      "normalized_distance": -4.3456653444698805,
       "raw_distance_pct": -52.65394584889762,
       "symbol": "XPLUSDT"
     },
@@ -5052,14 +5052,14 @@
       "days_history": 2299,
       "delisted_date": null,
       "listing_date": "2019-09-25",
-      "ma_30w": 1.8773276190476191,
+      "ma_30w": 1.877327619047619,
       "momentum_30d_pct": 5.042395137690403,
-      "normalized_distance": -6.0682118247594605,
-      "raw_distance_pct": -25.431236093454025,
+      "normalized_distance": -6.068211824759457,
+      "raw_distance_pct": -25.43123609345401,
       "symbol": "XRPUSDT"
     },
     {
-      "atr_pct_60": 4.71259807810985,
+      "atr_pct_60": 4.712598078109848,
       "close": 0.3781,
       "date": "2026-04-27",
       "days_history": 2273,
@@ -5067,12 +5067,12 @@
       "listing_date": "2019-09-25",
       "ma_30w": 0.48260714285714285,
       "momentum_30d_pct": 9.59420289855073,
-      "normalized_distance": -4.595066780529425,
+      "normalized_distance": -4.595066780529427,
       "raw_distance_pct": -21.654702878709386,
       "symbol": "XTZUSDT"
     },
     {
-      "atr_pct_60": 10.274172451956936,
+      "atr_pct_60": 10.274172451956938,
       "close": 0.003313,
       "date": "2026-04-27",
       "days_history": 1028,
@@ -5080,7 +5080,7 @@
       "listing_date": "2023-07-05",
       "ma_30w": 0.005886109523809524,
       "momentum_30d_pct": -25.916815742397148,
-      "normalized_distance": -4.254838519873108,
+      "normalized_distance": -4.254838519873107,
       "raw_distance_pct": -43.714944708405504,
       "symbol": "XVGUSDT"
     },
@@ -5091,14 +5091,14 @@
       "days_history": 1111,
       "delisted_date": null,
       "listing_date": "2023-04-12",
-      "ma_30w": 4.040333333333334,
+      "ma_30w": 4.040333333333333,
       "momentum_30d_pct": 0.3416856492027387,
-      "normalized_distance": -5.923986495427962,
-      "raw_distance_pct": -34.58460523059155,
+      "normalized_distance": -5.92398649542796,
+      "raw_distance_pct": -34.584605230591535,
       "symbol": "XVSUSDT"
     },
     {
-      "atr_pct_60": 4.228428866983086,
+      "atr_pct_60": 4.228428866983084,
       "close": 2739.0,
       "date": "2026-04-27",
       "days_history": 2061,
@@ -5106,25 +5106,25 @@
       "listing_date": "2019-09-25",
       "ma_30w": 3516.0333333333333,
       "momentum_30d_pct": 13.369205298013242,
-      "normalized_distance": -5.226460071993398,
+      "normalized_distance": -5.226460071993401,
       "raw_distance_pct": -22.099714640551383,
       "symbol": "YFIUSDT"
     },
     {
-      "atr_pct_60": 5.64976548601003,
+      "atr_pct_60": 5.649765486010028,
       "close": 0.04122,
       "date": "2026-04-27",
       "days_history": 997,
       "delisted_date": null,
       "listing_date": "2023-08-05",
-      "ma_30w": 0.07318485714285713,
+      "ma_30w": 0.07318485714285715,
       "momentum_30d_pct": 18.312284730195174,
-      "normalized_distance": -7.730740887158714,
-      "raw_distance_pct": -43.676873045555865,
+      "normalized_distance": -7.730740887158718,
+      "raw_distance_pct": -43.67687304555587,
       "symbol": "YGGUSDT"
     },
     {
-      "atr_pct_60": 6.56800089696154,
+      "atr_pct_60": 6.568000896961543,
       "close": 5.946,
       "date": "2026-04-27",
       "days_history": 1976,
@@ -5132,7 +5132,7 @@
       "listing_date": "2019-09-25",
       "ma_30w": 8.888890476190477,
       "momentum_30d_pct": 15.210230575469886,
-      "normalized_distance": -5.040728901301342,
+      "normalized_distance": -5.040728901301339,
       "raw_distance_pct": -33.10751194508717,
       "symbol": "ZENUSDT"
     },
@@ -5150,29 +5150,29 @@
       "symbol": "ZEREBROUSDT"
     },
     {
-      "atr_pct_60": 6.9337724112696675,
+      "atr_pct_60": 6.933772411269669,
       "close": 0.05466,
       "date": "2026-04-27",
       "days_history": 816,
       "delisted_date": null,
       "listing_date": "2024-02-02",
-      "ma_30w": 0.07861919047619047,
+      "ma_30w": 0.07861919047619048,
       "momentum_30d_pct": 9.714973906061818,
       "normalized_distance": -4.395152918773351,
-      "raw_distance_pct": -30.474990051502015,
+      "raw_distance_pct": -30.474990051502026,
       "symbol": "ZETAUSDT"
     },
     {
-      "atr_pct_60": 4.8406862745098005,
+      "atr_pct_60": 4.840686274509803,
       "close": 0.00408,
       "date": "2026-04-27",
       "days_history": 2135,
       "delisted_date": null,
       "listing_date": "2019-09-25",
-      "ma_30w": 0.0055047619047619055,
+      "ma_30w": 0.005504761904761905,
       "momentum_30d_pct": 9.090909090909104,
-      "normalized_distance": -5.34683544303798,
-      "raw_distance_pct": -25.882352941176478,
+      "normalized_distance": -5.346835443037975,
+      "raw_distance_pct": -25.882352941176467,
       "symbol": "ZILUSDT"
     },
     {
@@ -5189,46 +5189,46 @@
       "symbol": "ZKCUSDT"
     },
     {
-      "atr_pct_60": 11.40903954802259,
+      "atr_pct_60": 11.4090395480226,
       "close": 0.01475,
       "date": "2026-04-27",
       "days_history": 350,
       "delisted_date": null,
       "listing_date": "2025-05-13",
-      "ma_30w": 0.04363123809523809,
+      "ma_30w": 0.0436312380952381,
       "momentum_30d_pct": -26.10220440881763,
-      "normalized_distance": -5.801885909693475,
+      "normalized_distance": -5.80188590969347,
       "raw_distance_pct": -66.19394579680788,
       "symbol": "ZKJUSDT"
     },
     {
-      "atr_pct_60": 7.358572671888599,
+      "atr_pct_60": 7.3585726718885995,
       "close": 0.01532,
       "date": "2026-04-27",
       "days_history": 680,
       "delisted_date": null,
       "listing_date": "2024-06-17",
-      "ma_30w": 0.030258095238095237,
+      "ma_30w": 0.03025809523809524,
       "momentum_30d_pct": -10.199296600234453,
       "normalized_distance": -6.709034964343536,
-      "raw_distance_pct": -49.36892134336344,
+      "raw_distance_pct": -49.368921343363446,
       "symbol": "ZKUSDT"
     },
     {
-      "atr_pct_60": 7.176691729323309,
+      "atr_pct_60": 7.17669172932331,
       "close": 0.0133,
       "date": "2026-04-27",
       "days_history": 277,
       "delisted_date": null,
       "listing_date": "2025-07-25",
-      "ma_30w": 0.03920666666666667,
+      "ma_30w": 0.039206666666666674,
       "momentum_30d_pct": -10.377358490566046,
-      "normalized_distance": -9.207194658438281,
-      "raw_distance_pct": -66.07719775548377,
+      "normalized_distance": -9.207194658438283,
+      "raw_distance_pct": -66.07719775548378,
       "symbol": "ZORAUSDT"
     },
     {
-      "atr_pct_60": 10.834586466165414,
+      "atr_pct_60": 10.834586466165412,
       "close": 1.463,
       "date": "2026-04-27",
       "days_history": 677,
@@ -5236,12 +5236,12 @@
       "listing_date": "2024-06-20",
       "ma_30w": 1.704045238095238,
       "momentum_30d_pct": -26.740110165247877,
-      "normalized_distance": -1.3055848336926077,
+      "normalized_distance": -1.305584833692608,
       "raw_distance_pct": -14.14547176955675,
       "symbol": "ZROUSDT"
     },
     {
-      "atr_pct_60": 5.041371158392437,
+      "atr_pct_60": 5.041371158392435,
       "close": 0.1128,
       "date": "2026-04-27",
       "days_history": 2134,
@@ -5249,7 +5249,7 @@
       "listing_date": "2019-09-25",
       "ma_30w": 0.1421647619047619,
       "momentum_30d_pct": 13.709677419354849,
-      "normalized_distance": -4.097187597043706,
+      "normalized_distance": -4.097187597043708,
       "raw_distance_pct": -20.655443382259353,
       "symbol": "ZRXUSDT"
     }
