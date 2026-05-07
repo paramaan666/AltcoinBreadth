@@ -12647,6 +12647,12 @@
       "above_pct": 14.8148,
       "date": "2026-05-05",
       "eligible_count": 459
+    },
+    {
+      "above_count": 68,
+      "above_pct": 14.7826,
+      "date": "2026-05-06",
+      "eligible_count": 460
     }
   ]
 }
