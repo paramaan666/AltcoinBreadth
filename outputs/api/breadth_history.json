@@ -12653,6 +12653,12 @@
       "above_pct": 14.7826,
       "date": "2026-05-06",
       "eligible_count": 460
+    },
+    {
+      "above_count": 75,
+      "above_pct": 16.2338,
+      "date": "2026-05-07",
+      "eligible_count": 462
     }
   ]
 }
