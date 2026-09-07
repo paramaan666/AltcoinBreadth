@@ -12,7 +12,8 @@ on:
       - "pyproject.toml"
       - "tests/**"
   schedule:
-    - cron: "17 11 * * *"
+    # Keep the daily run away from the top of the hour to reduce scheduler congestion.
+    - cron: "23 11 * * *"
 
 permissions:
   contents: write
