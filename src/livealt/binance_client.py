@@ -17,6 +17,9 @@ import polars as pl
 from livealt.config import BinanceConfig
 
 
+ARCHIVE_FULL_BACKFILL_DAYS = 365
+
+
 @dataclass(frozen=True)
 class UniverseSymbol:
     symbol: str
@@ -150,23 +153,25 @@ class BinanceClient:
         if start_date > end_date:
             return pl.DataFrame()
 
-        del full_backfill
+        if full_backfill:
+            earliest_backfill_date = end_date - timedelta(days=ARCHIVE_FULL_BACKFILL_DAYS - 1)
+            start_date = max(start_date, earliest_backfill_date)
+
         current_month_start = datetime.now(tz=UTC).date().replace(day=1)
         frames = []
         for month_start in _month_starts_between(start_date, end_date):
             month_end = _month_end(month_start)
             month_range_start = max(start_date, month_start)
             month_range_end = min(end_date, month_end)
-            if (
-                month_range_start == month_start
-                and month_range_end == month_end
-                and month_end < current_month_start
-            ):
+            if month_end < current_month_start:
                 key = f"data/futures/um/monthly/klines/{symbol}/1d/{symbol}-1d-{month_start:%Y-%m}.zip"
                 frame = self._download_archive_frame(key, symbol, allow_missing=True)
                 if not frame.is_empty():
                     frames.append(frame)
-                    continue
+                # Completed months are represented by a single monthly archive.
+                # If it does not exist, the symbol had no archived data for that month;
+                # probing every individual day is both redundant and extremely slow.
+                continue
             for day in _days_in_range(month_range_start, month_range_end):
                 key = f"data/futures/um/daily/klines/{symbol}/1d/{symbol}-1d-{day.isoformat()}.zip"
                 frame = self._download_archive_frame(key, symbol, allow_missing=True)
