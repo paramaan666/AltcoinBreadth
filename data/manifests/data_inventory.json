@@ -1,21 +1,21 @@
 {
-  "symbol_count": 681,
+  "symbol_count": 844,
   "symbols": {
     "0GUSDT": {
       "first_data_date": "2025-09-17",
-      "last_data_date": "2026-05-14"
+      "last_data_date": "2026-09-06"
     },
     "1000000BOBUSDT": {
       "first_data_date": "2025-06-05",
-      "last_data_date": "2026-05-14"
+      "last_data_date": "2026-09-06"
     },
     "1000000MOGUSDT": {
       "first_data_date": "2024-11-07",
-      "last_data_date": "2026-05-14"
+      "last_data_date": "2026-09-06"
     },
     "1000BONKUSDT": {
       "first_data_date": "2023-11-22",
-      "last_data_date": "2026-05-14"
+      "last_data_date": "2026-09-06"
     },
     "1000BTTCUSDT": {
       "first_data_date": "2022-01-26",
@@ -23,35 +23,35 @@
     },
     "1000CATUSDT": {
       "first_data_date": "2024-10-21",
-      "last_data_date": "2026-05-14"
+      "last_data_date": "2026-09-06"
     },
     "1000CHEEMSUSDT": {
       "first_data_date": "2024-11-25",
-      "last_data_date": "2026-05-14"
+      "last_data_date": "2026-09-06"
     },
     "1000FLOKIUSDT": {
       "first_data_date": "2023-05-06",
-      "last_data_date": "2026-05-14"
+      "last_data_date": "2026-09-06"
     },
     "1000LUNCUSDT": {
       "first_data_date": "2022-09-09",
-      "last_data_date": "2026-05-14"
+      "last_data_date": "2026-09-06"
     },
     "1000PEPEUSDT": {
       "first_data_date": "2023-05-05",
-      "last_data_date": "2026-05-14"
+      "last_data_date": "2026-09-06"
     },
     "1000RATSUSDT": {
       "first_data_date": "2023-12-15",
-      "last_data_date": "2026-05-14"
+      "last_data_date": "2026-09-06"
     },
     "1000SATSUSDT": {
       "first_data_date": "2023-12-12",
-      "last_data_date": "2026-05-14"
+      "last_data_date": "2026-09-06"
     },
     "1000SHIBUSDT": {
       "first_data_date": "2021-05-10",
-      "last_data_date": "2026-05-14"
+      "last_data_date": "2026-09-06"
     },
     "1000WHYUSDT": {
       "first_data_date": "2024-11-25",
@@ -59,7 +59,7 @@
     },
     "1000XECUSDT": {
       "first_data_date": "2021-09-17",
-      "last_data_date": "2026-05-14"
+      "last_data_date": "2026-09-06"
     },
     "1000XUSDT": {
       "first_data_date": "2024-11-13",
@@ -67,15 +67,15 @@
     },
     "1INCHUSDT": {
       "first_data_date": "2020-12-25",
-      "last_data_date": "2026-05-14"
+      "last_data_date": "2026-09-06"
     },
     "1MBABYDOGEUSDT": {
       "first_data_date": "2024-09-16",
-      "last_data_date": "2026-05-14"
+      "last_data_date": "2026-09-06"
     },
     "2ZUSDT": {
       "first_data_date": "2025-10-02",
-      "last_data_date": "2026-05-14"
+      "last_data_date": "2026-09-06"
     },
     "42USDT": {
       "first_data_date": "2025-10-27",
@@ -83,51 +83,59 @@
     },
     "4USDT": {
       "first_data_date": "2025-10-08",
-      "last_data_date": "2026-05-14"
+      "last_data_date": "2026-09-06"
     },
     "A2ZUSDT": {
       "first_data_date": "2025-07-30",
       "last_data_date": "2026-03-24"
     },
+    "AAOIUSDT": {
+      "first_data_date": "2026-06-08",
+      "last_data_date": "2026-09-06"
+    },
     "AAVEUSDT": {
       "first_data_date": "2020-10-16",
-      "last_data_date": "2026-05-14"
+      "last_data_date": "2026-09-06"
     },
     "ACEUSDT": {
       "first_data_date": "2023-12-18",
-      "last_data_date": "2026-05-14"
+      "last_data_date": "2026-09-06"
     },
     "ACHUSDT": {
       "first_data_date": "2023-02-22",
-      "last_data_date": "2026-05-14"
+      "last_data_date": "2026-09-06"
     },
     "ACTUSDT": {
       "first_data_date": "2024-11-11",
-      "last_data_date": "2026-05-14"
+      "last_data_date": "2026-09-06"
     },
     "ACUUSDT": {
       "first_data_date": "2026-01-21",
-      "last_data_date": "2026-05-14"
+      "last_data_date": "2026-09-06"
     },
     "ACXUSDT": {
       "first_data_date": "2024-12-06",
-      "last_data_date": "2026-05-14"
+      "last_data_date": "2026-09-06"
     },
     "ADAUSDT": {
       "first_data_date": "2020-01-31",
-      "last_data_date": "2026-05-14"
+      "last_data_date": "2026-09-06"
+    },
+    "ADBEUSDT": {
+      "first_data_date": "2026-06-11",
+      "last_data_date": "2026-09-06"
     },
     "AERGOUSDT": {
       "first_data_date": "2024-09-10",
-      "last_data_date": "2026-05-14"
+      "last_data_date": "2026-06-30"
     },
     "AEROUSDT": {
       "first_data_date": "2024-12-04",
-      "last_data_date": "2026-05-14"
+      "last_data_date": "2026-09-06"
     },
     "AEVOUSDT": {
       "first_data_date": "2024-03-13",
-      "last_data_date": "2026-05-14"
+      "last_data_date": "2026-09-06"
     },
     "AGIXUSDT": {
       "first_data_date": "2023-02-16",
@@ -135,11 +143,11 @@
     },
     "AGLDUSDT": {
       "first_data_date": "2023-07-29",
-      "last_data_date": "2026-05-14"
+      "last_data_date": "2026-09-06"
     },
     "AGTUSDT": {
       "first_data_date": "2025-05-20",
-      "last_data_date": "2026-05-14"
+      "last_data_date": "2026-09-06"
     },
     "AI16ZUSDT": {
       "first_data_date": "2025-01-02",
@@ -147,35 +155,35 @@
     },
     "AIAUSDT": {
       "first_data_date": "2025-09-18",
-      "last_data_date": "2026-05-14"
+      "last_data_date": "2026-09-06"
     },
     "AIGENSYNUSDT": {
       "first_data_date": "2026-04-29",
-      "last_data_date": "2026-05-14"
+      "last_data_date": "2026-09-06"
     },
     "AINUSDT": {
       "first_data_date": "2025-07-10",
-      "last_data_date": "2026-05-14"
+      "last_data_date": "2026-09-06"
     },
     "AIOTUSDT": {
       "first_data_date": "2025-04-30",
-      "last_data_date": "2026-05-14"
+      "last_data_date": "2026-09-06"
     },
     "AIOUSDT": {
       "first_data_date": "2025-08-13",
-      "last_data_date": "2026-05-14"
+      "last_data_date": "2026-09-06"
     },
     "AIUSDT": {
       "first_data_date": "2024-01-08",
-      "last_data_date": "2026-05-14"
+      "last_data_date": "2026-09-06"
     },
     "AIXBTUSDT": {
       "first_data_date": "2024-12-20",
-      "last_data_date": "2026-05-14"
+      "last_data_date": "2026-09-06"
     },
     "AKEUSDT": {
       "first_data_date": "2025-09-26",
-      "last_data_date": "2026-05-14"
+      "last_data_date": "2026-09-06"
     },
     "AKROUSDT": {
       "first_data_date": "2021-01-19",
@@ -183,27 +191,31 @@
     },
     "AKTUSDT": {
       "first_data_date": "2024-11-18",
-      "last_data_date": "2026-05-14"
+      "last_data_date": "2026-09-06"
+    },
+    "ALABUSDT": {
+      "first_data_date": "2026-06-22",
+      "last_data_date": "2026-09-06"
     },
     "ALCHUSDT": {
       "first_data_date": "2025-01-07",
-      "last_data_date": "2026-05-14"
+      "last_data_date": "2026-09-06"
     },
     "ALGOUSDT": {
       "first_data_date": "2020-06-16",
-      "last_data_date": "2026-05-14"
+      "last_data_date": "2026-09-06"
     },
     "ALICEUSDT": {
       "first_data_date": "2021-03-16",
-      "last_data_date": "2026-05-14"
+      "last_data_date": "2026-09-06"
     },
     "ALLOUSDT": {
       "first_data_date": "2025-11-11",
-      "last_data_date": "2026-05-14"
+      "last_data_date": "2026-09-06"
     },
     "ALLUSDT": {
       "first_data_date": "2025-08-06",
-      "last_data_date": "2026-05-14"
+      "last_data_date": "2026-09-06"
     },
     "ALPACAUSDT": {
       "first_data_date": "2024-08-22",
@@ -215,11 +227,15 @@
     },
     "ALPINEUSDT": {
       "first_data_date": "2025-05-06",
-      "last_data_date": "2026-05-14"
+      "last_data_date": "2026-09-06"
     },
     "ALTUSDT": {
       "first_data_date": "2024-01-25",
-      "last_data_date": "2026-05-14"
+      "last_data_date": "2026-09-06"
+    },
+    "AMATUSDT": {
+      "first_data_date": "2026-06-08",
+      "last_data_date": "2026-09-06"
     },
     "AMBUSDT": {
       "first_data_date": "2023-03-30",
@@ -227,7 +243,7 @@
     },
     "AMDUSDT": {
       "first_data_date": "2026-05-06",
-      "last_data_date": "2026-05-14"
+      "last_data_date": "2026-09-06"
     },
     "AMZNUSDT": {
       "first_data_date": "2026-02-09",
@@ -239,11 +255,15 @@
     },
     "ANIMEUSDT": {
       "first_data_date": "2025-01-23",
-      "last_data_date": "2026-05-14"
+      "last_data_date": "2026-09-06"
     },
     "ANKRUSDT": {
       "first_data_date": "2021-01-26",
-      "last_data_date": "2026-05-14"
+      "last_data_date": "2026-09-06"
+    },
+    "ANTHROPICUSDT": {
+      "first_data_date": "2026-06-02",
+      "last_data_date": "2026-09-06"
     },
     "ANTUSDT": {
       "first_data_date": "2021-12-27",
@@ -251,79 +271,99 @@
     },
     "APEUSDT": {
       "first_data_date": "2022-03-17",
-      "last_data_date": "2026-05-14"
+      "last_data_date": "2026-09-06"
     },
     "API3USDT": {
       "first_data_date": "2022-02-22",
-      "last_data_date": "2026-05-14"
+      "last_data_date": "2026-09-06"
+    },
+    "APPUSDT": {
+      "first_data_date": "2026-07-10",
+      "last_data_date": "2026-09-06"
     },
     "APRUSDT": {
       "first_data_date": "2025-10-23",
-      "last_data_date": "2026-05-14"
+      "last_data_date": "2026-09-06"
     },
     "APTUSDT": {
       "first_data_date": "2022-10-19",
-      "last_data_date": "2026-05-14"
+      "last_data_date": "2026-09-06"
     },
     "ARBUSDT": {
       "first_data_date": "2023-03-23",
-      "last_data_date": "2026-05-14"
+      "last_data_date": "2026-09-06"
     },
     "ARCUSDT": {
       "first_data_date": "2025-01-17",
-      "last_data_date": "2026-05-14"
+      "last_data_date": "2026-09-06"
     },
     "ARIAUSDT": {
       "first_data_date": "2025-09-03",
-      "last_data_date": "2026-05-14"
+      "last_data_date": "2026-09-06"
     },
     "ARKMUSDT": {
       "first_data_date": "2023-07-28",
-      "last_data_date": "2026-05-14"
+      "last_data_date": "2026-09-06"
     },
     "ARKUSDT": {
       "first_data_date": "2023-09-19",
-      "last_data_date": "2026-05-14"
+      "last_data_date": "2026-09-06"
+    },
+    "ARMUSDT": {
+      "first_data_date": "2026-05-26",
+      "last_data_date": "2026-09-06"
     },
     "ARPAUSDT": {
       "first_data_date": "2021-10-19",
-      "last_data_date": "2026-05-14"
+      "last_data_date": "2026-09-06"
     },
     "ARUSDT": {
       "first_data_date": "2021-09-28",
-      "last_data_date": "2026-05-14"
+      "last_data_date": "2026-09-06"
+    },
+    "ARXUSDT": {
+      "first_data_date": "2026-06-23",
+      "last_data_date": "2026-09-06"
+    },
+    "ASMLUSDT": {
+      "first_data_date": "2026-06-11",
+      "last_data_date": "2026-09-06"
     },
     "ASRUSDT": {
       "first_data_date": "2025-05-06",
-      "last_data_date": "2026-05-14"
+      "last_data_date": "2026-09-06"
     },
     "ASTERUSDT": {
       "first_data_date": "2025-09-19",
-      "last_data_date": "2026-05-14"
+      "last_data_date": "2026-09-06"
     },
     "ASTRUSDT": {
       "first_data_date": "2023-02-14",
-      "last_data_date": "2026-05-14"
+      "last_data_date": "2026-09-06"
+    },
+    "ASTSUSDT": {
+      "first_data_date": "2026-06-01",
+      "last_data_date": "2026-09-06"
     },
     "ATAUSDT": {
       "first_data_date": "2021-08-31",
-      "last_data_date": "2026-05-14"
+      "last_data_date": "2026-09-06"
     },
     "ATHUSDT": {
       "first_data_date": "2025-04-02",
-      "last_data_date": "2026-05-14"
+      "last_data_date": "2026-09-06"
     },
     "ATOMUSDT": {
       "first_data_date": "2020-02-07",
-      "last_data_date": "2026-05-14"
+      "last_data_date": "2026-09-06"
     },
     "ATUSDT": {
       "first_data_date": "2025-10-29",
-      "last_data_date": "2026-05-14"
+      "last_data_date": "2026-09-06"
     },
     "AUCTIONUSDT": {
       "first_data_date": "2023-12-15",
-      "last_data_date": "2026-05-14"
+      "last_data_date": "2026-09-06"
     },
     "AUDIOUSDT": {
       "first_data_date": "2021-08-19",
@@ -331,51 +371,55 @@
     },
     "AUSDT": {
       "first_data_date": "2025-05-28",
-      "last_data_date": "2026-05-14"
+      "last_data_date": "2026-09-06"
     },
     "AVAAIUSDT": {
       "first_data_date": "2025-01-17",
-      "last_data_date": "2026-05-14"
+      "last_data_date": "2026-09-06"
     },
     "AVAUSDT": {
       "first_data_date": "2024-12-13",
-      "last_data_date": "2026-05-14"
+      "last_data_date": "2026-09-06"
     },
     "AVAXUSDT": {
       "first_data_date": "2020-09-23",
-      "last_data_date": "2026-05-14"
+      "last_data_date": "2026-09-06"
     },
     "AVNTUSDT": {
       "first_data_date": "2025-09-09",
-      "last_data_date": "2026-05-14"
+      "last_data_date": "2026-09-06"
     },
     "AWEUSDT": {
       "first_data_date": "2025-05-21",
-      "last_data_date": "2026-05-14"
+      "last_data_date": "2026-09-06"
     },
     "AXLUSDT": {
       "first_data_date": "2024-03-01",
-      "last_data_date": "2026-05-14"
+      "last_data_date": "2026-09-06"
     },
     "AXSUSDT": {
       "first_data_date": "2020-11-20",
-      "last_data_date": "2026-05-14"
+      "last_data_date": "2026-09-06"
+    },
+    "AXTIUSDT": {
+      "first_data_date": "2026-06-08",
+      "last_data_date": "2026-09-06"
     },
     "AZTECUSDT": {
       "first_data_date": "2026-02-11",
-      "last_data_date": "2026-05-14"
+      "last_data_date": "2026-09-06"
     },
     "B2USDT": {
       "first_data_date": "2025-05-06",
-      "last_data_date": "2026-05-14"
+      "last_data_date": "2026-09-06"
     },
     "B3USDT": {
       "first_data_date": "2025-02-13",
-      "last_data_date": "2026-05-14"
+      "last_data_date": "2026-09-06"
     },
     "BABYUSDT": {
       "first_data_date": "2025-04-05",
-      "last_data_date": "2026-05-14"
+      "last_data_date": "2026-09-06"
     },
     "BADGERUSDT": {
       "first_data_date": "2023-11-09",
@@ -391,47 +435,51 @@
     },
     "BANANAS31USDT": {
       "first_data_date": "2025-03-22",
-      "last_data_date": "2026-05-14"
+      "last_data_date": "2026-09-06"
     },
     "BANANAUSDT": {
       "first_data_date": "2024-08-15",
-      "last_data_date": "2026-05-14"
+      "last_data_date": "2026-09-06"
     },
     "BANDUSDT": {
       "first_data_date": "2020-07-29",
-      "last_data_date": "2026-05-14"
+      "last_data_date": "2026-09-06"
     },
     "BANKUSDT": {
       "first_data_date": "2025-04-18",
-      "last_data_date": "2026-05-14"
+      "last_data_date": "2026-09-06"
     },
     "BANUSDT": {
       "first_data_date": "2024-11-18",
-      "last_data_date": "2026-05-14"
+      "last_data_date": "2026-09-06"
     },
     "BARDUSDT": {
       "first_data_date": "2025-09-18",
-      "last_data_date": "2026-05-14"
+      "last_data_date": "2026-09-06"
     },
     "BASEDUSDT": {
       "first_data_date": "2026-03-30",
-      "last_data_date": "2026-05-14"
+      "last_data_date": "2026-09-06"
     },
     "BASUSDT": {
       "first_data_date": "2025-08-26",
-      "last_data_date": "2026-05-14"
+      "last_data_date": "2026-09-06"
     },
     "BATUSDT": {
       "first_data_date": "2020-02-13",
-      "last_data_date": "2026-05-14"
+      "last_data_date": "2026-09-06"
     },
     "BBUSDT": {
       "first_data_date": "2024-05-13",
-      "last_data_date": "2026-05-14"
+      "last_data_date": "2026-09-06"
+    },
+    "BBXUSDT": {
+      "first_data_date": "2026-06-01",
+      "last_data_date": "2026-09-06"
     },
     "BCHUSDT": {
       "first_data_date": "2020-01-01",
-      "last_data_date": "2026-05-14"
+      "last_data_date": "2026-09-06"
     },
     "BDXNUSDT": {
       "first_data_date": "2025-06-03",
@@ -439,23 +487,27 @@
     },
     "BEAMXUSDT": {
       "first_data_date": "2023-11-17",
-      "last_data_date": "2026-05-14"
+      "last_data_date": "2026-09-06"
     },
     "BEATUSDT": {
       "first_data_date": "2025-11-12",
-      "last_data_date": "2026-05-14"
+      "last_data_date": "2026-09-06"
     },
     "BELUSDT": {
       "first_data_date": "2020-11-18",
-      "last_data_date": "2026-05-14"
+      "last_data_date": "2026-09-06"
     },
     "BERAUSDT": {
       "first_data_date": "2025-02-06",
-      "last_data_date": "2026-05-14"
+      "last_data_date": "2026-09-06"
+    },
+    "BEUSDT": {
+      "first_data_date": "2026-05-26",
+      "last_data_date": "2026-09-06"
     },
     "BICOUSDT": {
       "first_data_date": "2023-09-28",
-      "last_data_date": "2026-05-14"
+      "last_data_date": "2026-09-06"
     },
     "BIDUSDT": {
       "first_data_date": "2025-03-20",
@@ -463,47 +515,59 @@
     },
     "BIGTIMEUSDT": {
       "first_data_date": "2023-10-12",
-      "last_data_date": "2026-05-14"
+      "last_data_date": "2026-09-06"
     },
     "BILLUSDT": {
       "first_data_date": "2026-05-07",
-      "last_data_date": "2026-05-14"
+      "last_data_date": "2026-09-06"
     },
     "BIOUSDT": {
       "first_data_date": "2025-01-03",
-      "last_data_date": "2026-05-14"
+      "last_data_date": "2026-09-06"
     },
     "BIRBUSDT": {
       "first_data_date": "2026-01-29",
-      "last_data_date": "2026-05-14"
+      "last_data_date": "2026-09-06"
+    },
+    "BITOUSDT": {
+      "first_data_date": "2026-07-27",
+      "last_data_date": "2026-09-06"
     },
     "BLESSUSDT": {
       "first_data_date": "2025-09-23",
-      "last_data_date": "2026-05-14"
+      "last_data_date": "2026-09-06"
     },
     "BLUAIUSDT": {
       "first_data_date": "2025-10-21",
-      "last_data_date": "2026-05-14"
+      "last_data_date": "2026-09-06"
     },
     "BLURUSDT": {
       "first_data_date": "2023-04-28",
-      "last_data_date": "2026-05-14"
+      "last_data_date": "2026-09-06"
     },
     "BLZUSDT": {
       "first_data_date": "2020-09-17",
       "last_data_date": "2026-03-24"
     },
+    "BMNRUSDT": {
+      "first_data_date": "2026-06-11",
+      "last_data_date": "2026-09-06"
+    },
     "BMTUSDT": {
       "first_data_date": "2025-03-17",
-      "last_data_date": "2026-05-14"
+      "last_data_date": "2026-09-06"
     },
     "BNBUSDT": {
       "first_data_date": "2020-02-10",
-      "last_data_date": "2026-05-14"
+      "last_data_date": "2026-09-06"
+    },
+    "BNCUSDT": {
+      "first_data_date": "2026-07-09",
+      "last_data_date": "2026-09-06"
     },
     "BNTUSDT": {
       "first_data_date": "2023-08-10",
-      "last_data_date": "2026-05-14"
+      "last_data_date": "2026-09-06"
     },
     "BNXUSDT": {
       "first_data_date": "2022-04-01",
@@ -511,43 +575,55 @@
     },
     "BOBUSDT": {
       "first_data_date": "2025-11-21",
-      "last_data_date": "2026-05-14"
+      "last_data_date": "2026-09-06"
     },
     "BOMEUSDT": {
       "first_data_date": "2024-03-16",
-      "last_data_date": "2026-05-14"
+      "last_data_date": "2026-09-06"
     },
     "BONDUSDT": {
       "first_data_date": "2023-10-15",
       "last_data_date": "2026-03-24"
     },
+    "BOTUSDT": {
+      "first_data_date": "2026-07-09",
+      "last_data_date": "2026-09-06"
+    },
     "BRETTUSDT": {
       "first_data_date": "2024-08-20",
-      "last_data_date": "2026-05-14"
+      "last_data_date": "2026-09-06"
     },
     "BREVUSDT": {
       "first_data_date": "2025-12-30",
-      "last_data_date": "2026-05-14"
+      "last_data_date": "2026-09-06"
+    },
+    "BRKBUSDT": {
+      "first_data_date": "2026-05-18",
+      "last_data_date": "2026-09-06"
     },
     "BROCCOLI714USDT": {
       "first_data_date": "2025-03-21",
-      "last_data_date": "2026-05-14"
+      "last_data_date": "2026-09-06"
     },
     "BROCCOLIF3BUSDT": {
       "first_data_date": "2025-03-21",
-      "last_data_date": "2026-05-14"
+      "last_data_date": "2026-09-06"
     },
     "BRUSDT": {
       "first_data_date": "2025-03-21",
-      "last_data_date": "2026-05-14"
+      "last_data_date": "2026-09-06"
     },
     "BSBUSDT": {
       "first_data_date": "2026-03-25",
-      "last_data_date": "2026-05-14"
+      "last_data_date": "2026-09-06"
+    },
+    "BSPUSDT": {
+      "first_data_date": "2026-07-02",
+      "last_data_date": "2026-09-06"
     },
     "BSVUSDT": {
       "first_data_date": "2023-10-20",
-      "last_data_date": "2026-05-14"
+      "last_data_date": "2026-09-06"
     },
     "BSWUSDT": {
       "first_data_date": "2024-09-05",
@@ -559,11 +635,11 @@
     },
     "BTCUSDT": {
       "first_data_date": "2020-01-01",
-      "last_data_date": "2026-05-14"
+      "last_data_date": "2026-09-06"
     },
     "BTRUSDT": {
       "first_data_date": "2025-08-27",
-      "last_data_date": "2026-05-14"
+      "last_data_date": "2026-09-06"
     },
     "BTSUSDT": {
       "first_data_date": "2021-02-01",
@@ -573,13 +649,21 @@
       "first_data_date": "2021-04-06",
       "last_data_date": "2022-01-26"
     },
+    "BTWUSDT": {
+      "first_data_date": "2026-06-04",
+      "last_data_date": "2026-09-06"
+    },
     "BULLAUSDT": {
       "first_data_date": "2025-07-04",
-      "last_data_date": "2026-05-14"
+      "last_data_date": "2026-09-06"
     },
     "BUSDT": {
       "first_data_date": "2025-05-22",
-      "last_data_date": "2026-05-14"
+      "last_data_date": "2026-09-06"
+    },
+    "BXUSDT": {
+      "first_data_date": "2026-06-08",
+      "last_data_date": "2026-09-06"
     },
     "BZRXUSDT": {
       "first_data_date": "2020-09-05",
@@ -587,47 +671,59 @@
     },
     "C98USDT": {
       "first_data_date": "2021-08-24",
-      "last_data_date": "2026-05-14"
+      "last_data_date": "2026-09-06"
     },
     "CAKEUSDT": {
       "first_data_date": "2023-11-02",
-      "last_data_date": "2026-05-14"
+      "last_data_date": "2026-09-06"
+    },
+    "CAPUSDT": {
+      "first_data_date": "2026-06-27",
+      "last_data_date": "2026-09-06"
     },
     "CARVUSDT": {
       "first_data_date": "2025-08-07",
-      "last_data_date": "2026-05-14"
+      "last_data_date": "2026-09-06"
     },
     "CATIUSDT": {
       "first_data_date": "2024-09-20",
-      "last_data_date": "2026-05-14"
+      "last_data_date": "2026-09-06"
+    },
+    "CATUSDT": {
+      "first_data_date": "2026-07-02",
+      "last_data_date": "2026-09-06"
+    },
+    "CBRSUSDT": {
+      "first_data_date": "2026-05-19",
+      "last_data_date": "2026-09-06"
     },
     "CCUSDT": {
       "first_data_date": "2025-10-31",
-      "last_data_date": "2026-05-14"
+      "last_data_date": "2026-09-06"
     },
     "CELOUSDT": {
       "first_data_date": "2021-09-27",
-      "last_data_date": "2026-05-14"
+      "last_data_date": "2026-09-06"
     },
     "CELRUSDT": {
       "first_data_date": "2021-03-29",
-      "last_data_date": "2026-05-14"
+      "last_data_date": "2026-09-06"
     },
     "CETUSUSDT": {
       "first_data_date": "2024-11-06",
-      "last_data_date": "2026-05-14"
+      "last_data_date": "2026-09-06"
     },
     "CFGUSDT": {
       "first_data_date": "2026-03-16",
-      "last_data_date": "2026-05-14"
+      "last_data_date": "2026-09-06"
     },
     "CFXUSDT": {
       "first_data_date": "2023-02-20",
-      "last_data_date": "2026-05-14"
+      "last_data_date": "2026-09-06"
     },
     "CGPTUSDT": {
       "first_data_date": "2024-12-20",
-      "last_data_date": "2026-05-14"
+      "last_data_date": "2026-09-06"
     },
     "CHESSUSDT": {
       "first_data_date": "2024-08-29",
@@ -635,39 +731,47 @@
     },
     "CHILLGUYUSDT": {
       "first_data_date": "2024-11-27",
-      "last_data_date": "2026-05-14"
+      "last_data_date": "2026-09-06"
     },
     "CHIPUSDT": {
       "first_data_date": "2026-04-16",
-      "last_data_date": "2026-05-14"
+      "last_data_date": "2026-09-06"
     },
     "CHRUSDT": {
       "first_data_date": "2021-03-12",
-      "last_data_date": "2026-05-14"
+      "last_data_date": "2026-09-06"
     },
     "CHZUSDT": {
       "first_data_date": "2021-01-21",
-      "last_data_date": "2026-05-14"
+      "last_data_date": "2026-09-06"
+    },
+    "CIENUSDT": {
+      "first_data_date": "2026-06-22",
+      "last_data_date": "2026-09-06"
     },
     "CKBUSDT": {
       "first_data_date": "2023-02-28",
-      "last_data_date": "2026-05-14"
+      "last_data_date": "2026-09-06"
     },
     "CLANKERUSDT": {
       "first_data_date": "2025-11-12",
-      "last_data_date": "2026-05-14"
+      "last_data_date": "2026-09-06"
     },
     "CLOUSDT": {
       "first_data_date": "2025-10-14",
-      "last_data_date": "2026-05-14"
+      "last_data_date": "2026-09-06"
     },
     "COAIUSDT": {
       "first_data_date": "2025-09-25",
-      "last_data_date": "2026-05-14"
+      "last_data_date": "2026-09-06"
     },
     "COCOSUSDT": {
       "first_data_date": "2023-02-21",
       "last_data_date": "2024-05-28"
+    },
+    "COHRUSDT": {
+      "first_data_date": "2026-05-26",
+      "last_data_date": "2026-09-06"
     },
     "COINUSDT": {
       "first_data_date": "2026-02-09",
@@ -675,7 +779,7 @@
     },
     "COLLECTUSDT": {
       "first_data_date": "2025-12-31",
-      "last_data_date": "2026-05-14"
+      "last_data_date": "2026-09-06"
     },
     "COMBOUSDT": {
       "first_data_date": "2023-06-02",
@@ -687,43 +791,79 @@
     },
     "COMPUSDT": {
       "first_data_date": "2020-06-30",
-      "last_data_date": "2026-05-14"
+      "last_data_date": "2026-09-06"
     },
     "COOKIEUSDT": {
       "first_data_date": "2025-01-07",
-      "last_data_date": "2026-05-14"
+      "last_data_date": "2026-09-06"
+    },
+    "COSTUSDT": {
+      "first_data_date": "2026-06-09",
+      "last_data_date": "2026-09-06"
     },
     "COSUSDT": {
       "first_data_date": "2024-09-30",
-      "last_data_date": "2026-05-14"
+      "last_data_date": "2026-09-06"
     },
     "COTIUSDT": {
       "first_data_date": "2021-03-10",
-      "last_data_date": "2026-05-14"
+      "last_data_date": "2026-09-06"
     },
     "COWUSDT": {
       "first_data_date": "2024-11-06",
-      "last_data_date": "2026-05-14"
+      "last_data_date": "2026-09-06"
     },
     "CRCLUSDT": {
       "first_data_date": "2026-02-09",
       "last_data_date": "2026-03-24"
     },
+    "CRDOUSDT": {
+      "first_data_date": "2026-06-08",
+      "last_data_date": "2026-09-06"
+    },
+    "CRMUSDT": {
+      "first_data_date": "2026-06-03",
+      "last_data_date": "2026-09-06"
+    },
     "CROSSUSDT": {
       "first_data_date": "2025-07-10",
-      "last_data_date": "2026-05-14"
+      "last_data_date": "2026-09-06"
     },
     "CRVUSDT": {
       "first_data_date": "2020-09-01",
-      "last_data_date": "2026-05-14"
+      "last_data_date": "2026-09-06"
+    },
+    "CRWDUSDT": {
+      "first_data_date": "2026-06-08",
+      "last_data_date": "2026-09-06"
+    },
+    "CRWVUSDT": {
+      "first_data_date": "2026-05-18",
+      "last_data_date": "2026-09-06"
+    },
+    "CSCOUSDT": {
+      "first_data_date": "2026-05-15",
+      "last_data_date": "2026-09-06"
+    },
+    "CSOPSAMSUNG2LUSDT": {
+      "first_data_date": "2026-08-11",
+      "last_data_date": "2026-09-06"
+    },
+    "CSOPSKHYNIX2LUSDT": {
+      "first_data_date": "2026-08-11",
+      "last_data_date": "2026-09-06"
     },
     "CTKUSDT": {
       "first_data_date": "2020-11-19",
-      "last_data_date": "2026-05-14"
+      "last_data_date": "2026-09-06"
+    },
+    "CTRUSDT": {
+      "first_data_date": "2026-05-28",
+      "last_data_date": "2026-09-06"
     },
     "CTSIUSDT": {
       "first_data_date": "2021-10-26",
-      "last_data_date": "2026-05-14"
+      "last_data_date": "2026-09-06"
     },
     "CUDISUSDT": {
       "first_data_date": "2025-08-20",
@@ -731,27 +871,31 @@
     },
     "CUSDT": {
       "first_data_date": "2025-07-15",
-      "last_data_date": "2026-05-14"
+      "last_data_date": "2026-09-06"
     },
     "CVCUSDT": {
       "first_data_date": "2020-11-11",
-      "last_data_date": "2026-05-14"
+      "last_data_date": "2026-09-06"
     },
     "CVXUSDT": {
       "first_data_date": "2022-09-22",
-      "last_data_date": "2026-05-14"
+      "last_data_date": "2026-09-06"
+    },
+    "CXMTUSDT": {
+      "first_data_date": "2026-08-18",
+      "last_data_date": "2026-09-06"
     },
     "CYBERUSDT": {
       "first_data_date": "2023-08-21",
-      "last_data_date": "2026-05-14"
+      "last_data_date": "2026-09-06"
     },
     "CYSUSDT": {
       "first_data_date": "2025-12-12",
-      "last_data_date": "2026-05-14"
+      "last_data_date": "2026-09-06"
     },
     "DAMUSDT": {
       "first_data_date": "2025-08-18",
-      "last_data_date": "2026-05-14"
+      "last_data_date": "2026-09-06"
     },
     "DARUSDT": {
       "first_data_date": "2022-04-29",
@@ -759,19 +903,31 @@
     },
     "DASHUSDT": {
       "first_data_date": "2020-02-04",
-      "last_data_date": "2026-05-14"
+      "last_data_date": "2026-09-06"
+    },
+    "DATAIPUSDT": {
+      "first_data_date": "2026-07-03",
+      "last_data_date": "2026-09-06"
+    },
+    "DDOGUSDT": {
+      "first_data_date": "2026-09-02",
+      "last_data_date": "2026-09-06"
     },
     "DEEPUSDT": {
       "first_data_date": "2025-04-22",
-      "last_data_date": "2026-05-14"
+      "last_data_date": "2026-09-06"
     },
     "DEGENUSDT": {
       "first_data_date": "2024-11-15",
-      "last_data_date": "2026-05-14"
+      "last_data_date": "2026-09-06"
     },
     "DEGOUSDT": {
       "first_data_date": "2024-12-13",
       "last_data_date": "2026-03-24"
+    },
+    "DELLUSDT": {
+      "first_data_date": "2026-06-03",
+      "last_data_date": "2026-09-06"
     },
     "DENTUSDT": {
       "first_data_date": "2021-03-24",
@@ -779,7 +935,7 @@
     },
     "DEXEUSDT": {
       "first_data_date": "2024-12-24",
-      "last_data_date": "2026-05-14"
+      "last_data_date": "2026-09-06"
     },
     "DFUSDT": {
       "first_data_date": "2024-12-30",
@@ -791,7 +947,19 @@
     },
     "DIAUSDT": {
       "first_data_date": "2024-10-02",
-      "last_data_date": "2026-05-14"
+      "last_data_date": "2026-09-06"
+    },
+    "DISUSDT": {
+      "first_data_date": "2026-05-15",
+      "last_data_date": "2026-09-06"
+    },
+    "DJTUSDT": {
+      "first_data_date": "2026-08-25",
+      "last_data_date": "2026-09-06"
+    },
+    "DKNGUSDT": {
+      "first_data_date": "2026-06-10",
+      "last_data_date": "2026-09-06"
     },
     "DMCUSDT": {
       "first_data_date": "2025-06-24",
@@ -803,23 +971,27 @@
     },
     "DODOXUSDT": {
       "first_data_date": "2023-08-08",
-      "last_data_date": "2026-05-14"
+      "last_data_date": "2026-09-06"
     },
     "DOGEUSDT": {
       "first_data_date": "2020-07-10",
-      "last_data_date": "2026-05-14"
+      "last_data_date": "2026-09-06"
     },
     "DOGSUSDT": {
       "first_data_date": "2024-08-26",
-      "last_data_date": "2026-05-14"
+      "last_data_date": "2026-09-06"
     },
     "DOLOUSDT": {
       "first_data_date": "2025-05-01",
-      "last_data_date": "2026-05-14"
+      "last_data_date": "2026-09-06"
     },
     "DOODUSDT": {
       "first_data_date": "2025-05-09",
-      "last_data_date": "2026-05-14"
+      "last_data_date": "2026-09-06"
+    },
+    "DOSUSDT": {
+      "first_data_date": "2026-08-11",
+      "last_data_date": "2026-09-06"
     },
     "DOTECOUSDT": {
       "first_data_date": "2021-01-20",
@@ -827,67 +999,75 @@
     },
     "DOTUSDT": {
       "first_data_date": "2020-08-22",
-      "last_data_date": "2026-05-14"
+      "last_data_date": "2026-09-06"
+    },
+    "DRAMUSDT": {
+      "first_data_date": "2026-05-18",
+      "last_data_date": "2026-09-06"
     },
     "DRIFTUSDT": {
       "first_data_date": "2024-11-08",
-      "last_data_date": "2026-05-14"
+      "last_data_date": "2026-09-06"
     },
     "DUSDT": {
       "first_data_date": "2025-01-09",
-      "last_data_date": "2026-05-14"
+      "last_data_date": "2026-09-06"
     },
     "DUSKUSDT": {
       "first_data_date": "2022-01-07",
-      "last_data_date": "2026-05-14"
+      "last_data_date": "2026-09-06"
     },
     "DYDXUSDT": {
       "first_data_date": "2021-09-10",
-      "last_data_date": "2026-05-14"
+      "last_data_date": "2026-09-06"
     },
     "DYMUSDT": {
       "first_data_date": "2024-02-07",
-      "last_data_date": "2026-05-14"
+      "last_data_date": "2026-09-06"
+    },
+    "EBAYUSDT": {
+      "first_data_date": "2026-06-09",
+      "last_data_date": "2026-09-06"
     },
     "EDENUSDT": {
       "first_data_date": "2025-09-30",
-      "last_data_date": "2026-05-14"
+      "last_data_date": "2026-09-06"
     },
     "EDGEUSDT": {
       "first_data_date": "2026-03-19",
-      "last_data_date": "2026-05-14"
+      "last_data_date": "2026-09-06"
     },
     "EDUUSDT": {
       "first_data_date": "2023-04-30",
-      "last_data_date": "2026-05-14"
+      "last_data_date": "2026-09-06"
     },
     "EGLDUSDT": {
       "first_data_date": "2020-09-14",
-      "last_data_date": "2026-05-14"
+      "last_data_date": "2026-09-06"
     },
     "EIGENUSDT": {
       "first_data_date": "2024-10-01",
-      "last_data_date": "2026-05-14"
+      "last_data_date": "2026-09-06"
     },
     "ELSAUSDT": {
       "first_data_date": "2026-01-22",
-      "last_data_date": "2026-05-14"
+      "last_data_date": "2026-09-06"
     },
     "ENAUSDT": {
       "first_data_date": "2024-04-02",
-      "last_data_date": "2026-05-14"
+      "last_data_date": "2026-09-06"
     },
     "ENJUSDT": {
       "first_data_date": "2020-09-29",
-      "last_data_date": "2026-05-14"
+      "last_data_date": "2026-09-06"
     },
     "ENSOUSDT": {
       "first_data_date": "2025-10-14",
-      "last_data_date": "2026-05-14"
+      "last_data_date": "2026-09-06"
     },
     "ENSUSDT": {
       "first_data_date": "2021-11-30",
-      "last_data_date": "2026-05-14"
+      "last_data_date": "2026-09-06"
     },
     "EOSUSDT": {
       "first_data_date": "2020-01-08",
@@ -895,7 +1075,7 @@
     },
     "EPICUSDT": {
       "first_data_date": "2025-03-13",
-      "last_data_date": "2026-05-14"
+      "last_data_date": "2026-09-06"
     },
     "EPTUSDT": {
       "first_data_date": "2025-04-21",
@@ -903,67 +1083,75 @@
     },
     "ERAUSDT": {
       "first_data_date": "2025-07-17",
-      "last_data_date": "2026-05-14"
+      "last_data_date": "2026-09-06"
     },
     "ESPORTSUSDT": {
       "first_data_date": "2025-07-29",
-      "last_data_date": "2026-05-14"
+      "last_data_date": "2026-09-06"
     },
     "ESPUSDT": {
       "first_data_date": "2026-02-10",
-      "last_data_date": "2026-05-14"
+      "last_data_date": "2026-09-06"
     },
     "ETCUSDT": {
       "first_data_date": "2020-01-16",
-      "last_data_date": "2026-05-14"
+      "last_data_date": "2026-09-06"
     },
     "ETHFIUSDT": {
       "first_data_date": "2024-03-18",
-      "last_data_date": "2026-05-14"
+      "last_data_date": "2026-09-06"
     },
     "ETHUSDT": {
       "first_data_date": "2020-01-01",
-      "last_data_date": "2026-05-14"
+      "last_data_date": "2026-09-06"
     },
     "ETHWUSDT": {
       "first_data_date": "2023-11-28",
-      "last_data_date": "2026-05-14"
+      "last_data_date": "2026-09-06"
     },
     "EULUSDT": {
       "first_data_date": "2025-10-13",
-      "last_data_date": "2026-05-14"
+      "last_data_date": "2026-09-06"
     },
     "EVAAUSDT": {
       "first_data_date": "2025-10-03",
-      "last_data_date": "2026-05-14"
+      "last_data_date": "2026-09-06"
+    },
+    "EWTUSDT": {
+      "first_data_date": "2026-06-01",
+      "last_data_date": "2026-09-06"
+    },
+    "EWZUSDT": {
+      "first_data_date": "2026-06-10",
+      "last_data_date": "2026-09-06"
     },
     "FARTCOINUSDT": {
       "first_data_date": "2024-12-20",
-      "last_data_date": "2026-05-14"
+      "last_data_date": "2026-09-06"
     },
     "FETUSDT": {
       "first_data_date": "2023-01-17",
-      "last_data_date": "2026-05-14"
+      "last_data_date": "2026-09-06"
     },
     "FFUSDT": {
       "first_data_date": "2025-09-29",
-      "last_data_date": "2026-05-14"
+      "last_data_date": "2026-09-06"
     },
     "FHEUSDT": {
       "first_data_date": "2025-04-12",
-      "last_data_date": "2026-05-14"
+      "last_data_date": "2026-09-06"
     },
     "FIDAUSDT": {
       "first_data_date": "2024-09-19",
-      "last_data_date": "2026-05-14"
+      "last_data_date": "2026-09-06"
     },
     "FIGHTUSDT": {
       "first_data_date": "2026-01-23",
-      "last_data_date": "2026-05-14"
+      "last_data_date": "2026-09-06"
     },
     "FILUSDT": {
       "first_data_date": "2020-10-16",
-      "last_data_date": "2026-05-14"
+      "last_data_date": "2026-09-06"
     },
     "FIOUSDT": {
       "first_data_date": "2024-09-20",
@@ -973,33 +1161,41 @@
       "first_data_date": "2025-04-25",
       "last_data_date": "2026-03-24"
     },
+    "FLEXUSDT": {
+      "first_data_date": "2026-07-02",
+      "last_data_date": "2026-09-06"
+    },
     "FLMUSDT": {
       "first_data_date": "2020-09-29",
       "last_data_date": "2026-03-24"
     },
+    "FLNCUSDT": {
+      "first_data_date": "2026-05-18",
+      "last_data_date": "2026-09-06"
+    },
     "FLOCKUSDT": {
       "first_data_date": "2025-09-09",
-      "last_data_date": "2026-05-14"
+      "last_data_date": "2026-09-06"
     },
     "FLOWUSDT": {
       "first_data_date": "2022-02-10",
-      "last_data_date": "2026-05-14"
+      "last_data_date": "2026-09-06"
     },
     "FLUIDUSDT": {
       "first_data_date": "2025-09-24",
-      "last_data_date": "2026-05-14"
+      "last_data_date": "2026-09-06"
     },
     "FLUXUSDT": {
       "first_data_date": "2024-09-03",
-      "last_data_date": "2026-05-14"
+      "last_data_date": "2026-09-06"
     },
     "FOGOUSDT": {
       "first_data_date": "2026-01-10",
-      "last_data_date": "2026-05-14"
+      "last_data_date": "2026-09-06"
     },
     "FOLKSUSDT": {
       "first_data_date": "2025-11-06",
-      "last_data_date": "2026-05-14"
+      "last_data_date": "2026-09-06"
     },
     "FOOTBALLUSDT": {
       "first_data_date": "2022-09-01",
@@ -1007,7 +1203,7 @@
     },
     "FORMUSDT": {
       "first_data_date": "2025-03-19",
-      "last_data_date": "2026-05-14"
+      "last_data_date": "2026-09-06"
     },
     "FORTHUSDT": {
       "first_data_date": "2025-04-08",
@@ -1015,7 +1211,7 @@
     },
     "FRAXUSDT": {
       "first_data_date": "2026-01-15",
-      "last_data_date": "2026-05-14"
+      "last_data_date": "2026-09-06"
     },
     "FRONTUSDT": {
       "first_data_date": "2023-09-22",
@@ -1035,7 +1231,11 @@
     },
     "FUSDT": {
       "first_data_date": "2025-06-18",
-      "last_data_date": "2026-05-14"
+      "last_data_date": "2026-09-06"
+    },
+    "FWDIUSDT": {
+      "first_data_date": "2026-07-09",
+      "last_data_date": "2026-09-06"
     },
     "FXSUSDT": {
       "first_data_date": "2023-01-20",
@@ -1043,7 +1243,7 @@
     },
     "GALAUSDT": {
       "first_data_date": "2021-09-18",
-      "last_data_date": "2026-05-14"
+      "last_data_date": "2026-09-06"
     },
     "GALUSDT": {
       "first_data_date": "2022-05-05",
@@ -1051,19 +1251,31 @@
     },
     "GASUSDT": {
       "first_data_date": "2023-10-25",
-      "last_data_date": "2026-05-14"
+      "last_data_date": "2026-09-06"
+    },
+    "GDXUSDT": {
+      "first_data_date": "2026-08-17",
+      "last_data_date": "2026-09-06"
     },
     "GENIUSUSDT": {
       "first_data_date": "2026-04-16",
-      "last_data_date": "2026-05-14"
+      "last_data_date": "2026-09-06"
+    },
+    "GEVUSDT": {
+      "first_data_date": "2026-07-10",
+      "last_data_date": "2026-09-06"
     },
     "GHSTUSDT": {
       "first_data_date": "2024-09-23",
       "last_data_date": "2026-03-24"
     },
+    "GIGADEVUSDT": {
+      "first_data_date": "2026-08-03",
+      "last_data_date": "2026-09-06"
+    },
     "GIGGLEUSDT": {
       "first_data_date": "2025-10-09",
-      "last_data_date": "2026-05-14"
+      "last_data_date": "2026-09-06"
     },
     "GLMRUSDT": {
       "first_data_date": "2023-09-26",
@@ -1071,79 +1283,115 @@
     },
     "GLMUSDT": {
       "first_data_date": "2024-02-22",
-      "last_data_date": "2026-05-14"
+      "last_data_date": "2026-09-06"
+    },
+    "GLWUSDT": {
+      "first_data_date": "2026-06-11",
+      "last_data_date": "2026-09-06"
+    },
+    "GMEUSDT": {
+      "first_data_date": "2026-06-10",
+      "last_data_date": "2026-09-06"
     },
     "GMTUSDT": {
       "first_data_date": "2022-03-15",
-      "last_data_date": "2026-05-14"
+      "last_data_date": "2026-09-06"
     },
     "GMXUSDT": {
       "first_data_date": "2023-02-17",
-      "last_data_date": "2026-05-14"
+      "last_data_date": "2026-09-06"
     },
     "GOATUSDT": {
       "first_data_date": "2024-10-24",
-      "last_data_date": "2026-05-14"
+      "last_data_date": "2026-09-06"
+    },
+    "GPROUSDT": {
+      "first_data_date": "2026-09-03",
+      "last_data_date": "2026-09-06"
     },
     "GPSUSDT": {
       "first_data_date": "2025-02-17",
-      "last_data_date": "2026-05-14"
+      "last_data_date": "2026-09-06"
+    },
+    "GRAMUSDT": {
+      "first_data_date": "2026-07-02",
+      "last_data_date": "2026-09-06"
     },
     "GRASSUSDT": {
       "first_data_date": "2024-11-08",
-      "last_data_date": "2026-05-14"
+      "last_data_date": "2026-09-06"
     },
     "GRIFFAINUSDT": {
       "first_data_date": "2025-01-02",
-      "last_data_date": "2026-05-14"
+      "last_data_date": "2026-09-06"
     },
     "GRTUSDT": {
       "first_data_date": "2020-12-19",
-      "last_data_date": "2026-05-14"
+      "last_data_date": "2026-09-06"
+    },
+    "GRVTUSDT": {
+      "first_data_date": "2026-07-31",
+      "last_data_date": "2026-09-06"
+    },
+    "GSUSDT": {
+      "first_data_date": "2026-07-29",
+      "last_data_date": "2026-09-06"
     },
     "GTCUSDT": {
       "first_data_date": "2021-06-11",
-      "last_data_date": "2026-05-14"
+      "last_data_date": "2026-09-06"
+    },
+    "GTLBUSDT": {
+      "first_data_date": "2026-09-02",
+      "last_data_date": "2026-09-06"
     },
     "GUAUSDT": {
       "first_data_date": "2025-12-21",
-      "last_data_date": "2026-05-14"
+      "last_data_date": "2026-09-06"
     },
     "GUNUSDT": {
       "first_data_date": "2025-03-31",
-      "last_data_date": "2026-05-14"
+      "last_data_date": "2026-09-06"
     },
     "GUSDT": {
       "first_data_date": "2024-08-15",
-      "last_data_date": "2026-05-14"
+      "last_data_date": "2026-09-06"
     },
     "GWEIUSDT": {
       "first_data_date": "2026-01-29",
-      "last_data_date": "2026-05-14"
+      "last_data_date": "2026-09-06"
     },
     "HAEDALUSDT": {
       "first_data_date": "2025-05-01",
-      "last_data_date": "2026-05-14"
+      "last_data_date": "2026-09-06"
     },
     "HANAUSDT": {
       "first_data_date": "2025-09-26",
-      "last_data_date": "2026-05-14"
+      "last_data_date": "2026-09-06"
+    },
+    "HANMIUSDT": {
+      "first_data_date": "2026-08-14",
+      "last_data_date": "2026-09-06"
     },
     "HBARUSDT": {
       "first_data_date": "2021-03-17",
-      "last_data_date": "2026-05-14"
+      "last_data_date": "2026-09-06"
+    },
+    "HDUSDT": {
+      "first_data_date": "2026-05-15",
+      "last_data_date": "2026-09-06"
     },
     "HEIUSDT": {
       "first_data_date": "2025-02-13",
-      "last_data_date": "2026-05-14"
+      "last_data_date": "2026-09-06"
     },
     "HEMIUSDT": {
       "first_data_date": "2025-08-29",
-      "last_data_date": "2026-05-14"
+      "last_data_date": "2026-09-06"
     },
     "HFTUSDT": {
       "first_data_date": "2023-04-06",
-      "last_data_date": "2026-05-14"
+      "last_data_date": "2026-09-06"
     },
     "HIFIUSDT": {
       "first_data_date": "2023-09-16",
@@ -1151,7 +1399,11 @@
     },
     "HIGHUSDT": {
       "first_data_date": "2023-02-07",
-      "last_data_date": "2026-05-14"
+      "last_data_date": "2026-09-06"
+    },
+    "HIMSUSDT": {
+      "first_data_date": "2026-06-09",
+      "last_data_date": "2026-09-06"
     },
     "HIPPOUSDT": {
       "first_data_date": "2024-11-13",
@@ -1159,11 +1411,23 @@
     },
     "HIVEUSDT": {
       "first_data_date": "2024-12-23",
-      "last_data_date": "2026-05-14"
+      "last_data_date": "2026-09-06"
+    },
+    "HK0625USDT": {
+      "first_data_date": "2026-09-01",
+      "last_data_date": "2026-09-06"
+    },
+    "HK0700USDT": {
+      "first_data_date": "2026-07-22",
+      "last_data_date": "2026-09-06"
+    },
+    "HK1810USDT": {
+      "first_data_date": "2026-07-22",
+      "last_data_date": "2026-09-06"
     },
     "HMSTRUSDT": {
       "first_data_date": "2024-09-26",
-      "last_data_date": "2026-05-14"
+      "last_data_date": "2026-09-06"
     },
     "HNTUSDT": {
       "first_data_date": "2020-09-28",
@@ -1171,11 +1435,11 @@
     },
     "HOLOUSDT": {
       "first_data_date": "2025-09-11",
-      "last_data_date": "2026-05-14"
+      "last_data_date": "2026-09-06"
     },
     "HOMEUSDT": {
       "first_data_date": "2025-06-10",
-      "last_data_date": "2026-05-14"
+      "last_data_date": "2026-09-06"
     },
     "HOODUSDT": {
       "first_data_date": "2026-02-02",
@@ -1187,35 +1451,47 @@
     },
     "HOTUSDT": {
       "first_data_date": "2021-03-30",
-      "last_data_date": "2026-05-14"
+      "last_data_date": "2026-09-06"
+    },
+    "HPEUSDT": {
+      "first_data_date": "2026-06-08",
+      "last_data_date": "2026-09-06"
     },
     "HUMAUSDT": {
       "first_data_date": "2025-05-26",
-      "last_data_date": "2026-05-14"
+      "last_data_date": "2026-09-06"
     },
     "HUSDT": {
       "first_data_date": "2025-06-25",
-      "last_data_date": "2026-05-14"
+      "last_data_date": "2026-09-06"
     },
     "HYPERUSDT": {
       "first_data_date": "2025-04-22",
-      "last_data_date": "2026-05-14"
+      "last_data_date": "2026-09-06"
     },
     "HYPEUSDT": {
       "first_data_date": "2025-05-30",
-      "last_data_date": "2026-05-14"
+      "last_data_date": "2026-09-06"
+    },
+    "HYUNDAIUSDT": {
+      "first_data_date": "2026-06-02",
+      "last_data_date": "2026-09-06"
+    },
+    "IBMUSDT": {
+      "first_data_date": "2026-06-03",
+      "last_data_date": "2026-09-06"
     },
     "ICNTUSDT": {
       "first_data_date": "2025-07-03",
-      "last_data_date": "2026-05-14"
+      "last_data_date": "2026-09-06"
     },
     "ICPUSDT": {
       "first_data_date": "2021-05-11",
-      "last_data_date": "2026-05-14"
+      "last_data_date": "2026-09-06"
     },
     "ICXUSDT": {
       "first_data_date": "2020-09-15",
-      "last_data_date": "2026-05-14"
+      "last_data_date": "2026-09-06"
     },
     "IDEXUSDT": {
       "first_data_date": "2023-05-03",
@@ -1223,115 +1499,135 @@
     },
     "IDOLUSDT": {
       "first_data_date": "2025-07-04",
-      "last_data_date": "2026-05-14"
+      "last_data_date": "2026-09-06"
     },
     "IDUSDT": {
       "first_data_date": "2023-03-23",
-      "last_data_date": "2026-05-14"
+      "last_data_date": "2026-09-06"
     },
     "ILVUSDT": {
       "first_data_date": "2023-11-10",
-      "last_data_date": "2026-05-14"
+      "last_data_date": "2026-09-06"
     },
     "IMXUSDT": {
       "first_data_date": "2022-02-11",
-      "last_data_date": "2026-05-14"
+      "last_data_date": "2026-09-06"
     },
     "INITUSDT": {
       "first_data_date": "2025-04-16",
-      "last_data_date": "2026-05-14"
+      "last_data_date": "2026-09-06"
     },
     "INJUSDT": {
       "first_data_date": "2022-08-17",
-      "last_data_date": "2026-05-14"
+      "last_data_date": "2026-09-06"
     },
     "INTCUSDT": {
       "first_data_date": "2026-02-02",
       "last_data_date": "2026-03-24"
     },
+    "INTWUSDT": {
+      "first_data_date": "2026-07-09",
+      "last_data_date": "2026-09-06"
+    },
     "INUSDT": {
       "first_data_date": "2025-08-07",
-      "last_data_date": "2026-05-14"
+      "last_data_date": "2026-09-06"
     },
     "INXUSDT": {
       "first_data_date": "2026-01-30",
-      "last_data_date": "2026-05-14"
+      "last_data_date": "2026-09-06"
+    },
+    "IONQUSDT": {
+      "first_data_date": "2026-08-28",
+      "last_data_date": "2026-09-06"
     },
     "IOSTUSDT": {
       "first_data_date": "2020-02-21",
-      "last_data_date": "2026-05-14"
+      "last_data_date": "2026-09-06"
     },
     "IOTAUSDT": {
       "first_data_date": "2020-02-12",
-      "last_data_date": "2026-05-14"
+      "last_data_date": "2026-09-06"
     },
     "IOTXUSDT": {
       "first_data_date": "2021-08-12",
-      "last_data_date": "2026-05-14"
+      "last_data_date": "2026-09-06"
     },
     "IOUSDT": {
       "first_data_date": "2024-06-11",
-      "last_data_date": "2026-05-14"
+      "last_data_date": "2026-09-06"
     },
     "IPUSDT": {
       "first_data_date": "2025-02-13",
-      "last_data_date": "2026-05-14"
+      "last_data_date": "2026-09-06"
+    },
+    "IRENUSDT": {
+      "first_data_date": "2026-06-03",
+      "last_data_date": "2026-09-06"
     },
     "IRUSDT": {
       "first_data_date": "2025-12-21",
-      "last_data_date": "2026-05-14"
+      "last_data_date": "2026-09-06"
     },
     "IRYSUSDT": {
       "first_data_date": "2025-11-26",
-      "last_data_date": "2026-05-14"
+      "last_data_date": "2026-09-06"
+    },
+    "IWMUSDT": {
+      "first_data_date": "2026-06-08",
+      "last_data_date": "2026-09-06"
     },
     "JASMYUSDT": {
       "first_data_date": "2022-04-20",
-      "last_data_date": "2026-05-14"
+      "last_data_date": "2026-09-06"
     },
     "JCTUSDT": {
       "first_data_date": "2025-11-10",
-      "last_data_date": "2026-05-14"
+      "last_data_date": "2026-09-06"
     },
     "JELLYJELLYUSDT": {
       "first_data_date": "2025-03-26",
-      "last_data_date": "2026-05-14"
+      "last_data_date": "2026-09-06"
     },
     "JOEUSDT": {
       "first_data_date": "2023-03-29",
-      "last_data_date": "2026-05-14"
+      "last_data_date": "2026-09-06"
+    },
+    "JPMUSDT": {
+      "first_data_date": "2026-05-18",
+      "last_data_date": "2026-09-06"
     },
     "JSTUSDT": {
       "first_data_date": "2025-04-28",
-      "last_data_date": "2026-05-14"
+      "last_data_date": "2026-09-06"
     },
     "JTOUSDT": {
       "first_data_date": "2023-12-08",
-      "last_data_date": "2026-05-14"
+      "last_data_date": "2026-09-06"
     },
     "JUPUSDT": {
       "first_data_date": "2024-01-31",
-      "last_data_date": "2026-05-14"
+      "last_data_date": "2026-09-06"
     },
     "KAIAUSDT": {
       "first_data_date": "2024-12-04",
-      "last_data_date": "2026-05-14"
+      "last_data_date": "2026-09-06"
     },
     "KAITOUSDT": {
       "first_data_date": "2025-02-20",
-      "last_data_date": "2026-05-14"
+      "last_data_date": "2026-09-06"
     },
     "KASUSDT": {
       "first_data_date": "2023-11-17",
-      "last_data_date": "2026-05-14"
+      "last_data_date": "2026-09-06"
     },
     "KATUSDT": {
       "first_data_date": "2026-03-02",
-      "last_data_date": "2026-05-14"
+      "last_data_date": "2026-09-06"
     },
     "KAVAUSDT": {
       "first_data_date": "2020-07-28",
-      "last_data_date": "2026-05-14"
+      "last_data_date": "2026-09-06"
     },
     "KDAUSDT": {
       "first_data_date": "2024-09-18",
@@ -1343,7 +1639,7 @@
     },
     "KERNELUSDT": {
       "first_data_date": "2025-04-14",
-      "last_data_date": "2026-05-14"
+      "last_data_date": "2026-09-06"
     },
     "KEYUSDT": {
       "first_data_date": "2023-05-24",
@@ -1351,11 +1647,15 @@
     },
     "KGENUSDT": {
       "first_data_date": "2025-10-07",
-      "last_data_date": "2026-05-14"
+      "last_data_date": "2026-09-06"
     },
     "KITEUSDT": {
       "first_data_date": "2025-10-29",
-      "last_data_date": "2026-05-14"
+      "last_data_date": "2026-09-06"
+    },
+    "KLACUSDT": {
+      "first_data_date": "2026-06-22",
+      "last_data_date": "2026-09-06"
     },
     "KLAYUSDT": {
       "first_data_date": "2021-10-12",
@@ -1363,35 +1663,55 @@
     },
     "KMNOUSDT": {
       "first_data_date": "2024-12-20",
-      "last_data_date": "2026-05-14"
+      "last_data_date": "2026-09-06"
     },
     "KNCUSDT": {
       "first_data_date": "2020-06-22",
-      "last_data_date": "2026-05-14"
+      "last_data_date": "2026-09-06"
+    },
+    "KODEX200USDT": {
+      "first_data_date": "2026-08-14",
+      "last_data_date": "2026-09-06"
     },
     "KOMAUSDT": {
       "first_data_date": "2024-12-10",
-      "last_data_date": "2026-05-14"
+      "last_data_date": "2026-09-06"
+    },
+    "KORUUSDT": {
+      "first_data_date": "2026-06-22",
+      "last_data_date": "2026-09-06"
+    },
+    "KOUSDT": {
+      "first_data_date": "2026-08-06",
+      "last_data_date": "2026-09-06"
     },
     "KSMUSDT": {
       "first_data_date": "2020-10-14",
-      "last_data_date": "2026-05-14"
+      "last_data_date": "2026-09-06"
+    },
+    "KSTRUSDT": {
+      "first_data_date": "2026-07-02",
+      "last_data_date": "2026-09-06"
+    },
+    "KUAISHOUUSDT": {
+      "first_data_date": "2026-08-11",
+      "last_data_date": "2026-09-06"
     },
     "LABUSDT": {
       "first_data_date": "2025-10-17",
-      "last_data_date": "2026-05-14"
+      "last_data_date": "2026-09-06"
     },
     "LAUSDT": {
       "first_data_date": "2025-06-05",
-      "last_data_date": "2026-05-14"
+      "last_data_date": "2026-09-06"
     },
     "LAYERUSDT": {
       "first_data_date": "2025-02-11",
-      "last_data_date": "2026-05-14"
+      "last_data_date": "2026-09-06"
     },
     "LDOUSDT": {
       "first_data_date": "2022-09-22",
-      "last_data_date": "2026-05-14"
+      "last_data_date": "2026-09-06"
     },
     "LENDUSDT": {
       "first_data_date": "2020-07-23",
@@ -1401,9 +1721,13 @@
       "first_data_date": "2023-03-30",
       "last_data_date": "2026-03-24"
     },
+    "LGELECTRONICSUSDT": {
+      "first_data_date": "2026-08-14",
+      "last_data_date": "2026-09-06"
+    },
     "LIGHTUSDT": {
       "first_data_date": "2025-09-27",
-      "last_data_date": "2026-05-14"
+      "last_data_date": "2026-09-06"
     },
     "LINAUSDT": {
       "first_data_date": "2021-03-19",
@@ -1411,19 +1735,27 @@
     },
     "LINEAUSDT": {
       "first_data_date": "2025-09-01",
-      "last_data_date": "2026-05-14"
+      "last_data_date": "2026-09-06"
     },
     "LINKUSDT": {
       "first_data_date": "2020-01-17",
-      "last_data_date": "2026-05-14"
+      "last_data_date": "2026-09-06"
     },
     "LISTAUSDT": {
       "first_data_date": "2024-06-20",
-      "last_data_date": "2026-05-14"
+      "last_data_date": "2026-09-06"
+    },
+    "LITEUSDT": {
+      "first_data_date": "2026-05-15",
+      "last_data_date": "2026-09-06"
     },
     "LITUSDT": {
       "first_data_date": "2021-02-18",
-      "last_data_date": "2026-05-14"
+      "last_data_date": "2026-09-06"
+    },
+    "LLYUSDT": {
+      "first_data_date": "2026-06-01",
+      "last_data_date": "2026-09-06"
     },
     "LOKAUSDT": {
       "first_data_date": "2024-09-24",
@@ -1435,31 +1767,35 @@
     },
     "LPTUSDT": {
       "first_data_date": "2021-11-11",
-      "last_data_date": "2026-05-14"
+      "last_data_date": "2026-09-06"
     },
     "LQTYUSDT": {
       "first_data_date": "2023-03-10",
-      "last_data_date": "2026-05-14"
+      "last_data_date": "2026-09-06"
     },
     "LRCUSDT": {
       "first_data_date": "2020-10-19",
       "last_data_date": "2026-03-24"
     },
+    "LRCXUSDT": {
+      "first_data_date": "2026-06-22",
+      "last_data_date": "2026-09-06"
+    },
     "LSKUSDT": {
       "first_data_date": "2024-01-25",
-      "last_data_date": "2026-05-14"
+      "last_data_date": "2026-09-06"
     },
     "LTCUSDT": {
       "first_data_date": "2020-01-09",
-      "last_data_date": "2026-05-14"
+      "last_data_date": "2026-09-06"
     },
     "LUMIAUSDT": {
       "first_data_date": "2024-12-18",
-      "last_data_date": "2026-05-14"
+      "last_data_date": "2026-09-06"
     },
     "LUNA2USDT": {
       "first_data_date": "2022-09-10",
-      "last_data_date": "2026-05-14"
+      "last_data_date": "2026-09-06"
     },
     "LUNAUSDT": {
       "first_data_date": "2021-01-28",
@@ -1467,31 +1803,43 @@
     },
     "LYNUSDT": {
       "first_data_date": "2025-10-06",
-      "last_data_date": "2026-05-14"
+      "last_data_date": "2026-09-06"
+    },
+    "LYTEUSDT": {
+      "first_data_date": "2026-08-17",
+      "last_data_date": "2026-09-06"
     },
     "MAGICUSDT": {
       "first_data_date": "2023-01-25",
-      "last_data_date": "2026-05-14"
+      "last_data_date": "2026-09-06"
     },
     "MAGMAUSDT": {
       "first_data_date": "2025-12-31",
-      "last_data_date": "2026-05-14"
+      "last_data_date": "2026-09-06"
     },
     "MANAUSDT": {
       "first_data_date": "2021-03-15",
-      "last_data_date": "2026-05-14"
+      "last_data_date": "2026-09-06"
     },
     "MANTAUSDT": {
       "first_data_date": "2024-01-18",
-      "last_data_date": "2026-05-14"
+      "last_data_date": "2026-09-06"
     },
     "MANTRAUSDT": {
       "first_data_date": "2026-03-04",
-      "last_data_date": "2026-05-14"
+      "last_data_date": "2026-09-06"
+    },
+    "MARAUSDT": {
+      "first_data_date": "2026-08-28",
+      "last_data_date": "2026-09-06"
+    },
+    "MARSCOINUSDT": {
+      "first_data_date": "2026-09-01",
+      "last_data_date": "2026-09-06"
     },
     "MASKUSDT": {
       "first_data_date": "2021-08-27",
-      "last_data_date": "2026-05-14"
+      "last_data_date": "2026-09-06"
     },
     "MATICUSDT": {
       "first_data_date": "2020-10-22",
@@ -1499,11 +1847,11 @@
     },
     "MAVIAUSDT": {
       "first_data_date": "2024-02-21",
-      "last_data_date": "2026-05-14"
+      "last_data_date": "2026-09-06"
     },
     "MAVUSDT": {
       "first_data_date": "2023-06-29",
-      "last_data_date": "2026-05-14"
+      "last_data_date": "2026-09-06"
     },
     "MBLUSDT": {
       "first_data_date": "2023-11-14",
@@ -1511,7 +1859,11 @@
     },
     "MBOXUSDT": {
       "first_data_date": "2024-08-28",
-      "last_data_date": "2026-05-14"
+      "last_data_date": "2026-09-06"
+    },
+    "MDBUSDT": {
+      "first_data_date": "2026-09-02",
+      "last_data_date": "2026-09-06"
     },
     "MDTUSDT": {
       "first_data_date": "2023-06-30",
@@ -1519,11 +1871,15 @@
     },
     "MEGAUSDT": {
       "first_data_date": "2026-01-30",
-      "last_data_date": "2026-05-14"
+      "last_data_date": "2026-09-06"
+    },
+    "MEITUANUSDT": {
+      "first_data_date": "2026-08-11",
+      "last_data_date": "2026-09-06"
     },
     "MELANIAUSDT": {
       "first_data_date": "2025-01-20",
-      "last_data_date": "2026-05-14"
+      "last_data_date": "2026-09-06"
     },
     "MEMEFIUSDT": {
       "first_data_date": "2025-04-25",
@@ -1531,27 +1887,27 @@
     },
     "MEMEUSDT": {
       "first_data_date": "2023-11-03",
-      "last_data_date": "2026-05-14"
+      "last_data_date": "2026-09-06"
     },
     "MERLUSDT": {
       "first_data_date": "2025-05-29",
-      "last_data_date": "2026-05-14"
+      "last_data_date": "2026-09-06"
     },
     "METISUSDT": {
       "first_data_date": "2024-03-12",
-      "last_data_date": "2026-05-14"
+      "last_data_date": "2026-09-06"
     },
     "METUSDT": {
       "first_data_date": "2025-10-11",
-      "last_data_date": "2026-05-14"
+      "last_data_date": "2026-09-06"
     },
     "MEUSDT": {
       "first_data_date": "2024-12-10",
-      "last_data_date": "2026-05-14"
+      "last_data_date": "2026-09-06"
     },
     "MEWUSDT": {
       "first_data_date": "2024-06-17",
-      "last_data_date": "2026-05-14"
+      "last_data_date": "2026-09-06"
     },
     "MILKUSDT": {
       "first_data_date": "2025-05-06",
@@ -1559,15 +1915,19 @@
     },
     "MINAUSDT": {
       "first_data_date": "2023-02-07",
-      "last_data_date": "2026-05-14"
+      "last_data_date": "2026-09-06"
+    },
+    "MINIMAXUSDT": {
+      "first_data_date": "2026-07-17",
+      "last_data_date": "2026-09-06"
     },
     "MIRAUSDT": {
       "first_data_date": "2025-09-26",
-      "last_data_date": "2026-05-14"
+      "last_data_date": "2026-09-06"
     },
     "MITOUSDT": {
       "first_data_date": "2025-08-28",
-      "last_data_date": "2026-05-14"
+      "last_data_date": "2026-09-06"
     },
     "MKRUSDT": {
       "first_data_date": "2020-08-13",
@@ -1575,35 +1935,47 @@
     },
     "MLNUSDT": {
       "first_data_date": "2025-03-31",
-      "last_data_date": "2026-05-14"
+      "last_data_date": "2026-09-06"
     },
     "MMTUSDT": {
       "first_data_date": "2025-11-04",
-      "last_data_date": "2026-05-14"
+      "last_data_date": "2026-09-06"
     },
     "MOCAUSDT": {
       "first_data_date": "2024-12-16",
-      "last_data_date": "2026-05-14"
+      "last_data_date": "2026-09-06"
     },
     "MONUSDT": {
       "first_data_date": "2025-10-10",
-      "last_data_date": "2026-05-14"
+      "last_data_date": "2026-09-06"
     },
     "MOODENGUSDT": {
       "first_data_date": "2024-10-25",
-      "last_data_date": "2026-05-14"
+      "last_data_date": "2026-09-06"
     },
     "MORPHOUSDT": {
       "first_data_date": "2024-11-27",
-      "last_data_date": "2026-05-14"
+      "last_data_date": "2026-09-06"
     },
     "MOVEUSDT": {
       "first_data_date": "2024-12-09",
-      "last_data_date": "2026-05-14"
+      "last_data_date": "2026-09-06"
     },
     "MOVRUSDT": {
       "first_data_date": "2023-12-26",
-      "last_data_date": "2026-05-14"
+      "last_data_date": "2026-09-06"
+    },
+    "MRKUSDT": {
+      "first_data_date": "2026-08-28",
+      "last_data_date": "2026-09-06"
+    },
+    "MRNAUSDT": {
+      "first_data_date": "2026-08-25",
+      "last_data_date": "2026-09-06"
+    },
+    "MRVLUSDT": {
+      "first_data_date": "2026-05-15",
+      "last_data_date": "2026-09-06"
     },
     "MSTRUSDT": {
       "first_data_date": "2026-02-09",
@@ -1611,15 +1983,23 @@
     },
     "MTLUSDT": {
       "first_data_date": "2021-03-31",
-      "last_data_date": "2026-05-14"
+      "last_data_date": "2026-09-06"
     },
     "MUBARAKUSDT": {
       "first_data_date": "2025-03-17",
-      "last_data_date": "2026-05-14"
+      "last_data_date": "2026-09-06"
     },
     "MUSDT": {
       "first_data_date": "2025-07-07",
-      "last_data_date": "2026-05-14"
+      "last_data_date": "2026-09-06"
+    },
+    "MUUUSDT": {
+      "first_data_date": "2026-07-16",
+      "last_data_date": "2026-09-06"
+    },
+    "MVLLUSDT": {
+      "first_data_date": "2026-06-29",
+      "last_data_date": "2026-09-06"
     },
     "MYROUSDT": {
       "first_data_date": "2024-03-05",
@@ -1627,15 +2007,23 @@
     },
     "MYXUSDT": {
       "first_data_date": "2025-06-18",
-      "last_data_date": "2026-05-14"
+      "last_data_date": "2026-09-06"
     },
     "NAORISUSDT": {
       "first_data_date": "2025-07-31",
-      "last_data_date": "2026-05-14"
+      "last_data_date": "2026-09-06"
+    },
+    "NAVERUSDT": {
+      "first_data_date": "2026-08-14",
+      "last_data_date": "2026-09-06"
+    },
+    "NBISUSDT": {
+      "first_data_date": "2026-05-26",
+      "last_data_date": "2026-09-06"
     },
     "NEARUSDT": {
       "first_data_date": "2020-10-15",
-      "last_data_date": "2026-05-14"
+      "last_data_date": "2026-09-06"
     },
     "NEIROETHUSDT": {
       "first_data_date": "2024-09-06",
@@ -1643,27 +2031,35 @@
     },
     "NEIROUSDT": {
       "first_data_date": "2024-09-16",
-      "last_data_date": "2026-05-14"
+      "last_data_date": "2026-09-06"
     },
     "NEOUSDT": {
       "first_data_date": "2020-02-17",
-      "last_data_date": "2026-05-14"
+      "last_data_date": "2026-09-06"
+    },
+    "NETUSDT": {
+      "first_data_date": "2026-08-17",
+      "last_data_date": "2026-09-06"
     },
     "NEWTUSDT": {
       "first_data_date": "2025-06-19",
-      "last_data_date": "2026-05-14"
+      "last_data_date": "2026-09-06"
+    },
+    "NFLXUSDT": {
+      "first_data_date": "2026-06-09",
+      "last_data_date": "2026-09-06"
     },
     "NFPUSDT": {
       "first_data_date": "2023-12-27",
-      "last_data_date": "2026-05-14"
+      "last_data_date": "2026-09-06"
     },
     "NIGHTUSDT": {
       "first_data_date": "2025-12-10",
-      "last_data_date": "2026-05-14"
+      "last_data_date": "2026-09-06"
     },
     "NILUSDT": {
       "first_data_date": "2025-03-24",
-      "last_data_date": "2026-05-14"
+      "last_data_date": "2026-09-06"
     },
     "NKNUSDT": {
       "first_data_date": "2021-04-09",
@@ -1671,15 +2067,23 @@
     },
     "NMRUSDT": {
       "first_data_date": "2023-06-22",
-      "last_data_date": "2026-05-14"
+      "last_data_date": "2026-09-06"
+    },
+    "NOKUSDT": {
+      "first_data_date": "2026-06-01",
+      "last_data_date": "2026-09-06"
     },
     "NOMUSDT": {
       "first_data_date": "2025-10-01",
-      "last_data_date": "2026-05-14"
+      "last_data_date": "2026-09-06"
     },
     "NOTUSDT": {
       "first_data_date": "2024-05-16",
-      "last_data_date": "2026-05-14"
+      "last_data_date": "2026-09-06"
+    },
+    "NOWUSDT": {
+      "first_data_date": "2026-06-03",
+      "last_data_date": "2026-09-06"
     },
     "NTRNUSDT": {
       "first_data_date": "2023-11-14",
@@ -1693,9 +2097,17 @@
       "first_data_date": "2021-10-21",
       "last_data_date": "2022-02-15"
     },
+    "NVDLUSDT": {
+      "first_data_date": "2026-09-02",
+      "last_data_date": "2026-09-06"
+    },
+    "NVOUSDT": {
+      "first_data_date": "2026-06-01",
+      "last_data_date": "2026-09-06"
+    },
     "NXPCUSDT": {
       "first_data_date": "2025-05-15",
-      "last_data_date": "2026-05-14"
+      "last_data_date": "2026-09-06"
     },
     "OBOLUSDT": {
       "first_data_date": "2025-05-07",
@@ -1707,11 +2119,11 @@
     },
     "OGNUSDT": {
       "first_data_date": "2021-04-01",
-      "last_data_date": "2026-05-14"
+      "last_data_date": "2026-09-06"
     },
     "OGUSDT": {
       "first_data_date": "2025-05-12",
-      "last_data_date": "2026-05-14"
+      "last_data_date": "2026-09-06"
     },
     "OLUSDT": {
       "first_data_date": "2025-06-25",
@@ -1731,39 +2143,47 @@
     },
     "ONDOUSDT": {
       "first_data_date": "2024-01-20",
-      "last_data_date": "2026-05-14"
+      "last_data_date": "2026-09-06"
+    },
+    "ONDSUSDT": {
+      "first_data_date": "2026-06-03",
+      "last_data_date": "2026-09-06"
     },
     "ONEUSDT": {
       "first_data_date": "2021-03-18",
-      "last_data_date": "2026-05-14"
+      "last_data_date": "2026-09-06"
     },
     "ONGUSDT": {
       "first_data_date": "2023-11-27",
-      "last_data_date": "2026-05-14"
+      "last_data_date": "2026-09-06"
     },
     "ONTUSDT": {
       "first_data_date": "2020-02-11",
-      "last_data_date": "2026-05-14"
+      "last_data_date": "2026-09-06"
     },
     "ONUSDT": {
       "first_data_date": "2025-10-24",
-      "last_data_date": "2026-05-14"
+      "last_data_date": "2026-09-06"
+    },
+    "OPENAIUSDT": {
+      "first_data_date": "2026-05-26",
+      "last_data_date": "2026-09-06"
     },
     "OPENUSDT": {
       "first_data_date": "2025-09-08",
-      "last_data_date": "2026-05-14"
+      "last_data_date": "2026-09-06"
     },
     "OPGUSDT": {
       "first_data_date": "2026-04-22",
-      "last_data_date": "2026-05-14"
+      "last_data_date": "2026-09-06"
     },
     "OPNUSDT": {
       "first_data_date": "2026-02-21",
-      "last_data_date": "2026-05-14"
+      "last_data_date": "2026-09-06"
     },
     "OPUSDT": {
       "first_data_date": "2022-06-01",
-      "last_data_date": "2026-05-14"
+      "last_data_date": "2026-09-06"
     },
     "ORBSUSDT": {
       "first_data_date": "2023-10-17",
@@ -1771,39 +2191,59 @@
     },
     "ORCAUSDT": {
       "first_data_date": "2024-12-06",
-      "last_data_date": "2026-05-14"
+      "last_data_date": "2026-09-06"
+    },
+    "ORCLUSDT": {
+      "first_data_date": "2026-05-15",
+      "last_data_date": "2026-09-06"
     },
     "ORDERUSDT": {
       "first_data_date": "2025-09-26",
-      "last_data_date": "2026-05-14"
+      "last_data_date": "2026-09-06"
     },
     "ORDIUSDT": {
       "first_data_date": "2023-11-07",
-      "last_data_date": "2026-05-14"
+      "last_data_date": "2026-09-06"
+    },
+    "OUSDT": {
+      "first_data_date": "2026-06-24",
+      "last_data_date": "2026-09-06"
     },
     "OXTUSDT": {
       "first_data_date": "2023-08-11",
       "last_data_date": "2026-03-24"
     },
+    "PANWUSDT": {
+      "first_data_date": "2026-07-21",
+      "last_data_date": "2026-09-06"
+    },
     "PARTIUSDT": {
       "first_data_date": "2025-03-25",
-      "last_data_date": "2026-05-14"
+      "last_data_date": "2026-09-06"
     },
     "PAXGUSDT": {
       "first_data_date": "2025-03-27",
-      "last_data_date": "2026-05-14"
+      "last_data_date": "2026-09-06"
+    },
+    "PDDUSDT": {
+      "first_data_date": "2026-08-28",
+      "last_data_date": "2026-09-06"
     },
     "PENDLEUSDT": {
       "first_data_date": "2023-07-28",
-      "last_data_date": "2026-05-14"
+      "last_data_date": "2026-09-06"
+    },
+    "PENGUSDT": {
+      "first_data_date": "2026-07-21",
+      "last_data_date": "2026-09-06"
     },
     "PENGUUSDT": {
       "first_data_date": "2024-12-17",
-      "last_data_date": "2026-05-14"
+      "last_data_date": "2026-09-06"
     },
     "PEOPLEUSDT": {
       "first_data_date": "2021-12-24",
-      "last_data_date": "2026-05-14"
+      "last_data_date": "2026-09-06"
     },
     "PERPUSDT": {
       "first_data_date": "2023-03-06",
@@ -1811,31 +2251,31 @@
     },
     "PHAROSUSDT": {
       "first_data_date": "2026-05-14",
-      "last_data_date": "2026-05-14"
+      "last_data_date": "2026-09-06"
     },
     "PHAUSDT": {
       "first_data_date": "2024-12-30",
-      "last_data_date": "2026-05-14"
+      "last_data_date": "2026-09-06"
     },
     "PHBUSDT": {
       "first_data_date": "2023-02-16",
-      "last_data_date": "2026-05-14"
+      "last_data_date": "2026-09-06"
     },
     "PIEVERSEUSDT": {
       "first_data_date": "2025-11-14",
-      "last_data_date": "2026-05-14"
+      "last_data_date": "2026-09-06"
     },
     "PIPPINUSDT": {
       "first_data_date": "2025-01-24",
-      "last_data_date": "2026-05-14"
+      "last_data_date": "2026-09-06"
     },
     "PIXELUSDT": {
       "first_data_date": "2024-02-19",
-      "last_data_date": "2026-05-14"
+      "last_data_date": "2026-09-06"
     },
     "PLAYUSDT": {
       "first_data_date": "2025-07-31",
-      "last_data_date": "2026-05-14"
+      "last_data_date": "2026-09-06"
     },
     "PLTRUSDT": {
       "first_data_date": "2026-02-09",
@@ -1843,27 +2283,35 @@
     },
     "PLUMEUSDT": {
       "first_data_date": "2025-03-21",
-      "last_data_date": "2026-05-14"
+      "last_data_date": "2026-09-06"
     },
     "PNUTUSDT": {
       "first_data_date": "2024-11-11",
-      "last_data_date": "2026-05-14"
+      "last_data_date": "2026-09-06"
     },
     "POLUSDT": {
       "first_data_date": "2024-09-13",
-      "last_data_date": "2026-05-14"
+      "last_data_date": "2026-09-06"
     },
     "POLYXUSDT": {
       "first_data_date": "2023-10-25",
-      "last_data_date": "2026-05-14"
+      "last_data_date": "2026-09-06"
     },
     "PONKEUSDT": {
       "first_data_date": "2024-11-04",
       "last_data_date": "2026-03-24"
     },
+    "PONSUSDT": {
+      "first_data_date": "2026-09-06",
+      "last_data_date": "2026-09-06"
+    },
     "POPCATUSDT": {
       "first_data_date": "2024-08-22",
-      "last_data_date": "2026-05-14"
+      "last_data_date": "2026-09-06"
+    },
+    "POPMARTUSDT": {
+      "first_data_date": "2026-07-23",
+      "last_data_date": "2026-09-06"
     },
     "PORT3USDT": {
       "first_data_date": "2025-06-04",
@@ -1871,35 +2319,35 @@
     },
     "PORTALUSDT": {
       "first_data_date": "2024-02-29",
-      "last_data_date": "2026-05-14"
+      "last_data_date": "2026-09-06"
     },
     "POWERUSDT": {
       "first_data_date": "2025-12-06",
-      "last_data_date": "2026-05-14"
+      "last_data_date": "2026-09-06"
     },
     "POWRUSDT": {
       "first_data_date": "2023-10-27",
-      "last_data_date": "2026-05-14"
+      "last_data_date": "2026-09-06"
     },
     "PRLUSDT": {
       "first_data_date": "2026-04-01",
-      "last_data_date": "2026-05-14"
+      "last_data_date": "2026-09-06"
     },
     "PROMPTUSDT": {
       "first_data_date": "2025-04-11",
-      "last_data_date": "2026-05-14"
+      "last_data_date": "2026-09-06"
     },
     "PROMUSDT": {
       "first_data_date": "2025-01-15",
-      "last_data_date": "2026-05-14"
+      "last_data_date": "2026-09-06"
     },
     "PROVEUSDT": {
       "first_data_date": "2025-08-05",
-      "last_data_date": "2026-05-14"
+      "last_data_date": "2026-09-06"
     },
     "PTBUSDT": {
       "first_data_date": "2025-09-03",
-      "last_data_date": "2026-05-14"
+      "last_data_date": "2026-09-06"
     },
     "PUFFERUSDT": {
       "first_data_date": "2025-06-04",
@@ -1907,31 +2355,39 @@
     },
     "PUMPBTCUSDT": {
       "first_data_date": "2025-06-13",
-      "last_data_date": "2026-05-14"
+      "last_data_date": "2026-09-06"
     },
     "PUMPUSDT": {
       "first_data_date": "2025-04-12",
-      "last_data_date": "2026-05-14"
+      "last_data_date": "2026-09-06"
     },
     "PUNDIXUSDT": {
       "first_data_date": "2025-04-30",
-      "last_data_date": "2026-05-14"
+      "last_data_date": "2026-09-06"
+    },
+    "PYPLUSDT": {
+      "first_data_date": "2026-07-29",
+      "last_data_date": "2026-09-06"
     },
     "PYTHUSDT": {
       "first_data_date": "2023-11-22",
-      "last_data_date": "2026-05-14"
+      "last_data_date": "2026-09-06"
     },
     "QCOMUSDT": {
       "first_data_date": "2026-05-06",
-      "last_data_date": "2026-05-14"
+      "last_data_date": "2026-09-06"
     },
     "QNTUSDT": {
       "first_data_date": "2022-10-20",
-      "last_data_date": "2026-05-14"
+      "last_data_date": "2026-09-06"
+    },
+    "QNTXUSDT": {
+      "first_data_date": "2026-05-29",
+      "last_data_date": "2026-09-06"
     },
     "QTUMUSDT": {
       "first_data_date": "2020-02-20",
-      "last_data_date": "2026-05-14"
+      "last_data_date": "2026-09-06"
     },
     "QUICKUSDT": {
       "first_data_date": "2024-09-06",
@@ -1939,27 +2395,35 @@
     },
     "QUSDT": {
       "first_data_date": "2025-09-02",
-      "last_data_date": "2026-05-14"
+      "last_data_date": "2026-09-06"
     },
     "RADUSDT": {
       "first_data_date": "2023-05-10",
       "last_data_date": "2026-03-24"
     },
+    "RAMUSDT": {
+      "first_data_date": "2026-08-25",
+      "last_data_date": "2026-09-06"
+    },
     "RAREUSDT": {
       "first_data_date": "2024-08-15",
-      "last_data_date": "2026-05-14"
+      "last_data_date": "2026-09-06"
     },
     "RAVEUSDT": {
       "first_data_date": "2025-12-14",
-      "last_data_date": "2026-05-14"
+      "last_data_date": "2026-09-06"
     },
     "RAYSOLUSDT": {
       "first_data_date": "2024-12-10",
-      "last_data_date": "2026-05-14"
+      "last_data_date": "2026-09-06"
     },
     "RAYUSDT": {
       "first_data_date": "2021-08-20",
       "last_data_date": "2026-03-24"
+    },
+    "RDDTUSDT": {
+      "first_data_date": "2026-08-06",
+      "last_data_date": "2026-09-06"
     },
     "RDNTUSDT": {
       "first_data_date": "2023-04-05",
@@ -1967,11 +2431,11 @@
     },
     "RECALLUSDT": {
       "first_data_date": "2025-10-15",
-      "last_data_date": "2026-05-14"
+      "last_data_date": "2026-09-06"
     },
     "REDUSDT": {
       "first_data_date": "2025-03-06",
-      "last_data_date": "2026-05-14"
+      "last_data_date": "2026-09-06"
     },
     "REEFUSDT": {
       "first_data_date": "2021-02-22",
@@ -1983,7 +2447,7 @@
     },
     "RENDERUSDT": {
       "first_data_date": "2024-07-26",
-      "last_data_date": "2026-05-14"
+      "last_data_date": "2026-09-06"
     },
     "RENUSDT": {
       "first_data_date": "2020-10-13",
@@ -1991,23 +2455,35 @@
     },
     "RESOLVUSDT": {
       "first_data_date": "2025-06-10",
-      "last_data_date": "2026-05-14"
+      "last_data_date": "2026-09-06"
+    },
+    "REUSDT": {
+      "first_data_date": "2026-06-18",
+      "last_data_date": "2026-09-06"
     },
     "REZUSDT": {
       "first_data_date": "2024-04-30",
-      "last_data_date": "2026-05-14"
+      "last_data_date": "2026-09-06"
     },
     "RIFUSDT": {
       "first_data_date": "2023-10-21",
-      "last_data_date": "2026-05-14"
+      "last_data_date": "2026-09-06"
     },
     "RIVERUSDT": {
       "first_data_date": "2025-10-17",
-      "last_data_date": "2026-05-14"
+      "last_data_date": "2026-09-06"
+    },
+    "RIVNUSDT": {
+      "first_data_date": "2026-06-10",
+      "last_data_date": "2026-09-06"
+    },
+    "RKLBUSDT": {
+      "first_data_date": "2026-05-18",
+      "last_data_date": "2026-09-06"
     },
     "RLCUSDT": {
       "first_data_date": "2020-07-31",
-      "last_data_date": "2026-05-14"
+      "last_data_date": "2026-09-06"
     },
     "RLSUSDT": {
       "first_data_date": "2025-12-02",
@@ -2019,31 +2495,31 @@
     },
     "ROBOUSDT": {
       "first_data_date": "2026-02-27",
-      "last_data_date": "2026-05-14"
+      "last_data_date": "2026-09-06"
     },
     "RONINUSDT": {
       "first_data_date": "2024-02-06",
-      "last_data_date": "2026-05-14"
+      "last_data_date": "2026-09-06"
     },
     "ROSEUSDT": {
       "first_data_date": "2021-12-31",
-      "last_data_date": "2026-05-14"
+      "last_data_date": "2026-09-06"
     },
     "RPLUSDT": {
       "first_data_date": "2024-09-09",
-      "last_data_date": "2026-05-14"
+      "last_data_date": "2026-09-06"
     },
     "RSRUSDT": {
       "first_data_date": "2020-10-19",
-      "last_data_date": "2026-05-14"
+      "last_data_date": "2026-09-06"
     },
     "RUNEUSDT": {
       "first_data_date": "2020-09-04",
-      "last_data_date": "2026-05-14"
+      "last_data_date": "2026-09-06"
     },
     "RVNUSDT": {
       "first_data_date": "2021-02-23",
-      "last_data_date": "2026-05-14"
+      "last_data_date": "2026-09-06"
     },
     "RVVUSDT": {
       "first_data_date": "2025-10-18",
@@ -2051,35 +2527,43 @@
     },
     "SAFEUSDT": {
       "first_data_date": "2024-10-25",
-      "last_data_date": "2026-05-14"
+      "last_data_date": "2026-09-06"
     },
     "SAGAUSDT": {
       "first_data_date": "2024-04-09",
-      "last_data_date": "2026-05-14"
+      "last_data_date": "2026-09-06"
     },
     "SAHARAUSDT": {
       "first_data_date": "2025-06-26",
-      "last_data_date": "2026-05-14"
+      "last_data_date": "2026-09-06"
+    },
+    "SAMSUNGEMUSDT": {
+      "first_data_date": "2026-08-14",
+      "last_data_date": "2026-09-06"
+    },
+    "SAMSUNGUSDT": {
+      "first_data_date": "2026-06-02",
+      "last_data_date": "2026-09-06"
     },
     "SANDUSDT": {
       "first_data_date": "2021-01-25",
-      "last_data_date": "2026-05-14"
+      "last_data_date": "2026-09-06"
     },
     "SANTOSUSDT": {
       "first_data_date": "2024-10-28",
-      "last_data_date": "2026-05-14"
+      "last_data_date": "2026-09-06"
     },
     "SAPIENUSDT": {
       "first_data_date": "2025-08-20",
-      "last_data_date": "2026-05-14"
+      "last_data_date": "2026-09-06"
     },
     "SCRTUSDT": {
       "first_data_date": "2024-11-21",
-      "last_data_date": "2026-05-14"
+      "last_data_date": "2026-09-06"
     },
     "SCRUSDT": {
       "first_data_date": "2024-10-22",
-      "last_data_date": "2026-05-14"
+      "last_data_date": "2026-09-06"
     },
     "SCUSDT": {
       "first_data_date": "2021-04-12",
@@ -2087,47 +2571,71 @@
     },
     "SEIUSDT": {
       "first_data_date": "2023-08-17",
-      "last_data_date": "2026-05-14"
+      "last_data_date": "2026-09-06"
     },
     "SENTUSDT": {
       "first_data_date": "2025-11-14",
-      "last_data_date": "2026-05-14"
+      "last_data_date": "2026-09-06"
     },
     "SFPUSDT": {
       "first_data_date": "2021-02-24",
-      "last_data_date": "2026-05-14"
+      "last_data_date": "2026-09-06"
+    },
+    "SHAZUSDT": {
+      "first_data_date": "2026-07-21",
+      "last_data_date": "2026-09-06"
     },
     "SHELLUSDT": {
       "first_data_date": "2025-02-17",
-      "last_data_date": "2026-05-14"
+      "last_data_date": "2026-09-06"
+    },
+    "SHOPUSDT": {
+      "first_data_date": "2026-08-17",
+      "last_data_date": "2026-09-06"
     },
     "SIGNUSDT": {
       "first_data_date": "2025-04-28",
-      "last_data_date": "2026-05-14"
+      "last_data_date": "2026-09-06"
     },
     "SIRENUSDT": {
       "first_data_date": "2025-03-22",
-      "last_data_date": "2026-05-14"
+      "last_data_date": "2026-09-06"
     },
     "SKATEUSDT": {
       "first_data_date": "2025-06-09",
       "last_data_date": "2026-03-24"
     },
+    "SKDDUSDT": {
+      "first_data_date": "2026-08-25",
+      "last_data_date": "2026-09-06"
+    },
+    "SKHYNIXUSDT": {
+      "first_data_date": "2026-06-02",
+      "last_data_date": "2026-09-06"
+    },
+    "SKHYUSDT": {
+      "first_data_date": "2026-07-10",
+      "last_data_date": "2026-09-06"
+    },
     "SKLUSDT": {
       "first_data_date": "2020-12-08",
-      "last_data_date": "2026-05-14"
+      "last_data_date": "2026-09-06"
     },
     "SKRUSDT": {
       "first_data_date": "2026-01-22",
-      "last_data_date": "2026-05-14"
+      "last_data_date": "2026-09-06"
+    },
+    "SKUUUSDT": {
+      "first_data_date": "2026-08-25",
+      "last_data_date": "2026-09-06"
     },
     "SKYAIUSDT": {
       "first_data_date": "2025-05-13",
-      "last_data_date": "2026-05-14"
+      "last_data_date": "2026-09-06"
     },
     "SKYUSDT": {
       "first_data_date": "2025-09-09",
-      "last_data_date": "2026-05-14"
+      "last_data_date": "2026-09-06"
     },
     "SLERFUSDT": {
       "first_data_date": "2024-11-21",
@@ -2135,7 +2643,23 @@
     },
     "SLPUSDT": {
       "first_data_date": "2023-10-31",
-      "last_data_date": "2026-05-14"
+      "last_data_date": "2026-09-06"
+    },
+    "SLXUSDT": {
+      "first_data_date": "2026-06-01",
+      "last_data_date": "2026-09-06"
+    },
+    "SMCIUSDT": {
+      "first_data_date": "2026-06-22",
+      "last_data_date": "2026-09-06"
+    },
+    "SMHUSDT": {
+      "first_data_date": "2026-07-29",
+      "last_data_date": "2026-09-06"
+    },
+    "SNOWUSDT": {
+      "first_data_date": "2026-07-10",
+      "last_data_date": "2026-09-06"
     },
     "SNTUSDT": {
       "first_data_date": "2023-11-02",
@@ -2143,55 +2667,83 @@
     },
     "SNXUSDT": {
       "first_data_date": "2020-08-14",
-      "last_data_date": "2026-05-14"
+      "last_data_date": "2026-09-06"
+    },
+    "SNXXUSDT": {
+      "first_data_date": "2026-07-09",
+      "last_data_date": "2026-09-06"
+    },
+    "SOFIUSDT": {
+      "first_data_date": "2026-07-21",
+      "last_data_date": "2026-09-06"
     },
     "SOLUSDT": {
       "first_data_date": "2020-09-14",
-      "last_data_date": "2026-05-14"
+      "last_data_date": "2026-09-06"
     },
     "SOLVUSDT": {
       "first_data_date": "2025-01-17",
-      "last_data_date": "2026-05-14"
+      "last_data_date": "2026-09-06"
     },
     "SOMIUSDT": {
       "first_data_date": "2025-08-25",
-      "last_data_date": "2026-05-14"
+      "last_data_date": "2026-09-06"
     },
     "SONICUSDT": {
       "first_data_date": "2025-01-08",
-      "last_data_date": "2026-05-14"
+      "last_data_date": "2026-09-06"
+    },
+    "SONYUSDT": {
+      "first_data_date": "2026-06-22",
+      "last_data_date": "2026-09-06"
     },
     "SOONUSDT": {
       "first_data_date": "2025-05-23",
-      "last_data_date": "2026-05-14"
+      "last_data_date": "2026-09-06"
     },
     "SOPHUSDT": {
       "first_data_date": "2025-05-28",
-      "last_data_date": "2026-05-14"
+      "last_data_date": "2026-09-06"
+    },
+    "SOXLUSDT": {
+      "first_data_date": "2026-05-15",
+      "last_data_date": "2026-09-06"
+    },
+    "SOXSUSDT": {
+      "first_data_date": "2026-07-16",
+      "last_data_date": "2026-09-06"
     },
     "SPACEUSDT": {
       "first_data_date": "2026-01-23",
-      "last_data_date": "2026-05-14"
+      "last_data_date": "2026-09-06"
+    },
+    "SPCXUSDT": {
+      "first_data_date": "2026-05-21",
+      "last_data_date": "2026-09-06"
     },
     "SPELLUSDT": {
       "first_data_date": "2022-09-06",
-      "last_data_date": "2026-05-14"
+      "last_data_date": "2026-09-06"
     },
     "SPKUSDT": {
       "first_data_date": "2025-06-17",
-      "last_data_date": "2026-05-14"
+      "last_data_date": "2026-09-06"
     },
     "SPORTFUNUSDT": {
       "first_data_date": "2026-01-16",
-      "last_data_date": "2026-05-14"
+      "last_data_date": "2026-09-06"
     },
     "SPXUSDT": {
       "first_data_date": "2024-12-10",
-      "last_data_date": "2026-05-14"
+      "last_data_date": "2026-09-06"
     },
     "SQDUSDT": {
       "first_data_date": "2025-06-11",
-      "last_data_date": "2026-05-14"
+      "last_data_date": "2026-09-06"
+    },
+    "SQQQUSDT": {
+      "first_data_date": "2026-06-29",
+      "last_data_date": "2026-09-06"
     },
     "SRMUSDT": {
       "first_data_date": "2020-09-05",
@@ -2199,27 +2751,27 @@
     },
     "SSVUSDT": {
       "first_data_date": "2023-02-24",
-      "last_data_date": "2026-05-14"
+      "last_data_date": "2026-09-06"
     },
     "STABLEUSDT": {
       "first_data_date": "2025-11-06",
-      "last_data_date": "2026-05-14"
+      "last_data_date": "2026-09-06"
     },
     "STARUSDT": {
       "first_data_date": "2026-05-14",
-      "last_data_date": "2026-05-14"
+      "last_data_date": "2026-09-06"
     },
     "STBLUSDT": {
       "first_data_date": "2025-09-17",
-      "last_data_date": "2026-05-14"
+      "last_data_date": "2026-09-06"
     },
     "STEEMUSDT": {
       "first_data_date": "2023-11-08",
-      "last_data_date": "2026-05-14"
+      "last_data_date": "2026-09-06"
     },
     "STGUSDT": {
       "first_data_date": "2022-08-25",
-      "last_data_date": "2026-05-14"
+      "last_data_date": "2026-09-06"
     },
     "STMXUSDT": {
       "first_data_date": "2021-03-22",
@@ -2227,11 +2779,11 @@
     },
     "STORJUSDT": {
       "first_data_date": "2020-09-16",
-      "last_data_date": "2026-05-14"
+      "last_data_date": "2026-09-06"
     },
     "STOUSDT": {
       "first_data_date": "2025-04-12",
-      "last_data_date": "2026-05-14"
+      "last_data_date": "2026-09-06"
     },
     "STPTUSDT": {
       "first_data_date": "2023-10-18",
@@ -2241,37 +2793,45 @@
       "first_data_date": "2023-10-11",
       "last_data_date": "2026-03-24"
     },
+    "STRCUSDT": {
+      "first_data_date": "2026-07-02",
+      "last_data_date": "2026-09-06"
+    },
     "STRKUSDT": {
       "first_data_date": "2024-02-20",
-      "last_data_date": "2026-05-14"
+      "last_data_date": "2026-09-06"
     },
     "STXUSDT": {
       "first_data_date": "2023-02-21",
-      "last_data_date": "2026-05-14"
+      "last_data_date": "2026-09-06"
+    },
+    "STXXUSDT": {
+      "first_data_date": "2026-06-11",
+      "last_data_date": "2026-09-06"
     },
     "SUIUSDT": {
       "first_data_date": "2023-05-03",
-      "last_data_date": "2026-05-14"
+      "last_data_date": "2026-09-06"
     },
     "SUNUSDT": {
       "first_data_date": "2024-08-22",
-      "last_data_date": "2026-05-14"
+      "last_data_date": "2026-09-06"
     },
     "SUPERUSDT": {
       "first_data_date": "2023-11-26",
-      "last_data_date": "2026-05-14"
+      "last_data_date": "2026-09-06"
     },
     "SUSDT": {
       "first_data_date": "2025-01-16",
-      "last_data_date": "2026-05-14"
+      "last_data_date": "2026-09-06"
     },
     "SUSHIUSDT": {
       "first_data_date": "2020-09-04",
-      "last_data_date": "2026-05-14"
+      "last_data_date": "2026-09-06"
     },
     "SWARMSUSDT": {
       "first_data_date": "2025-01-07",
-      "last_data_date": "2026-05-14"
+      "last_data_date": "2026-09-06"
     },
     "SWELLUSDT": {
       "first_data_date": "2024-11-08",
@@ -2283,35 +2843,35 @@
     },
     "SXTUSDT": {
       "first_data_date": "2025-05-02",
-      "last_data_date": "2026-05-14"
+      "last_data_date": "2026-09-06"
     },
     "SYNUSDT": {
       "first_data_date": "2024-08-16",
-      "last_data_date": "2026-05-14"
+      "last_data_date": "2026-09-06"
     },
     "SYRUPUSDT": {
       "first_data_date": "2025-05-07",
-      "last_data_date": "2026-05-14"
+      "last_data_date": "2026-09-06"
     },
     "SYSUSDT": {
       "first_data_date": "2024-08-19",
-      "last_data_date": "2026-05-14"
+      "last_data_date": "2026-09-06"
     },
     "TACUSDT": {
       "first_data_date": "2025-07-15",
-      "last_data_date": "2026-05-14"
+      "last_data_date": "2026-09-06"
     },
     "TAGUSDT": {
       "first_data_date": "2025-07-25",
-      "last_data_date": "2026-05-14"
+      "last_data_date": "2026-09-06"
     },
     "TAIKOUSDT": {
       "first_data_date": "2025-06-11",
-      "last_data_date": "2026-05-14"
+      "last_data_date": "2026-09-06"
     },
     "TAKEUSDT": {
       "first_data_date": "2025-09-03",
-      "last_data_date": "2026-05-14"
+      "last_data_date": "2026-09-06"
     },
     "TANSSIUSDT": {
       "first_data_date": "2025-07-09",
@@ -2319,31 +2879,55 @@
     },
     "TAOUSDT": {
       "first_data_date": "2024-04-11",
-      "last_data_date": "2026-05-14"
+      "last_data_date": "2026-09-06"
     },
     "TAUSDT": {
       "first_data_date": "2025-07-21",
-      "last_data_date": "2026-05-14"
+      "last_data_date": "2026-09-06"
+    },
+    "TBTUSDT": {
+      "first_data_date": "2026-07-27",
+      "last_data_date": "2026-09-06"
+    },
+    "TEAMUSDT": {
+      "first_data_date": "2026-09-02",
+      "last_data_date": "2026-09-06"
+    },
+    "TEMUSDT": {
+      "first_data_date": "2026-08-28",
+      "last_data_date": "2026-09-06"
+    },
+    "TENCENTUSDT": {
+      "first_data_date": "2026-07-22",
+      "last_data_date": "2026-09-06"
+    },
+    "TERUSDT": {
+      "first_data_date": "2026-07-02",
+      "last_data_date": "2026-09-06"
     },
     "THETAUSDT": {
       "first_data_date": "2020-05-27",
-      "last_data_date": "2026-05-14"
+      "last_data_date": "2026-09-06"
     },
     "THEUSDT": {
       "first_data_date": "2024-11-27",
-      "last_data_date": "2026-05-14"
+      "last_data_date": "2026-09-06"
     },
     "TIAUSDT": {
       "first_data_date": "2023-10-31",
-      "last_data_date": "2026-05-14"
+      "last_data_date": "2026-09-06"
     },
     "TLMUSDT": {
       "first_data_date": "2021-07-16",
-      "last_data_date": "2026-05-14"
+      "last_data_date": "2026-09-06"
+    },
+    "TMFUSDT": {
+      "first_data_date": "2026-07-27",
+      "last_data_date": "2026-09-06"
     },
     "TNSRUSDT": {
       "first_data_date": "2024-04-08",
-      "last_data_date": "2026-05-14"
+      "last_data_date": "2026-09-06"
     },
     "TOKENUSDT": {
       "first_data_date": "2023-11-03",
@@ -2355,31 +2939,35 @@
     },
     "TONUSDT": {
       "first_data_date": "2024-03-01",
-      "last_data_date": "2026-05-14"
+      "last_data_date": "2026-09-06"
     },
     "TOSHIUSDT": {
       "first_data_date": "2025-09-17",
-      "last_data_date": "2026-05-14"
+      "last_data_date": "2026-09-06"
     },
     "TOWNSUSDT": {
       "first_data_date": "2025-08-05",
-      "last_data_date": "2026-05-14"
+      "last_data_date": "2026-09-06"
+    },
+    "TQQQUSDT": {
+      "first_data_date": "2026-06-29",
+      "last_data_date": "2026-09-06"
     },
     "TRADOORUSDT": {
       "first_data_date": "2025-09-19",
-      "last_data_date": "2026-05-14"
+      "last_data_date": "2026-09-06"
     },
     "TRBUSDT": {
       "first_data_date": "2020-09-03",
-      "last_data_date": "2026-05-14"
+      "last_data_date": "2026-09-06"
     },
     "TREEUSDT": {
       "first_data_date": "2025-07-29",
-      "last_data_date": "2026-05-14"
+      "last_data_date": "2026-09-06"
     },
     "TRIAUSDT": {
       "first_data_date": "2026-02-06",
-      "last_data_date": "2026-05-14"
+      "last_data_date": "2026-09-06"
     },
     "TROYUSDT": {
       "first_data_date": "2024-10-31",
@@ -2387,15 +2975,15 @@
     },
     "TRUMPUSDT": {
       "first_data_date": "2025-01-18",
-      "last_data_date": "2026-05-14"
+      "last_data_date": "2026-09-06"
     },
     "TRUSTUSDT": {
       "first_data_date": "2025-11-05",
-      "last_data_date": "2026-05-14"
+      "last_data_date": "2026-09-06"
     },
     "TRUTHUSDT": {
       "first_data_date": "2025-10-01",
-      "last_data_date": "2026-05-14"
+      "last_data_date": "2026-09-06"
     },
     "TRUUSDT": {
       "first_data_date": "2023-03-07",
@@ -2403,79 +2991,111 @@
     },
     "TRXUSDT": {
       "first_data_date": "2020-01-15",
-      "last_data_date": "2026-05-14"
+      "last_data_date": "2026-09-06"
     },
     "TSLAUSDT": {
       "first_data_date": "2026-01-28",
       "last_data_date": "2026-03-24"
     },
+    "TSLLUSDT": {
+      "first_data_date": "2026-09-02",
+      "last_data_date": "2026-09-06"
+    },
     "TSTUSDT": {
       "first_data_date": "2025-02-09",
-      "last_data_date": "2026-05-14"
+      "last_data_date": "2026-09-06"
+    },
+    "TTWOUSDT": {
+      "first_data_date": "2026-07-02",
+      "last_data_date": "2026-09-06"
     },
     "TURBOUSDT": {
       "first_data_date": "2024-05-30",
-      "last_data_date": "2026-05-14"
+      "last_data_date": "2026-09-06"
     },
     "TURTLEUSDT": {
       "first_data_date": "2025-10-22",
-      "last_data_date": "2026-05-14"
+      "last_data_date": "2026-09-06"
     },
     "TUSDT": {
       "first_data_date": "2023-02-01",
-      "last_data_date": "2026-05-14"
+      "last_data_date": "2026-09-06"
     },
     "TUTUSDT": {
       "first_data_date": "2025-03-20",
-      "last_data_date": "2026-05-14"
+      "last_data_date": "2026-09-06"
     },
     "TWTUSDT": {
       "first_data_date": "2023-11-03",
-      "last_data_date": "2026-05-14"
+      "last_data_date": "2026-09-06"
+    },
+    "TXNUSDT": {
+      "first_data_date": "2026-07-02",
+      "last_data_date": "2026-09-06"
+    },
+    "TZAUSDT": {
+      "first_data_date": "2026-07-16",
+      "last_data_date": "2026-09-06"
     },
     "UAIUSDT": {
       "first_data_date": "2025-11-06",
-      "last_data_date": "2026-05-14"
+      "last_data_date": "2026-09-06"
+    },
+    "UBERUSDT": {
+      "first_data_date": "2026-05-15",
+      "last_data_date": "2026-09-06"
     },
     "UBUSDT": {
       "first_data_date": "2025-09-12",
-      "last_data_date": "2026-05-14"
+      "last_data_date": "2026-09-06"
     },
     "UMAUSDT": {
       "first_data_date": "2023-05-10",
-      "last_data_date": "2026-05-14"
+      "last_data_date": "2026-09-06"
     },
     "UNFIUSDT": {
       "first_data_date": "2021-02-19",
       "last_data_date": "2026-03-24"
     },
+    "UNITREEUSDT": {
+      "first_data_date": "2026-08-19",
+      "last_data_date": "2026-09-06"
+    },
     "UNIUSDT": {
       "first_data_date": "2020-09-18",
-      "last_data_date": "2026-05-14"
+      "last_data_date": "2026-09-06"
+    },
+    "URNMUSDT": {
+      "first_data_date": "2026-06-09",
+      "last_data_date": "2026-09-06"
     },
     "USARUSDT": {
       "first_data_date": "2026-05-06",
-      "last_data_date": "2026-05-14"
+      "last_data_date": "2026-09-06"
     },
     "USDCUSDT": {
       "first_data_date": "2023-03-12",
-      "last_data_date": "2026-05-14"
+      "last_data_date": "2026-09-06"
     },
     "USELESSUSDT": {
       "first_data_date": "2025-08-15",
-      "last_data_date": "2026-05-14"
+      "last_data_date": "2026-09-06"
     },
     "USTCUSDT": {
       "first_data_date": "2023-11-27",
-      "last_data_date": "2026-05-14"
+      "last_data_date": "2026-09-06"
     },
     "USUALUSDT": {
       "first_data_date": "2024-12-18",
-      "last_data_date": "2026-05-14"
+      "last_data_date": "2026-09-06"
     },
     "USUSDT": {
       "first_data_date": "2025-12-12",
-      "last_data_date": "2026-05-14"
+      "last_data_date": "2026-09-06"
+    },
+    "UVXYUSDT": {
+      "first_data_date": "2026-06-11",
+      "last_data_date": "2026-09-06"
     },
     "UXLINKUSDT": {
       "first_data_date": "2024-09-15",
@@ -2483,23 +3103,23 @@
     },
     "VANAUSDT": {
       "first_data_date": "2024-12-16",
-      "last_data_date": "2026-05-14"
+      "last_data_date": "2026-09-06"
     },
     "VANRYUSDT": {
       "first_data_date": "2024-03-13",
-      "last_data_date": "2026-05-14"
+      "last_data_date": "2026-09-06"
     },
     "VELODROMEUSDT": {
       "first_data_date": "2024-12-13",
-      "last_data_date": "2026-05-14"
+      "last_data_date": "2026-09-06"
     },
     "VELVETUSDT": {
       "first_data_date": "2025-07-15",
-      "last_data_date": "2026-05-14"
+      "last_data_date": "2026-09-06"
     },
     "VETUSDT": {
       "first_data_date": "2020-02-14",
-      "last_data_date": "2026-05-14"
+      "last_data_date": "2026-09-06"
     },
     "VFYUSDT": {
       "first_data_date": "2025-09-30",
@@ -2507,7 +3127,7 @@
     },
     "VICUSDT": {
       "first_data_date": "2025-03-12",
-      "last_data_date": "2026-05-14"
+      "last_data_date": "2026-09-06"
     },
     "VIDTUSDT": {
       "first_data_date": "2024-08-23",
@@ -2515,27 +3135,39 @@
     },
     "VINEUSDT": {
       "first_data_date": "2025-01-24",
-      "last_data_date": "2026-05-14"
+      "last_data_date": "2026-09-06"
     },
     "VIRTUALUSDT": {
       "first_data_date": "2024-12-10",
-      "last_data_date": "2026-05-14"
+      "last_data_date": "2026-09-06"
     },
     "VOXELUSDT": {
       "first_data_date": "2024-08-20",
       "last_data_date": "2026-03-24"
     },
+    "VRTUSDT": {
+      "first_data_date": "2026-07-10",
+      "last_data_date": "2026-09-06"
+    },
+    "VSTUSDT": {
+      "first_data_date": "2026-08-17",
+      "last_data_date": "2026-09-06"
+    },
     "VTHOUSDT": {
       "first_data_date": "2025-01-22",
-      "last_data_date": "2026-05-14"
+      "last_data_date": "2026-09-06"
+    },
+    "VUSDT": {
+      "first_data_date": "2026-05-18",
+      "last_data_date": "2026-09-06"
     },
     "VVVUSDT": {
       "first_data_date": "2025-01-29",
-      "last_data_date": "2026-05-14"
+      "last_data_date": "2026-09-06"
     },
     "WALUSDT": {
       "first_data_date": "2025-03-27",
-      "last_data_date": "2026-05-14"
+      "last_data_date": "2026-09-06"
     },
     "WAVESUSDT": {
       "first_data_date": "2020-08-12",
@@ -2543,35 +3175,47 @@
     },
     "WAXPUSDT": {
       "first_data_date": "2023-10-18",
-      "last_data_date": "2026-05-14"
+      "last_data_date": "2026-09-06"
     },
     "WCTUSDT": {
       "first_data_date": "2025-04-15",
-      "last_data_date": "2026-05-14"
+      "last_data_date": "2026-09-06"
+    },
+    "WDCUSDT": {
+      "first_data_date": "2026-05-26",
+      "last_data_date": "2026-09-06"
+    },
+    "WENUSDT": {
+      "first_data_date": "2026-07-09",
+      "last_data_date": "2026-09-06"
     },
     "WETUSDT": {
       "first_data_date": "2025-12-10",
-      "last_data_date": "2026-05-14"
+      "last_data_date": "2026-09-06"
     },
     "WIFUSDT": {
       "first_data_date": "2024-01-18",
-      "last_data_date": "2026-05-14"
+      "last_data_date": "2026-09-06"
     },
     "WLDUSDT": {
       "first_data_date": "2023-07-24",
-      "last_data_date": "2026-05-14"
+      "last_data_date": "2026-09-06"
     },
     "WLFIUSDT": {
       "first_data_date": "2025-08-23",
-      "last_data_date": "2026-05-14"
+      "last_data_date": "2026-09-06"
+    },
+    "WMTUSDT": {
+      "first_data_date": "2026-05-18",
+      "last_data_date": "2026-09-06"
     },
     "WOOUSDT": {
       "first_data_date": "2022-04-08",
-      "last_data_date": "2026-05-14"
+      "last_data_date": "2026-09-06"
     },
     "WUSDT": {
       "first_data_date": "2024-04-03",
-      "last_data_date": "2026-05-14"
+      "last_data_date": "2026-09-06"
     },
     "XAGUSDT": {
       "first_data_date": "2026-01-07",
@@ -2579,19 +3223,23 @@
     },
     "XAIUSDT": {
       "first_data_date": "2024-01-09",
-      "last_data_date": "2026-05-14"
+      "last_data_date": "2026-09-06"
     },
     "XANUSDT": {
       "first_data_date": "2025-09-29",
-      "last_data_date": "2026-05-14"
+      "last_data_date": "2026-09-06"
     },
     "XAUTUSDT": {
       "first_data_date": "2026-03-26",
-      "last_data_date": "2026-05-14"
+      "last_data_date": "2026-09-06"
     },
     "XAUUSDT": {
       "first_data_date": "2025-12-11",
       "last_data_date": "2026-03-24"
+    },
+    "XBIUSDT": {
+      "first_data_date": "2026-07-09",
+      "last_data_date": "2026-09-06"
     },
     "XCNUSDT": {
       "first_data_date": "2025-04-11",
@@ -2601,17 +3249,21 @@
       "first_data_date": "2021-03-03",
       "last_data_date": "2026-03-24"
     },
+    "XLEUSDT": {
+      "first_data_date": "2026-06-10",
+      "last_data_date": "2026-09-06"
+    },
     "XLMUSDT": {
       "first_data_date": "2020-01-20",
-      "last_data_date": "2026-05-14"
+      "last_data_date": "2026-09-06"
     },
     "XMRUSDT": {
       "first_data_date": "2020-02-03",
-      "last_data_date": "2026-05-14"
+      "last_data_date": "2026-09-06"
     },
     "XNYUSDT": {
       "first_data_date": "2025-08-13",
-      "last_data_date": "2026-05-14"
+      "last_data_date": "2026-09-06"
     },
     "XPDUSDT": {
       "first_data_date": "2026-01-30",
@@ -2619,11 +3271,11 @@
     },
     "XPINUSDT": {
       "first_data_date": "2025-09-12",
-      "last_data_date": "2026-05-14"
+      "last_data_date": "2026-09-06"
     },
     "XPLUSDT": {
       "first_data_date": "2025-08-22",
-      "last_data_date": "2026-05-14"
+      "last_data_date": "2026-09-06"
     },
     "XPTUSDT": {
       "first_data_date": "2026-01-30",
@@ -2631,19 +3283,19 @@
     },
     "XRPUSDT": {
       "first_data_date": "2020-01-06",
-      "last_data_date": "2026-05-14"
+      "last_data_date": "2026-09-06"
     },
     "XTZUSDT": {
       "first_data_date": "2020-02-06",
-      "last_data_date": "2026-05-14"
+      "last_data_date": "2026-09-06"
     },
     "XVGUSDT": {
       "first_data_date": "2023-07-05",
-      "last_data_date": "2026-05-14"
+      "last_data_date": "2026-09-06"
     },
     "XVSUSDT": {
       "first_data_date": "2023-04-13",
-      "last_data_date": "2026-05-14"
+      "last_data_date": "2026-09-06"
     },
     "YALAUSDT": {
       "first_data_date": "2025-08-07",
@@ -2726,5 +3378,5 @@
       "last_data_date": "2026-05-14"
     }
   },
-  "year_shard_count": 2272
+  "year_shard_count": 2435
 }

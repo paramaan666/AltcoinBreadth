@@ -12701,6 +12701,696 @@
       "above_pct": 18.7234,
       "date": "2026-05-14",
       "eligible_count": 470
+    },
+    {
+      "above_count": 68,
+      "above_pct": 14.9451,
+      "date": "2026-05-15",
+      "eligible_count": 455
+    },
+    {
+      "above_count": 62,
+      "above_pct": 13.6264,
+      "date": "2026-05-16",
+      "eligible_count": 455
+    },
+    {
+      "above_count": 58,
+      "above_pct": 12.7473,
+      "date": "2026-05-17",
+      "eligible_count": 455
+    },
+    {
+      "above_count": 60,
+      "above_pct": 13.1579,
+      "date": "2026-05-18",
+      "eligible_count": 456
+    },
+    {
+      "above_count": 55,
+      "above_pct": 12.035,
+      "date": "2026-05-19",
+      "eligible_count": 457
+    },
+    {
+      "above_count": 70,
+      "above_pct": 15.2838,
+      "date": "2026-05-20",
+      "eligible_count": 458
+    },
+    {
+      "above_count": 77,
+      "above_pct": 16.7756,
+      "date": "2026-05-21",
+      "eligible_count": 459
+    },
+    {
+      "above_count": 66,
+      "above_pct": 14.3791,
+      "date": "2026-05-22",
+      "eligible_count": 459
+    },
+    {
+      "above_count": 75,
+      "above_pct": 16.3399,
+      "date": "2026-05-23",
+      "eligible_count": 459
+    },
+    {
+      "above_count": 71,
+      "above_pct": 15.4684,
+      "date": "2026-05-24",
+      "eligible_count": 459
+    },
+    {
+      "above_count": 75,
+      "above_pct": 16.3399,
+      "date": "2026-05-25",
+      "eligible_count": 459
+    },
+    {
+      "above_count": 72,
+      "above_pct": 15.6182,
+      "date": "2026-05-26",
+      "eligible_count": 461
+    },
+    {
+      "above_count": 66,
+      "above_pct": 14.3167,
+      "date": "2026-05-27",
+      "eligible_count": 461
+    },
+    {
+      "above_count": 62,
+      "above_pct": 13.4199,
+      "date": "2026-05-28",
+      "eligible_count": 462
+    },
+    {
+      "above_count": 65,
+      "above_pct": 14.0693,
+      "date": "2026-05-29",
+      "eligible_count": 462
+    },
+    {
+      "above_count": 68,
+      "above_pct": 14.7186,
+      "date": "2026-05-30",
+      "eligible_count": 462
+    },
+    {
+      "above_count": 71,
+      "above_pct": 15.368,
+      "date": "2026-05-31",
+      "eligible_count": 462
+    },
+    {
+      "above_count": 73,
+      "above_pct": 15.7667,
+      "date": "2026-06-01",
+      "eligible_count": 463
+    },
+    {
+      "above_count": 70,
+      "above_pct": 15.0862,
+      "date": "2026-06-02",
+      "eligible_count": 464
+    },
+    {
+      "above_count": 79,
+      "above_pct": 16.9165,
+      "date": "2026-06-03",
+      "eligible_count": 467
+    },
+    {
+      "above_count": 66,
+      "above_pct": 14.1328,
+      "date": "2026-06-04",
+      "eligible_count": 467
+    },
+    {
+      "above_count": 55,
+      "above_pct": 11.7773,
+      "date": "2026-06-05",
+      "eligible_count": 467
+    },
+    {
+      "above_count": 53,
+      "above_pct": 11.349,
+      "date": "2026-06-06",
+      "eligible_count": 467
+    },
+    {
+      "above_count": 65,
+      "above_pct": 13.8889,
+      "date": "2026-06-07",
+      "eligible_count": 468
+    },
+    {
+      "above_count": 68,
+      "above_pct": 14.4989,
+      "date": "2026-06-08",
+      "eligible_count": 469
+    },
+    {
+      "above_count": 66,
+      "above_pct": 14.0127,
+      "date": "2026-06-09",
+      "eligible_count": 471
+    },
+    {
+      "above_count": 61,
+      "above_pct": 12.9512,
+      "date": "2026-06-10",
+      "eligible_count": 471
+    },
+    {
+      "above_count": 69,
+      "above_pct": 14.5877,
+      "date": "2026-06-11",
+      "eligible_count": 473
+    },
+    {
+      "above_count": 67,
+      "above_pct": 14.1649,
+      "date": "2026-06-12",
+      "eligible_count": 473
+    },
+    {
+      "above_count": 70,
+      "above_pct": 14.7992,
+      "date": "2026-06-13",
+      "eligible_count": 473
+    },
+    {
+      "above_count": 78,
+      "above_pct": 16.4905,
+      "date": "2026-06-14",
+      "eligible_count": 473
+    },
+    {
+      "above_count": 77,
+      "above_pct": 16.2791,
+      "date": "2026-06-15",
+      "eligible_count": 473
+    },
+    {
+      "above_count": 79,
+      "above_pct": 16.7019,
+      "date": "2026-06-16",
+      "eligible_count": 473
+    },
+    {
+      "above_count": 80,
+      "above_pct": 16.9133,
+      "date": "2026-06-17",
+      "eligible_count": 473
+    },
+    {
+      "above_count": 78,
+      "above_pct": 16.4557,
+      "date": "2026-06-18",
+      "eligible_count": 474
+    },
+    {
+      "above_count": 83,
+      "above_pct": 17.5105,
+      "date": "2026-06-19",
+      "eligible_count": 474
+    },
+    {
+      "above_count": 82,
+      "above_pct": 17.2996,
+      "date": "2026-06-20",
+      "eligible_count": 474
+    },
+    {
+      "above_count": 78,
+      "above_pct": 16.4557,
+      "date": "2026-06-21",
+      "eligible_count": 474
+    },
+    {
+      "above_count": 80,
+      "above_pct": 16.8776,
+      "date": "2026-06-22",
+      "eligible_count": 474
+    },
+    {
+      "above_count": 75,
+      "above_pct": 15.7895,
+      "date": "2026-06-23",
+      "eligible_count": 475
+    },
+    {
+      "above_count": 70,
+      "above_pct": 14.7368,
+      "date": "2026-06-24",
+      "eligible_count": 475
+    },
+    {
+      "above_count": 67,
+      "above_pct": 14.1053,
+      "date": "2026-06-25",
+      "eligible_count": 475
+    },
+    {
+      "above_count": 73,
+      "above_pct": 15.3684,
+      "date": "2026-06-26",
+      "eligible_count": 475
+    },
+    {
+      "above_count": 71,
+      "above_pct": 14.9474,
+      "date": "2026-06-27",
+      "eligible_count": 475
+    },
+    {
+      "above_count": 66,
+      "above_pct": 13.8947,
+      "date": "2026-06-28",
+      "eligible_count": 475
+    },
+    {
+      "above_count": 70,
+      "above_pct": 14.7368,
+      "date": "2026-06-29",
+      "eligible_count": 475
+    },
+    {
+      "above_count": 68,
+      "above_pct": 14.3158,
+      "date": "2026-06-30",
+      "eligible_count": 475
+    },
+    {
+      "above_count": 67,
+      "above_pct": 14.135,
+      "date": "2026-07-01",
+      "eligible_count": 474
+    },
+    {
+      "above_count": 68,
+      "above_pct": 14.346,
+      "date": "2026-07-02",
+      "eligible_count": 474
+    },
+    {
+      "above_count": 78,
+      "above_pct": 16.4211,
+      "date": "2026-07-03",
+      "eligible_count": 475
+    },
+    {
+      "above_count": 74,
+      "above_pct": 15.5789,
+      "date": "2026-07-04",
+      "eligible_count": 475
+    },
+    {
+      "above_count": 69,
+      "above_pct": 14.5263,
+      "date": "2026-07-05",
+      "eligible_count": 475
+    },
+    {
+      "above_count": 71,
+      "above_pct": 14.9474,
+      "date": "2026-07-06",
+      "eligible_count": 475
+    },
+    {
+      "above_count": 66,
+      "above_pct": 13.8365,
+      "date": "2026-07-07",
+      "eligible_count": 477
+    },
+    {
+      "above_count": 64,
+      "above_pct": 13.4172,
+      "date": "2026-07-08",
+      "eligible_count": 477
+    },
+    {
+      "above_count": 70,
+      "above_pct": 14.6138,
+      "date": "2026-07-09",
+      "eligible_count": 479
+    },
+    {
+      "above_count": 72,
+      "above_pct": 15.0313,
+      "date": "2026-07-10",
+      "eligible_count": 479
+    },
+    {
+      "above_count": 71,
+      "above_pct": 14.7917,
+      "date": "2026-07-11",
+      "eligible_count": 480
+    },
+    {
+      "above_count": 75,
+      "above_pct": 15.625,
+      "date": "2026-07-12",
+      "eligible_count": 480
+    },
+    {
+      "above_count": 67,
+      "above_pct": 13.9583,
+      "date": "2026-07-13",
+      "eligible_count": 480
+    },
+    {
+      "above_count": 70,
+      "above_pct": 14.5833,
+      "date": "2026-07-14",
+      "eligible_count": 480
+    },
+    {
+      "above_count": 78,
+      "above_pct": 16.25,
+      "date": "2026-07-15",
+      "eligible_count": 480
+    },
+    {
+      "above_count": 73,
+      "above_pct": 15.2083,
+      "date": "2026-07-16",
+      "eligible_count": 480
+    },
+    {
+      "above_count": 71,
+      "above_pct": 14.7917,
+      "date": "2026-07-17",
+      "eligible_count": 480
+    },
+    {
+      "above_count": 76,
+      "above_pct": 15.7676,
+      "date": "2026-07-18",
+      "eligible_count": 482
+    },
+    {
+      "above_count": 75,
+      "above_pct": 15.5602,
+      "date": "2026-07-19",
+      "eligible_count": 482
+    },
+    {
+      "above_count": 80,
+      "above_pct": 16.5975,
+      "date": "2026-07-20",
+      "eligible_count": 482
+    },
+    {
+      "above_count": 74,
+      "above_pct": 15.3527,
+      "date": "2026-07-21",
+      "eligible_count": 482
+    },
+    {
+      "above_count": 80,
+      "above_pct": 16.5975,
+      "date": "2026-07-22",
+      "eligible_count": 482
+    },
+    {
+      "above_count": 71,
+      "above_pct": 14.7303,
+      "date": "2026-07-23",
+      "eligible_count": 482
+    },
+    {
+      "above_count": 66,
+      "above_pct": 13.6929,
+      "date": "2026-07-24",
+      "eligible_count": 482
+    },
+    {
+      "above_count": 67,
+      "above_pct": 13.9004,
+      "date": "2026-07-25",
+      "eligible_count": 482
+    },
+    {
+      "above_count": 81,
+      "above_pct": 16.805,
+      "date": "2026-07-26",
+      "eligible_count": 482
+    },
+    {
+      "above_count": 66,
+      "above_pct": 13.6646,
+      "date": "2026-07-27",
+      "eligible_count": 483
+    },
+    {
+      "above_count": 69,
+      "above_pct": 14.2268,
+      "date": "2026-07-28",
+      "eligible_count": 485
+    },
+    {
+      "above_count": 65,
+      "above_pct": 13.4021,
+      "date": "2026-07-29",
+      "eligible_count": 485
+    },
+    {
+      "above_count": 66,
+      "above_pct": 13.6082,
+      "date": "2026-07-30",
+      "eligible_count": 485
+    },
+    {
+      "above_count": 65,
+      "above_pct": 13.4021,
+      "date": "2026-07-31",
+      "eligible_count": 485
+    },
+    {
+      "above_count": 69,
+      "above_pct": 14.2268,
+      "date": "2026-08-01",
+      "eligible_count": 485
+    },
+    {
+      "above_count": 68,
+      "above_pct": 14.0206,
+      "date": "2026-08-02",
+      "eligible_count": 485
+    },
+    {
+      "above_count": 70,
+      "above_pct": 14.433,
+      "date": "2026-08-03",
+      "eligible_count": 485
+    },
+    {
+      "above_count": 70,
+      "above_pct": 14.433,
+      "date": "2026-08-04",
+      "eligible_count": 485
+    },
+    {
+      "above_count": 77,
+      "above_pct": 15.8763,
+      "date": "2026-08-05",
+      "eligible_count": 485
+    },
+    {
+      "above_count": 79,
+      "above_pct": 16.2887,
+      "date": "2026-08-06",
+      "eligible_count": 485
+    },
+    {
+      "above_count": 86,
+      "above_pct": 17.6955,
+      "date": "2026-08-07",
+      "eligible_count": 486
+    },
+    {
+      "above_count": 88,
+      "above_pct": 18.107,
+      "date": "2026-08-08",
+      "eligible_count": 486
+    },
+    {
+      "above_count": 94,
+      "above_pct": 19.3416,
+      "date": "2026-08-09",
+      "eligible_count": 486
+    },
+    {
+      "above_count": 93,
+      "above_pct": 19.1358,
+      "date": "2026-08-10",
+      "eligible_count": 486
+    },
+    {
+      "above_count": 89,
+      "above_pct": 18.3128,
+      "date": "2026-08-11",
+      "eligible_count": 486
+    },
+    {
+      "above_count": 87,
+      "above_pct": 17.8645,
+      "date": "2026-08-12",
+      "eligible_count": 487
+    },
+    {
+      "above_count": 89,
+      "above_pct": 18.2377,
+      "date": "2026-08-13",
+      "eligible_count": 488
+    },
+    {
+      "above_count": 92,
+      "above_pct": 18.8525,
+      "date": "2026-08-14",
+      "eligible_count": 488
+    },
+    {
+      "above_count": 88,
+      "above_pct": 18.0328,
+      "date": "2026-08-15",
+      "eligible_count": 488
+    },
+    {
+      "above_count": 91,
+      "above_pct": 18.6475,
+      "date": "2026-08-16",
+      "eligible_count": 488
+    },
+    {
+      "above_count": 89,
+      "above_pct": 18.2377,
+      "date": "2026-08-17",
+      "eligible_count": 488
+    },
+    {
+      "above_count": 85,
+      "above_pct": 17.3824,
+      "date": "2026-08-18",
+      "eligible_count": 489
+    },
+    {
+      "above_count": 104,
+      "above_pct": 21.1813,
+      "date": "2026-08-19",
+      "eligible_count": 491
+    },
+    {
+      "above_count": 133,
+      "above_pct": 26.9777,
+      "date": "2026-08-20",
+      "eligible_count": 493
+    },
+    {
+      "above_count": 192,
+      "above_pct": 38.9452,
+      "date": "2026-08-21",
+      "eligible_count": 493
+    },
+    {
+      "above_count": 164,
+      "above_pct": 33.2657,
+      "date": "2026-08-22",
+      "eligible_count": 493
+    },
+    {
+      "above_count": 189,
+      "above_pct": 38.3367,
+      "date": "2026-08-23",
+      "eligible_count": 493
+    },
+    {
+      "above_count": 174,
+      "above_pct": 35.2941,
+      "date": "2026-08-24",
+      "eligible_count": 493
+    },
+    {
+      "above_count": 163,
+      "above_pct": 33.0629,
+      "date": "2026-08-25",
+      "eligible_count": 493
+    },
+    {
+      "above_count": 189,
+      "above_pct": 38.1818,
+      "date": "2026-08-26",
+      "eligible_count": 495
+    },
+    {
+      "above_count": 192,
+      "above_pct": 38.6318,
+      "date": "2026-08-27",
+      "eligible_count": 497
+    },
+    {
+      "above_count": 168,
+      "above_pct": 33.8028,
+      "date": "2026-08-28",
+      "eligible_count": 497
+    },
+    {
+      "above_count": 168,
+      "above_pct": 33.8028,
+      "date": "2026-08-29",
+      "eligible_count": 497
+    },
+    {
+      "above_count": 153,
+      "above_pct": 30.7847,
+      "date": "2026-08-30",
+      "eligible_count": 497
+    },
+    {
+      "above_count": 165,
+      "above_pct": 33.1992,
+      "date": "2026-08-31",
+      "eligible_count": 497
+    },
+    {
+      "above_count": 161,
+      "above_pct": 32.3944,
+      "date": "2026-09-01",
+      "eligible_count": 497
+    },
+    {
+      "above_count": 159,
+      "above_pct": 31.992,
+      "date": "2026-09-02",
+      "eligible_count": 497
+    },
+    {
+      "above_count": 180,
+      "above_pct": 36.1446,
+      "date": "2026-09-03",
+      "eligible_count": 498
+    },
+    {
+      "above_count": 173,
+      "above_pct": 34.739,
+      "date": "2026-09-04",
+      "eligible_count": 498
+    },
+    {
+      "above_count": 194,
+      "above_pct": 38.9558,
+      "date": "2026-09-05",
+      "eligible_count": 498
+    },
+    {
+      "above_count": 202,
+      "above_pct": 40.5622,
+      "date": "2026-09-06",
+      "eligible_count": 498
     }
   ]
 }
